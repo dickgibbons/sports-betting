@@ -1,0 +1,70 @@
+🇺🇸 US SPORTSBOOKS COMPARISON REPORT - 2025-09-28
+============================================================
+Comparing DraftKings vs FanDuel Soccer Odds
+
+⚽ FC Cincinnati vs Orlando City SC
+   🏆 Usa Mls | 🕒 2025-09-28T23:00:00Z
+   Home: DK +140 | FD +145 | FanDuel better 🥇
+   Draw: DK +270 | FD +270
+   Away: DK +155 | FD +160 | FanDuel better 🥇
+
+⚽ Inter Miami CF vs Chicago Fire
+   🏆 Usa Mls | 🕒 2025-09-30T23:30:00Z
+   Home: DK +285 | FD +320 | FanDuel better 🥇
+   Draw: DK +310 | FD +340 | FanDuel better 🥇
+   Away: DK -140 | FD -150 | DraftKings better 🥇
+
+⚽ CF Montreal vs Nashville SC
+   🏆 Usa Mls | 🕒 2025-10-04T18:30:00Z
+   Home: DK +260 | FD +280 | FanDuel better 🥇
+   Draw: DK +295 | FD +280 | DraftKings better 🥇
+   Away: DK -125 | FD -120 | FanDuel better 🥇
+
+⚽ D.C. United vs Charlotte FC
+   🏆 Usa Mls | 🕒 2025-10-04T18:30:00Z
+   Home: DK +130 | FD +140 | FanDuel better 🥇
+   Draw: DK +240 | FD +240
+   Away: DK +175 | FD +180 | FanDuel better 🥇
+
+⚽ FC Dallas vs LA Galaxy
+   🏆 Usa Mls | 🕒 2025-10-04T20:30:00Z
+   Home: DK -120 | FD -120
+   Draw: DK +280 | FD +290 | FanDuel better 🥇
+   Away: DK +245 | FD +270 | FanDuel better 🥇
+
+⚽ Philadelphia Union vs New York City FC
+   🏆 Usa Mls | 🕒 2025-10-04T23:30:00Z
+   Home: DK +265 | FD +290 | FanDuel better 🥇
+   Draw: DK +265 | FD +270 | FanDuel better 🥇
+   Away: DK -120 | FD -120
+
+⚽ Austin FC vs St. Louis City SC
+   🏆 Usa Mls | 🕒 2025-10-05T00:30:00Z
+   Home: DK +100 | FD +105 | FanDuel better 🥇
+   Draw: DK +260 | FD +260
+   Away: DK +220 | FD +240 | FanDuel better 🥇
+
+⚽ Houston Dynamo vs San Diego FC
+   🏆 Usa Mls | 🕒 2025-10-05T00:30:00Z
+   Home: DK +130 | FD +140 | FanDuel better 🥇
+   Draw: DK +250 | FD +250
+   Away: DK +170 | FD +175 | FanDuel better 🥇
+
+⚽ Minnesota United FC vs Sporting Kansas City
+   🏆 Usa Mls | 🕒 2025-10-05T00:30:00Z
+   Home: DK -180 | FD -170 | FanDuel better 🥇
+   Draw: DK +360 | FD +290 | DraftKings better 🥇
+   Away: DK +330 | FD +430 | FanDuel better 🥇
+
+⚽ Real Salt Lake vs Colorado Rapids
+   🏆 Usa Mls | 🕒 2025-10-05T01:30:00Z
+   Home: DK +290 | FD +320 | FanDuel better 🥇
+   Draw: DK +290 | FD +290
+   Away: DK -135 | FD -140 | DraftKings better 🥇
+
+📊 SUMMARY:
+   Total Matches Compared: 41
+   DraftKings Better: 4 markets
+   FanDuel Better: 19 markets
+   DraftKings Win Rate: 17.4%
+   FanDuel Win Rate: 82.6%

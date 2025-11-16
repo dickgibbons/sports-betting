@@ -1,0 +1,19 @@
+{
+  "initial_bankroll": 300.0,
+  "final_bankroll": 300.0,
+  "total_return_pct": 0.0,
+  "total_return_dollar": 0.0,
+  "peak_bankroll": 300.0,
+  "max_drawdown_pct": 0.0,
+  "total_opportunities": 463,
+  "bets_placed": 0,
+  "bets_avoided": 0,
+  "bet_selectivity_pct": 0.0,
+  "overall_win_rate": 0,
+  "profitable_days": 0,
+  "total_trading_days": 400,
+  "profitable_day_rate": 0.0,
+  "avg_daily_return": 0.0,
+  "volatility": 0.0,
+  "sharpe_ratio": 0
+}

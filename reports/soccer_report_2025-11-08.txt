@@ -1,0 +1,74 @@
+SOCCER BETTING REPORT - 2025-11-08
+================================================================================
+
+#1 1. FC Heidenheim @ Bayer Leverkusen
+BET: BET: Bayer Leverkusen -1.5 Goals
+Edge: +12.5%
+Confidence: HIGH
+Angles: 2
+  1. Bayer Leverkusen title contender should beat mid-table at home
+  2. 1. FC Heidenheim struggles away from home
+
+#2 Nantes @ Le Havre
+BET: BET: Le Havre Draw No Bet
+Edge: +8.5%
+Confidence: MEDIUM
+Angles: 1
+  1. Le Havre fighting relegation - desperate for home points
+
+#3 Burnley @ West Ham United
+BET: BET: West Ham United Win or Draw
+Edge: +6.5%
+Confidence: MEDIUM
+Angles: 1
+  1. West Ham United has strong home record
+
+#4 CA Osasuna @ Sevilla
+BET: BET: Sevilla Win or Draw
+Edge: +6.5%
+Confidence: MEDIUM
+Angles: 1
+  1. Sevilla has strong home record
+
+#5 Bayern Munich @ Union Berlin
+BET: BET: Union Berlin Win or Draw
+Edge: +6.5%
+Confidence: MEDIUM
+Angles: 1
+  1. Union Berlin has strong home record
+
+#6 RB Leipzig @ TSG Hoffenheim
+BET: BET: TSG Hoffenheim Win or Draw
+Edge: +6.5%
+Confidence: MEDIUM
+Angles: 1
+  1. TSG Hoffenheim has strong home record
+
+#7 Brest @ Marseille
+BET: BET: Marseille Win or Draw
+Edge: +6.5%
+Confidence: MEDIUM
+Angles: 1
+  1. Marseille has strong home record
+
+#8 Manchester United @ Tottenham Hotspur
+BET: BET: Tottenham Hotspur -1.5 Goals
+Edge: +5.0%
+Confidence: LOW
+Angles: 1
+  1. Tottenham Hotspur title contender should beat mid-table at home
+
+#9 Alavés @ Girona
+BET: BET: Girona -1.5 Goals
+Edge: +5.0%
+Confidence: LOW
+Angles: 1
+  1. Girona title contender should beat mid-table at home
+
+#10 Torino @ Juventus
+BET: BET: Juventus -1.5 Goals
+Edge: +5.0%
+Confidence: LOW
+Angles: 1
+  1. Juventus title contender should beat mid-table at home
+

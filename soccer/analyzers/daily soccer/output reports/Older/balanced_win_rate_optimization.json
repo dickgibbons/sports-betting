@@ -1,0 +1,29 @@
+{
+  "current_performance": {
+    "win_rate": 16.4,
+    "roi": 4.51,
+    "avg_odds": 6.48,
+    "profit_per_bet": 1.13
+  },
+  "optimized_performance": {
+    "win_rate": 43.529411764705884,
+    "roi": -0.9607843137254901,
+    "total_profit": -122.5,
+    "avg_odds": 2.4019607843137254
+  },
+  "key_improvements": [
+    "Balanced odds range (1.8-4.5)",
+    "Market diversification (7 markets)",
+    "Team strength analysis",
+    "League specialization",
+    "Quality filters (confidence, value)",
+    "Betting discipline (max 3/day)"
+  ],
+  "implementation_roadmap": [
+    "Phase 1: Implement odds filtering (1.8-4.5)",
+    "Phase 2: Add BTTS and Goals markets",
+    "Phase 3: Integrate team strength data",
+    "Phase 4: Apply quality filters",
+    "Phase 5: Monitor and adjust based on results"
+  ]
+}

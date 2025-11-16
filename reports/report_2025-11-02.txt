@@ -1,0 +1,43 @@
+DAILY BETTING REPORT - 2025-11-02
+================================================================================
+
+#1 NHL: CGY @ PHI
+BET: PHI ML
+Edge: +19.1% | Confidence: ELITE
+
+#2 NHL: NJD @ ANA
+BET: ANA ML
+Edge: +19.1% | Confidence: ELITE
+
+#3 NHL: CBJ @ NYI
+BET: CBJ ML
+Edge: +13.2% | Confidence: HIGH
+
+#4 NHL: DET @ SJS
+BET: DET ML
+Edge: +11.5% | Confidence: HIGH
+
+#5 NBA: Utah Jazz @ Charlotte Hornets
+BET: Utah Jazz ML
+Edge: +10.0% | Confidence: HIGH
+
+#6 NBA: Philadelphia 76ers @ Brooklyn Nets
+BET: Brooklyn Nets ML
+Edge: +8.0% | Confidence: MEDIUM
+
+#7 SOCCER: Le Havre @ Toulouse
+BET: BET: Toulouse Win
+Edge: +7.5% | Confidence: MEDIUM
+
+#8 SOCCER: Metz @ Nantes
+BET: BET: Nantes Win
+Edge: +7.5% | Confidence: MEDIUM
+
+#9 SOCCER: Mallorca @ Real Betis
+BET: BET: Real Betis Win or Draw
+Edge: +6.5% | Confidence: MEDIUM
+
+#10 SOCCER: Bournemouth @ Manchester City
+BET: BET: Manchester City -1.5 Goals
+Edge: +5.0% | Confidence: LOW
+

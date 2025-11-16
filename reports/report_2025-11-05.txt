@@ -1,0 +1,39 @@
+DAILY BETTING REPORT - 2025-11-05
+================================================================================
+
+#1 NBA: Golden State Warriors @ Sacramento Kings
+BET: Sacramento Kings ML
+Edge: +12.0% | Confidence: HIGH
+
+#2 NBA: Minnesota Timberwolves @ New York Knicks
+BET: Minnesota Timberwolves ML
+Edge: +10.0% | Confidence: HIGH
+
+#3 NBA: San Antonio Spurs @ Los Angeles Lakers
+BET: San Antonio Spurs ML
+Edge: +10.0% | Confidence: HIGH
+
+#4 NBA: Oklahoma City Thunder @ Portland Trail Blazers
+BET: Portland Trail Blazers ML
+Edge: +10.0% | Confidence: HIGH
+
+#5 NHL: UTA @ TOR
+BET: TOR ML
+Edge: +6.5% | Confidence: LOW
+
+#6 SOCCER: Atalanta BC @ Marseille
+BET: BET: Marseille Win or Draw
+Edge: +6.5% | Confidence: MEDIUM
+
+#7 SOCCER: Athletic Bilbao @ Newcastle United
+BET: BET: Newcastle United Win or Draw
+Edge: +6.5% | Confidence: MEDIUM
+
+#8 NHL: STL @ WSH
+BET: WSH ML
+Edge: +5.0% | Confidence: LOW
+
+#9 SOCCER: FC Kairat @ Inter Milan
+BET: BET: Inter Milan -1.5 Goals
+Edge: +5.0% | Confidence: LOW
+

@@ -1,0 +1,36 @@
+
+🎯 BACKTEST RESULTS - TOP8_PICKS
+============================================================
+Period: 2024-08-01 to 2025-09-28
+Strategy: Top8 Picks
+Stake per bet: $25.0
+
+📊 OVERALL PERFORMANCE:
+   Total Bets: 1663
+   Wins: 272 (16.4%)
+   Losses: 1391
+
+💰 FINANCIAL RESULTS:
+   Total Staked: $41,575.00
+   Total Profit: $+1,873.75
+   ROI: +4.51%
+
+📈 BET DETAILS:
+   Average Odds: 6.48
+   Best Win: $171.00
+   Worst Loss: $-25.00
+   Average Win: $134.74
+
+🏆 ODDS SOURCES:
+   DraftKings: 910 bets, 16.0% wins, $+412.25
+   FanDuel: 534 bets, 16.5% wins, $+703.25
+   FootyStats: 219 bets, 17.4% wins, $+758.25
+
+⚽ LEAGUES:
+   EPL: 557 bets, 15.4% wins, $+5.50
+   La Liga: 323 bets, 16.4% wins, $+250.50
+   Bundesliga: 267 bets, 18.0% wins, $+877.50
+   Serie A: 224 bets, 15.2% wins, $-325.50
+   Ligue 1: 120 bets, 20.0% wins, $+623.25
+   Champions League: 138 bets, 14.5% wins, $+280.25
+   MLS: 34 bets, 20.6% wins, $+162.25

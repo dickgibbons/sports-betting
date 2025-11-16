@@ -1,0 +1,1537 @@
+{
+  "total_days": 250,
+  "total_bets": 586,
+  "total_wins": 330,
+  "total_profit": 10260.75,
+  "total_stakes": 14650,
+  "by_strategy": {
+    "high_value": {
+      "bets": 201,
+      "wins": 67,
+      "profit": 3610.25,
+      "stakes": 5025
+    },
+    "goals": {
+      "bets": 303,
+      "wins": 207,
+      "profit": 5498.75,
+      "stakes": 7575
+    },
+    "elite_home": {
+      "bets": 21,
+      "wins": 11,
+      "profit": 103.49999999999997,
+      "stakes": 525
+    },
+    "btts": {
+      "bets": 61,
+      "wins": 45,
+      "profit": 1048.25,
+      "stakes": 1525
+    }
+  },
+  "daily_results": [
+    {
+      "day": 1,
+      "bets": 3,
+      "wins": 1,
+      "profit": -16.0
+    },
+    {
+      "day": 2,
+      "bets": 3,
+      "wins": 1,
+      "profit": -15.75
+    },
+    {
+      "day": 3,
+      "bets": 3,
+      "wins": 2,
+      "profit": 39.25
+    },
+    {
+      "day": 4,
+      "bets": 3,
+      "wins": 1,
+      "profit": -14.249999999999993
+    },
+    {
+      "day": 5,
+      "bets": 3,
+      "wins": 1,
+      "profit": -28.249999999999996
+    },
+    {
+      "day": 6,
+      "bets": 2,
+      "wins": 1,
+      "profit": 11.250000000000007
+    },
+    {
+      "day": 7,
+      "bets": 3,
+      "wins": 2,
+      "profit": 34.75
+    },
+    {
+      "day": 8,
+      "bets": 3,
+      "wins": 2,
+      "profit": 55.75
+    },
+    {
+      "day": 9,
+      "bets": 3,
+      "wins": 1,
+      "profit": -7.499999999999993
+    },
+    {
+      "day": 10,
+      "bets": 0,
+      "wins": 0,
+      "profit": 0
+    },
+    {
+      "day": 11,
+      "bets": 3,
+      "wins": 2,
+      "profit": 57.75000000000001
+    },
+    {
+      "day": 12,
+      "bets": 3,
+      "wins": 2,
+      "profit": 101.99999999999999
+    },
+    {
+      "day": 13,
+      "bets": 3,
+      "wins": 0,
+      "profit": -75
+    },
+    {
+      "day": 14,
+      "bets": 3,
+      "wins": 2,
+      "profit": 56.75
+    },
+    {
+      "day": 15,
+      "bets": 0,
+      "wins": 0,
+      "profit": 0
+    },
+    {
+      "day": 16,
+      "bets": 0,
+      "wins": 0,
+      "profit": 0
+    },
+    {
+      "day": 17,
+      "bets": 3,
+      "wins": 0,
+      "profit": -75
+    },
+    {
+      "day": 18,
+      "bets": 2,
+      "wins": 1,
+      "profit": 8.5
+    },
+    {
+      "day": 19,
+      "bets": 3,
+      "wins": 2,
+      "profit": 221.5
+    },
+    {
+      "day": 20,
+      "bets": 2,
+      "wins": 1,
+      "profit": 10.25
+    },
+    {
+      "day": 21,
+      "bets": 3,
+      "wins": 2,
+      "profit": 36.5
+    },
+    {
+      "day": 22,
+      "bets": 3,
+      "wins": 2,
+      "profit": 104.99999999999999
+    },
+    {
+      "day": 23,
+      "bets": 0,
+      "wins": 0,
+      "profit": 0
+    },
+    {
+      "day": 24,
+      "bets": 3,
+      "wins": 2,
+      "profit": 60.25
+    },
+    {
+      "day": 25,
+      "bets": 1,
+      "wins": 1,
+      "profit": 43.99999999999999
+    },
+    {
+      "day": 26,
+      "bets": 3,
+      "wins": 3,
+      "profit": 165.5
+    },
+    {
+      "day": 27,
+      "bets": 3,
+      "wins": 2,
+      "profit": 44.25
+    },
+    {
+      "day": 28,
+      "bets": 1,
+      "wins": 0,
+      "profit": -25
+    },
+    {
+      "day": 29,
+      "bets": 3,
+      "wins": 3,
+      "profit": 180.25
+    },
+    {
+      "day": 30,
+      "bets": 1,
+      "wins": 1,
+      "profit": 33.5
+    },
+    {
+      "day": 31,
+      "bets": 3,
+      "wins": 3,
+      "profit": 236.0
+    },
+    {
+      "day": 32,
+      "bets": 3,
+      "wins": 0,
+      "profit": -75
+    },
+    {
+      "day": 33,
+      "bets": 3,
+      "wins": 2,
+      "profit": 121.5
+    },
+    {
+      "day": 34,
+      "bets": 3,
+      "wins": 2,
+      "profit": 48.99999999999999
+    },
+    {
+      "day": 35,
+      "bets": 2,
+      "wins": 1,
+      "profit": 1.0
+    },
+    {
+      "day": 36,
+      "bets": 3,
+      "wins": 1,
+      "profit": -9.0
+    },
+    {
+      "day": 37,
+      "bets": 2,
+      "wins": 1,
+      "profit": 3.5000000000000036
+    },
+    {
+      "day": 38,
+      "bets": 2,
+      "wins": 0,
+      "profit": -50
+    },
+    {
+      "day": 39,
+      "bets": 0,
+      "wins": 0,
+      "profit": 0
+    },
+    {
+      "day": 40,
+      "bets": 2,
+      "wins": 1,
+      "profit": 10.5
+    },
+    {
+      "day": 41,
+      "bets": 3,
+      "wins": 2,
+      "profit": 52.75000000000001
+    },
+    {
+      "day": 42,
+      "bets": 0,
+      "wins": 0,
+      "profit": 0
+    },
+    {
+      "day": 43,
+      "bets": 3,
+      "wins": 3,
+      "profit": 174.0
+    },
+    {
+      "day": 44,
+      "bets": 3,
+      "wins": 1,
+      "profit": -11.750000000000007
+    },
+    {
+      "day": 45,
+      "bets": 3,
+      "wins": 2,
+      "profit": 61.25
+    },
+    {
+      "day": 46,
+      "bets": 3,
+      "wins": 1,
+      "profit": -10.750000000000007
+    },
+    {
+      "day": 47,
+      "bets": 1,
+      "wins": 1,
+      "profit": 34.5
+    },
+    {
+      "day": 48,
+      "bets": 3,
+      "wins": 2,
+      "profit": 174.75
+    },
+    {
+      "day": 49,
+      "bets": 3,
+      "wins": 0,
+      "profit": -75
+    },
+    {
+      "day": 50,
+      "bets": 0,
+      "wins": 0,
+      "profit": 0
+    },
+    {
+      "day": 51,
+      "bets": 3,
+      "wins": 1,
+      "profit": 61.5
+    },
+    {
+      "day": 52,
+      "bets": 3,
+      "wins": 1,
+      "profit": 74.25
+    },
+    {
+      "day": 53,
+      "bets": 3,
+      "wins": 2,
+      "profit": 133.5
+    },
+    {
+      "day": 54,
+      "bets": 3,
+      "wins": 2,
+      "profit": 48.000000000000014
+    },
+    {
+      "day": 55,
+      "bets": 3,
+      "wins": 2,
+      "profit": 59.00000000000001
+    },
+    {
+      "day": 56,
+      "bets": 3,
+      "wins": 1,
+      "profit": 69.75
+    },
+    {
+      "day": 57,
+      "bets": 3,
+      "wins": 1,
+      "profit": -15.5
+    },
+    {
+      "day": 58,
+      "bets": 3,
+      "wins": 2,
+      "profit": 47.25
+    },
+    {
+      "day": 59,
+      "bets": 3,
+      "wins": 2,
+      "profit": 45.99999999999999
+    },
+    {
+      "day": 60,
+      "bets": 1,
+      "wins": 1,
+      "profit": 35.0
+    },
+    {
+      "day": 61,
+      "bets": 3,
+      "wins": 0,
+      "profit": -75
+    },
+    {
+      "day": 62,
+      "bets": 3,
+      "wins": 3,
+      "profit": 183.25
+    },
+    {
+      "day": 63,
+      "bets": 2,
+      "wins": 2,
+      "profit": 130.75
+    },
+    {
+      "day": 64,
+      "bets": 3,
+      "wins": 2,
+      "profit": 46.5
+    },
+    {
+      "day": 65,
+      "bets": 3,
+      "wins": 0,
+      "profit": -75
+    },
+    {
+      "day": 66,
+      "bets": 0,
+      "wins": 0,
+      "profit": 0
+    },
+    {
+      "day": 67,
+      "bets": 0,
+      "wins": 0,
+      "profit": 0
+    },
+    {
+      "day": 68,
+      "bets": 3,
+      "wins": 2,
+      "profit": 49.75
+    },
+    {
+      "day": 69,
+      "bets": 3,
+      "wins": 2,
+      "profit": 45.249999999999986
+    },
+    {
+      "day": 70,
+      "bets": 0,
+      "wins": 0,
+      "profit": 0
+    },
+    {
+      "day": 71,
+      "bets": 3,
+      "wins": 2,
+      "profit": 103.25
+    },
+    {
+      "day": 72,
+      "bets": 3,
+      "wins": 2,
+      "profit": 48.5
+    },
+    {
+      "day": 73,
+      "bets": 3,
+      "wins": 1,
+      "profit": -19.75
+    },
+    {
+      "day": 74,
+      "bets": 1,
+      "wins": 0,
+      "profit": -25
+    },
+    {
+      "day": 75,
+      "bets": 2,
+      "wins": 1,
+      "profit": 13.749999999999993
+    },
+    {
+      "day": 76,
+      "bets": 0,
+      "wins": 0,
+      "profit": 0
+    },
+    {
+      "day": 77,
+      "bets": 3,
+      "wins": 0,
+      "profit": -75
+    },
+    {
+      "day": 78,
+      "bets": 3,
+      "wins": 2,
+      "profit": 61.5
+    },
+    {
+      "day": 79,
+      "bets": 3,
+      "wins": 2,
+      "profit": 108.5
+    },
+    {
+      "day": 80,
+      "bets": 3,
+      "wins": 1,
+      "profit": 55.5
+    },
+    {
+      "day": 81,
+      "bets": 3,
+      "wins": 2,
+      "profit": 39.75
+    },
+    {
+      "day": 82,
+      "bets": 3,
+      "wins": 1,
+      "profit": 41.250000000000014
+    },
+    {
+      "day": 83,
+      "bets": 2,
+      "wins": 1,
+      "profit": 0.0
+    },
+    {
+      "day": 84,
+      "bets": 3,
+      "wins": 2,
+      "profit": 107.0
+    },
+    {
+      "day": 85,
+      "bets": 3,
+      "wins": 1,
+      "profit": -12.250000000000007
+    },
+    {
+      "day": 86,
+      "bets": 3,
+      "wins": 1,
+      "profit": -11.250000000000007
+    },
+    {
+      "day": 87,
+      "bets": 0,
+      "wins": 0,
+      "profit": 0
+    },
+    {
+      "day": 88,
+      "bets": 2,
+      "wins": 1,
+      "profit": 16.25
+    },
+    {
+      "day": 89,
+      "bets": 2,
+      "wins": 1,
+      "profit": 92.0
+    },
+    {
+      "day": 90,
+      "bets": 3,
+      "wins": 1,
+      "profit": -10.5
+    },
+    {
+      "day": 91,
+      "bets": 3,
+      "wins": 2,
+      "profit": 49.75
+    },
+    {
+      "day": 92,
+      "bets": 3,
+      "wins": 3,
+      "profit": 101.75
+    },
+    {
+      "day": 93,
+      "bets": 3,
+      "wins": 2,
+      "profit": 55.25
+    },
+    {
+      "day": 94,
+      "bets": 3,
+      "wins": 1,
+      "profit": -21.999999999999996
+    },
+    {
+      "day": 95,
+      "bets": 0,
+      "wins": 0,
+      "profit": 0
+    },
+    {
+      "day": 96,
+      "bets": 1,
+      "wins": 0,
+      "profit": -25
+    },
+    {
+      "day": 97,
+      "bets": 3,
+      "wins": 1,
+      "profit": -18.25
+    },
+    {
+      "day": 98,
+      "bets": 2,
+      "wins": 1,
+      "profit": 95.24999999999999
+    },
+    {
+      "day": 99,
+      "bets": 0,
+      "wins": 0,
+      "profit": 0
+    },
+    {
+      "day": 100,
+      "bets": 3,
+      "wins": 2,
+      "profit": 119.5
+    },
+    {
+      "day": 101,
+      "bets": 3,
+      "wins": 0,
+      "profit": -75
+    },
+    {
+      "day": 102,
+      "bets": 0,
+      "wins": 0,
+      "profit": 0
+    },
+    {
+      "day": 103,
+      "bets": 3,
+      "wins": 1,
+      "profit": -16.0
+    },
+    {
+      "day": 104,
+      "bets": 3,
+      "wins": 3,
+      "profit": 189.5
+    },
+    {
+      "day": 105,
+      "bets": 3,
+      "wins": 2,
+      "profit": 91.25
+    },
+    {
+      "day": 106,
+      "bets": 3,
+      "wins": 1,
+      "profit": -16.5
+    },
+    {
+      "day": 107,
+      "bets": 3,
+      "wins": 1,
+      "profit": -6.499999999999993
+    },
+    {
+      "day": 108,
+      "bets": 3,
+      "wins": 3,
+      "profit": 117.75
+    },
+    {
+      "day": 109,
+      "bets": 3,
+      "wins": 2,
+      "profit": 126.75
+    },
+    {
+      "day": 110,
+      "bets": 3,
+      "wins": 2,
+      "profit": 93.75
+    },
+    {
+      "day": 111,
+      "bets": 3,
+      "wins": 2,
+      "profit": 197.75
+    },
+    {
+      "day": 112,
+      "bets": 3,
+      "wins": 3,
+      "profit": 204.5
+    },
+    {
+      "day": 113,
+      "bets": 1,
+      "wins": 0,
+      "profit": -25
+    },
+    {
+      "day": 114,
+      "bets": 1,
+      "wins": 1,
+      "profit": 44.75
+    },
+    {
+      "day": 115,
+      "bets": 3,
+      "wins": 1,
+      "profit": 57.5
+    },
+    {
+      "day": 116,
+      "bets": 2,
+      "wins": 0,
+      "profit": -50
+    },
+    {
+      "day": 117,
+      "bets": 3,
+      "wins": 2,
+      "profit": 133.25
+    },
+    {
+      "day": 118,
+      "bets": 3,
+      "wins": 0,
+      "profit": -75
+    },
+    {
+      "day": 119,
+      "bets": 0,
+      "wins": 0,
+      "profit": 0
+    },
+    {
+      "day": 120,
+      "bets": 3,
+      "wins": 1,
+      "profit": -5.500000000000007
+    },
+    {
+      "day": 121,
+      "bets": 0,
+      "wins": 0,
+      "profit": 0
+    },
+    {
+      "day": 122,
+      "bets": 3,
+      "wins": 1,
+      "profit": -6.000000000000007
+    },
+    {
+      "day": 123,
+      "bets": 3,
+      "wins": 3,
+      "profit": 122.5
+    },
+    {
+      "day": 124,
+      "bets": 2,
+      "wins": 1,
+      "profit": 18.75
+    },
+    {
+      "day": 125,
+      "bets": 0,
+      "wins": 0,
+      "profit": 0
+    },
+    {
+      "day": 126,
+      "bets": 2,
+      "wins": 2,
+      "profit": 84.25
+    },
+    {
+      "day": 127,
+      "bets": 3,
+      "wins": 2,
+      "profit": 126.0
+    },
+    {
+      "day": 128,
+      "bets": 3,
+      "wins": 2,
+      "profit": 59.5
+    },
+    {
+      "day": 129,
+      "bets": 1,
+      "wins": 1,
+      "profit": 38.5
+    },
+    {
+      "day": 130,
+      "bets": 3,
+      "wins": 1,
+      "profit": -11.5
+    },
+    {
+      "day": 131,
+      "bets": 2,
+      "wins": 0,
+      "profit": -50
+    },
+    {
+      "day": 132,
+      "bets": 3,
+      "wins": 1,
+      "profit": -16.0
+    },
+    {
+      "day": 133,
+      "bets": 3,
+      "wins": 1,
+      "profit": -11.0
+    },
+    {
+      "day": 134,
+      "bets": 3,
+      "wins": 2,
+      "profit": 36.0
+    },
+    {
+      "day": 135,
+      "bets": 3,
+      "wins": 3,
+      "profit": 105.5
+    },
+    {
+      "day": 136,
+      "bets": 3,
+      "wins": 2,
+      "profit": 44.5
+    },
+    {
+      "day": 137,
+      "bets": 3,
+      "wins": 2,
+      "profit": 51.999999999999986
+    },
+    {
+      "day": 138,
+      "bets": 3,
+      "wins": 2,
+      "profit": 118.75000000000001
+    },
+    {
+      "day": 139,
+      "bets": 3,
+      "wins": 1,
+      "profit": 60.000000000000014
+    },
+    {
+      "day": 140,
+      "bets": 3,
+      "wins": 2,
+      "profit": 57.75
+    },
+    {
+      "day": 141,
+      "bets": 0,
+      "wins": 0,
+      "profit": 0
+    },
+    {
+      "day": 142,
+      "bets": 3,
+      "wins": 2,
+      "profit": 59.0
+    },
+    {
+      "day": 143,
+      "bets": 1,
+      "wins": 0,
+      "profit": -25
+    },
+    {
+      "day": 144,
+      "bets": 0,
+      "wins": 0,
+      "profit": 0
+    },
+    {
+      "day": 145,
+      "bets": 3,
+      "wins": 1,
+      "profit": -16.5
+    },
+    {
+      "day": 146,
+      "bets": 3,
+      "wins": 2,
+      "profit": 31.25
+    },
+    {
+      "day": 147,
+      "bets": 0,
+      "wins": 0,
+      "profit": 0
+    },
+    {
+      "day": 148,
+      "bets": 3,
+      "wins": 2,
+      "profit": 54.75
+    },
+    {
+      "day": 149,
+      "bets": 3,
+      "wins": 2,
+      "profit": 92.0
+    },
+    {
+      "day": 150,
+      "bets": 3,
+      "wins": 3,
+      "profit": 171.0
+    },
+    {
+      "day": 151,
+      "bets": 3,
+      "wins": 2,
+      "profit": 128.75
+    },
+    {
+      "day": 152,
+      "bets": 3,
+      "wins": 2,
+      "profit": 54.75
+    },
+    {
+      "day": 153,
+      "bets": 0,
+      "wins": 0,
+      "profit": 0
+    },
+    {
+      "day": 154,
+      "bets": 3,
+      "wins": 1,
+      "profit": -18.999999999999993
+    },
+    {
+      "day": 155,
+      "bets": 3,
+      "wins": 2,
+      "profit": 59.75000000000001
+    },
+    {
+      "day": 156,
+      "bets": 3,
+      "wins": 2,
+      "profit": 60.24999999999999
+    },
+    {
+      "day": 157,
+      "bets": 3,
+      "wins": 2,
+      "profit": 58.25
+    },
+    {
+      "day": 158,
+      "bets": 3,
+      "wins": 1,
+      "profit": -27.250000000000004
+    },
+    {
+      "day": 159,
+      "bets": 0,
+      "wins": 0,
+      "profit": 0
+    },
+    {
+      "day": 160,
+      "bets": 3,
+      "wins": 2,
+      "profit": 87.74999999999999
+    },
+    {
+      "day": 161,
+      "bets": 0,
+      "wins": 0,
+      "profit": 0
+    },
+    {
+      "day": 162,
+      "bets": 3,
+      "wins": 1,
+      "profit": 57.0
+    },
+    {
+      "day": 163,
+      "bets": 3,
+      "wins": 1,
+      "profit": -10.5
+    },
+    {
+      "day": 164,
+      "bets": 2,
+      "wins": 2,
+      "profit": 59.75
+    },
+    {
+      "day": 165,
+      "bets": 3,
+      "wins": 2,
+      "profit": 50.0
+    },
+    {
+      "day": 166,
+      "bets": 3,
+      "wins": 2,
+      "profit": 134.5
+    },
+    {
+      "day": 167,
+      "bets": 0,
+      "wins": 0,
+      "profit": 0
+    },
+    {
+      "day": 168,
+      "bets": 3,
+      "wins": 2,
+      "profit": 126.25
+    },
+    {
+      "day": 169,
+      "bets": 2,
+      "wins": 0,
+      "profit": -50
+    },
+    {
+      "day": 170,
+      "bets": 1,
+      "wins": 1,
+      "profit": 39.24999999999999
+    },
+    {
+      "day": 171,
+      "bets": 3,
+      "wins": 2,
+      "profit": 139.25
+    },
+    {
+      "day": 172,
+      "bets": 3,
+      "wins": 2,
+      "profit": 40.0
+    },
+    {
+      "day": 173,
+      "bets": 0,
+      "wins": 0,
+      "profit": 0
+    },
+    {
+      "day": 174,
+      "bets": 3,
+      "wins": 3,
+      "profit": 244.0
+    },
+    {
+      "day": 175,
+      "bets": 2,
+      "wins": 2,
+      "profit": 84.5
+    },
+    {
+      "day": 176,
+      "bets": 2,
+      "wins": 2,
+      "profit": 71.0
+    },
+    {
+      "day": 177,
+      "bets": 3,
+      "wins": 0,
+      "profit": -75
+    },
+    {
+      "day": 178,
+      "bets": 2,
+      "wins": 2,
+      "profit": 108.5
+    },
+    {
+      "day": 179,
+      "bets": 2,
+      "wins": 1,
+      "profit": 17.75
+    },
+    {
+      "day": 180,
+      "bets": 3,
+      "wins": 2,
+      "profit": 119.0
+    },
+    {
+      "day": 181,
+      "bets": 3,
+      "wins": 2,
+      "profit": 130.75
+    },
+    {
+      "day": 182,
+      "bets": 0,
+      "wins": 0,
+      "profit": 0
+    },
+    {
+      "day": 183,
+      "bets": 3,
+      "wins": 0,
+      "profit": -75
+    },
+    {
+      "day": 184,
+      "bets": 3,
+      "wins": 1,
+      "profit": -6.999999999999993
+    },
+    {
+      "day": 185,
+      "bets": 0,
+      "wins": 0,
+      "profit": 0
+    },
+    {
+      "day": 186,
+      "bets": 3,
+      "wins": 2,
+      "profit": 48.5
+    },
+    {
+      "day": 187,
+      "bets": 3,
+      "wins": 1,
+      "profit": 56.5
+    },
+    {
+      "day": 188,
+      "bets": 3,
+      "wins": 3,
+      "profit": 110.25
+    },
+    {
+      "day": 189,
+      "bets": 0,
+      "wins": 0,
+      "profit": 0
+    },
+    {
+      "day": 190,
+      "bets": 3,
+      "wins": 0,
+      "profit": -75
+    },
+    {
+      "day": 191,
+      "bets": 3,
+      "wins": 3,
+      "profit": 98.75
+    },
+    {
+      "day": 192,
+      "bets": 3,
+      "wins": 2,
+      "profit": 110.5
+    },
+    {
+      "day": 193,
+      "bets": 3,
+      "wins": 3,
+      "profit": 100.5
+    },
+    {
+      "day": 194,
+      "bets": 0,
+      "wins": 0,
+      "profit": 0
+    },
+    {
+      "day": 195,
+      "bets": 3,
+      "wins": 2,
+      "profit": 91.0
+    },
+    {
+      "day": 196,
+      "bets": 3,
+      "wins": 1,
+      "profit": 32.0
+    },
+    {
+      "day": 197,
+      "bets": 3,
+      "wins": 3,
+      "profit": 115.25
+    },
+    {
+      "day": 198,
+      "bets": 2,
+      "wins": 2,
+      "profit": 130.74999999999997
+    },
+    {
+      "day": 199,
+      "bets": 3,
+      "wins": 2,
+      "profit": 42.75000000000001
+    },
+    {
+      "day": 200,
+      "bets": 2,
+      "wins": 1,
+      "profit": 10.25
+    },
+    {
+      "day": 201,
+      "bets": 3,
+      "wins": 2,
+      "profit": 49.0
+    },
+    {
+      "day": 202,
+      "bets": 3,
+      "wins": 1,
+      "profit": -7.999999999999993
+    },
+    {
+      "day": 203,
+      "bets": 3,
+      "wins": 3,
+      "profit": 200.75
+    },
+    {
+      "day": 204,
+      "bets": 3,
+      "wins": 2,
+      "profit": 99.75
+    },
+    {
+      "day": 205,
+      "bets": 0,
+      "wins": 0,
+      "profit": 0
+    },
+    {
+      "day": 206,
+      "bets": 3,
+      "wins": 3,
+      "profit": 175.25
+    },
+    {
+      "day": 207,
+      "bets": 3,
+      "wins": 2,
+      "profit": 104.75
+    },
+    {
+      "day": 208,
+      "bets": 1,
+      "wins": 0,
+      "profit": -25
+    },
+    {
+      "day": 209,
+      "bets": 3,
+      "wins": 1,
+      "profit": -12.0
+    },
+    {
+      "day": 210,
+      "bets": 3,
+      "wins": 1,
+      "profit": -5.000000000000007
+    },
+    {
+      "day": 211,
+      "bets": 3,
+      "wins": 1,
+      "profit": -19.25
+    },
+    {
+      "day": 212,
+      "bets": 0,
+      "wins": 0,
+      "profit": 0
+    },
+    {
+      "day": 213,
+      "bets": 3,
+      "wins": 2,
+      "profit": 181.50000000000003
+    },
+    {
+      "day": 214,
+      "bets": 3,
+      "wins": 0,
+      "profit": -75
+    },
+    {
+      "day": 215,
+      "bets": 3,
+      "wins": 2,
+      "profit": 32.49999999999999
+    },
+    {
+      "day": 216,
+      "bets": 2,
+      "wins": 1,
+      "profit": 18.999999999999993
+    },
+    {
+      "day": 217,
+      "bets": 1,
+      "wins": 1,
+      "profit": 42.00000000000001
+    },
+    {
+      "day": 218,
+      "bets": 3,
+      "wins": 0,
+      "profit": -75
+    },
+    {
+      "day": 219,
+      "bets": 3,
+      "wins": 2,
+      "profit": 42.5
+    },
+    {
+      "day": 220,
+      "bets": 3,
+      "wins": 3,
+      "profit": 120.25
+    },
+    {
+      "day": 221,
+      "bets": 3,
+      "wins": 0,
+      "profit": -75
+    },
+    {
+      "day": 222,
+      "bets": 3,
+      "wins": 2,
+      "profit": 57.25
+    },
+    {
+      "day": 223,
+      "bets": 3,
+      "wins": 2,
+      "profit": 36.0
+    },
+    {
+      "day": 224,
+      "bets": 2,
+      "wins": 1,
+      "profit": 10.5
+    },
+    {
+      "day": 225,
+      "bets": 3,
+      "wins": 1,
+      "profit": -15.0
+    },
+    {
+      "day": 226,
+      "bets": 3,
+      "wins": 3,
+      "profit": 158.75
+    },
+    {
+      "day": 227,
+      "bets": 3,
+      "wins": 2,
+      "profit": 51.75000000000001
+    },
+    {
+      "day": 228,
+      "bets": 3,
+      "wins": 1,
+      "profit": -10.750000000000007
+    },
+    {
+      "day": 229,
+      "bets": 1,
+      "wins": 1,
+      "profit": 25.0
+    },
+    {
+      "day": 230,
+      "bets": 3,
+      "wins": 2,
+      "profit": 61.24999999999999
+    },
+    {
+      "day": 231,
+      "bets": 0,
+      "wins": 0,
+      "profit": 0
+    },
+    {
+      "day": 232,
+      "bets": 3,
+      "wins": 1,
+      "profit": -17.000000000000007
+    },
+    {
+      "day": 233,
+      "bets": 3,
+      "wins": 3,
+      "profit": 182.5
+    },
+    {
+      "day": 234,
+      "bets": 3,
+      "wins": 1,
+      "profit": -11.250000000000007
+    },
+    {
+      "day": 235,
+      "bets": 3,
+      "wins": 3,
+      "profit": 166.0
+    },
+    {
+      "day": 236,
+      "bets": 3,
+      "wins": 2,
+      "profit": 29.249999999999996
+    },
+    {
+      "day": 237,
+      "bets": 3,
+      "wins": 0,
+      "profit": -75
+    },
+    {
+      "day": 238,
+      "bets": 2,
+      "wins": 2,
+      "profit": 82.0
+    },
+    {
+      "day": 239,
+      "bets": 2,
+      "wins": 2,
+      "profit": 63.0
+    },
+    {
+      "day": 240,
+      "bets": 3,
+      "wins": 2,
+      "profit": 47.74999999999999
+    },
+    {
+      "day": 241,
+      "bets": 1,
+      "wins": 0,
+      "profit": -25
+    },
+    {
+      "day": 242,
+      "bets": 3,
+      "wins": 2,
+      "profit": 108.49999999999997
+    },
+    {
+      "day": 243,
+      "bets": 3,
+      "wins": 1,
+      "profit": -7.75
+    },
+    {
+      "day": 244,
+      "bets": 0,
+      "wins": 0,
+      "profit": 0
+    },
+    {
+      "day": 245,
+      "bets": 2,
+      "wins": 2,
+      "profit": 75.0
+    },
+    {
+      "day": 246,
+      "bets": 3,
+      "wins": 3,
+      "profit": 114.0
+    },
+    {
+      "day": 247,
+      "bets": 3,
+      "wins": 2,
+      "profit": 134.5
+    },
+    {
+      "day": 248,
+      "bets": 3,
+      "wins": 3,
+      "profit": 99.25
+    },
+    {
+      "day": 249,
+      "bets": 3,
+      "wins": 1,
+      "profit": -12.0
+    },
+    {
+      "day": 250,
+      "bets": 3,
+      "wins": 2,
+      "profit": 45.25
+    }
+  ],
+  "win_rate": 56.31399317406144,
+  "roi": 70.03924914675767
+}

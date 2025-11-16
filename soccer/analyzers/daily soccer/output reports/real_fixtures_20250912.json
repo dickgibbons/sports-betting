@@ -1,0 +1,80 @@
+[
+  {
+    "kick_off": "10:00",
+    "home_team": "Sanna Khanh Hoa",
+    "away_team": "H\u00f2a B\u00ecnh",
+    "league": "Cup",
+    "country": "Vietnam",
+    "home_odds": 2.0,
+    "draw_odds": 3.0,
+    "away_odds": 3.0,
+    "source": "API-Sports",
+    "fixture_id": 1467394,
+    "status": "PST"
+  },
+  {
+    "kick_off": "15:00",
+    "home_team": "Ilbirs",
+    "away_team": "Alay",
+    "league": "Premier League",
+    "country": "Kyrgyzstan",
+    "home_odds": 2.0,
+    "draw_odds": 3.0,
+    "away_odds": 3.0,
+    "source": "API-Sports",
+    "fixture_id": 1413065,
+    "status": "PST"
+  },
+  {
+    "kick_off": "15:00",
+    "home_team": "Bishkek City",
+    "away_team": "OshMU Aldier",
+    "league": "Premier League",
+    "country": "Kyrgyzstan",
+    "home_odds": 2.0,
+    "draw_odds": 3.0,
+    "away_odds": 3.0,
+    "source": "API-Sports",
+    "fixture_id": 1413066,
+    "status": "PST"
+  },
+  {
+    "kick_off": "22:00",
+    "home_team": "Atletico Hidalgo",
+    "away_team": "Correcaminos UAT II",
+    "league": "Liga Premier Serie A",
+    "country": "Mexico",
+    "home_odds": 1.91,
+    "draw_odds": 3.75,
+    "away_odds": 3.2,
+    "source": "API-Sports",
+    "fixture_id": 1456908,
+    "status": "NS"
+  },
+  {
+    "kick_off": "23:00",
+    "home_team": "North Carolina",
+    "away_team": "El Paso Locomotive",
+    "league": "USL Championship",
+    "country": "USA",
+    "home_odds": 2.3,
+    "draw_odds": 3.3,
+    "away_odds": 2.88,
+    "source": "API-Sports",
+    "fixture_id": 1327241,
+    "status": "2H"
+  },
+  {
+    "kick_off": "23:00",
+    "home_team": "Crown Legacy",
+    "away_team": "Chattanooga",
+    "league": "MLS Next Pro",
+    "country": "USA",
+    "home_odds": 2.1,
+    "draw_odds": 3.7,
+    "away_odds": 2.7,
+    "source": "API-Sports",
+    "fixture_id": 1345632,
+    "status": "2H"
+  }
+]

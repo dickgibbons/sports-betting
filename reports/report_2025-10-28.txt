@@ -1,0 +1,43 @@
+DAILY BETTING REPORT - 2025-10-28
+================================================================================
+
+#1 NHL: PIT @ PHI
+BET: PHI ML
+Edge: +18.2% | Confidence: ELITE
+
+#2 NHL: NYI @ BOS
+BET: NYI ML
+Edge: +18.2% | Confidence: ELITE
+
+#3 NHL: DET @ STL
+BET: DET ML
+Edge: +18.2% | Confidence: ELITE
+
+#4 NBA: Philadelphia 76ers @ Washington Wizards
+BET: Washington Wizards ML
+Edge: +18.0% | Confidence: ELITE
+
+#5 NBA: Sacramento Kings @ Oklahoma City Thunder
+BET: Sacramento Kings ML
+Edge: +18.0% | Confidence: ELITE
+
+#6 NHL: OTT @ CHI
+BET: CHI ML
+Edge: +13.2% | Confidence: HIGH
+
+#7 NHL: VGK @ CAR
+BET: CAR ML
+Edge: +11.5% | Confidence: HIGH
+
+#8 NHL: UTA @ EDM
+BET: UTA ML
+Edge: +11.5% | Confidence: HIGH
+
+#9 NHL: LAK @ SJS
+BET: SJS ML
+Edge: +11.5% | Confidence: HIGH
+
+#10 NHL: TBL @ NSH
+BET: TBL ML
+Edge: +6.5% | Confidence: LOW
+

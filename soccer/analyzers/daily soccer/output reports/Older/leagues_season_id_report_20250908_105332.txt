@@ -1,0 +1,428 @@
+⚽ FOLLOWED LEAGUES & SEASON ID REPORT ⚽
+=======================================================
+📅 Generated: Monday, September 08, 2025 at 10:53
+📊 Total Leagues: 38
+
+📈 STATUS SUMMARY:
+--------------------
+   🟢 Active Leagues: 5
+   🔴 Need Season ID: 33
+   📊 Total Coverage: 38 leagues
+
+🟢 ACTIVE LEAGUES (Season ID Configured):
+=============================================
+
+🌍 England:
+   ✅ Premier League
+      🆔 League ID: 1625
+      📅 Season: 2025-26
+      🏆 Tier 1
+      📊 Betting Factors: Yes
+
+🌍 France:
+   ✅ Ligue 1
+      🆔 League ID: 1843
+      📅 Season: 2025-26
+      🏆 Tier 1
+      📊 Betting Factors: Yes
+
+🌍 Germany:
+   ✅ Bundesliga
+      🆔 League ID: 1854
+      📅 Season: 2025-26
+      🏆 Tier 1
+      📊 Betting Factors: Yes
+
+🌍 Italy:
+   ✅ Serie A
+      🆔 League ID: 2105
+      📅 Season: 2025-26
+      🏆 Tier 1
+      📊 Betting Factors: Yes
+
+🌍 Spain:
+   ✅ La Liga
+      🆔 League ID: 1729
+      📅 Season: 2025-26
+      🏆 Tier 1
+      📊 Betting Factors: Yes
+
+🔴 LEAGUES NEEDING SEASON IDs:
+===================================
+
+🌍 Argentina:
+   ❌ Primera División
+      🆔 League ID: 5500
+      📅 Season: 2025
+      🏆 Tier 1
+      ⚠️ Status: Season ID Required
+
+🌍 Belgium:
+   ❌ Pro League
+      🆔 League ID: 2400
+      📅 Season: 2025-26
+      🏆 Tier 1
+      ⚠️ Status: Season ID Required
+
+🌍 Brazil:
+   ❌ Brazil Serie A
+      🆔 League ID: 5400
+      📅 Season: 2025
+      🏆 Tier 1
+      ⚠️ Status: Season ID Required
+
+   ❌ Brazil Serie B
+      🆔 League ID: 5401
+      📅 Season: 2025
+      🏆 Tier 2
+      ⚠️ Status: Season ID Required
+
+🌍 Czech Republic:
+   ❌ First League
+      🆔 League ID: 6400
+      📅 Season: 2025-26
+      🏆 Tier 1
+      ⚠️ Status: Season ID Required
+
+🌍 Denmark:
+   ❌ Superlig
+      🆔 League ID: 6200
+      📅 Season: 2025-26
+      🏆 Tier 1
+      ⚠️ Status: Season ID Required
+
+🌍 England:
+   ❌ Championship
+      🆔 League ID: 1626
+      📅 Season: 2025-26
+      🏆 Tier 2
+      ⚠️ Status: Season ID Required
+
+   ❌ FA Trophy
+      🆔 League ID: 1626
+      📅 Season: 2025-26
+      🏆 Tier 3
+      ⚠️ Status: Season ID Required
+
+🌍 Europe:
+   ❌ UEFA Champions League
+      🆔 League ID: 3000
+      📅 Season: 2025-26
+      🏆 Continental/International
+      ⚠️ Status: Season ID Required
+
+   ❌ UEFA Europa Conference League
+      🆔 League ID: 3002
+      📅 Season: 2025-26
+      🏆 Continental/International
+      ⚠️ Status: Season ID Required
+
+   ❌ UEFA Europa League
+      🆔 League ID: 3001
+      📅 Season: 2025-26
+      🏆 Continental/International
+      ⚠️ Status: Season ID Required
+
+🌍 International:
+   ❌ CONCACAF Caribbean Club Championship
+      🆔 League ID: 7002
+      📅 Season: 2025
+      🏆 Continental/International
+      ⚠️ Status: Season ID Required
+
+   ❌ CONCACAF Central American Cup
+      🆔 League ID: 7001
+      📅 Season: 2025
+      🏆 Continental/International
+      ⚠️ Status: Season ID Required
+
+   ❌ FIFA Club World Cup
+      🆔 League ID: 4000
+      📅 Season: 2025
+      🏆 Continental/International
+      ⚠️ Status: Season ID Required
+
+   ❌ FIFA Club World Cup Playin
+      🆔 League ID: 4001
+      📅 Season: 2025
+      🏆 Continental/International
+      ⚠️ Status: Season ID Required
+
+   ❌ WC Qualification Africa
+      🆔 League ID: 4101
+      📅 Season: 2025-26
+      🏆 Continental/International
+      ⚠️ Status: Season ID Required
+
+   ❌ WC Qualification Asia
+      🆔 League ID: 4102
+      📅 Season: 2025-26
+      🏆 Continental/International
+      ⚠️ Status: Season ID Required
+
+   ❌ WC Qualification CONCACAF
+      🆔 League ID: 4104
+      📅 Season: 2025-26
+      🏆 Continental/International
+      ⚠️ Status: Season ID Required
+
+   ❌ WC Qualification Europe
+      🆔 League ID: 4100
+      📅 Season: 2025-26
+      🏆 Continental/International
+      ⚠️ Status: Season ID Required
+
+   ❌ WC Qualification Oceania
+      🆔 League ID: 4105
+      📅 Season: 2025-26
+      🏆 Continental/International
+      ⚠️ Status: Season ID Required
+
+   ❌ WC Qualification South America
+      🆔 League ID: 4103
+      📅 Season: 2025-26
+      🏆 Continental/International
+      ⚠️ Status: Season ID Required
+
+🌍 Mexico:
+   ❌ Liga MX
+      🆔 League ID: 5200
+      📅 Season: 2025
+      🏆 Tier 1
+      ⚠️ Status: Season ID Required
+
+   ❌ Copa MX
+      🆔 League ID: 5202
+      📅 Season: 2025
+      🏆 Tier 2
+      ⚠️ Status: Season ID Required
+
+🌍 Netherlands:
+   ❌ Eredivisie
+      🆔 League ID: 2200
+      📅 Season: 2025-26
+      🏆 Tier 1
+      ⚠️ Status: Season ID Required
+
+🌍 Norway:
+   ❌ Eliteserien
+      🆔 League ID: 6000
+      📅 Season: 2025
+      🏆 Tier 1
+      ⚠️ Status: Season ID Required
+
+   ❌ First Division
+      🆔 League ID: 6001
+      📅 Season: 2025
+      🏆 Tier 2
+      ⚠️ Status: Season ID Required
+
+🌍 Portugal:
+   ❌ LigaPro
+      🆔 League ID: 2300
+      📅 Season: 2025-26
+      🏆 Tier 2
+      ⚠️ Status: Season ID Required
+
+🌍 South America:
+   ❌ Copa Libertadores
+      🆔 League ID: 5300
+      📅 Season: 2025
+      🏆 Continental/International
+      ⚠️ Status: Season ID Required
+
+🌍 Switzerland:
+   ❌ Super League
+      🆔 League ID: 6700
+      📅 Season: 2025-26
+      🏆 Tier 1
+      ⚠️ Status: Season ID Required
+
+🌍 Turkey:
+   ❌ Süper Lig
+      🆔 League ID: 6900
+      📅 Season: 2025-26
+      🏆 Tier 1
+      ⚠️ Status: Season ID Required
+
+🌍 USA:
+   ❌ MLS
+      🆔 League ID: 5000
+      📅 Season: 2025
+      🏆 Tier 1
+      ⚠️ Status: Season ID Required
+
+   ❌ NWSL
+      🆔 League ID: 5003
+      📅 Season: 2025
+      🏆 Tier 1
+      ⚠️ Status: Season ID Required
+
+   ❌ USL League One
+      🆔 League ID: 5002
+      📅 Season: 2025
+      🏆 Tier 2
+      ⚠️ Status: Season ID Required
+
+🌍 REGIONAL BREAKDOWN:
+=========================
+
+📍 International:
+   📊 10 leagues, 0 active (0.0%)
+      🔴 CONCACAF Caribbean Club Championship (ID: 7002, Int'l)
+      🔴 CONCACAF Central American Cup (ID: 7001, Int'l)
+      🔴 FIFA Club World Cup (ID: 4000, Int'l)
+      🔴 FIFA Club World Cup Playin (ID: 4001, Int'l)
+      🔴 WC Qualification Africa (ID: 4101, Int'l)
+      🔴 WC Qualification Asia (ID: 4102, Int'l)
+      🔴 WC Qualification CONCACAF (ID: 4104, Int'l)
+      🔴 WC Qualification Europe (ID: 4100, Int'l)
+      🔴 WC Qualification Oceania (ID: 4105, Int'l)
+      🔴 WC Qualification South America (ID: 4103, Int'l)
+
+📍 USA:
+   📊 3 leagues, 0 active (0.0%)
+      🔴 MLS (ID: 5000, T1)
+      🔴 NWSL (ID: 5003, T1)
+      🔴 USL League One (ID: 5002, T2)
+
+📍 England:
+   📊 3 leagues, 1 active (33.3%)
+      🟢 Premier League (ID: 1625, T1)
+      🔴 Championship (ID: 1626, T2)
+      🔴 FA Trophy (ID: 1626, T3)
+
+📍 Europe:
+   📊 3 leagues, 0 active (0.0%)
+      🔴 UEFA Champions League (ID: 3000, Int'l)
+      🔴 UEFA Europa Conference League (ID: 3002, Int'l)
+      🔴 UEFA Europa League (ID: 3001, Int'l)
+
+📍 Norway:
+   📊 2 leagues, 0 active (0.0%)
+      🔴 Eliteserien (ID: 6000, T1)
+      🔴 First Division (ID: 6001, T2)
+
+📍 Brazil:
+   📊 2 leagues, 0 active (0.0%)
+      🔴 Brazil Serie A (ID: 5400, T1)
+      🔴 Brazil Serie B (ID: 5401, T2)
+
+📍 Mexico:
+   📊 2 leagues, 0 active (0.0%)
+      🔴 Liga MX (ID: 5200, T1)
+      🔴 Copa MX (ID: 5202, T2)
+
+📍 Turkey:
+   📊 1 leagues, 0 active (0.0%)
+      🔴 Süper Lig (ID: 6900, T1)
+
+📍 Switzerland:
+   📊 1 leagues, 0 active (0.0%)
+      🔴 Super League (ID: 6700, T1)
+
+📍 Spain:
+   📊 1 leagues, 1 active (100.0%)
+      🟢 La Liga (ID: 1729, T1)
+
+📍 South America:
+   📊 1 leagues, 0 active (0.0%)
+      🔴 Copa Libertadores (ID: 5300, Int'l)
+
+📍 Portugal:
+   📊 1 leagues, 0 active (0.0%)
+      🔴 LigaPro (ID: 2300, T2)
+
+📍 Argentina:
+   📊 1 leagues, 0 active (0.0%)
+      🔴 Primera División (ID: 5500, T1)
+
+📍 Netherlands:
+   📊 1 leagues, 0 active (0.0%)
+      🔴 Eredivisie (ID: 2200, T1)
+
+📍 Belgium:
+   📊 1 leagues, 0 active (0.0%)
+      🔴 Pro League (ID: 2400, T1)
+
+📍 Germany:
+   📊 1 leagues, 1 active (100.0%)
+      🟢 Bundesliga (ID: 1854, T1)
+
+📍 France:
+   📊 1 leagues, 1 active (100.0%)
+      🟢 Ligue 1 (ID: 1843, T1)
+
+📍 Denmark:
+   📊 1 leagues, 0 active (0.0%)
+      🔴 Superlig (ID: 6200, T1)
+
+📍 Czech Republic:
+   📊 1 leagues, 0 active (0.0%)
+      🔴 First League (ID: 6400, T1)
+
+📍 Italy:
+   📊 1 leagues, 1 active (100.0%)
+      🟢 Serie A (ID: 2105, T1)
+
+🏆 TIER BREAKDOWN:
+====================
+
+🎖️ Continental/International:
+   📊 14 leagues, 0 active
+      🔴 UEFA Champions League (Europe, ID: 3000)
+      🔴 UEFA Europa Conference League (Europe, ID: 3002)
+      🔴 UEFA Europa League (Europe, ID: 3001)
+      🔴 CONCACAF Caribbean Club Championship (International, ID: 7002)
+      🔴 CONCACAF Central American Cup (International, ID: 7001)
+      🔴 FIFA Club World Cup (International, ID: 4000)
+      🔴 FIFA Club World Cup Playin (International, ID: 4001)
+      🔴 WC Qualification Africa (International, ID: 4101)
+      🔴 WC Qualification Asia (International, ID: 4102)
+      🔴 WC Qualification CONCACAF (International, ID: 4104)
+      🔴 WC Qualification Europe (International, ID: 4100)
+      🔴 WC Qualification Oceania (International, ID: 4105)
+      🔴 WC Qualification South America (International, ID: 4103)
+      🔴 Copa Libertadores (South America, ID: 5300)
+
+🎖️ Top Tier (1st Division):
+   📊 17 leagues, 5 active
+      🔴 Primera División (Argentina, ID: 5500)
+      🔴 Pro League (Belgium, ID: 2400)
+      🔴 Brazil Serie A (Brazil, ID: 5400)
+      🔴 First League (Czech Republic, ID: 6400)
+      🔴 Superlig (Denmark, ID: 6200)
+      🟢 Premier League (England, ID: 1625)
+      🟢 Ligue 1 (France, ID: 1843)
+      🟢 Bundesliga (Germany, ID: 1854)
+      🟢 Serie A (Italy, ID: 2105)
+      🔴 Liga MX (Mexico, ID: 5200)
+      🔴 Eredivisie (Netherlands, ID: 2200)
+      🔴 Eliteserien (Norway, ID: 6000)
+      🟢 La Liga (Spain, ID: 1729)
+      🔴 Super League (Switzerland, ID: 6700)
+      🔴 Süper Lig (Turkey, ID: 6900)
+      🔴 MLS (USA, ID: 5000)
+      🔴 NWSL (USA, ID: 5003)
+
+🎖️ Second Tier (2nd Division):
+   📊 6 leagues, 0 active
+      🔴 Brazil Serie B (Brazil, ID: 5401)
+      🔴 Championship (England, ID: 1626)
+      🔴 Copa MX (Mexico, ID: 5202)
+      🔴 First Division (Norway, ID: 6001)
+      🔴 LigaPro (Portugal, ID: 2300)
+      🔴 USL League One (USA, ID: 5002)
+
+🎖️ Third Tier (3rd Division):
+   📊 1 leagues, 0 active
+      🔴 FA Trophy (England, ID: 1626)
+
+⚠️ IMPORTANT NOTES:
+• 🟢 Active = League has working season ID and is generating picks
+• 🔴 ID Needed = League configured but needs current season ID
+• Tier 0 = Continental competitions (Champions League, etc.)
+• Tier 1 = Top domestic leagues (Premier League, etc.)
+• Tier 2+ = Lower division leagues
+• All leagues have betting factors configured
+• Season formats vary by region (2025 vs 2025-26)

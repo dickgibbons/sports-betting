@@ -1,0 +1,9 @@
+{
+  "back_to_back": 0.5,
+  "three_in_four": 0.5,
+  "rest_advantage": 0.5,
+  "road_trip_fatigue": 0.5,
+  "timezone_travel": 1.0,
+  "altitude_advantage": 1.0,
+  "heavy_schedule": 0.5
+}

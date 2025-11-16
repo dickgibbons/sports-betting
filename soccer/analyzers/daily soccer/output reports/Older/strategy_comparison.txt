@@ -1,0 +1,27 @@
+🎯 BETTING STRATEGY COMPARISON REPORT\n==================================================\n\n
+📈 All Picks:\n   
+🎯 Picks: 593\n   
+✅ Wins: 410\n   
+📊 Win Rate: 69.1%\n   
+💰 Wagered: $14,825\n   
+💵 P&L: $4,517.47\n   
+📈 ROI: 30.5%\n   
+🏦 Final Bankroll: $5,517.47\n\n
+
+📈 High Confidence (85%+):\n   
+🎯 Picks: 11\n   
+✅ Wins: 10\n   
+📊 Win Rate: 90.9%\n   
+💰 Wagered: $275\n   
+💵 P&L: $85.31\n   
+📈 ROI: 31.0%\n   
+🏦 Final Bankroll: $1,085.31\n\n
+
+📈 Top 8 Daily:\n   
+🎯 Picks: 8\n   
+✅ Wins: 5\n   
+📊 Win Rate: 62.5%\n   
+💰 Wagered: $200\n   
+💵 P&L: $228.31\n   
+📈 ROI: 114.2%\n   
+🏦 Final Bankroll: $1,228.31\n\n

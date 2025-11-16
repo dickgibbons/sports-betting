@@ -1,0 +1,1592 @@
+{
+  "league_averages": {
+    "back_to_back_home_to_road": {
+      "games": 96,
+      "wins": 44
+    },
+    "road_trip_4th_plus": {
+      "games": 187,
+      "wins": 77
+    },
+    "three_in_four": {
+      "games": 363,
+      "wins": 159
+    }
+  },
+  "team_stats": {
+    "Denver Nuggets": {
+      "back_to_back_home_to_road": {
+        "games": 2,
+        "wins": 2,
+        "losses": 0
+      },
+      "road_trip_4th_plus": {
+        "games": 4,
+        "wins": 3,
+        "losses": 1
+      },
+      "three_in_four": {
+        "games": 12,
+        "wins": 9,
+        "losses": 3
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 111,
+        "wins": 64,
+        "losses": 47
+      }
+    },
+    "Boston Celtics": {
+      "back_to_back_home_to_road": {
+        "games": 1,
+        "wins": 1,
+        "losses": 0
+      },
+      "road_trip_4th_plus": {
+        "games": 6,
+        "wins": 6,
+        "losses": 0
+      },
+      "three_in_four": {
+        "games": 15,
+        "wins": 10,
+        "losses": 5
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 109,
+        "wins": 77,
+        "losses": 32
+      }
+    },
+    "Utah Jazz": {
+      "back_to_back_home_to_road": {
+        "games": 2,
+        "wins": 0,
+        "losses": 2
+      },
+      "road_trip_4th_plus": {
+        "games": 9,
+        "wins": 1,
+        "losses": 8
+      },
+      "three_in_four": {
+        "games": 10,
+        "wins": 0,
+        "losses": 10
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 98,
+        "wins": 24,
+        "losses": 74
+      }
+    },
+    "New Zealand Breakers": {
+      "back_to_back_home_to_road": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "road_trip_4th_plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "three_in_four": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 3,
+        "wins": 0,
+        "losses": 3
+      }
+    },
+    "Los Angeles Lakers": {
+      "back_to_back_home_to_road": {
+        "games": 1,
+        "wins": 1,
+        "losses": 0
+      },
+      "road_trip_4th_plus": {
+        "games": 8,
+        "wins": 4,
+        "losses": 4
+      },
+      "three_in_four": {
+        "games": 14,
+        "wins": 7,
+        "losses": 7
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 108,
+        "wins": 59,
+        "losses": 49
+      }
+    },
+    "Minnesota Timberwolves": {
+      "back_to_back_home_to_road": {
+        "games": 4,
+        "wins": 3,
+        "losses": 1
+      },
+      "road_trip_4th_plus": {
+        "games": 4,
+        "wins": 2,
+        "losses": 2
+      },
+      "three_in_four": {
+        "games": 10,
+        "wins": 8,
+        "losses": 2
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 114,
+        "wins": 65,
+        "losses": 49
+      }
+    },
+    "LA Clippers": {
+      "back_to_back_home_to_road": {
+        "games": 2,
+        "wins": 2,
+        "losses": 0
+      },
+      "road_trip_4th_plus": {
+        "games": 9,
+        "wins": 3,
+        "losses": 6
+      },
+      "three_in_four": {
+        "games": 10,
+        "wins": 7,
+        "losses": 3
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 104,
+        "wins": 63,
+        "losses": 41
+      }
+    },
+    "Golden State Warriors": {
+      "back_to_back_home_to_road": {
+        "games": 1,
+        "wins": 0,
+        "losses": 1
+      },
+      "road_trip_4th_plus": {
+        "games": 12,
+        "wins": 10,
+        "losses": 2
+      },
+      "three_in_four": {
+        "games": 10,
+        "wins": 5,
+        "losses": 5
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 113,
+        "wins": 67,
+        "losses": 46
+      }
+    },
+    "Charlotte Hornets": {
+      "back_to_back_home_to_road": {
+        "games": 4,
+        "wins": 1,
+        "losses": 3
+      },
+      "road_trip_4th_plus": {
+        "games": 11,
+        "wins": 4,
+        "losses": 7
+      },
+      "three_in_four": {
+        "games": 16,
+        "wins": 2,
+        "losses": 14
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 101,
+        "wins": 28,
+        "losses": 73
+      }
+    },
+    "New York Knicks": {
+      "back_to_back_home_to_road": {
+        "games": 4,
+        "wins": 2,
+        "losses": 2
+      },
+      "road_trip_4th_plus": {
+        "games": 5,
+        "wins": 2,
+        "losses": 3
+      },
+      "three_in_four": {
+        "games": 12,
+        "wins": 7,
+        "losses": 5
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 116,
+        "wins": 72,
+        "losses": 44
+      }
+    },
+    "Toronto Raptors": {
+      "back_to_back_home_to_road": {
+        "games": 5,
+        "wins": 1,
+        "losses": 4
+      },
+      "road_trip_4th_plus": {
+        "games": 5,
+        "wins": 1,
+        "losses": 4
+      },
+      "three_in_four": {
+        "games": 13,
+        "wins": 3,
+        "losses": 10
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 100,
+        "wins": 40,
+        "losses": 60
+      }
+    },
+    "Washington Wizards": {
+      "back_to_back_home_to_road": {
+        "games": 4,
+        "wins": 1,
+        "losses": 3
+      },
+      "road_trip_4th_plus": {
+        "games": 10,
+        "wins": 3,
+        "losses": 7
+      },
+      "three_in_four": {
+        "games": 12,
+        "wins": 2,
+        "losses": 10
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 96,
+        "wins": 22,
+        "losses": 74
+      }
+    },
+    "Detroit Pistons": {
+      "back_to_back_home_to_road": {
+        "games": 2,
+        "wins": 0,
+        "losses": 2
+      },
+      "road_trip_4th_plus": {
+        "games": 5,
+        "wins": 2,
+        "losses": 3
+      },
+      "three_in_four": {
+        "games": 7,
+        "wins": 3,
+        "losses": 4
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 103,
+        "wins": 55,
+        "losses": 48
+      }
+    },
+    "Milwaukee Bucks": {
+      "back_to_back_home_to_road": {
+        "games": 4,
+        "wins": 2,
+        "losses": 2
+      },
+      "road_trip_4th_plus": {
+        "games": 3,
+        "wins": 0,
+        "losses": 3
+      },
+      "three_in_four": {
+        "games": 12,
+        "wins": 5,
+        "losses": 7
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 103,
+        "wins": 59,
+        "losses": 44
+      }
+    },
+    "Phoenix Suns": {
+      "back_to_back_home_to_road": {
+        "games": 2,
+        "wins": 0,
+        "losses": 2
+      },
+      "road_trip_4th_plus": {
+        "games": 8,
+        "wins": 2,
+        "losses": 6
+      },
+      "three_in_four": {
+        "games": 14,
+        "wins": 0,
+        "losses": 14
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 98,
+        "wins": 45,
+        "losses": 53
+      }
+    },
+    "New Orleans Pelicans": {
+      "back_to_back_home_to_road": {
+        "games": 1,
+        "wins": 0,
+        "losses": 1
+      },
+      "road_trip_4th_plus": {
+        "games": 3,
+        "wins": 0,
+        "losses": 3
+      },
+      "three_in_four": {
+        "games": 8,
+        "wins": 2,
+        "losses": 6
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 97,
+        "wins": 25,
+        "losses": 72
+      }
+    },
+    "Orlando Magic": {
+      "back_to_back_home_to_road": {
+        "games": 4,
+        "wins": 3,
+        "losses": 1
+      },
+      "road_trip_4th_plus": {
+        "games": 10,
+        "wins": 4,
+        "losses": 6
+      },
+      "three_in_four": {
+        "games": 15,
+        "wins": 9,
+        "losses": 6
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 103,
+        "wins": 51,
+        "losses": 52
+      }
+    },
+    "Philadelphia 76ers": {
+      "back_to_back_home_to_road": {
+        "games": 6,
+        "wins": 2,
+        "losses": 4
+      },
+      "road_trip_4th_plus": {
+        "games": 6,
+        "wins": 1,
+        "losses": 5
+      },
+      "three_in_four": {
+        "games": 15,
+        "wins": 3,
+        "losses": 12
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 98,
+        "wins": 33,
+        "losses": 65
+      }
+    },
+    "Dallas Mavericks": {
+      "back_to_back_home_to_road": {
+        "games": 5,
+        "wins": 4,
+        "losses": 1
+      },
+      "road_trip_4th_plus": {
+        "games": 5,
+        "wins": 3,
+        "losses": 2
+      },
+      "three_in_four": {
+        "games": 11,
+        "wins": 6,
+        "losses": 5
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 98,
+        "wins": 46,
+        "losses": 52
+      }
+    },
+    "Memphis Grizzlies": {
+      "back_to_back_home_to_road": {
+        "games": 2,
+        "wins": 1,
+        "losses": 1
+      },
+      "road_trip_4th_plus": {
+        "games": 7,
+        "wins": 3,
+        "losses": 4
+      },
+      "three_in_four": {
+        "games": 10,
+        "wins": 4,
+        "losses": 6
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 105,
+        "wins": 56,
+        "losses": 49
+      }
+    },
+    "San Antonio Spurs": {
+      "back_to_back_home_to_road": {
+        "games": 2,
+        "wins": 1,
+        "losses": 1
+      },
+      "road_trip_4th_plus": {
+        "games": 7,
+        "wins": 3,
+        "losses": 4
+      },
+      "three_in_four": {
+        "games": 12,
+        "wins": 4,
+        "losses": 8
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 99,
+        "wins": 47,
+        "losses": 52
+      }
+    },
+    "Oklahoma City Thunder": {
+      "back_to_back_home_to_road": {
+        "games": 4,
+        "wins": 2,
+        "losses": 2
+      },
+      "road_trip_4th_plus": {
+        "games": 2,
+        "wins": 1,
+        "losses": 1
+      },
+      "three_in_four": {
+        "games": 10,
+        "wins": 8,
+        "losses": 2
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 124,
+        "wins": 99,
+        "losses": 25
+      }
+    },
+    "Houston Rockets": {
+      "back_to_back_home_to_road": {
+        "games": 2,
+        "wins": 0,
+        "losses": 2
+      },
+      "road_trip_4th_plus": {
+        "games": 2,
+        "wins": 0,
+        "losses": 2
+      },
+      "three_in_four": {
+        "games": 11,
+        "wins": 4,
+        "losses": 7
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 103,
+        "wins": 66,
+        "losses": 37
+      }
+    },
+    "Miami Heat": {
+      "back_to_back_home_to_road": {
+        "games": 3,
+        "wins": 1,
+        "losses": 2
+      },
+      "road_trip_4th_plus": {
+        "games": 10,
+        "wins": 2,
+        "losses": 8
+      },
+      "three_in_four": {
+        "games": 12,
+        "wins": 5,
+        "losses": 7
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 105,
+        "wins": 46,
+        "losses": 59
+      }
+    },
+    "Cleveland Cavaliers": {
+      "back_to_back_home_to_road": {
+        "games": 5,
+        "wins": 4,
+        "losses": 1
+      },
+      "road_trip_4th_plus": {
+        "games": 3,
+        "wins": 3,
+        "losses": 0
+      },
+      "three_in_four": {
+        "games": 14,
+        "wins": 9,
+        "losses": 5
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 106,
+        "wins": 74,
+        "losses": 32
+      }
+    },
+    "Chicago Bulls": {
+      "back_to_back_home_to_road": {
+        "games": 2,
+        "wins": 1,
+        "losses": 1
+      },
+      "road_trip_4th_plus": {
+        "games": 3,
+        "wins": 3,
+        "losses": 0
+      },
+      "three_in_four": {
+        "games": 8,
+        "wins": 6,
+        "losses": 2
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 99,
+        "wins": 50,
+        "losses": 49
+      }
+    },
+    "Atlanta Hawks": {
+      "back_to_back_home_to_road": {
+        "games": 5,
+        "wins": 4,
+        "losses": 1
+      },
+      "road_trip_4th_plus": {
+        "games": 5,
+        "wins": 1,
+        "losses": 4
+      },
+      "three_in_four": {
+        "games": 16,
+        "wins": 6,
+        "losses": 10
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 100,
+        "wins": 46,
+        "losses": 54
+      }
+    },
+    "Indiana Pacers": {
+      "back_to_back_home_to_road": {
+        "games": 5,
+        "wins": 2,
+        "losses": 3
+      },
+      "road_trip_4th_plus": {
+        "games": 2,
+        "wins": 1,
+        "losses": 1
+      },
+      "three_in_four": {
+        "games": 13,
+        "wins": 6,
+        "losses": 7
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 119,
+        "wins": 70,
+        "losses": 49
+      }
+    },
+    "Brooklyn Nets": {
+      "back_to_back_home_to_road": {
+        "games": 6,
+        "wins": 2,
+        "losses": 4
+      },
+      "road_trip_4th_plus": {
+        "games": 4,
+        "wins": 1,
+        "losses": 3
+      },
+      "three_in_four": {
+        "games": 16,
+        "wins": 6,
+        "losses": 10
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 96,
+        "wins": 29,
+        "losses": 67
+      }
+    },
+    "Sacramento Kings": {
+      "back_to_back_home_to_road": {
+        "games": 3,
+        "wins": 1,
+        "losses": 2
+      },
+      "road_trip_4th_plus": {
+        "games": 8,
+        "wins": 5,
+        "losses": 3
+      },
+      "three_in_four": {
+        "games": 10,
+        "wins": 5,
+        "losses": 5
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 98,
+        "wins": 43,
+        "losses": 55
+      }
+    },
+    "Portland Trail Blazers": {
+      "back_to_back_home_to_road": {
+        "games": 3,
+        "wins": 0,
+        "losses": 3
+      },
+      "road_trip_4th_plus": {
+        "games": 11,
+        "wins": 3,
+        "losses": 8
+      },
+      "three_in_four": {
+        "games": 15,
+        "wins": 8,
+        "losses": 7
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 96,
+        "wins": 44,
+        "losses": 52
+      }
+    },
+    "Ulm": {
+      "back_to_back_home_to_road": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "road_trip_4th_plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "three_in_four": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 1,
+        "wins": 0,
+        "losses": 1
+      }
+    },
+    "Team Chuck": {
+      "back_to_back_home_to_road": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "road_trip_4th_plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "three_in_four": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 2,
+        "wins": 1,
+        "losses": 1
+      }
+    },
+    "Team Kenny": {
+      "back_to_back_home_to_road": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "road_trip_4th_plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "three_in_four": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 1,
+        "wins": 0,
+        "losses": 1
+      }
+    },
+    "Team Shaq": {
+      "back_to_back_home_to_road": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "road_trip_4th_plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "three_in_four": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 2,
+        "wins": 2,
+        "losses": 0
+      }
+    },
+    "Team Candace": {
+      "back_to_back_home_to_road": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "road_trip_4th_plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "three_in_four": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 1,
+        "wins": 0,
+        "losses": 1
+      }
+    },
+    "Melbourne United": {
+      "back_to_back_home_to_road": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "road_trip_4th_plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "three_in_four": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 1,
+        "wins": 0,
+        "losses": 1
+      }
+    },
+    "Hapoel Jerusalem": {
+      "back_to_back_home_to_road": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "road_trip_4th_plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "three_in_four": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 1,
+        "wins": 0,
+        "losses": 1
+      }
+    },
+    "Melbourne Pnx": {
+      "back_to_back_home_to_road": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "road_trip_4th_plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "three_in_four": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 1,
+        "wins": 0,
+        "losses": 1
+      }
+    },
+    "Guangzhou Loong-Lions": {
+      "back_to_back_home_to_road": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "road_trip_4th_plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "three_in_four": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 3,
+        "wins": 0,
+        "losses": 3
+      }
+    }
+  },
+  "team_insights": [
+    {
+      "team": "Atlanta Hawks",
+      "situations": {
+        "back_to_back_home_to_road": {
+          "win_rate": 80.0,
+          "games": 5,
+          "differential": 34.16666666666667,
+          "record": "4-1"
+        },
+        "road_trip_4th_plus": {
+          "win_rate": 20.0,
+          "games": 5,
+          "differential": -21.17647058823529,
+          "record": "1-4"
+        },
+        "three_in_four": {
+          "win_rate": 37.5,
+          "games": 16,
+          "differential": -6.301652892561982,
+          "record": "6-10"
+        }
+      }
+    },
+    {
+      "team": "Boston Celtics",
+      "situations": {
+        "road_trip_4th_plus": {
+          "win_rate": 100.0,
+          "games": 6,
+          "differential": 58.82352941176471,
+          "record": "6-0"
+        },
+        "three_in_four": {
+          "win_rate": 66.66666666666666,
+          "games": 15,
+          "differential": 22.865013774104675,
+          "record": "10-5"
+        }
+      }
+    },
+    {
+      "team": "Brooklyn Nets",
+      "situations": {
+        "back_to_back_home_to_road": {
+          "win_rate": 33.33333333333333,
+          "games": 6,
+          "differential": -12.5,
+          "record": "2-4"
+        },
+        "three_in_four": {
+          "win_rate": 37.5,
+          "games": 16,
+          "differential": -6.301652892561982,
+          "record": "6-10"
+        }
+      }
+    },
+    {
+      "team": "Charlotte Hornets",
+      "situations": {
+        "road_trip_4th_plus": {
+          "win_rate": 36.36363636363637,
+          "games": 11,
+          "differential": -4.812834224598923,
+          "record": "4-7"
+        },
+        "three_in_four": {
+          "win_rate": 12.5,
+          "games": 16,
+          "differential": -31.301652892561982,
+          "record": "2-14"
+        }
+      }
+    },
+    {
+      "team": "Chicago Bulls",
+      "situations": {
+        "three_in_four": {
+          "win_rate": 75.0,
+          "games": 8,
+          "differential": 31.198347107438018,
+          "record": "6-2"
+        }
+      }
+    },
+    {
+      "team": "Cleveland Cavaliers",
+      "situations": {
+        "back_to_back_home_to_road": {
+          "win_rate": 80.0,
+          "games": 5,
+          "differential": 34.16666666666667,
+          "record": "4-1"
+        },
+        "three_in_four": {
+          "win_rate": 64.28571428571429,
+          "games": 14,
+          "differential": 20.48406139315231,
+          "record": "9-5"
+        }
+      }
+    },
+    {
+      "team": "Dallas Mavericks",
+      "situations": {
+        "back_to_back_home_to_road": {
+          "win_rate": 80.0,
+          "games": 5,
+          "differential": 34.16666666666667,
+          "record": "4-1"
+        },
+        "road_trip_4th_plus": {
+          "win_rate": 60.0,
+          "games": 5,
+          "differential": 18.82352941176471,
+          "record": "3-2"
+        },
+        "three_in_four": {
+          "win_rate": 54.54545454545454,
+          "games": 11,
+          "differential": 10.743801652892557,
+          "record": "6-5"
+        }
+      }
+    },
+    {
+      "team": "Denver Nuggets",
+      "situations": {
+        "three_in_four": {
+          "win_rate": 75.0,
+          "games": 12,
+          "differential": 31.198347107438018,
+          "record": "9-3"
+        }
+      }
+    },
+    {
+      "team": "Detroit Pistons",
+      "situations": {
+        "road_trip_4th_plus": {
+          "win_rate": 40.0,
+          "games": 5,
+          "differential": -1.17647058823529,
+          "record": "2-3"
+        },
+        "three_in_four": {
+          "win_rate": 42.857142857142854,
+          "games": 7,
+          "differential": -0.9445100354191283,
+          "record": "3-4"
+        }
+      }
+    },
+    {
+      "team": "Golden State Warriors",
+      "situations": {
+        "road_trip_4th_plus": {
+          "win_rate": 83.33333333333334,
+          "games": 12,
+          "differential": 42.15686274509805,
+          "record": "10-2"
+        },
+        "three_in_four": {
+          "win_rate": 50.0,
+          "games": 10,
+          "differential": 6.198347107438018,
+          "record": "5-5"
+        }
+      }
+    },
+    {
+      "team": "Houston Rockets",
+      "situations": {
+        "three_in_four": {
+          "win_rate": 36.36363636363637,
+          "games": 11,
+          "differential": -7.4380165289256155,
+          "record": "4-7"
+        }
+      }
+    },
+    {
+      "team": "Indiana Pacers",
+      "situations": {
+        "back_to_back_home_to_road": {
+          "win_rate": 40.0,
+          "games": 5,
+          "differential": -5.833333333333329,
+          "record": "2-3"
+        },
+        "three_in_four": {
+          "win_rate": 46.15384615384615,
+          "games": 13,
+          "differential": 2.352193261284171,
+          "record": "6-7"
+        }
+      }
+    },
+    {
+      "team": "LA Clippers",
+      "situations": {
+        "road_trip_4th_plus": {
+          "win_rate": 33.33333333333333,
+          "games": 9,
+          "differential": -7.843137254901961,
+          "record": "3-6"
+        },
+        "three_in_four": {
+          "win_rate": 70.0,
+          "games": 10,
+          "differential": 26.198347107438018,
+          "record": "7-3"
+        }
+      }
+    },
+    {
+      "team": "Los Angeles Lakers",
+      "situations": {
+        "road_trip_4th_plus": {
+          "win_rate": 50.0,
+          "games": 8,
+          "differential": 8.82352941176471,
+          "record": "4-4"
+        },
+        "three_in_four": {
+          "win_rate": 50.0,
+          "games": 14,
+          "differential": 6.198347107438018,
+          "record": "7-7"
+        }
+      }
+    },
+    {
+      "team": "Memphis Grizzlies",
+      "situations": {
+        "road_trip_4th_plus": {
+          "win_rate": 42.857142857142854,
+          "games": 7,
+          "differential": 1.6806722689075642,
+          "record": "3-4"
+        },
+        "three_in_four": {
+          "win_rate": 40.0,
+          "games": 10,
+          "differential": -3.8016528925619824,
+          "record": "4-6"
+        }
+      }
+    },
+    {
+      "team": "Miami Heat",
+      "situations": {
+        "road_trip_4th_plus": {
+          "win_rate": 20.0,
+          "games": 10,
+          "differential": -21.17647058823529,
+          "record": "2-8"
+        },
+        "three_in_four": {
+          "win_rate": 41.66666666666667,
+          "games": 12,
+          "differential": -2.134986225895311,
+          "record": "5-7"
+        }
+      }
+    },
+    {
+      "team": "Milwaukee Bucks",
+      "situations": {
+        "three_in_four": {
+          "win_rate": 41.66666666666667,
+          "games": 12,
+          "differential": -2.134986225895311,
+          "record": "5-7"
+        }
+      }
+    },
+    {
+      "team": "Minnesota Timberwolves",
+      "situations": {
+        "three_in_four": {
+          "win_rate": 80.0,
+          "games": 10,
+          "differential": 36.19834710743802,
+          "record": "8-2"
+        }
+      }
+    },
+    {
+      "team": "New Orleans Pelicans",
+      "situations": {
+        "three_in_four": {
+          "win_rate": 25.0,
+          "games": 8,
+          "differential": -18.801652892561982,
+          "record": "2-6"
+        }
+      }
+    },
+    {
+      "team": "New York Knicks",
+      "situations": {
+        "road_trip_4th_plus": {
+          "win_rate": 40.0,
+          "games": 5,
+          "differential": -1.17647058823529,
+          "record": "2-3"
+        },
+        "three_in_four": {
+          "win_rate": 58.333333333333336,
+          "games": 12,
+          "differential": 14.531680440771353,
+          "record": "7-5"
+        }
+      }
+    },
+    {
+      "team": "Oklahoma City Thunder",
+      "situations": {
+        "three_in_four": {
+          "win_rate": 80.0,
+          "games": 10,
+          "differential": 36.19834710743802,
+          "record": "8-2"
+        }
+      }
+    },
+    {
+      "team": "Orlando Magic",
+      "situations": {
+        "road_trip_4th_plus": {
+          "win_rate": 40.0,
+          "games": 10,
+          "differential": -1.17647058823529,
+          "record": "4-6"
+        },
+        "three_in_four": {
+          "win_rate": 60.0,
+          "games": 15,
+          "differential": 16.198347107438018,
+          "record": "9-6"
+        }
+      }
+    },
+    {
+      "team": "Philadelphia 76ers",
+      "situations": {
+        "back_to_back_home_to_road": {
+          "win_rate": 33.33333333333333,
+          "games": 6,
+          "differential": -12.5,
+          "record": "2-4"
+        },
+        "road_trip_4th_plus": {
+          "win_rate": 16.666666666666664,
+          "games": 6,
+          "differential": -24.509803921568626,
+          "record": "1-5"
+        },
+        "three_in_four": {
+          "win_rate": 20.0,
+          "games": 15,
+          "differential": -23.801652892561982,
+          "record": "3-12"
+        }
+      }
+    },
+    {
+      "team": "Phoenix Suns",
+      "situations": {
+        "road_trip_4th_plus": {
+          "win_rate": 25.0,
+          "games": 8,
+          "differential": -16.17647058823529,
+          "record": "2-6"
+        },
+        "three_in_four": {
+          "win_rate": 0.0,
+          "games": 14,
+          "differential": -43.80165289256198,
+          "record": "0-14"
+        }
+      }
+    },
+    {
+      "team": "Portland Trail Blazers",
+      "situations": {
+        "road_trip_4th_plus": {
+          "win_rate": 27.27272727272727,
+          "games": 11,
+          "differential": -13.90374331550802,
+          "record": "3-8"
+        },
+        "three_in_four": {
+          "win_rate": 53.333333333333336,
+          "games": 15,
+          "differential": 9.531680440771353,
+          "record": "8-7"
+        }
+      }
+    },
+    {
+      "team": "Sacramento Kings",
+      "situations": {
+        "road_trip_4th_plus": {
+          "win_rate": 62.5,
+          "games": 8,
+          "differential": 21.32352941176471,
+          "record": "5-3"
+        },
+        "three_in_four": {
+          "win_rate": 50.0,
+          "games": 10,
+          "differential": 6.198347107438018,
+          "record": "5-5"
+        }
+      }
+    },
+    {
+      "team": "San Antonio Spurs",
+      "situations": {
+        "road_trip_4th_plus": {
+          "win_rate": 42.857142857142854,
+          "games": 7,
+          "differential": 1.6806722689075642,
+          "record": "3-4"
+        },
+        "three_in_four": {
+          "win_rate": 33.33333333333333,
+          "games": 12,
+          "differential": -10.468319559228654,
+          "record": "4-8"
+        }
+      }
+    },
+    {
+      "team": "Toronto Raptors",
+      "situations": {
+        "back_to_back_home_to_road": {
+          "win_rate": 20.0,
+          "games": 5,
+          "differential": -25.83333333333333,
+          "record": "1-4"
+        },
+        "road_trip_4th_plus": {
+          "win_rate": 20.0,
+          "games": 5,
+          "differential": -21.17647058823529,
+          "record": "1-4"
+        },
+        "three_in_four": {
+          "win_rate": 23.076923076923077,
+          "games": 13,
+          "differential": -20.724729815638906,
+          "record": "3-10"
+        }
+      }
+    },
+    {
+      "team": "Utah Jazz",
+      "situations": {
+        "road_trip_4th_plus": {
+          "win_rate": 11.11111111111111,
+          "games": 9,
+          "differential": -30.06535947712418,
+          "record": "1-8"
+        },
+        "three_in_four": {
+          "win_rate": 0.0,
+          "games": 10,
+          "differential": -43.80165289256198,
+          "record": "0-10"
+        }
+      }
+    },
+    {
+      "team": "Washington Wizards",
+      "situations": {
+        "road_trip_4th_plus": {
+          "win_rate": 30.0,
+          "games": 10,
+          "differential": -11.17647058823529,
+          "record": "3-7"
+        },
+        "three_in_four": {
+          "win_rate": 16.666666666666664,
+          "games": 12,
+          "differential": -27.134986225895318,
+          "record": "2-10"
+        }
+      }
+    }
+  ]
+}

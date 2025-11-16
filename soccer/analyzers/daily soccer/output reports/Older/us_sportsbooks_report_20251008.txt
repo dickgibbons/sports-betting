@@ -1,0 +1,70 @@
+🇺🇸 US SPORTSBOOKS COMPARISON REPORT - 2025-10-08
+============================================================
+Comparing DraftKings vs FanDuel Soccer Odds
+
+⚽ Los Angeles FC vs Toronto FC
+   🏆 Usa Mls | 🕒 2025-10-09T02:30:00Z
+   Home: DK -230 | FD -240 | DraftKings better 🥇
+   Draw: DK +350 | FD +370 | FanDuel better 🥇
+   Away: DK +500 | FD +550 | FanDuel better 🥇
+
+⚽ Inter Miami CF vs Atlanta United FC
+   🏆 Usa Mls | 🕒 2025-10-11T23:30:00Z
+   Home: DK +390 | FD +470 | FanDuel better 🥇
+   Draw: DK +360 | FD +380 | FanDuel better 🥇
+   Away: DK -205 | FD -210 | DraftKings better 🥇
+
+⚽ Orlando City SC vs Vancouver Whitecaps FC
+   🏆 Usa Mls | 🕒 2025-10-11T23:30:00Z
+   Home: DK +100 | FD +105 | FanDuel better 🥇
+   Draw: DK +270 | FD +270
+   Away: DK +200 | FD +230 | FanDuel better 🥇
+
+⚽ Seattle Sounders FC vs Real Salt Lake
+   🏆 Usa Mls | 🕒 2025-10-12T01:30:00Z
+   Home: DK +300 | FD +340 | FanDuel better 🥇
+   Draw: DK +295 | FD +300 | FanDuel better 🥇
+   Away: DK -145 | FD -145
+
+⚽ LA Galaxy vs FC Dallas
+   🏆 Usa Mls | 🕒 2025-10-12T02:30:00Z
+   Home: DK +180 | FD +195 | FanDuel better 🥇
+   Draw: DK +265 | FD +270 | FanDuel better 🥇
+   Away: DK +115 | FD +115
+
+⚽ FC Cincinnati vs CF Montreal
+   🏆 Usa Mls | 🕒 2025-10-18T22:00:00Z
+   Home: DK +370 | FD +410 | FanDuel better 🥇
+   Draw: DK +340 | FD +340
+   Away: DK -195 | FD -200 | DraftKings better 🥇
+
+⚽ Charlotte FC vs Philadelphia Union
+   🏆 Usa Mls | 🕒 2025-10-18T22:00:00Z
+   Home: DK +135 | FD +150 | FanDuel better 🥇
+   Draw: DK +245 | FD +240 | DraftKings better 🥇
+   Away: DK +150 | FD +150
+
+⚽ New England Revolution vs Chicago Fire
+   🏆 Usa Mls | 🕒 2025-10-18T22:00:00Z
+   Home: DK +125 | FD +130 | FanDuel better 🥇
+   Draw: DK +265 | FD +260 | DraftKings better 🥇
+   Away: DK +155 | FD +160 | FanDuel better 🥇
+
+⚽ Columbus Crew SC vs New York Red Bulls
+   🏆 Usa Mls | 🕒 2025-10-18T22:00:00Z
+   Home: DK -150 | FD -165 | DraftKings better 🥇
+   Draw: DK +265 | FD +300 | FanDuel better 🥇
+   Away: DK +340 | FD +370 | FanDuel better 🥇
+
+⚽ Sporting Kansas City vs Houston Dynamo
+   🏆 Usa Mls | 🕒 2025-10-19T01:00:00Z
+   Home: DK +145 | FD +150 | FanDuel better 🥇
+   Draw: DK +250 | FD +250
+   Away: DK +145 | FD +150 | FanDuel better 🥇
+
+📊 SUMMARY:
+   Total Matches Compared: 49
+   DraftKings Better: 6 markets
+   FanDuel Better: 18 markets
+   DraftKings Win Rate: 25.0%
+   FanDuel Win Rate: 75.0%

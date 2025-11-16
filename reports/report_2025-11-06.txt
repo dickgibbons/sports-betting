@@ -1,0 +1,39 @@
+DAILY BETTING REPORT - 2025-11-06
+================================================================================
+
+#1 NHL: WSH @ PIT
+BET: PIT ML
+Edge: +17.0% | Confidence: ELITE
+
+#2 SOCCER: SC Freiburg @ Nice
+BET: BET: Nice -1.5 Goals
+Edge: +11.5% | Confidence: HIGH
+
+#3 NBA: LA Clippers @ Phoenix Suns
+BET: Phoenix Suns ML
+Edge: +10.0% | Confidence: HIGH
+
+#4 NHL: STL @ BUF
+BET: BUF ML
+Edge: +6.5% | Confidence: LOW
+
+#5 NHL: PHI @ NSH
+BET: PHI ML
+Edge: +6.5% | Confidence: LOW
+
+#6 SOCCER: AS Roma @ Rangers FC
+BET: BET: Rangers FC Win or Draw
+Edge: +6.5% | Confidence: MEDIUM
+
+#7 SOCCER: Lyon @ Real Betis
+BET: BET: Real Betis Win or Draw
+Edge: +6.5% | Confidence: MEDIUM
+
+#8 NHL: OTT @ BOS
+BET: OTT ML
+Edge: +5.0% | Confidence: LOW
+
+#9 NHL: MTL @ NJD
+BET: NJD ML
+Edge: +5.0% | Confidence: LOW
+

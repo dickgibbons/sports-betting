@@ -1,0 +1,70 @@
+🇺🇸 US SPORTSBOOKS COMPARISON REPORT - 2025-10-05
+============================================================
+Comparing DraftKings vs FanDuel Soccer Odds
+
+⚽ Vancouver Whitecaps FC vs San Jose Earthquakes
+   🏆 Usa Mls | 🕒 2025-10-05T22:00:00Z
+   Home: DK +450 | FD +470 | FanDuel better 🥇
+   Draw: DK +360 | FD +380 | FanDuel better 🥇
+   Away: DK -210 | FD -210
+
+⚽ Los Angeles FC vs Atlanta United FC
+   🏆 Usa Mls | 🕒 2025-10-06T01:00:00Z
+   Home: DK +500 | FD +550 | FanDuel better 🥇
+   Draw: DK +400 | FD +430 | FanDuel better 🥇
+   Away: DK -260 | FD -270 | DraftKings better 🥇
+
+⚽ Crystal Palace vs Bournemouth
+   🏆 Epl | 🕒 2025-10-18T14:00:00Z
+   Home: DK +215 | FD +220 | FanDuel better 🥇
+   Draw: DK +230 | FD +240 | FanDuel better 🥇
+   Away: DK +120 | FD +125 | FanDuel better 🥇
+
+⚽ Brighton and Hove Albion vs Newcastle United
+   🏆 Epl | 🕒 2025-10-18T14:00:00Z
+   Home: DK +145 | FD +155 | FanDuel better 🥇
+   Draw: DK +235 | FD +230 | DraftKings better 🥇
+   Away: DK +175 | FD +175
+
+⚽ Burnley vs Leeds United
+   🏆 Epl | 🕒 2025-10-18T14:00:00Z
+   Home: DK +220 | FD +230 | FanDuel better 🥇
+   Draw: DK +230 | FD +220 | DraftKings better 🥇
+   Away: DK +120 | FD +125 | FanDuel better 🥇
+
+⚽ Manchester City vs Everton
+   🏆 Epl | 🕒 2025-10-18T14:00:00Z
+   Home: DK +600 | FD +650 | FanDuel better 🥇
+   Draw: DK +370 | FD +390 | FanDuel better 🥇
+   Away: DK -255 | FD -260 | DraftKings better 🥇
+
+⚽ Sunderland vs Wolverhampton Wanderers
+   🏆 Epl | 🕒 2025-10-18T14:00:00Z
+   Home: DK +140 | FD +140
+   Draw: DK +205 | FD +210 | FanDuel better 🥇
+   Away: DK +205 | FD +220 | FanDuel better 🥇
+
+⚽ Fulham vs Arsenal
+   🏆 Epl | 🕒 2025-10-18T16:30:00Z
+   Home: DK -170 | FD -170
+   Draw: DK +310 | FD +300 | DraftKings better 🥇
+   Away: DK +400 | FD +480 | FanDuel better 🥇
+
+⚽ Tottenham Hotspur vs Aston Villa
+   🏆 Epl | 🕒 2025-10-19T13:00:00Z
+   Home: DK +225 | FD +230 | FanDuel better 🥇
+   Draw: DK +260 | FD +250 | DraftKings better 🥇
+   Away: DK +105 | FD +110 | FanDuel better 🥇
+
+⚽ Liverpool vs Manchester United
+   🏆 Epl | 🕒 2025-10-19T15:30:00Z
+   Home: DK -175 | FD -170 | FanDuel better 🥇
+   Draw: DK +320 | FD +350 | FanDuel better 🥇
+   Away: DK +425 | FD +410 | DraftKings better 🥇
+
+📊 SUMMARY:
+   Total Matches Compared: 29
+   DraftKings Better: 7 markets
+   FanDuel Better: 19 markets
+   DraftKings Win Rate: 26.9%
+   FanDuel Win Rate: 73.1%

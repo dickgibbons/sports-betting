@@ -1,0 +1,34 @@
+NBA BETTING REPORT - 2025-11-08
+================================================================================
+
+#1 Indiana Pacers @ Denver Nuggets
+BET: Indiana Pacers ML
+ODDS: +460 | True EV: +311.6%
+Confidence: ELITE
+Angles: 3
+  1. Denver Nuggets playing 3rd game in 4 nights (heavy fatigue)
+  2. Indiana Pacers has 2 days rest vs Denver Nuggets 0 days
+
+#2 Portland Trail Blazers @ Miami Heat
+BET: Portland Trail Blazers ML
+ODDS: -146 | True EV: +14.6%
+Confidence: ELITE
+Angles: 2
+  1. Miami Heat playing 3rd game in 4 nights (heavy fatigue)
+  2. Portland Trail Blazers has 2 days rest vs Miami Heat 0 days
+
+#3 New Orleans Pelicans @ San Antonio Spurs
+BET: New Orleans Pelicans ML
+ODDS: +425 | True EV: +257.0%
+Confidence: ELITE
+Angles: 2
+  1. San Antonio Spurs playing 3rd game in 4 nights (heavy fatigue)
+  2. New Orleans Pelicans has 2 days rest vs San Antonio Spurs 0 days
+
+#4 Chicago Bulls @ Cleveland Cavaliers
+BET: Chicago Bulls ML
+ODDS: +265 | True EV: +119.0%
+Confidence: HIGH
+Angles: 1
+  1. Cleveland Cavaliers playing 3rd game in 4 nights (heavy fatigue)
+

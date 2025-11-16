@@ -1,0 +1,31 @@
+NHL BETTING REPORT - 2025-11-08
+================================================================================
+
+#1 NYI @ NYR
+BET: NYR ML
+Edge: +12.0%
+Confidence: HIGH
+Angles: 1
+  1. NYI on HOME → ROAD B2B (80% win rate historical)
+
+#2 WSH @ TBL
+BET: TBL ML
+Edge: +6.5%
+Confidence: LOW
+Angles: 1
+  1. WSH playing 3rd game in 4 nights (heavy fatigue)
+
+#3 SEA @ STL
+BET: SEA ML
+Edge: +6.5%
+Confidence: LOW
+Angles: 1
+  1. STL playing 3rd game in 4 nights (heavy fatigue)
+
+#4 FLA @ SJS
+BET: FLA ML
+Edge: +6.5%
+Confidence: LOW
+Angles: 1
+  1. SJS playing 3rd game in 4 nights (heavy fatigue)
+

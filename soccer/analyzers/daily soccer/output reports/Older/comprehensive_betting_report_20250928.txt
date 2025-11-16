@@ -1,0 +1,79 @@
+
+📊 COMPREHENSIVE BETTING PERFORMANCE REPORT
+======================================================================
+Generated: 2025-09-28 15:26:39
+Model: Multi-Strategy Profit Maximizer
+
+💰 FINANCIAL SUMMARY:
+   Initial Bankroll: $1,000.00
+   Final Bankroll: $4,321.50
+   Total Profit: $+3,321.50
+   Bankroll Growth: +332.2%
+
+📈 BETTING STATISTICS:
+   Total Bets: 257
+   Winning Bets: 141
+   Losing Bets: 116
+   Win Rate: 54.9%
+
+   Total Stakes: $6,425.00
+   ROI: +51.7%
+   Average Profit per Bet: $+12.92
+
+   Largest Win: $+135.00
+   Largest Loss: $-25.00
+
+📊 STRATEGY PERFORMANCE BREAKDOWN:
+
+   HIGH VALUE:
+      Bets: 87
+      Win Rate: 35.6%
+      Profit: $+1,490.25
+      ROI: +68.5%
+      Avg Odds: 4.89
+
+   GOALS:
+      Bets: 78
+      Win Rate: 59.0%
+      Profit: $+733.00
+      ROI: +37.6%
+      Avg Odds: 2.35
+
+   ELITE HOME:
+      Bets: 32
+      Win Rate: 62.5%
+      Profit: $+291.00
+      ROI: +36.4%
+      Avg Odds: 2.19
+
+   BTTS:
+      Bets: 60
+      Win Rate: 73.3%
+      Profit: $+807.25
+      ROI: +53.8%
+      Avg Odds: 2.07
+
+🏆 PERFORMANCE HIGHLIGHTS:
+   Best Strategy (ROI): High Value
+   Best Strategy (Win Rate): Btts
+   Most Active Strategy: High Value
+
+📋 RISK MANAGEMENT:
+   ✅ Maximum 3 bets per day
+   ✅ Fixed $25 stake per bet
+   ✅ Multi-strategy diversification
+   ✅ Quality opportunity selection
+
+💡 KEY INSIGHTS:
+   • Model maintained consistent profitability
+   • Multiple strategies reduced overall risk
+   • Disciplined approach prevented large losses
+   • Quality over quantity approach worked effectively
+
+📊 DATA FILES GENERATED:
+   • all_bets_detailed_[date].csv - Every single bet with full details
+   • daily_summaries_[date].csv - Day-by-day performance summary
+   • betting_analysis_[date].json - Strategy breakdown data
+
+This report validates the model's profitability and provides complete
+transparency into every betting decision and outcome.

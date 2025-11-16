@@ -1,0 +1,15 @@
+[
+  {
+    "kick_off": "15:30",
+    "home_team": "Wisla Plock",
+    "away_team": "Cracovia Krakow",
+    "league": "Ekstraklasa",
+    "country": "Poland",
+    "home_odds": 2.38,
+    "draw_odds": 3.1,
+    "away_odds": 3.25,
+    "source": "API-Sports",
+    "fixture_id": 1380455,
+    "status": "PST"
+  }
+]

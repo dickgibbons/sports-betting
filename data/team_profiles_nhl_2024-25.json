@@ -1,0 +1,1542 @@
+{
+  "league_averages": {
+    "back_to_back_home_to_road": {
+      "games": 111,
+      "wins": 42
+    },
+    "road_trip_4th_plus": {
+      "games": 221,
+      "wins": 89
+    },
+    "three_in_four": {
+      "games": 332,
+      "wins": 141
+    }
+  },
+  "team_stats": {
+    "PIT": {
+      "back_to_back_home_to_road": {
+        "games": 2,
+        "wins": 1,
+        "losses": 1
+      },
+      "road_trip_4th_plus": {
+        "games": 5,
+        "wins": 1,
+        "losses": 4
+      },
+      "three_in_four": {
+        "games": 10,
+        "wins": 4,
+        "losses": 6
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 105,
+        "wins": 49,
+        "losses": 56
+      }
+    },
+    "DET": {
+      "back_to_back_home_to_road": {
+        "games": 5,
+        "wins": 1,
+        "losses": 4
+      },
+      "road_trip_4th_plus": {
+        "games": 5,
+        "wins": 2,
+        "losses": 3
+      },
+      "three_in_four": {
+        "games": 19,
+        "wins": 7,
+        "losses": 12
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 107,
+        "wins": 54,
+        "losses": 53
+      }
+    },
+    "NYR": {
+      "back_to_back_home_to_road": {
+        "games": 5,
+        "wins": 2,
+        "losses": 3
+      },
+      "road_trip_4th_plus": {
+        "games": 3,
+        "wins": 2,
+        "losses": 1
+      },
+      "three_in_four": {
+        "games": 10,
+        "wins": 5,
+        "losses": 5
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 103,
+        "wins": 48,
+        "losses": 55
+      }
+    },
+    "NJD": {
+      "back_to_back_home_to_road": {
+        "games": 3,
+        "wins": 1,
+        "losses": 2
+      },
+      "road_trip_4th_plus": {
+        "games": 8,
+        "wins": 3,
+        "losses": 5
+      },
+      "three_in_four": {
+        "games": 8,
+        "wins": 5,
+        "losses": 3
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 109,
+        "wins": 55,
+        "losses": 54
+      }
+    },
+    "MTL": {
+      "back_to_back_home_to_road": {
+        "games": 4,
+        "wins": 3,
+        "losses": 1
+      },
+      "road_trip_4th_plus": {
+        "games": 7,
+        "wins": 4,
+        "losses": 3
+      },
+      "three_in_four": {
+        "games": 9,
+        "wins": 5,
+        "losses": 4
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 107,
+        "wins": 54,
+        "losses": 53
+      }
+    },
+    "OTT": {
+      "back_to_back_home_to_road": {
+        "games": 4,
+        "wins": 2,
+        "losses": 2
+      },
+      "road_trip_4th_plus": {
+        "games": 8,
+        "wins": 1,
+        "losses": 7
+      },
+      "three_in_four": {
+        "games": 10,
+        "wins": 3,
+        "losses": 7
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 110,
+        "wins": 59,
+        "losses": 51
+      }
+    },
+    "BOS": {
+      "back_to_back_home_to_road": {
+        "games": 4,
+        "wins": 2,
+        "losses": 2
+      },
+      "road_trip_4th_plus": {
+        "games": 4,
+        "wins": 1,
+        "losses": 3
+      },
+      "three_in_four": {
+        "games": 7,
+        "wins": 2,
+        "losses": 5
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 105,
+        "wins": 45,
+        "losses": 60
+      }
+    },
+    "PHI": {
+      "back_to_back_home_to_road": {
+        "games": 4,
+        "wins": 1,
+        "losses": 3
+      },
+      "road_trip_4th_plus": {
+        "games": 7,
+        "wins": 1,
+        "losses": 6
+      },
+      "three_in_four": {
+        "games": 9,
+        "wins": 5,
+        "losses": 4
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 103,
+        "wins": 43,
+        "losses": 60
+      }
+    },
+    "MIN": {
+      "back_to_back_home_to_road": {
+        "games": 4,
+        "wins": 1,
+        "losses": 3
+      },
+      "road_trip_4th_plus": {
+        "games": 8,
+        "wins": 4,
+        "losses": 4
+      },
+      "three_in_four": {
+        "games": 12,
+        "wins": 5,
+        "losses": 7
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 109,
+        "wins": 56,
+        "losses": 53
+      }
+    },
+    "CHI": {
+      "back_to_back_home_to_road": {
+        "games": 5,
+        "wins": 0,
+        "losses": 5
+      },
+      "road_trip_4th_plus": {
+        "games": 6,
+        "wins": 4,
+        "losses": 2
+      },
+      "three_in_four": {
+        "games": 8,
+        "wins": 3,
+        "losses": 5
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 103,
+        "wins": 33,
+        "losses": 70
+      }
+    },
+    "STL": {
+      "back_to_back_home_to_road": {
+        "games": 2,
+        "wins": 0,
+        "losses": 2
+      },
+      "road_trip_4th_plus": {
+        "games": 6,
+        "wins": 2,
+        "losses": 4
+      },
+      "three_in_four": {
+        "games": 6,
+        "wins": 1,
+        "losses": 5
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 110,
+        "wins": 53,
+        "losses": 57
+      }
+    },
+    "CBJ": {
+      "back_to_back_home_to_road": {
+        "games": 11,
+        "wins": 2,
+        "losses": 9
+      },
+      "road_trip_4th_plus": {
+        "games": 7,
+        "wins": 1,
+        "losses": 6
+      },
+      "three_in_four": {
+        "games": 14,
+        "wins": 4,
+        "losses": 10
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 104,
+        "wins": 50,
+        "losses": 54
+      }
+    },
+    "COL": {
+      "back_to_back_home_to_road": {
+        "games": 2,
+        "wins": 0,
+        "losses": 2
+      },
+      "road_trip_4th_plus": {
+        "games": 6,
+        "wins": 2,
+        "losses": 4
+      },
+      "three_in_four": {
+        "games": 12,
+        "wins": 7,
+        "losses": 5
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 111,
+        "wins": 64,
+        "losses": 47
+      }
+    },
+    "VGK": {
+      "back_to_back_home_to_road": {
+        "games": 3,
+        "wins": 3,
+        "losses": 0
+      },
+      "road_trip_4th_plus": {
+        "games": 4,
+        "wins": 2,
+        "losses": 2
+      },
+      "three_in_four": {
+        "games": 10,
+        "wins": 6,
+        "losses": 4
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 114,
+        "wins": 65,
+        "losses": 49
+      }
+    },
+    "SJS": {
+      "back_to_back_home_to_road": {
+        "games": 3,
+        "wins": 2,
+        "losses": 1
+      },
+      "road_trip_4th_plus": {
+        "games": 13,
+        "wins": 5,
+        "losses": 8
+      },
+      "three_in_four": {
+        "games": 12,
+        "wins": 3,
+        "losses": 9
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 104,
+        "wins": 27,
+        "losses": 77
+      }
+    },
+    "UTA": {
+      "back_to_back_home_to_road": {
+        "games": 2,
+        "wins": 1,
+        "losses": 1
+      },
+      "road_trip_4th_plus": {
+        "games": 6,
+        "wins": 1,
+        "losses": 5
+      },
+      "three_in_four": {
+        "games": 10,
+        "wins": 5,
+        "losses": 5
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 104,
+        "wins": 50,
+        "losses": 54
+      }
+    },
+    "TBL": {
+      "back_to_back_home_to_road": {
+        "games": 1,
+        "wins": 1,
+        "losses": 0
+      },
+      "road_trip_4th_plus": {
+        "games": 5,
+        "wins": 2,
+        "losses": 3
+      },
+      "three_in_four": {
+        "games": 9,
+        "wins": 4,
+        "losses": 5
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 109,
+        "wins": 60,
+        "losses": 49
+      }
+    },
+    "FLA": {
+      "back_to_back_home_to_road": {
+        "games": 2,
+        "wins": 0,
+        "losses": 2
+      },
+      "road_trip_4th_plus": {
+        "games": 11,
+        "wins": 6,
+        "losses": 5
+      },
+      "three_in_four": {
+        "games": 10,
+        "wins": 3,
+        "losses": 7
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 126,
+        "wins": 74,
+        "losses": 52
+      }
+    },
+    "CAR": {
+      "back_to_back_home_to_road": {
+        "games": 4,
+        "wins": 2,
+        "losses": 2
+      },
+      "road_trip_4th_plus": {
+        "games": 9,
+        "wins": 5,
+        "losses": 4
+      },
+      "three_in_four": {
+        "games": 9,
+        "wins": 3,
+        "losses": 6
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 117,
+        "wins": 66,
+        "losses": 51
+      }
+    },
+    "NSH": {
+      "back_to_back_home_to_road": {
+        "games": 2,
+        "wins": 0,
+        "losses": 2
+      },
+      "road_trip_4th_plus": {
+        "games": 7,
+        "wins": 3,
+        "losses": 4
+      },
+      "three_in_four": {
+        "games": 14,
+        "wins": 3,
+        "losses": 11
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 104,
+        "wins": 40,
+        "losses": 64
+      }
+    },
+    "WPG": {
+      "back_to_back_home_to_road": {
+        "games": 1,
+        "wins": 0,
+        "losses": 1
+      },
+      "road_trip_4th_plus": {
+        "games": 4,
+        "wins": 0,
+        "losses": 4
+      },
+      "three_in_four": {
+        "games": 5,
+        "wins": 2,
+        "losses": 3
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 115,
+        "wins": 75,
+        "losses": 40
+      }
+    },
+    "CGY": {
+      "back_to_back_home_to_road": {
+        "games": 5,
+        "wins": 2,
+        "losses": 3
+      },
+      "road_trip_4th_plus": {
+        "games": 7,
+        "wins": 4,
+        "losses": 3
+      },
+      "three_in_four": {
+        "games": 12,
+        "wins": 4,
+        "losses": 8
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 106,
+        "wins": 47,
+        "losses": 59
+      }
+    },
+    "SEA": {
+      "back_to_back_home_to_road": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "road_trip_4th_plus": {
+        "games": 13,
+        "wins": 4,
+        "losses": 9
+      },
+      "three_in_four": {
+        "games": 17,
+        "wins": 5,
+        "losses": 12
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 100,
+        "wins": 44,
+        "losses": 56
+      }
+    },
+    "EDM": {
+      "back_to_back_home_to_road": {
+        "games": 2,
+        "wins": 1,
+        "losses": 1
+      },
+      "road_trip_4th_plus": {
+        "games": 8,
+        "wins": 5,
+        "losses": 3
+      },
+      "three_in_four": {
+        "games": 11,
+        "wins": 6,
+        "losses": 5
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 127,
+        "wins": 72,
+        "losses": 55
+      }
+    },
+    "ANA": {
+      "back_to_back_home_to_road": {
+        "games": 2,
+        "wins": 0,
+        "losses": 2
+      },
+      "road_trip_4th_plus": {
+        "games": 9,
+        "wins": 3,
+        "losses": 6
+      },
+      "three_in_four": {
+        "games": 11,
+        "wins": 3,
+        "losses": 8
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 102,
+        "wins": 48,
+        "losses": 54
+      }
+    },
+    "TOR": {
+      "back_to_back_home_to_road": {
+        "games": 7,
+        "wins": 4,
+        "losses": 3
+      },
+      "road_trip_4th_plus": {
+        "games": 2,
+        "wins": 1,
+        "losses": 1
+      },
+      "three_in_four": {
+        "games": 10,
+        "wins": 5,
+        "losses": 5
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 115,
+        "wins": 69,
+        "losses": 46
+      }
+    },
+    "LAK": {
+      "back_to_back_home_to_road": {
+        "games": 2,
+        "wins": 2,
+        "losses": 0
+      },
+      "road_trip_4th_plus": {
+        "games": 14,
+        "wins": 7,
+        "losses": 7
+      },
+      "three_in_four": {
+        "games": 12,
+        "wins": 7,
+        "losses": 5
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 110,
+        "wins": 61,
+        "losses": 49
+      }
+    },
+    "DAL": {
+      "back_to_back_home_to_road": {
+        "games": 5,
+        "wins": 3,
+        "losses": 2
+      },
+      "road_trip_4th_plus": {
+        "games": 7,
+        "wins": 4,
+        "losses": 3
+      },
+      "three_in_four": {
+        "games": 10,
+        "wins": 6,
+        "losses": 4
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 119,
+        "wins": 70,
+        "losses": 49
+      }
+    },
+    "BUF": {
+      "back_to_back_home_to_road": {
+        "games": 5,
+        "wins": 0,
+        "losses": 5
+      },
+      "road_trip_4th_plus": {
+        "games": 4,
+        "wins": 2,
+        "losses": 2
+      },
+      "three_in_four": {
+        "games": 13,
+        "wins": 6,
+        "losses": 7
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 100,
+        "wins": 44,
+        "losses": 56
+      }
+    },
+    "NYI": {
+      "back_to_back_home_to_road": {
+        "games": 3,
+        "wins": 1,
+        "losses": 2
+      },
+      "road_trip_4th_plus": {
+        "games": 3,
+        "wins": 1,
+        "losses": 2
+      },
+      "three_in_four": {
+        "games": 7,
+        "wins": 4,
+        "losses": 3
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 101,
+        "wins": 44,
+        "losses": 57
+      }
+    },
+    "VAN": {
+      "back_to_back_home_to_road": {
+        "games": 1,
+        "wins": 1,
+        "losses": 0
+      },
+      "road_trip_4th_plus": {
+        "games": 13,
+        "wins": 5,
+        "losses": 8
+      },
+      "three_in_four": {
+        "games": 7,
+        "wins": 5,
+        "losses": 2
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 102,
+        "wins": 49,
+        "losses": 53
+      }
+    },
+    "WSH": {
+      "back_to_back_home_to_road": {
+        "games": 6,
+        "wins": 3,
+        "losses": 3
+      },
+      "road_trip_4th_plus": {
+        "games": 2,
+        "wins": 1,
+        "losses": 1
+      },
+      "three_in_four": {
+        "games": 9,
+        "wins": 5,
+        "losses": 4
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 111,
+        "wins": 68,
+        "losses": 43
+      }
+    },
+    "SWE": {
+      "back_to_back_home_to_road": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "road_trip_4th_plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "three_in_four": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 3,
+        "wins": 1,
+        "losses": 2
+      }
+    },
+    "CAN": {
+      "back_to_back_home_to_road": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "road_trip_4th_plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "three_in_four": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 4,
+        "wins": 3,
+        "losses": 1
+      }
+    },
+    "FIN": {
+      "back_to_back_home_to_road": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "road_trip_4th_plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "three_in_four": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 3,
+        "wins": 1,
+        "losses": 2
+      }
+    },
+    "USA": {
+      "back_to_back_home_to_road": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "road_trip_4th_plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "three_in_four": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "rest_advantage_2plus": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "overall": {
+        "games": 4,
+        "wins": 2,
+        "losses": 2
+      }
+    }
+  },
+  "team_insights": [
+    {
+      "team": "ANA",
+      "situations": {
+        "road_trip_4th_plus": {
+          "win_rate": 33.33333333333333,
+          "games": 9,
+          "differential": -6.938159879336354,
+          "record": "3-6"
+        },
+        "three_in_four": {
+          "win_rate": 27.27272727272727,
+          "games": 11,
+          "differential": -15.19715224534502,
+          "record": "3-8"
+        }
+      }
+    },
+    {
+      "team": "BOS",
+      "situations": {
+        "three_in_four": {
+          "win_rate": 28.57142857142857,
+          "games": 7,
+          "differential": -13.89845094664372,
+          "record": "2-5"
+        }
+      }
+    },
+    {
+      "team": "BUF",
+      "situations": {
+        "back_to_back_home_to_road": {
+          "win_rate": 0.0,
+          "games": 5,
+          "differential": -37.83783783783784,
+          "record": "0-5"
+        },
+        "three_in_four": {
+          "win_rate": 46.15384615384615,
+          "games": 13,
+          "differential": 3.6839666357738636,
+          "record": "6-7"
+        }
+      }
+    },
+    {
+      "team": "CAR",
+      "situations": {
+        "road_trip_4th_plus": {
+          "win_rate": 55.55555555555556,
+          "games": 9,
+          "differential": 15.284062342885875,
+          "record": "5-4"
+        },
+        "three_in_four": {
+          "win_rate": 33.33333333333333,
+          "games": 9,
+          "differential": -9.136546184738961,
+          "record": "3-6"
+        }
+      }
+    },
+    {
+      "team": "CBJ",
+      "situations": {
+        "back_to_back_home_to_road": {
+          "win_rate": 18.181818181818183,
+          "games": 11,
+          "differential": -19.656019656019655,
+          "record": "2-9"
+        },
+        "road_trip_4th_plus": {
+          "win_rate": 14.285714285714285,
+          "games": 7,
+          "differential": -25.985778926955398,
+          "record": "1-6"
+        },
+        "three_in_four": {
+          "win_rate": 28.57142857142857,
+          "games": 14,
+          "differential": -13.89845094664372,
+          "record": "4-10"
+        }
+      }
+    },
+    {
+      "team": "CGY",
+      "situations": {
+        "back_to_back_home_to_road": {
+          "win_rate": 40.0,
+          "games": 5,
+          "differential": 2.1621621621621614,
+          "record": "2-3"
+        },
+        "road_trip_4th_plus": {
+          "win_rate": 57.14285714285714,
+          "games": 7,
+          "differential": 16.871363930187457,
+          "record": "4-3"
+        },
+        "three_in_four": {
+          "win_rate": 33.33333333333333,
+          "games": 12,
+          "differential": -9.136546184738961,
+          "record": "4-8"
+        }
+      }
+    },
+    {
+      "team": "CHI",
+      "situations": {
+        "back_to_back_home_to_road": {
+          "win_rate": 0.0,
+          "games": 5,
+          "differential": -37.83783783783784,
+          "record": "0-5"
+        },
+        "road_trip_4th_plus": {
+          "win_rate": 66.66666666666666,
+          "games": 6,
+          "differential": 26.395173453996975,
+          "record": "4-2"
+        },
+        "three_in_four": {
+          "win_rate": 37.5,
+          "games": 8,
+          "differential": -4.96987951807229,
+          "record": "3-5"
+        }
+      }
+    },
+    {
+      "team": "COL",
+      "situations": {
+        "road_trip_4th_plus": {
+          "win_rate": 33.33333333333333,
+          "games": 6,
+          "differential": -6.938159879336354,
+          "record": "2-4"
+        },
+        "three_in_four": {
+          "win_rate": 58.333333333333336,
+          "games": 12,
+          "differential": 15.863453815261046,
+          "record": "7-5"
+        }
+      }
+    },
+    {
+      "team": "DAL",
+      "situations": {
+        "back_to_back_home_to_road": {
+          "win_rate": 60.0,
+          "games": 5,
+          "differential": 22.16216216216216,
+          "record": "3-2"
+        },
+        "road_trip_4th_plus": {
+          "win_rate": 57.14285714285714,
+          "games": 7,
+          "differential": 16.871363930187457,
+          "record": "4-3"
+        },
+        "three_in_four": {
+          "win_rate": 60.0,
+          "games": 10,
+          "differential": 17.53012048192771,
+          "record": "6-4"
+        }
+      }
+    },
+    {
+      "team": "DET",
+      "situations": {
+        "back_to_back_home_to_road": {
+          "win_rate": 20.0,
+          "games": 5,
+          "differential": -17.83783783783784,
+          "record": "1-4"
+        },
+        "road_trip_4th_plus": {
+          "win_rate": 40.0,
+          "games": 5,
+          "differential": -0.2714932126696823,
+          "record": "2-3"
+        },
+        "three_in_four": {
+          "win_rate": 36.84210526315789,
+          "games": 19,
+          "differential": -5.627774254914399,
+          "record": "7-12"
+        }
+      }
+    },
+    {
+      "team": "EDM",
+      "situations": {
+        "road_trip_4th_plus": {
+          "win_rate": 62.5,
+          "games": 8,
+          "differential": 22.228506787330318,
+          "record": "5-3"
+        },
+        "three_in_four": {
+          "win_rate": 54.54545454545454,
+          "games": 11,
+          "differential": 12.07557502738225,
+          "record": "6-5"
+        }
+      }
+    },
+    {
+      "team": "FLA",
+      "situations": {
+        "road_trip_4th_plus": {
+          "win_rate": 54.54545454545454,
+          "games": 11,
+          "differential": 14.273961332784857,
+          "record": "6-5"
+        },
+        "three_in_four": {
+          "win_rate": 30.0,
+          "games": 10,
+          "differential": -12.46987951807229,
+          "record": "3-7"
+        }
+      }
+    },
+    {
+      "team": "LAK",
+      "situations": {
+        "road_trip_4th_plus": {
+          "win_rate": 50.0,
+          "games": 14,
+          "differential": 9.728506787330318,
+          "record": "7-7"
+        },
+        "three_in_four": {
+          "win_rate": 58.333333333333336,
+          "games": 12,
+          "differential": 15.863453815261046,
+          "record": "7-5"
+        }
+      }
+    },
+    {
+      "team": "MIN",
+      "situations": {
+        "road_trip_4th_plus": {
+          "win_rate": 50.0,
+          "games": 8,
+          "differential": 9.728506787330318,
+          "record": "4-4"
+        },
+        "three_in_four": {
+          "win_rate": 41.66666666666667,
+          "games": 12,
+          "differential": -0.8032128514056183,
+          "record": "5-7"
+        }
+      }
+    },
+    {
+      "team": "MTL",
+      "situations": {
+        "road_trip_4th_plus": {
+          "win_rate": 57.14285714285714,
+          "games": 7,
+          "differential": 16.871363930187457,
+          "record": "4-3"
+        },
+        "three_in_four": {
+          "win_rate": 55.55555555555556,
+          "games": 9,
+          "differential": 13.085676037483267,
+          "record": "5-4"
+        }
+      }
+    },
+    {
+      "team": "NJD",
+      "situations": {
+        "road_trip_4th_plus": {
+          "win_rate": 37.5,
+          "games": 8,
+          "differential": -2.7714932126696823,
+          "record": "3-5"
+        },
+        "three_in_four": {
+          "win_rate": 62.5,
+          "games": 8,
+          "differential": 20.03012048192771,
+          "record": "5-3"
+        }
+      }
+    },
+    {
+      "team": "NSH",
+      "situations": {
+        "road_trip_4th_plus": {
+          "win_rate": 42.857142857142854,
+          "games": 7,
+          "differential": 2.585649644473172,
+          "record": "3-4"
+        },
+        "three_in_four": {
+          "win_rate": 21.428571428571427,
+          "games": 14,
+          "differential": -21.041308089500863,
+          "record": "3-11"
+        }
+      }
+    },
+    {
+      "team": "NYI",
+      "situations": {
+        "three_in_four": {
+          "win_rate": 57.14285714285714,
+          "games": 7,
+          "differential": 14.67297762478485,
+          "record": "4-3"
+        }
+      }
+    },
+    {
+      "team": "NYR",
+      "situations": {
+        "back_to_back_home_to_road": {
+          "win_rate": 40.0,
+          "games": 5,
+          "differential": 2.1621621621621614,
+          "record": "2-3"
+        },
+        "three_in_four": {
+          "win_rate": 50.0,
+          "games": 10,
+          "differential": 7.53012048192771,
+          "record": "5-5"
+        }
+      }
+    },
+    {
+      "team": "OTT",
+      "situations": {
+        "road_trip_4th_plus": {
+          "win_rate": 12.5,
+          "games": 8,
+          "differential": -27.771493212669682,
+          "record": "1-7"
+        },
+        "three_in_four": {
+          "win_rate": 30.0,
+          "games": 10,
+          "differential": -12.46987951807229,
+          "record": "3-7"
+        }
+      }
+    },
+    {
+      "team": "PHI",
+      "situations": {
+        "road_trip_4th_plus": {
+          "win_rate": 14.285714285714285,
+          "games": 7,
+          "differential": -25.985778926955398,
+          "record": "1-6"
+        },
+        "three_in_four": {
+          "win_rate": 55.55555555555556,
+          "games": 9,
+          "differential": 13.085676037483267,
+          "record": "5-4"
+        }
+      }
+    },
+    {
+      "team": "PIT",
+      "situations": {
+        "road_trip_4th_plus": {
+          "win_rate": 20.0,
+          "games": 5,
+          "differential": -20.271493212669682,
+          "record": "1-4"
+        },
+        "three_in_four": {
+          "win_rate": 40.0,
+          "games": 10,
+          "differential": -2.4698795180722897,
+          "record": "4-6"
+        }
+      }
+    },
+    {
+      "team": "SEA",
+      "situations": {
+        "road_trip_4th_plus": {
+          "win_rate": 30.76923076923077,
+          "games": 13,
+          "differential": -9.502262443438912,
+          "record": "4-9"
+        },
+        "three_in_four": {
+          "win_rate": 29.411764705882355,
+          "games": 17,
+          "differential": -13.058114812189935,
+          "record": "5-12"
+        }
+      }
+    },
+    {
+      "team": "SJS",
+      "situations": {
+        "road_trip_4th_plus": {
+          "win_rate": 38.46153846153847,
+          "games": 13,
+          "differential": -1.8099547511312153,
+          "record": "5-8"
+        },
+        "three_in_four": {
+          "win_rate": 25.0,
+          "games": 12,
+          "differential": -17.46987951807229,
+          "record": "3-9"
+        }
+      }
+    },
+    {
+      "team": "STL",
+      "situations": {
+        "road_trip_4th_plus": {
+          "win_rate": 33.33333333333333,
+          "games": 6,
+          "differential": -6.938159879336354,
+          "record": "2-4"
+        },
+        "three_in_four": {
+          "win_rate": 16.666666666666664,
+          "games": 6,
+          "differential": -25.803212851405625,
+          "record": "1-5"
+        }
+      }
+    },
+    {
+      "team": "TBL",
+      "situations": {
+        "road_trip_4th_plus": {
+          "win_rate": 40.0,
+          "games": 5,
+          "differential": -0.2714932126696823,
+          "record": "2-3"
+        },
+        "three_in_four": {
+          "win_rate": 44.44444444444444,
+          "games": 9,
+          "differential": 1.9745649263721532,
+          "record": "4-5"
+        }
+      }
+    },
+    {
+      "team": "TOR",
+      "situations": {
+        "back_to_back_home_to_road": {
+          "win_rate": 57.14285714285714,
+          "games": 7,
+          "differential": 19.3050193050193,
+          "record": "4-3"
+        },
+        "three_in_four": {
+          "win_rate": 50.0,
+          "games": 10,
+          "differential": 7.53012048192771,
+          "record": "5-5"
+        }
+      }
+    },
+    {
+      "team": "UTA",
+      "situations": {
+        "road_trip_4th_plus": {
+          "win_rate": 16.666666666666664,
+          "games": 6,
+          "differential": -23.604826546003018,
+          "record": "1-5"
+        },
+        "three_in_four": {
+          "win_rate": 50.0,
+          "games": 10,
+          "differential": 7.53012048192771,
+          "record": "5-5"
+        }
+      }
+    },
+    {
+      "team": "VAN",
+      "situations": {
+        "road_trip_4th_plus": {
+          "win_rate": 38.46153846153847,
+          "games": 13,
+          "differential": -1.8099547511312153,
+          "record": "5-8"
+        },
+        "three_in_four": {
+          "win_rate": 71.42857142857143,
+          "games": 7,
+          "differential": 28.95869191049914,
+          "record": "5-2"
+        }
+      }
+    },
+    {
+      "team": "VGK",
+      "situations": {
+        "three_in_four": {
+          "win_rate": 60.0,
+          "games": 10,
+          "differential": 17.53012048192771,
+          "record": "6-4"
+        }
+      }
+    },
+    {
+      "team": "WPG",
+      "situations": {
+        "three_in_four": {
+          "win_rate": 40.0,
+          "games": 5,
+          "differential": -2.4698795180722897,
+          "record": "2-3"
+        }
+      }
+    },
+    {
+      "team": "WSH",
+      "situations": {
+        "back_to_back_home_to_road": {
+          "win_rate": 50.0,
+          "games": 6,
+          "differential": 12.162162162162161,
+          "record": "3-3"
+        },
+        "three_in_four": {
+          "win_rate": 55.55555555555556,
+          "games": 9,
+          "differential": 13.085676037483267,
+          "record": "5-4"
+        }
+      }
+    }
+  ]
+}

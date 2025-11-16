@@ -1,0 +1,25 @@
+🔄 COMPREHENSIVE HISTORICAL BACKTEST REPORT 🔄
+============================================================
+📅 Backtest Period: 2025-08-01 to 2025-09-11
+📊 Analysis Period: 42 days
+💰 Standard Bet Amount: $25.0
+
+📊 OVERALL PERFORMANCE:
+------------------------------
+🎯 Total Picks Generated: 0
+✅ Verified Picks: 0
+❌ Unverified Picks: 0
+🏆 Wins: 0
+💔 Losses: 0
+📈 Win Rate: 0.0%
+💰 Total P&L: $+0.00
+💸 Total Staked: $0.00
+📊 ROI: +0.0%
+
+⚠️ IMPORTANT NOTES:
+• All results are based on real historical match outcomes
+• Only verified results from API-Sports are included
+• This represents actual system performance over the period
+• Performance is based on followed leagues only
+• Results are for analysis purposes only
+

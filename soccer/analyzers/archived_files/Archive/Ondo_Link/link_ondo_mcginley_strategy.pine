@@ -1,0 +1,403 @@
+//@version=5
+strategy("LINK/ONDO McGinley Dynamic Strategy", shorttitle="LINK-ONDO MD", overlay=true, 
+         default_qty_type=strategy.percent_of_equity, default_qty_value=50, 
+         initial_capital=10000, commission_type=strategy.commission.percent, commission_value=0.1,
+         slippage=5, pyramiding=0, calc_on_every_tick=false, calc_on_order_fills=false)
+
+// ============================================================================
+// STRATEGY INPUTS - OPTIMIZED FOR CRYPTO
+// ============================================================================
+
+// McGinley Dynamic Parameters (optimized for crypto volatility)
+fast_period = input.int(8, title="Fast McGinley Period", minval=3, maxval=25, group="McGinley Settings")
+slow_period = input.int(21, title="Slow McGinley Period", minval=10, maxval=50, group="McGinley Settings")
+md_smoothing = input.float(0.7, title="McGinley Smoothing Factor", minval=0.3, maxval=1.5, step=0.1, group="McGinley Settings")
+
+// Additional confirmation filters
+use_volume_filter = input.bool(true, title="Enable Volume Filter", group="Confirmation Filters")
+volume_threshold = input.float(1.5, title="Volume Multiplier", minval=0.5, maxval=5.0, step=0.1, group="Confirmation Filters")
+
+use_rsi_filter = input.bool(true, title="Enable RSI Filter", group="Confirmation Filters")
+rsi_length = input.int(14, title="RSI Length", minval=5, maxval=30, group="Confirmation Filters")
+rsi_oversold = input.int(30, title="RSI Oversold Level", minval=20, maxval=40, group="Confirmation Filters")
+rsi_overbought = input.int(70, title="RSI Overbought Level", minval=60, maxval=80, group="Confirmation Filters")
+
+use_volatility_filter = input.bool(true, title="Enable Volatility Filter", group="Confirmation Filters")
+atr_length = input.int(14, title="ATR Length", minval=5, maxval=30, group="Confirmation Filters")
+volatility_threshold = input.float(0.03, title="Min Volatility %", minval=0.01, maxval=0.10, step=0.01, group="Confirmation Filters")
+
+// Risk Management - Crypto specific
+use_dynamic_stop = input.bool(true, title="Enable Dynamic Stop Loss", group="Risk Management")
+base_stop_loss = input.float(3.0, title="Base Stop Loss %", minval=1.0, maxval=10.0, step=0.5, group="Risk Management")
+atr_multiplier = input.float(2.0, title="ATR Multiplier for Dynamic Stop", minval=1.0, maxval=4.0, step=0.1, group="Risk Management")
+
+use_trailing_stop = input.bool(true, title="Enable Trailing Stop", group="Risk Management")
+trailing_percent = input.float(1.5, title="Trailing Stop %", minval=0.5, maxval=5.0, step=0.1, group="Risk Management")
+
+take_profit_method = input.string("Risk-Reward", title="Take Profit Method", options=["Fixed %", "Risk-Reward", "Dynamic"], group="Risk Management")
+fixed_tp_percent = input.float(6.0, title="Fixed Take Profit %", minval=2.0, maxval=15.0, step=0.5, group="Risk Management")
+risk_reward_ratio = input.float(2.5, title="Risk/Reward Ratio", minval=1.5, maxval=5.0, step=0.1, group="Risk Management")
+
+// Time Filters - Crypto markets (24/7 but with volume patterns)
+use_session_filter = input.bool(true, title="Enable Session Filter", group="Time Management")
+avoid_low_volume_hours = input.bool(true, title="Avoid Low Volume Hours", group="Time Management")
+session_start = input.int(8, title="Preferred Session Start (UTC)", minval=0, maxval=23, group="Time Management")
+session_end = input.int(22, title="Preferred Session End (UTC)", minval=0, maxval=23, group="Time Management")
+
+// Position Management
+max_positions = input.int(1, title="Max Concurrent Positions", minval=1, maxval=5, group="Position Management")
+min_bars_between = input.int(10, title="Min Bars Between Entries", minval=1, maxval=50, group="Position Management")
+position_sizing_method = input.string("Fixed %", title="Position Sizing", options=["Fixed %", "Volatility Based", "Kelly"], group="Position Management")
+
+// ============================================================================
+// McGINLEY DYNAMIC CALCULATION
+// ============================================================================
+
+mcginley_dynamic(src, length, smoothing_factor) =>
+    var float md = na
+    if bar_index == 0
+        md := src
+    else
+        // Enhanced McGinley Dynamic with crypto-specific adjustments
+        price_change = math.abs(src - md[1]) / md[1]
+        volatility_adj = 1 + (price_change * 2) // Adjust for crypto volatility
+        factor = length * math.pow(src / md[1], 4) * smoothing_factor * volatility_adj
+        factor := math.max(factor, length * 0.1) // Prevent division by near-zero
+        md := md[1] + (src - md[1]) / factor
+    md
+
+// Calculate McGinley Dynamic lines
+md_fast = mcginley_dynamic(hlc3, fast_period, md_smoothing)  // Use HLC3 for better signal
+md_slow = mcginley_dynamic(hlc3, slow_period, md_smoothing)
+
+// ============================================================================
+// TECHNICAL INDICATORS & FILTERS
+// ============================================================================
+
+// RSI for momentum confirmation
+rsi_value = ta.rsi(close, rsi_length)
+
+// Volume analysis
+avg_volume = ta.sma(volume, 20)
+volume_ratio = volume / avg_volume
+high_volume = volume_ratio >= volume_threshold
+
+// Volatility measurement
+atr_value = ta.atr(atr_length)
+volatility_pct = atr_value / close
+sufficient_volatility = volatility_pct >= volatility_threshold
+
+// Market structure analysis
+higher_high = ta.highest(high, 10) == high
+lower_low = ta.lowest(low, 10) == low
+trend_strength = ta.ema(close, 20)
+price_above_trend = close > trend_strength
+price_below_trend = close < trend_strength
+
+// Session filter
+current_hour = hour(time, "UTC")
+in_preferred_session = use_session_filter ? (current_hour >= session_start and current_hour <= session_end) : true
+
+// Low volume hours detection (typically 22:00-08:00 UTC for crypto)
+in_low_volume_period = avoid_low_volume_hours ? (current_hour >= 22 or current_hour <= 8) : false
+
+// ============================================================================
+// SIGNAL GENERATION
+// ============================================================================
+
+// Basic crossover signals
+bullish_cross = ta.crossover(md_fast, md_slow)
+bearish_cross = ta.crossunder(md_fast, md_slow)
+
+// Enhanced signal conditions
+volume_confirmed = use_volume_filter ? high_volume : true
+rsi_confirmed_long = use_rsi_filter ? (rsi_value < rsi_overbought and rsi_value > rsi_oversold) : true
+rsi_confirmed_short = use_rsi_filter ? (rsi_value > rsi_oversold and rsi_value < rsi_overbought) : true
+volatility_confirmed = use_volatility_filter ? sufficient_volatility : true
+
+// Additional confluence factors
+md_spread = (md_fast - md_slow) / md_slow
+significant_spread = math.abs(md_spread) > 0.005 // 0.5% minimum spread
+trend_aligned_long = price_above_trend
+trend_aligned_short = price_below_trend
+
+// Time and session filters
+time_ok = in_preferred_session and not in_low_volume_period
+bars_since_last = ta.barssince(ta.change(strategy.position_size) != 0)
+enough_bars = na(bars_since_last) or bars_since_last >= min_bars_between
+
+// Final signal conditions
+long_signal = bullish_cross and volume_confirmed and rsi_confirmed_long and 
+              volatility_confirmed and significant_spread and trend_aligned_long and 
+              time_ok and enough_bars
+
+short_signal = bearish_cross and volume_confirmed and rsi_confirmed_short and 
+               volatility_confirmed and significant_spread and trend_aligned_short and 
+               time_ok and enough_bars
+
+// ============================================================================
+// POSITION SIZING
+// ============================================================================
+
+// Calculate position size based on method
+calculate_position_size() =>
+    size = 50.0 // Default 50%
+    if position_sizing_method == "Volatility Based"
+        // Inverse volatility sizing
+        vol_adj = volatility_pct > 0 ? (0.02 / volatility_pct) : 1.0
+        size := 50.0 * math.min(vol_adj, 2.0) // Cap at 2x adjustment
+    else if position_sizing_method == "Kelly"
+        // Simplified Kelly criterion (would need more historical data for accuracy)
+        win_rate = 0.55 // Estimated win rate
+        avg_win = 0.04  // Estimated average win
+        avg_loss = 0.025 // Estimated average loss
+        kelly = (win_rate * avg_win - (1 - win_rate) * avg_loss) / avg_win
+        size := 100.0 * math.max(math.min(kelly, 0.25), 0.05) // Kelly with limits
+    size
+
+position_size = calculate_position_size()
+
+// ============================================================================
+// RISK MANAGEMENT LEVELS
+// ============================================================================
+
+// Calculate stop loss levels
+calculate_stop_loss(entry_price, is_long) =>
+    base_stop = is_long ? entry_price * (1 - base_stop_loss / 100) : entry_price * (1 + base_stop_loss / 100)
+    
+    if use_dynamic_stop
+        atr_stop = is_long ? entry_price - (atr_value * atr_multiplier) : entry_price + (atr_value * atr_multiplier)
+        // Use the wider of the two stops for better risk management
+        stop_level = is_long ? math.min(base_stop, atr_stop) : math.max(base_stop, atr_stop)
+    else
+        stop_level = base_stop
+    stop_level
+
+// Calculate take profit levels
+calculate_take_profit(entry_price, stop_price, is_long) =>
+    if take_profit_method == "Fixed %"
+        is_long ? entry_price * (1 + fixed_tp_percent / 100) : entry_price * (1 - fixed_tp_percent / 100)
+    else if take_profit_method == "Risk-Reward"
+        risk = math.abs(entry_price - stop_price)
+        is_long ? entry_price + (risk * risk_reward_ratio) : entry_price - (risk * risk_reward_ratio)
+    else // Dynamic
+        // Use multiple of ATR for dynamic TP
+        is_long ? entry_price + (atr_value * 3.0) : entry_price - (atr_value * 3.0)
+
+// ============================================================================
+// STRATEGY EXECUTION
+// ============================================================================
+
+// Entry conditions
+can_enter_long = long_signal and strategy.position_size == 0 and strategy.opentrades < max_positions
+can_enter_short = short_signal and strategy.position_size == 0 and strategy.opentrades < max_positions
+
+// Execute entries
+if can_enter_long
+    entry_price = close
+    stop_price = calculate_stop_loss(entry_price, true)
+    tp_price = calculate_take_profit(entry_price, stop_price, true)
+    
+    strategy.entry("Long", strategy.long, qty=position_size, comment="MD Long Entry")
+    
+    // Set initial stops
+    if not use_trailing_stop
+        strategy.exit("Long Exit", "Long", stop=stop_price, limit=tp_price, comment="SL/TP")
+    else
+        strategy.exit("Long Exit", "Long", stop=stop_price, limit=tp_price, trail_percent=trailing_percent, comment="Trailing")
+
+if can_enter_short
+    entry_price = close
+    stop_price = calculate_stop_loss(entry_price, false)
+    tp_price = calculate_take_profit(entry_price, stop_price, false)
+    
+    strategy.entry("Short", strategy.short, qty=position_size, comment="MD Short Entry")
+    
+    // Set initial stops
+    if not use_trailing_stop
+        strategy.exit("Short Exit", "Short", stop=stop_price, limit=tp_price, comment="SL/TP")
+    else
+        strategy.exit("Short Exit", "Short", stop=stop_price, limit=tp_price, trail_percent=trailing_percent, comment="Trailing")
+
+// Exit on opposite signal
+if bearish_cross and strategy.position_size > 0
+    strategy.close("Long", comment="MD Signal Exit")
+
+if bullish_cross and strategy.position_size < 0
+    strategy.close("Short", comment="MD Signal Exit")
+
+// ============================================================================
+// VISUALIZATION
+// ============================================================================
+
+// Plot McGinley Dynamic lines
+plot(md_fast, title="Fast McGinley Dynamic", color=color.new(color.blue, 0), linewidth=2)
+plot(md_slow, title="Slow McGinley Dynamic", color=color.new(color.orange, 0), linewidth=2)
+
+// Fill between lines
+fill_color = md_fast > md_slow ? color.new(color.green, 85) : color.new(color.red, 85)
+fill(plot(md_fast), plot(md_slow), color=fill_color, title="Trend Fill")
+
+// Plot signals
+plotshape(long_signal, title="Long Signal", style=shape.labelup, location=location.belowbar, 
+          color=color.new(color.green, 0), text="LONG", textcolor=color.white, size=size.normal)
+plotshape(short_signal, title="Short Signal", style=shape.labeldown, location=location.abovebar, 
+          color=color.new(color.red, 0), text="SHORT", textcolor=color.white, size=size.normal)
+
+// Plot trend line
+plot(trend_strength, title="Trend EMA", color=color.new(color.yellow, 50), linewidth=1)
+
+// Volume indicator
+bgcolor(volume_ratio > volume_threshold ? color.new(color.blue, 90) : na, title="High Volume")
+
+// ============================================================================
+// PERFORMANCE ANALYTICS TABLE
+// ============================================================================
+
+// Performance tracking variables
+var int total_long_trades = 0
+var int total_short_trades = 0
+var int winning_long = 0
+var int winning_short = 0
+var float total_long_pnl = 0.0
+var float total_short_pnl = 0.0
+var float peak_equity = 0.0
+var float max_dd_pct = 0.0
+
+// Update performance metrics
+if strategy.closedtrades > (total_long_trades + total_short_trades)
+    last_trade_profit = strategy.closedtrades.profit(strategy.closedtrades - 1)
+    last_trade_dir = strategy.closedtrades.size(strategy.closedtrades - 1) > 0 ? 1 : -1
+    
+    if last_trade_dir > 0 // Long trade
+        total_long_trades += 1
+        total_long_pnl += last_trade_profit
+        if last_trade_profit > 0
+            winning_long += 1
+    else // Short trade
+        total_short_trades += 1
+        total_short_pnl += last_trade_profit
+        if last_trade_profit > 0
+            winning_short += 1
+
+// Track drawdown
+current_equity = strategy.initial_capital + strategy.netprofit
+if current_equity > peak_equity
+    peak_equity := current_equity
+current_dd = peak_equity > 0 ? ((peak_equity - current_equity) / peak_equity) * 100 : 0
+if current_dd > max_dd_pct
+    max_dd_pct := current_dd
+
+// Calculate metrics
+total_trades = total_long_trades + total_short_trades
+overall_win_rate = total_trades > 0 ? ((winning_long + winning_short) / total_trades) * 100 : 0
+long_win_rate = total_long_trades > 0 ? (winning_long / total_long_trades) * 100 : 0
+short_win_rate = total_short_trades > 0 ? (winning_short / total_short_trades) * 100 : 0
+avg_trade = total_trades > 0 ? strategy.netprofit / total_trades : 0
+
+// Performance table
+if barstate.islast and total_trades > 0
+    var table perf_table = table.new(position.top_right, 3, 12, bgcolor=color.new(color.white, 80), border_width=1)
+    
+    // Headers
+    table.cell(perf_table, 0, 0, "LINK/ONDO MD Strategy", text_color=color.white, bgcolor=color.new(color.blue, 20), text_size=size.normal)
+    table.cell(perf_table, 1, 0, "Overall", text_color=color.white, bgcolor=color.new(color.blue, 20))
+    table.cell(perf_table, 2, 0, "Value", text_color=color.white, bgcolor=color.new(color.blue, 20))
+    
+    // Performance metrics
+    table.cell(perf_table, 0, 1, "Total Trades", text_color=color.black)
+    table.cell(perf_table, 1, 1, str.tostring(total_trades), text_color=color.black)
+    table.cell(perf_table, 2, 1, "Long: " + str.tostring(total_long_trades) + " | Short: " + str.tostring(total_short_trades), text_color=color.black)
+    
+    table.cell(perf_table, 0, 2, "Win Rate", text_color=color.black)
+    table.cell(perf_table, 1, 2, str.tostring(overall_win_rate) + "%", text_color=color.black)
+    table.cell(perf_table, 2, 2, "L: " + str.tostring(long_win_rate) + "% | S: " + str.tostring(short_win_rate) + "%", text_color=color.black)
+    
+    table.cell(perf_table, 0, 3, "Net Profit", text_color=color.black)
+    profit_color = strategy.netprofit > 0 ? color.green : color.red
+    table.cell(perf_table, 1, 3, str.tostring(strategy.netprofit), text_color=profit_color)
+    table.cell(perf_table, 2, 3, str.tostring((strategy.netprofit/strategy.initial_capital)*100) + "%", text_color=profit_color)
+    
+    table.cell(perf_table, 0, 4, "Max Drawdown", text_color=color.black)
+    table.cell(perf_table, 1, 4, str.tostring(max_dd_pct) + "%", text_color=color.red)
+    table.cell(perf_table, 2, 4, "$" + str.tostring(strategy.max_drawdown), text_color=color.red)
+    
+    table.cell(perf_table, 0, 5, "Profit Factor", text_color=color.black)
+    pf = strategy.grossloss != 0 ? strategy.grossprofit / math.abs(strategy.grossloss) : 0
+    pf_color = pf > 1.5 ? color.green : pf > 1.0 ? color.orange : color.red
+    table.cell(perf_table, 1, 5, str.tostring(pf), text_color=pf_color)
+    
+    table.cell(perf_table, 0, 6, "Avg Trade", text_color=color.black)
+    avg_color = avg_trade > 0 ? color.green : color.red
+    table.cell(perf_table, 1, 6, str.tostring(avg_trade), text_color=avg_color)
+    
+    // Current position info
+    table.cell(perf_table, 0, 7, "Position Size", text_color=color.black)
+    table.cell(perf_table, 1, 7, str.tostring(strategy.position_size), text_color=color.blue)
+    
+    table.cell(perf_table, 0, 8, "Unrealized PnL", text_color=color.black)
+    unrealized_color = strategy.openprofit > 0 ? color.green : color.red
+    table.cell(perf_table, 1, 8, str.tostring(strategy.openprofit), text_color=unrealized_color)
+    
+    // Market conditions
+    table.cell(perf_table, 0, 9, "Volatility", text_color=color.black)
+    vol_color = volatility_pct > 0.05 ? color.red : volatility_pct > 0.03 ? color.orange : color.green
+    table.cell(perf_table, 1, 9, str.tostring(volatility_pct*100) + "%", text_color=vol_color)
+    
+    table.cell(perf_table, 0, 10, "RSI", text_color=color.black)
+    rsi_color = rsi_value > 70 ? color.red : rsi_value < 30 ? color.green : color.gray
+    table.cell(perf_table, 1, 10, str.tostring(rsi_value), text_color=rsi_color)
+    
+    table.cell(perf_table, 0, 11, "Volume Ratio", text_color=color.black)
+    vol_ratio_color = volume_ratio > 2 ? color.green : volume_ratio > 1 ? color.orange : color.gray
+    table.cell(perf_table, 1, 11, str.tostring(volume_ratio), text_color=vol_ratio_color)
+
+// ============================================================================
+// ALERTS FOR AUTOMATED TRADING
+// ============================================================================
+
+// Entry alerts
+if long_signal
+    alert("LINK/ONDO McGinley LONG at " + str.tostring(close) + " | Vol: " + str.tostring(volume_ratio) + "x | RSI: " + str.tostring(rsi_value), alert.freq_once_per_bar)
+
+if short_signal
+    alert("LINK/ONDO McGinley SHORT at " + str.tostring(close) + " | Vol: " + str.tostring(volume_ratio) + "x | RSI: " + str.tostring(rsi_value), alert.freq_once_per_bar)
+
+// Exit alerts
+if bearish_cross and strategy.position_size > 0
+    alert("LINK/ONDO McGinley EXIT LONG at " + str.tostring(close), alert.freq_once_per_bar)
+
+if bullish_cross and strategy.position_size < 0
+    alert("LINK/ONDO McGinley EXIT SHORT at " + str.tostring(close), alert.freq_once_per_bar)
+
+// ============================================================================
+// STRATEGY NOTES & OPTIMIZATION GUIDE
+// ============================================================================
+
+// OPTIMAL SETTINGS FOR LINK/ONDO:
+// 
+// Based on crypto market characteristics:
+// - Fast McGinley: 8 periods (captures quick moves)
+// - Slow McGinley: 21 periods (trend confirmation)
+// - Smoothing Factor: 0.7 (balanced responsiveness)
+// - Volume Filter: 1.5x average (confirms breakouts)
+// - RSI Filter: 30-70 range (avoids extreme conditions)
+// - Dynamic Stop: 2x ATR (adapts to volatility)
+// - Risk/Reward: 2.5:1 (accounts for crypto volatility)
+//
+// RECOMMENDED TIMEFRAMES:
+// - Primary: 4H (best balance for crypto)
+// - Secondary: 1H (for entries)
+// - Confirmation: 1D (trend direction)
+//
+// BACKTEST RESULTS INTERPRETATION:
+// - Win Rate: Target >50% (good for trend following)
+// - Profit Factor: Target >1.5 (essential for profitability)
+// - Max Drawdown: Keep <15% (crypto can be volatile)
+// - Sharpe Ratio: Target >1.0 (risk-adjusted returns)
+//
+// MARKET CONDITIONS:
+// - Works best in trending markets
+// - May struggle in choppy/sideways markets
+// - Consider reducing position size during low volatility
+// - Increase filters during high volatility periods

@@ -1,0 +1,60 @@
+{
+  "overall": {
+    "total_bets": 400,
+    "wins": 241,
+    "win_rate": 60.25,
+    "total_profit": 5372.74,
+    "total_return": 1790.9,
+    "roi": 15.62
+  },
+  "by_market": {
+    "Asian_Handicap": {
+      "wins": 13,
+      "total_bets": 14,
+      "profit_loss": 425.42,
+      "stake": 914.58,
+      "win_rate": 92.86,
+      "roi": 46.52
+    },
+    "BTTS": {
+      "wins": 25,
+      "total_bets": 42,
+      "profit_loss": 1868.87,
+      "stake": 4362.09,
+      "win_rate": 59.52,
+      "roi": 42.84
+    },
+    "Corners": {
+      "wins": 85,
+      "total_bets": 152,
+      "profit_loss": 824.52,
+      "stake": 15706.95,
+      "win_rate": 55.92,
+      "roi": 5.25
+    },
+    "Double_Chance": {
+      "wins": 25,
+      "total_bets": 36,
+      "profit_loss": 1007.73,
+      "stake": 3304.17,
+      "win_rate": 69.44,
+      "roi": 30.5
+    },
+    "Goals_Total": {
+      "wins": 93,
+      "total_bets": 154,
+      "profit_loss": 1447.17,
+      "stake": 9901.34,
+      "win_rate": 60.39,
+      "roi": 14.62
+    },
+    "Match_Result": {
+      "wins": 0,
+      "total_bets": 2,
+      "profit_loss": -200.97,
+      "stake": 200.97,
+      "win_rate": 0.0,
+      "roi": -100.0
+    }
+  },
+  "monthly": {

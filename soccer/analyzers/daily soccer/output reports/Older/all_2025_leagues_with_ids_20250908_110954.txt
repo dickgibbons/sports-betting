@@ -1,0 +1,800 @@
+⚽ ALL FOLLOWED LEAGUES WITH 2025 SEASON IDs ⚽
+=======================================================
+📅 Generated: Monday, September 08, 2025 at 11:09
+📊 Total Leagues: 74
+
+📈 SUMMARY STATISTICS:
+-------------------------
+   ✅ Confirmed Season IDs: 5
+   📋 Estimated Season IDs: 69
+   ⚽ Total Estimated Matches: 22,334
+   🌍 Countries Covered: 27
+
+🌍 ALL LEAGUES BY REGION:
+==============================
+
+📍 INTERNATIONAL (11 leagues):
+----------------------------
+   📋 CONCACAF Caribbean Club Championship
+      🆔 Season ID: 7002   | Season: 2025
+      🏆 Cup/Continental | Period: May-August
+      ⚽ Est. Matches: 100  | Markets: All Markets
+
+   📋 CONCACAF Central American Cup      
+      🆔 Season ID: 7001   | Season: 2025
+      🏆 Cup/Continental | Period: August-December
+      ⚽ Est. Matches: 63   | Markets: All Markets
+
+   📋 CONCACAF Champions Cup             
+      🆔 Season ID: 7000   | Season: 2025
+      🏆 Cup/Continental | Period: February-May
+      ⚽ Est. Matches: 125  | Markets: All Markets
+
+   📋 FIFA Club World Cup                
+      🆔 Season ID: 4000   | Season: 2025
+      🏆 Cup/Continental | Period: June-July
+      ⚽ Est. Matches: 150  | Markets: All Markets
+
+   📋 FIFA Club World Cup Playin         
+      🆔 Season ID: 4001   | Season: 2025
+      🏆 Cup/Continental | Period: May-June
+      ⚽ Est. Matches: 150  | Markets: All Markets
+
+   📋 WC Qualification Africa            
+      🆔 Season ID: 4101   | Season: 2025-26
+      🏆 Cup/Continental | Period: September-November
+      ⚽ Est. Matches: 80   | Markets: All Markets
+
+   📋 WC Qualification Asia              
+      🆔 Season ID: 4102   | Season: 2025-26
+      🏆 Cup/Continental | Period: September-March
+      ⚽ Est. Matches: 80   | Markets: All Markets
+
+   📋 WC Qualification CONCACAF          
+      🆔 Season ID: 4104   | Season: 2025-26
+      🏆 Cup/Continental | Period: September-March
+      ⚽ Est. Matches: 80   | Markets: All Markets
+
+   📋 WC Qualification Europe            
+      🆔 Season ID: 4100   | Season: 2025-26
+      🏆 Cup/Continental | Period: September-November
+      ⚽ Est. Matches: 80   | Markets: All Markets
+
+   📋 WC Qualification Oceania           
+      🆔 Season ID: 4105   | Season: 2025-26
+      🏆 Cup/Continental | Period: September-March
+      ⚽ Est. Matches: 80   | Markets: All Markets
+
+   📋 WC Qualification South America     
+      🆔 Season ID: 4103   | Season: 2025-26
+      🏆 Cup/Continental | Period: September-March
+      ⚽ Est. Matches: 80   | Markets: All Markets
+
+
+📍 ENGLAND (8 leagues):
+----------------------
+   📋 EFL Cup                            
+      🆔 Season ID: 1631   | Season: 2025-26
+      🏆 Cup/Continental | Period: August-February
+      ⚽ Est. Matches: 63   | Markets: All Markets
+
+   📋 FA Cup                             
+      🆔 Season ID: 1630   | Season: 2025-26
+      🏆 Cup/Continental | Period: August-May
+      ⚽ Est. Matches: 63   | Markets: All Markets
+
+   ✅ Premier League                     
+      🆔 Season ID: 1625   | Season: 2025-26
+      🏆 Tier 1          | Period: August-May
+      ⚽ Est. Matches: 380  | Markets: All Markets
+
+   📋 Championship                       
+      🆔 Season ID: 1626   | Season: 2025-26
+      🏆 Tier 2          | Period: August-May
+      ⚽ Est. Matches: 552  | Markets: All Markets
+
+   📋 FA Trophy                          
+      🆔 Season ID: 1632   | Season: 2025-26
+      🏆 Tier 3          | Period: October-May
+      ⚽ Est. Matches: 63   | Markets: All Markets
+
+   📋 League One                         
+      🆔 Season ID: 1627   | Season: 2025-26
+      🏆 Tier 3          | Period: August-May
+      ⚽ Est. Matches: 462  | Markets: All Markets
+
+   📋 League Two                         
+      🆔 Season ID: 1628   | Season: 2025-26
+      🏆 Tier 4          | Period: August-May
+      ⚽ Est. Matches: 462  | Markets: All Markets
+
+   📋 National League                    
+      🆔 Season ID: 1629   | Season: 2025-26
+      🏆 Tier 5          | Period: August-May
+      ⚽ Est. Matches: 462  | Markets: All Markets
+
+
+📍 USA (5 leagues):
+------------------
+   📋 US Open Cup                        
+      🆔 Season ID: 5004   | Season: 2025
+      🏆 Cup/Continental | Period: April-September
+      ⚽ Est. Matches: 63   | Markets: All Markets
+
+   📋 MLS                                
+      🆔 Season ID: 5000   | Season: 2025
+      🏆 Tier 1          | Period: February-November
+      ⚽ Est. Matches: 380  | Markets: All Markets
+
+   📋 NWSL                               
+      🆔 Season ID: 5003   | Season: 2025
+      🏆 Tier 1          | Period: March-November
+      ⚽ Est. Matches: 380  | Markets: All Markets
+
+   📋 USL Championship                   
+      🆔 Season ID: 5001   | Season: 2025
+      🏆 Tier 2          | Period: March-November
+      ⚽ Est. Matches: 552  | Markets: All Markets
+
+   📋 USL League One                     
+      🆔 Season ID: 5002   | Season: 2025
+      🏆 Tier 3          | Period: March-October
+      ⚽ Est. Matches: 462  | Markets: All Markets
+
+
+📍 GERMANY (4 leagues):
+----------------------
+   📋 DFB-Pokal                          
+      🆔 Season ID: 1857   | Season: 2025-26
+      🏆 Cup/Continental | Period: August-May
+      ⚽ Est. Matches: 63   | Markets: All Markets
+
+   ✅ Bundesliga                         
+      🆔 Season ID: 1854   | Season: 2025-26
+      🏆 Tier 1          | Period: August-May
+      ⚽ Est. Matches: 380  | Markets: All Markets
+
+   📋 2. Bundesliga                      
+      🆔 Season ID: 1855   | Season: 2025-26
+      🏆 Tier 2          | Period: August-May
+      ⚽ Est. Matches: 552  | Markets: All Markets
+
+   📋 3. Liga                            
+      🆔 Season ID: 1856   | Season: 2025-26
+      🏆 Tier 3          | Period: August-May
+      ⚽ Est. Matches: 462  | Markets: All Markets
+
+
+📍 EUROPE (4 leagues):
+---------------------
+   📋 UEFA Champions League              
+      🆔 Season ID: 3000   | Season: 2025-26
+      🏆 Cup/Continental | Period: September-May
+      ⚽ Est. Matches: 300  | Markets: All Markets
+
+   📋 UEFA Europa Conference League      
+      🆔 Season ID: 3002   | Season: 2025-26
+      🏆 Cup/Continental | Period: August-May
+      ⚽ Est. Matches: 300  | Markets: All Markets
+
+   📋 UEFA Europa League                 
+      🆔 Season ID: 3001   | Season: 2025-26
+      🏆 Cup/Continental | Period: September-May
+      ⚽ Est. Matches: 300  | Markets: All Markets
+
+   📋 UEFA Nations League                
+      🆔 Season ID: 3003   | Season: 2025-26
+      🏆 Cup/Continental | Period: September-November
+      ⚽ Est. Matches: 300  | Markets: All Markets
+
+
+📍 SPAIN (3 leagues):
+--------------------
+   📋 Copa del Rey                       
+      🆔 Season ID: 1731   | Season: 2025-26
+      🏆 Cup/Continental | Period: October-April
+      ⚽ Est. Matches: 63   | Markets: All Markets
+
+   ✅ La Liga                            
+      🆔 Season ID: 1729   | Season: 2025-26
+      🏆 Tier 1          | Period: August-May
+      ⚽ Est. Matches: 380  | Markets: All Markets
+
+   📋 Segunda División                   
+      🆔 Season ID: 1730   | Season: 2025-26
+      🏆 Tier 2          | Period: August-May
+      ⚽ Est. Matches: 552  | Markets: All Markets
+
+
+📍 SCOTLAND (3 leagues):
+-----------------------
+   📋 Scottish Cup                       
+      🆔 Season ID: 2502   | Season: 2025-26
+      🏆 Cup/Continental | Period: October-May
+      ⚽ Est. Matches: 63   | Markets: All Markets
+
+   📋 Scottish Premiership               
+      🆔 Season ID: 2500   | Season: 2025-26
+      🏆 Tier 1          | Period: August-May
+      ⚽ Est. Matches: 380  | Markets: All Markets
+
+   📋 Scottish Championship              
+      🆔 Season ID: 2501   | Season: 2025-26
+      🏆 Tier 2          | Period: August-May
+      ⚽ Est. Matches: 552  | Markets: All Markets
+
+
+📍 PORTUGAL (3 leagues):
+-----------------------
+   📋 Taça de Portugal                   
+      🆔 Season ID: 2302   | Season: 2025-26
+      🏆 Cup/Continental | Period: September-May
+      ⚽ Est. Matches: 300  | Markets: All Markets
+
+   📋 Primeira Liga                      
+      🆔 Season ID: 2300   | Season: 2025-26
+      🏆 Tier 1          | Period: August-May
+      ⚽ Est. Matches: 380  | Markets: All Markets
+
+   📋 LigaPro                            
+      🆔 Season ID: 2301   | Season: 2025-26
+      🏆 Tier 2          | Period: August-May
+      ⚽ Est. Matches: 552  | Markets: All Markets
+
+
+📍 NETHERLANDS (3 leagues):
+--------------------------
+   📋 KNVB Cup                           
+      🆔 Season ID: 2202   | Season: 2025-26
+      🏆 Cup/Continental | Period: September-April
+      ⚽ Est. Matches: 63   | Markets: All Markets
+
+   📋 Eredivisie                         
+      🆔 Season ID: 2200   | Season: 2025-26
+      🏆 Tier 1          | Period: August-May
+      ⚽ Est. Matches: 380  | Markets: All Markets
+
+   📋 Eerste Divisie                     
+      🆔 Season ID: 2201   | Season: 2025-26
+      🏆 Tier 2          | Period: August-May
+      ⚽ Est. Matches: 552  | Markets: All Markets
+
+
+📍 MEXICO (3 leagues):
+---------------------
+   📋 Copa MX                            
+      🆔 Season ID: 5202   | Season: 2025
+      🏆 Cup/Continental | Period: January-April
+      ⚽ Est. Matches: 63   | Markets: All Markets
+
+   📋 Liga MX                            
+      🆔 Season ID: 5200   | Season: 2025
+      🏆 Tier 1          | Period: January-December
+      ⚽ Est. Matches: 380  | Markets: All Markets
+
+   📋 Liga de Expansión MX               
+      🆔 Season ID: 5201   | Season: 2025
+      🏆 Tier 2          | Period: January-December
+      ⚽ Est. Matches: 552  | Markets: All Markets
+
+
+📍 ITALY (3 leagues):
+--------------------
+   📋 Coppa Italia                       
+      🆔 Season ID: 2107   | Season: 2025-26
+      🏆 Cup/Continental | Period: August-May
+      ⚽ Est. Matches: 300  | Markets: All Markets
+
+   ✅ Serie A                            
+      🆔 Season ID: 2105   | Season: 2025-26
+      🏆 Tier 1          | Period: August-May
+      ⚽ Est. Matches: 380  | Markets: All Markets
+
+   📋 Serie B                            
+      🆔 Season ID: 2106   | Season: 2025-26
+      🏆 Tier 2          | Period: August-May
+      ⚽ Est. Matches: 552  | Markets: All Markets
+
+
+📍 FRANCE (3 leagues):
+---------------------
+   📋 Coupe de France                    
+      🆔 Season ID: 1845   | Season: 2025-26
+      🏆 Cup/Continental | Period: November-May
+      ⚽ Est. Matches: 63   | Markets: All Markets
+
+   ✅ Ligue 1                            
+      🆔 Season ID: 1843   | Season: 2025-26
+      🏆 Tier 1          | Period: August-May
+      ⚽ Est. Matches: 380  | Markets: All Markets
+
+   📋 Ligue 2                            
+      🆔 Season ID: 1844   | Season: 2025-26
+      🏆 Tier 2          | Period: August-May
+      ⚽ Est. Matches: 552  | Markets: All Markets
+
+
+📍 BRAZIL (3 leagues):
+---------------------
+   📋 Copa do Brasil                     
+      🆔 Season ID: 5402   | Season: 2025
+      🏆 Cup/Continental | Period: February-October
+      ⚽ Est. Matches: 63   | Markets: All Markets
+
+   📋 Brazil Serie A                     
+      🆔 Season ID: 5400   | Season: 2025
+      🏆 Tier 1          | Period: April-December
+      ⚽ Est. Matches: 380  | Markets: All Markets
+
+   📋 Brazil Serie B                     
+      🆔 Season ID: 5401   | Season: 2025
+      🏆 Tier 2          | Period: April-November
+      ⚽ Est. Matches: 552  | Markets: All Markets
+
+
+📍 NORWAY (2 leagues):
+---------------------
+   📋 Eliteserien                        
+      🆔 Season ID: 6000   | Season: 2025
+      🏆 Tier 1          | Period: March-November
+      ⚽ Est. Matches: 380  | Markets: All Markets
+
+   📋 First Division                     
+      🆔 Season ID: 6001   | Season: 2025
+      🏆 Tier 2          | Period: April-November
+      ⚽ Est. Matches: 552  | Markets: All Markets
+
+
+📍 SOUTH AMERICA (2 leagues):
+----------------------------
+   📋 Copa Libertadores                  
+      🆔 Season ID: 5300   | Season: 2025
+      🏆 Cup/Continental | Period: February-November
+      ⚽ Est. Matches: 150  | Markets: All Markets
+
+   📋 Copa Sudamericana                  
+      🆔 Season ID: 5301   | Season: 2025
+      🏆 Cup/Continental | Period: March-November
+      ⚽ Est. Matches: 63   | Markets: All Markets
+
+
+📍 BELGIUM (2 leagues):
+----------------------
+   📋 Belgian Cup                        
+      🆔 Season ID: 2401   | Season: 2025-26
+      🏆 Cup/Continental | Period: August-March
+      ⚽ Est. Matches: 63   | Markets: All Markets
+
+   📋 Pro League                         
+      🆔 Season ID: 2400   | Season: 2025-26
+      🏆 Tier 1          | Period: August-May
+      ⚽ Est. Matches: 380  | Markets: All Markets
+
+
+📍 ARGENTINA (2 leagues):
+------------------------
+   📋 Copa Argentina                     
+      🆔 Season ID: 5501   | Season: 2025
+      🏆 Cup/Continental | Period: February-November
+      ⚽ Est. Matches: 63   | Markets: All Markets
+
+   📋 Primera División                   
+      🆔 Season ID: 5500   | Season: 2025
+      🏆 Tier 1          | Period: February-December
+      ⚽ Est. Matches: 380  | Markets: All Markets
+
+
+📍 FINLAND (1 leagues):
+----------------------
+   📋 Veikkausliiga                      
+      🆔 Season ID: 6300   | Season: 2025
+      🏆 Tier 1          | Period: April-October
+      ⚽ Est. Matches: 380  | Markets: All Markets
+
+
+📍 AUSTRIA (1 leagues):
+----------------------
+   📋 Austrian Bundesliga                
+      🆔 Season ID: 6800   | Season: 2025-26
+      🏆 Tier 1          | Period: July-May
+      ⚽ Est. Matches: 380  | Markets: All Markets
+
+
+📍 DENMARK (1 leagues):
+----------------------
+   📋 Superlig                           
+      🆔 Season ID: 6200   | Season: 2025-26
+      🏆 Tier 1          | Period: July-May
+      ⚽ Est. Matches: 380  | Markets: All Markets
+
+
+📍 CZECH REPUBLIC (1 leagues):
+-----------------------------
+   📋 First League                       
+      🆔 Season ID: 6400   | Season: 2025-26
+      🏆 Tier 1          | Period: August-May
+      ⚽ Est. Matches: 380  | Markets: All Markets
+
+
+📍 POLAND (1 leagues):
+---------------------
+   📋 Ekstraklasa                        
+      🆔 Season ID: 6500   | Season: 2025-26
+      🏆 Tier 1          | Period: July-May
+      ⚽ Est. Matches: 380  | Markets: All Markets
+
+
+📍 CANADA (1 leagues):
+---------------------
+   📋 Canadian Premier League            
+      🆔 Season ID: 5100   | Season: 2025
+      🏆 Tier 1          | Period: April-October
+      ⚽ Est. Matches: 380  | Markets: All Markets
+
+
+📍 ROMANIA (1 leagues):
+----------------------
+   📋 Liga I                             
+      🆔 Season ID: 6600   | Season: 2025-26
+      🏆 Tier 1          | Period: July-May
+      ⚽ Est. Matches: 380  | Markets: All Markets
+
+
+📍 SWEDEN (1 leagues):
+---------------------
+   📋 Allsvenskan                        
+      🆔 Season ID: 6100   | Season: 2025
+      🏆 Tier 1          | Period: March-November
+      ⚽ Est. Matches: 380  | Markets: All Markets
+
+
+📍 SWITZERLAND (1 leagues):
+--------------------------
+   📋 Super League                       
+      🆔 Season ID: 6700   | Season: 2025-26
+      🏆 Tier 1          | Period: July-May
+      ⚽ Est. Matches: 380  | Markets: All Markets
+
+
+📍 TURKEY (1 leagues):
+---------------------
+   📋 Süper Lig                          
+      🆔 Season ID: 6900   | Season: 2025-26
+      🏆 Tier 1          | Period: August-May
+      ⚽ Est. Matches: 380  | Markets: All Markets
+
+
+🏆 LEAGUES BY TIER:
+====================
+
+🏆 CUPS & CONTINENTAL COMPETITIONS (31 leagues, 0 confirmed):
+------------------------------------------------------------
+   📋 Copa Argentina                 (Argentina   ) ID: 5501  
+   📋 Belgian Cup                    (Belgium     ) ID: 2401  
+   📋 Copa do Brasil                 (Brazil      ) ID: 5402  
+   📋 EFL Cup                        (England     ) ID: 1631  
+   📋 FA Cup                         (England     ) ID: 1630  
+   📋 UEFA Champions League          (Europe      ) ID: 3000  
+   📋 UEFA Europa Conference League  (Europe      ) ID: 3002  
+   📋 UEFA Europa League             (Europe      ) ID: 3001  
+   📋 UEFA Nations League            (Europe      ) ID: 3003  
+   📋 Coupe de France                (France      ) ID: 1845  
+   📋 DFB-Pokal                      (Germany     ) ID: 1857  
+   📋 CONCACAF Caribbean Club Championship (International) ID: 7002  
+   📋 CONCACAF Central American Cup  (International) ID: 7001  
+   📋 CONCACAF Champions Cup         (International) ID: 7000  
+   📋 FIFA Club World Cup            (International) ID: 4000  
+   📋 FIFA Club World Cup Playin     (International) ID: 4001  
+   📋 WC Qualification Africa        (International) ID: 4101  
+   📋 WC Qualification Asia          (International) ID: 4102  
+   📋 WC Qualification CONCACAF      (International) ID: 4104  
+   📋 WC Qualification Europe        (International) ID: 4100  
+   📋 WC Qualification Oceania       (International) ID: 4105  
+   📋 WC Qualification South America (International) ID: 4103  
+   📋 Coppa Italia                   (Italy       ) ID: 2107  
+   📋 Copa MX                        (Mexico      ) ID: 5202  
+   📋 KNVB Cup                       (Netherlands ) ID: 2202  
+   📋 Taça de Portugal               (Portugal    ) ID: 2302  
+   📋 Scottish Cup                   (Scotland    ) ID: 2502  
+   📋 Copa Libertadores              (South America) ID: 5300  
+   📋 Copa Sudamericana              (South America) ID: 5301  
+   📋 Copa del Rey                   (Spain       ) ID: 1731  
+   📋 US Open Cup                    (USA         ) ID: 5004  
+
+🥇 TOP TIER (1st Division) (25 leagues, 5 confirmed):
+------------------------------------------------------------
+   📋 Primera División               (Argentina   ) ID: 5500  
+   📋 Austrian Bundesliga            (Austria     ) ID: 6800  
+   📋 Pro League                     (Belgium     ) ID: 2400  
+   📋 Brazil Serie A                 (Brazil      ) ID: 5400  
+   📋 Canadian Premier League        (Canada      ) ID: 5100  
+   📋 First League                   (Czech Republic) ID: 6400  
+   📋 Superlig                       (Denmark     ) ID: 6200  
+   ✅ Premier League                 (England     ) ID: 1625  
+   📋 Veikkausliiga                  (Finland     ) ID: 6300  
+   ✅ Ligue 1                        (France      ) ID: 1843  
+   ✅ Bundesliga                     (Germany     ) ID: 1854  
+   ✅ Serie A                        (Italy       ) ID: 2105  
+   📋 Liga MX                        (Mexico      ) ID: 5200  
+   📋 Eredivisie                     (Netherlands ) ID: 2200  
+   📋 Eliteserien                    (Norway      ) ID: 6000  
+   📋 Ekstraklasa                    (Poland      ) ID: 6500  
+   📋 Primeira Liga                  (Portugal    ) ID: 2300  
+   📋 Liga I                         (Romania     ) ID: 6600  
+   📋 Scottish Premiership           (Scotland    ) ID: 2500  
+   ✅ La Liga                        (Spain       ) ID: 1729  
+   📋 Allsvenskan                    (Sweden      ) ID: 6100  
+   📋 Super League                   (Switzerland ) ID: 6700  
+   📋 Süper Lig                      (Turkey      ) ID: 6900  
+   📋 MLS                            (USA         ) ID: 5000  
+   📋 NWSL                           (USA         ) ID: 5003  
+
+🥈 SECOND TIER (2nd Division) (12 leagues, 0 confirmed):
+------------------------------------------------------------
+   📋 Brazil Serie B                 (Brazil      ) ID: 5401  
+   📋 Championship                   (England     ) ID: 1626  
+   📋 Ligue 2                        (France      ) ID: 1844  
+   📋 2. Bundesliga                  (Germany     ) ID: 1855  
+   📋 Serie B                        (Italy       ) ID: 2106  
+   📋 Liga de Expansión MX           (Mexico      ) ID: 5201  
+   📋 Eerste Divisie                 (Netherlands ) ID: 2201  
+   📋 First Division                 (Norway      ) ID: 6001  
+   📋 LigaPro                        (Portugal    ) ID: 2301  
+   📋 Scottish Championship          (Scotland    ) ID: 2501  
+   📋 Segunda División               (Spain       ) ID: 1730  
+   📋 USL Championship               (USA         ) ID: 5001  
+
+🥉 THIRD TIER (3rd Division) (4 leagues, 0 confirmed):
+------------------------------------------------------------
+   📋 FA Trophy                      (England     ) ID: 1632  
+   📋 League One                     (England     ) ID: 1627  
+   📋 3. Liga                        (Germany     ) ID: 1856  
+   📋 USL League One                 (USA         ) ID: 5002  
+
+4️⃣ FOURTH TIER (4th Division) (1 leagues, 0 confirmed):
+------------------------------------------------------------
+   📋 League Two                     (England     ) ID: 1628  
+
+5️⃣ FIFTH TIER (5th Division) (1 leagues, 0 confirmed):
+------------------------------------------------------------
+   📋 National League                (England     ) ID: 1629  
+
+📊 TOP 20 MOST ACTIVE LEAGUES (By Estimated Matches):
+=======================================================
+
+ 1. 📋 Championship                   552 matches
+     🌍 England         🆔 ID: 1626   📅 2025-26
+
+ 2. 📋 Segunda División               552 matches
+     🌍 Spain           🆔 ID: 1730   📅 2025-26
+
+ 3. 📋 2. Bundesliga                  552 matches
+     🌍 Germany         🆔 ID: 1855   📅 2025-26
+
+ 4. 📋 Serie B                        552 matches
+     🌍 Italy           🆔 ID: 2106   📅 2025-26
+
+ 5. 📋 Ligue 2                        552 matches
+     🌍 France          🆔 ID: 1844   📅 2025-26
+
+ 6. 📋 Eerste Divisie                 552 matches
+     🌍 Netherlands     🆔 ID: 2201   📅 2025-26
+
+ 7. 📋 LigaPro                        552 matches
+     🌍 Portugal        🆔 ID: 2301   📅 2025-26
+
+ 8. 📋 Scottish Championship          552 matches
+     🌍 Scotland        🆔 ID: 2501   📅 2025-26
+
+ 9. 📋 USL Championship               552 matches
+     🌍 USA             🆔 ID: 5001   📅 2025
+
+10. 📋 Liga de Expansión MX           552 matches
+     🌍 Mexico          🆔 ID: 5201   📅 2025
+
+11. 📋 Brazil Serie B                 552 matches
+     🌍 Brazil          🆔 ID: 5401   📅 2025
+
+12. 📋 First Division                 552 matches
+     🌍 Norway          🆔 ID: 6001   📅 2025
+
+13. 📋 League One                     462 matches
+     🌍 England         🆔 ID: 1627   📅 2025-26
+
+14. 📋 League Two                     462 matches
+     🌍 England         🆔 ID: 1628   📅 2025-26
+
+15. 📋 National League                462 matches
+     🌍 England         🆔 ID: 1629   📅 2025-26
+
+16. 📋 3. Liga                        462 matches
+     🌍 Germany         🆔 ID: 1856   📅 2025-26
+
+17. 📋 USL League One                 462 matches
+     🌍 USA             🆔 ID: 5002   📅 2025
+
+18. ✅ Premier League                 380 matches
+     🌍 England         🆔 ID: 1625   📅 2025-26
+
+19. ✅ La Liga                        380 matches
+     🌍 Spain           🆔 ID: 1729   📅 2025-26
+
+20. ✅ Bundesliga                     380 matches
+     🌍 Germany         🆔 ID: 1854   📅 2025-26
+
+✅ CONFIRMED 2025 SEASON IDs:
+===================================
+
+   ✅ Premier League                 (ID: 1625  ) - England
+   ✅ Ligue 1                        (ID: 1843  ) - France
+   ✅ Bundesliga                     (ID: 1854  ) - Germany
+   ✅ Serie A                        (ID: 2105  ) - Italy
+   ✅ La Liga                        (ID: 1729  ) - Spain
+
+📋 ESTIMATED 2025 SEASON IDs (Need Verification):
+=======================================================
+
+🌍 Argentina:
+   📋 Copa Argentina                 (ID: 5501  )
+   📋 Primera División               (ID: 5500  )
+
+🌍 Austria:
+   📋 Austrian Bundesliga            (ID: 6800  )
+
+🌍 Belgium:
+   📋 Belgian Cup                    (ID: 2401  )
+   📋 Pro League                     (ID: 2400  )
+
+🌍 Brazil:
+   📋 Brazil Serie A                 (ID: 5400  )
+   📋 Brazil Serie B                 (ID: 5401  )
+   📋 Copa do Brasil                 (ID: 5402  )
+
+🌍 Canada:
+   📋 Canadian Premier League        (ID: 5100  )
+
+🌍 Czech Republic:
+   📋 First League                   (ID: 6400  )
+
+🌍 Denmark:
+   📋 Superlig                       (ID: 6200  )
+
+🌍 England:
+   📋 Championship                   (ID: 1626  )
+   📋 EFL Cup                        (ID: 1631  )
+   📋 FA Cup                         (ID: 1630  )
+   📋 FA Trophy                      (ID: 1632  )
+   📋 League One                     (ID: 1627  )
+   📋 League Two                     (ID: 1628  )
+   📋 National League                (ID: 1629  )
+
+🌍 Europe:
+   📋 UEFA Champions League          (ID: 3000  )
+   📋 UEFA Europa Conference League  (ID: 3002  )
+   📋 UEFA Europa League             (ID: 3001  )
+   📋 UEFA Nations League            (ID: 3003  )
+
+🌍 Finland:
+   📋 Veikkausliiga                  (ID: 6300  )
+
+🌍 France:
+   📋 Coupe de France                (ID: 1845  )
+   📋 Ligue 2                        (ID: 1844  )
+
+🌍 Germany:
+   📋 2. Bundesliga                  (ID: 1855  )
+   📋 3. Liga                        (ID: 1856  )
+   📋 DFB-Pokal                      (ID: 1857  )
+
+🌍 International:
+   📋 CONCACAF Caribbean Club Championship (ID: 7002  )
+   📋 CONCACAF Central American Cup  (ID: 7001  )
+   📋 CONCACAF Champions Cup         (ID: 7000  )
+   📋 FIFA Club World Cup            (ID: 4000  )
+   📋 FIFA Club World Cup Playin     (ID: 4001  )
+   📋 WC Qualification Africa        (ID: 4101  )
+   📋 WC Qualification Asia          (ID: 4102  )
+   📋 WC Qualification CONCACAF      (ID: 4104  )
+   📋 WC Qualification Europe        (ID: 4100  )
+   📋 WC Qualification Oceania       (ID: 4105  )
+   📋 WC Qualification South America (ID: 4103  )
+
+🌍 Italy:
+   📋 Coppa Italia                   (ID: 2107  )
+   📋 Serie B                        (ID: 2106  )
+
+🌍 Mexico:
+   📋 Copa MX                        (ID: 5202  )
+   📋 Liga MX                        (ID: 5200  )
+   📋 Liga de Expansión MX           (ID: 5201  )
+
+🌍 Netherlands:
+   📋 Eerste Divisie                 (ID: 2201  )
+   📋 Eredivisie                     (ID: 2200  )
+   📋 KNVB Cup                       (ID: 2202  )
+
+🌍 Norway:
+   📋 Eliteserien                    (ID: 6000  )
+   📋 First Division                 (ID: 6001  )
+
+🌍 Poland:
+   📋 Ekstraklasa                    (ID: 6500  )
+
+🌍 Portugal:
+   📋 LigaPro                        (ID: 2301  )
+   📋 Primeira Liga                  (ID: 2300  )
+   📋 Taça de Portugal               (ID: 2302  )
+
+🌍 Romania:
+   📋 Liga I                         (ID: 6600  )
+
+🌍 Scotland:
+   📋 Scottish Championship          (ID: 2501  )
+   📋 Scottish Cup                   (ID: 2502  )
+   📋 Scottish Premiership           (ID: 2500  )
+
+🌍 South America:
+   📋 Copa Libertadores              (ID: 5300  )
+   📋 Copa Sudamericana              (ID: 5301  )
+
+🌍 Spain:
+   📋 Copa del Rey                   (ID: 1731  )
+   📋 Segunda División               (ID: 1730  )
+
+🌍 Sweden:
+   📋 Allsvenskan                    (ID: 6100  )
+
+🌍 Switzerland:
+   📋 Super League                   (ID: 6700  )
+
+🌍 Turkey:
+   📋 Süper Lig                      (ID: 6900  )
+
+🌍 USA:
+   📋 MLS                            (ID: 5000  )
+   📋 NWSL                           (ID: 5003  )
+   📋 US Open Cup                    (ID: 5004  )
+   📋 USL Championship               (ID: 5001  )
+   📋 USL League One                 (ID: 5002  )
+
+📈 REGIONAL BREAKDOWN:
+======================
+
+   England        :  8 leagues, 2507 matches,  1 confirmed
+   USA            :  5 leagues, 1837 matches,  0 confirmed
+   Germany        :  4 leagues, 1457 matches,  1 confirmed
+   Portugal       :  3 leagues, 1232 matches,  0 confirmed
+   Italy          :  3 leagues, 1232 matches,  1 confirmed
+   Europe         :  4 leagues, 1200 matches,  0 confirmed
+   International  : 11 leagues, 1068 matches,  0 confirmed
+   Netherlands    :  3 leagues,  995 matches,  0 confirmed
+   Spain          :  3 leagues,  995 matches,  1 confirmed
+   Scotland       :  3 leagues,  995 matches,  0 confirmed
+   France         :  3 leagues,  995 matches,  1 confirmed
+   Brazil         :  3 leagues,  995 matches,  0 confirmed
+   Mexico         :  3 leagues,  995 matches,  0 confirmed
+   Norway         :  2 leagues,  932 matches,  0 confirmed
+   Belgium        :  2 leagues,  443 matches,  0 confirmed
+   Argentina      :  2 leagues,  443 matches,  0 confirmed
+   Denmark        :  1 leagues,  380 matches,  0 confirmed
+   Poland         :  1 leagues,  380 matches,  0 confirmed
+   Austria        :  1 leagues,  380 matches,  0 confirmed
+   Romania        :  1 leagues,  380 matches,  0 confirmed
+   Finland        :  1 leagues,  380 matches,  0 confirmed
+   Canada         :  1 leagues,  380 matches,  0 confirmed
+   Sweden         :  1 leagues,  380 matches,  0 confirmed
+   Switzerland    :  1 leagues,  380 matches,  0 confirmed
+   Turkey         :  1 leagues,  380 matches,  0 confirmed
+   Czech Republic :  1 leagues,  380 matches,  0 confirmed
+   South America  :  2 leagues,  213 matches,  0 confirmed
+
+⚠️ LEGEND:
+✅ = Season ID confirmed from official sources
+📋 = Season ID estimated/calculated (needs verification)
+
+📝 NOTES:
+• All leagues support comprehensive betting markets
+• Estimated matches based on typical league formats
+• Season years vary by region (2025 vs 2025-26)
+• Continental competitions depend on qualification stages
+• Cup competitions may have variable match counts

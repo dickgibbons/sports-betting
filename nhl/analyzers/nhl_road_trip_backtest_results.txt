@@ -1,0 +1,117 @@
+/Users/dickgibbons/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+🏒 NHL Road Trip Backtest initialized
+
+================================================================================
+🏒 NHL ROAD TRIP BACKTEST
+================================================================================
+Seasons: 20222023, 20232024, 20242025
+================================================================================
+
+📅 Fetching 20222023 season schedule...
+   Processed 30 days, found 196 completed games...
+   Processed 60 days, found 411 completed games...
+   Processed 90 days, found 621 completed games...
+   Processed 120 days, found 848 completed games...
+   Processed 150 days, found 1011 completed games...
+   Processed 180 days, found 1242 completed games...
+   Processed 210 days, found 1412 completed games...
+   ✅ Found 1417 completed games for 20222023 season
+
+🔍 Analyzing road trip patterns...
+   ✅ Analyzed 412 road trip games (3rd+ game)
+
+📅 Fetching 20232024 season schedule...
+   Processed 30 days, found 185 completed games...
+   Processed 60 days, found 386 completed games...
+   Processed 90 days, found 601 completed games...
+   Processed 120 days, found 821 completed games...
+   Processed 150 days, found 989 completed games...
+   Processed 180 days, found 1214 completed games...
+   Processed 210 days, found 1390 completed games...
+   ✅ Found 1400 completed games for 20232024 season
+
+🔍 Analyzing road trip patterns...
+   ✅ Analyzed 813 road trip games (3rd+ game)
+
+📅 Fetching 20242025 season schedule...
+   Processed 30 days, found 194 completed games...
+   Processed 60 days, found 409 completed games...
+   Processed 90 days, found 619 completed games...
+   Processed 120 days, found 840 completed games...
+   Processed 150 days, found 985 completed games...
+   Processed 180 days, found 1210 completed games...
+   Processed 210 days, found 1387 completed games...
+   ✅ Found 1394 completed games for 20242025 season
+
+🔍 Analyzing road trip patterns...
+   ✅ Analyzed 1218 road trip games (3rd+ game)
+
+================================================================================
+📊 ROAD TRIP BACKTEST RESULTS
+================================================================================
+
+🎯 KEY QUESTION: Does performance differ on LAST game of road trip?
+
+────────────────────────────────────────────────────────────────────────────────
+📈 OVERALL ROAD TRIP PERFORMANCE:
+────────────────────────────────────────────────────────────────────────────────
+
+3rd+ Game of Road Trip:
+   Games: 1218
+   Away Wins: 550
+   Win Rate: 45.2%
+   vs Expected 50%: -4.8%
+
+4th+ Game of Road Trip:
+   Games: 559
+   Away Wins: 238
+   Win Rate: 42.6%
+   vs Expected 50%: -7.4%
+
+5th+ Game of Road Trip:
+   Games: 215
+   Away Wins: 96
+   Win Rate: 44.7%
+   vs Expected 50%: -5.3%
+
+────────────────────────────────────────────────────────────────────────────────
+🔥 LAST GAME OF TRIP vs TRIP CONTINUES:
+────────────────────────────────────────────────────────────────────────────────
+
+3rd Game (LAST of 3-game trip):
+   Games: 330
+   Win Rate: 48.8%
+   vs Expected: -1.2%
+
+3rd Game (trip continues to 4+):
+   Games: 329
+   Win Rate: 45.9%
+   vs Expected: -4.1%
+
+4th Game (LAST of 4-game trip):
+   Games: 206
+   Win Rate: 44.2%
+   vs Expected: -5.8%
+
+4th Game (trip continues to 5+):
+   Games: 138
+   Win Rate: 37.0%
+   vs Expected: -13.0%
+
+5th Game (LAST of 5-game trip):
+   Games: 101
+   Win Rate: 42.6%
+   vs Expected: -7.4%
+
+================================================================================
+💰 BETTING RECOMMENDATIONS:
+================================================================================
+
+✅ BET ON HOME TEAM when opponent is on 4th+ road game
+   Historical home win rate: 57.4%
+   Edge: +7.4%
+   Sample size: 559 games
+
+================================================================================
+
