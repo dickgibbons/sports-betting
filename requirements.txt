@@ -1,0 +1,31 @@
+# Sports Betting Analysis System - Requirements
+# Python 3.9+ recommended
+
+# Core Data Processing
+pandas==2.1.1
+numpy==1.24.3
+
+# Machine Learning
+scikit-learn==1.3.1
+xgboost==2.0.0
+tensorflow==2.14.0
+joblib==1.3.2
+
+# API and Web
+requests==2.31.0
+flask==3.0.0
+
+# AWS Integration (for NHL automation)
+boto3==1.28.0
+
+# Utilities
+python-dateutil==2.8.2
+pytz==2023.3
+tqdm==4.66.1
+colorama==0.4.6
+toml==0.10.2
+
+# Optional - for data collection
+sbrscrape==0.0.10
+
+# Note: tensorflow-metal==1.1.0 for Apple Silicon optimization (optional)
