@@ -55,8 +55,8 @@ class DailyBettingReport:
         self.odds_cache = {}  # Cache odds for performance
 
         # Filtering thresholds
-        self.max_favorite_odds = -350  # Don't recommend favorites worse than -350
-        self.min_value_threshold = 0.03  # Minimum 3% true expected value
+        self.max_favorite_odds = -250  # Don't recommend favorites worse than -250
+        self.min_value_threshold = 0.05  # Minimum 5% true expected value
 
         print("🎯 Daily Betting Report initialized")
 
@@ -474,25 +474,82 @@ class DailyBettingReport:
 
             # Include if ANY angles found (minimum 4% edge to avoid noise)
             if angles_found and total_edge >= 4.0:
-                # Determine confidence based on total edge
-                if total_edge >= 10:
-                    confidence = 'HIGH'
-                elif total_edge >= 6:
-                    confidence = 'MEDIUM'
-                else:
-                    confidence = 'LOW'
+                # Determine bet direction
+                bet_text = angles_found[0]['bet']
 
-                bets.append({
-                    'sport': 'SOCCER',
-                    'game': f"{away_team} @ {home_team}",
-                    'league': league,
-                    'bet_type': 'Various',
-                    'bet': angles_found[0]['bet'],
-                    'expected_edge': total_edge,
-                    'angles': angles_found,
-                    'angle_count': len(angles_found),
-                    'confidence': confidence
-                })
+                # Try to fetch odds for soccer matches
+                # Soccer uses different markets (home/away/draw)
+                game_odds = self._get_team_odds('soccer', home_team, away_team)
+
+                if game_odds:
+                    # Determine bet side from bet text
+                    if home_team in bet_text or 'home' in bet_text.lower():
+                        bet_side = 'home'
+                    elif away_team in bet_text or 'away' in bet_text.lower():
+                        bet_side = 'away'
+                    else:
+                        # For BTTS and other special markets, use edge-based ranking
+                        bet_side = None
+
+                    if bet_side:
+                        odds = game_odds.get(bet_side, 0)
+
+                        # Filter out heavy favorites
+                        if odds < self.max_favorite_odds:
+                            continue
+
+                        # Calculate true EV
+                        estimated_win_prob = 0.35 + (total_edge / 100)  # Soccer base is lower (draw possibility)
+                        true_ev = self._calculate_true_ev(odds, estimated_win_prob)
+
+                        # Filter by minimum EV
+                        if true_ev < self.min_value_threshold:
+                            continue
+
+                        bets.append({
+                            'sport': 'SOCCER',
+                            'game': f"{away_team} @ {home_team}",
+                            'league': league,
+                            'bet_type': 'Moneyline',
+                            'bet': bet_text,
+                            'odds': odds,
+                            'expected_edge': total_edge,
+                            'true_ev': true_ev * 100,
+                            'angles': angles_found,
+                            'angle_count': len(angles_found),
+                            'confidence': self._calculate_confidence(total_edge, len(angles_found))
+                        })
+                    else:
+                        # Special markets (BTTS, Totals) - use angle edge
+                        bets.append({
+                            'sport': 'SOCCER',
+                            'game': f"{away_team} @ {home_team}",
+                            'league': league,
+                            'bet_type': 'Special',
+                            'bet': bet_text,
+                            'odds': None,
+                            'expected_edge': total_edge,
+                            'true_ev': total_edge,
+                            'angles': angles_found,
+                            'angle_count': len(angles_found),
+                            'confidence': self._calculate_confidence(total_edge, len(angles_found))
+                        })
+                else:
+                    # No odds available - use angle-based ranking
+                    confidence = 'HIGH' if total_edge >= 10 else 'MEDIUM' if total_edge >= 6 else 'LOW'
+                    bets.append({
+                        'sport': 'SOCCER',
+                        'game': f"{away_team} @ {home_team}",
+                        'league': league,
+                        'bet_type': 'Various',
+                        'bet': bet_text,
+                        'odds': None,
+                        'expected_edge': total_edge,
+                        'true_ev': total_edge,
+                        'angles': angles_found,
+                        'angle_count': len(angles_found),
+                        'confidence': confidence
+                    })
 
         return bets
 
@@ -543,20 +600,54 @@ class DailyBettingReport:
             # Determine which team to bet based on angles
             bet_text = angles[0].get('bet', '')
 
-            # NCAA angles are mainly for spread betting
-            # Don't apply aggressive EV filtering like moneyline bets
-            bets.append({
-                'sport': 'NCAA',
-                'game': f"{away_team} @ {home_team}",
-                'bet_type': 'Spread',
-                'bet': bet_text,
-                'odds': None,  # Spread odds not fetched (typically -110)
-                'expected_edge': total_edge,
-                'true_ev': total_edge,  # Use angle edge directly for spreads
-                'angles': angles,
-                'angle_count': len(angles),
-                'confidence': self._calculate_confidence(total_edge, len(angles))
-            })
+            # Determine bet direction from angles
+            bet_home = sum(1 for a in angles if 'home' in a.get('bet', '').lower() or home_team in a.get('bet', ''))
+            bet_away = len(angles) - bet_home
+
+            if bet_home > bet_away:
+                bet_team = home_team
+                bet_side = 'home'
+                bet_type = f"{home_team} ML"
+            else:
+                bet_team = away_team if bet_away > 0 else home_team
+                bet_side = 'away' if bet_away > 0 else 'home'
+                bet_type = f"{away_team if bet_away > 0 else home_team} ML"
+
+            # Fetch real odds from The-Odds-API
+            game_odds = self._get_team_odds('basketball_ncaab', home_team, away_team)
+
+            if game_odds:
+                odds = game_odds.get(bet_side, 0)
+
+                # Filter out heavy favorites (e.g., -10000)
+                if odds < self.max_favorite_odds:
+                    # For heavy favorites, recommend the spread instead
+                    continue  # Skip ML bet, spread betting would be better
+
+                # Calculate true EV
+                estimated_win_prob = 0.50 + (total_edge / 100)
+                true_ev = self._calculate_true_ev(odds, estimated_win_prob)
+
+                # Filter by minimum EV
+                if true_ev < self.min_value_threshold:
+                    continue  # Skip low value bets
+
+                bets.append({
+                    'sport': 'NCAA',
+                    'game': f"{away_team} @ {home_team}",
+                    'bet_type': 'Moneyline',
+                    'bet': bet_type,
+                    'odds': odds,
+                    'expected_edge': total_edge,
+                    'true_ev': true_ev * 100,
+                    'angles': angles,
+                    'angle_count': len(angles),
+                    'confidence': self._calculate_confidence(total_edge, len(angles))
+                })
+            else:
+                # No odds available - skip this bet rather than recommend blind
+                # (Spread betting would require different odds endpoint)
+                continue
 
         return bets
 

@@ -2701,10 +2701,11 @@
     "angles": [],
     "angle_count": 0,
     "recommended_stake_pct": 0.5,
-    "stake": null,
-    "result": "PENDING",
-    "profit": null,
-    "logged_at": "2025-11-16 14:01:21"
+    "stake": 42.65606842905835,
+    "result": "LOSS",
+    "profit": -42.65606842905835,
+    "logged_at": "2025-11-16 14:01:21",
+    "updated_at": "2025-11-17 13:32:05"
   },
   {
     "bet_id": "2025-11-16_NBA_103",
@@ -2724,5 +2725,157 @@
     "result": "PENDING",
     "profit": null,
     "logged_at": "2025-11-16 14:01:21"
+  },
+  {
+    "bet_id": "2025-11-17_NBA_104",
+    "date": "2025-11-17",
+    "sport": "NBA",
+    "game": "Dallas Mavericks @ Minnesota Timberwolves",
+    "bet_type": "Moneyline",
+    "bet": "Dallas Mavericks ML",
+    "odds": 600,
+    "confidence": "ELITE",
+    "expected_edge": 22.0,
+    "true_ev": 404.0,
+    "angles": [
+      {
+        "type": "back_to_back",
+        "reason": "Dallas Mavericks on HOME \u2192 ROAD B2B (80% win rate historical)"
+      },
+      {
+        "type": "heavy_schedule",
+        "reason": "Minnesota Timberwolves playing 3rd game in 4 nights (heavy fatigue)"
+      }
+    ],
+    "angle_count": 2,
+    "recommended_stake_pct": 2.5,
+    "stake": null,
+    "result": "PENDING",
+    "profit": null,
+    "logged_at": "2025-11-17 13:18:57"
+  },
+  {
+    "bet_id": "2025-11-17_NBA_105",
+    "date": "2025-11-17",
+    "sport": "NBA",
+    "game": "LA Clippers @ Philadelphia 76ers",
+    "bet_type": "Moneyline",
+    "bet": "Philadelphia 76ers ML",
+    "odds": null,
+    "confidence": "ELITE",
+    "expected_edge": 18.0,
+    "true_ev": 18.0,
+    "angles": [
+      {
+        "type": "heavy_schedule",
+        "reason": "LA Clippers playing 3rd game in 4 nights (heavy fatigue)"
+      },
+      {
+        "type": "rest_advantage",
+        "reason": "Philadelphia 76ers has 2 days rest vs LA Clippers 0 days"
+      }
+    ],
+    "angle_count": 2,
+    "recommended_stake_pct": 2.5,
+    "stake": null,
+    "result": "PENDING",
+    "profit": null,
+    "logged_at": "2025-11-17 13:18:57"
+  },
+  {
+    "bet_id": "2025-11-17_NCAA_106",
+    "date": "2025-11-17",
+    "sport": "NCAA",
+    "game": "Southern Utah Thunderbirds @ Gonzaga Bulldogs",
+    "bet_type": "Spread",
+    "bet": "BET: Gonzaga Bulldogs Spread",
+    "odds": null,
+    "confidence": "HIGH",
+    "expected_edge": 10.0,
+    "true_ev": 10.0,
+    "angles": [
+      {
+        "type": "elite_home_court",
+        "reason": "Gonzaga Bulldogs at elite venue (5.5 point HCA vs 3.5 avg)"
+      }
+    ],
+    "angle_count": 1,
+    "recommended_stake_pct": 1.5,
+    "stake": null,
+    "result": "PENDING",
+    "profit": null,
+    "logged_at": "2025-11-17 13:18:57"
+  },
+  {
+    "bet_id": "2025-11-17_NHL_107",
+    "date": "2025-11-17",
+    "sport": "NHL",
+    "game": "LAK @ WSH",
+    "bet_type": "Moneyline",
+    "bet": "WSH ML",
+    "odds": null,
+    "confidence": "MEDIUM",
+    "expected_edge": 7.4,
+    "true_ev": 7.4,
+    "angles": [
+      {
+        "type": "road_trip_fatigue",
+        "reason": "LAK on 4th game of road trip | LAK is 7-7 on 4th+ road games"
+      }
+    ],
+    "angle_count": 1,
+    "recommended_stake_pct": 0.75,
+    "stake": null,
+    "result": "PENDING",
+    "profit": null,
+    "logged_at": "2025-11-17 13:18:57"
+  },
+  {
+    "bet_id": "2025-11-17_NHL_108",
+    "date": "2025-11-17",
+    "sport": "NHL",
+    "game": "CAR @ BOS",
+    "bet_type": "Moneyline",
+    "bet": "BOS ML",
+    "odds": null,
+    "confidence": "LOW",
+    "expected_edge": 6.5,
+    "true_ev": 6.5,
+    "angles": [
+      {
+        "type": "three_in_four",
+        "reason": "CAR playing 3rd game in 4 nights (heavy fatigue)"
+      }
+    ],
+    "angle_count": 1,
+    "recommended_stake_pct": 0.5,
+    "stake": null,
+    "result": "PENDING",
+    "profit": null,
+    "logged_at": "2025-11-17 13:18:57"
+  },
+  {
+    "bet_id": "2025-11-17_NHL_109",
+    "date": "2025-11-17",
+    "sport": "NHL",
+    "game": "VAN @ FLA",
+    "bet_type": "Moneyline",
+    "bet": "FLA ML",
+    "odds": null,
+    "confidence": "LOW",
+    "expected_edge": 6.5,
+    "true_ev": 6.5,
+    "angles": [
+      {
+        "type": "three_in_four",
+        "reason": "VAN playing 3rd game in 4 nights (heavy fatigue)"
+      }
+    ],
+    "angle_count": 1,
+    "recommended_stake_pct": 0.5,
+    "stake": null,
+    "result": "PENDING",
+    "profit": null,
+    "logged_at": "2025-11-17 13:18:57"
   }
 ]

@@ -1,0 +1,19 @@
+NBA BETTING REPORT - 2025-11-17
+================================================================================
+
+#1 Dallas Mavericks @ Minnesota Timberwolves
+BET: Dallas Mavericks ML
+ODDS: +600 | True EV: +404.0%
+Confidence: ELITE
+Angles: 2
+  1. Dallas Mavericks on HOME → ROAD B2B (80% win rate historical)
+  2. Minnesota Timberwolves playing 3rd game in 4 nights (heavy fatigue)
+
+#2 LA Clippers @ Philadelphia 76ers
+BET: Philadelphia 76ers ML
+Edge: +18.0%
+Confidence: ELITE
+Angles: 2
+  1. LA Clippers playing 3rd game in 4 nights (heavy fatigue)
+  2. Philadelphia 76ers has 2 days rest vs LA Clippers 0 days
+
