@@ -136,6 +136,17 @@ if [ "$RUN_SOCCER" = true ]; then
     fi
 fi
 
+# Generate sport-specific picks files
+log "========================================="
+log "Generating Sport-Specific Picks Files..."
+log "========================================="
+cd "$PROJECT_DIR/core"
+if python3 generate_sport_picks.py >> "$LOG_FILE" 2>&1; then
+    log "✓ Sport-specific picks files generated"
+else
+    log "✗ Error generating sport-specific picks"
+fi
+
 # Generate unified cross-sport report
 log "========================================="
 log "Generating Unified Cross-Sport Report..."
@@ -147,6 +158,17 @@ else
     log "✗ Error generating unified report"
 fi
 
+# Update cumulative performance trackers
+log "========================================="
+log "Updating Cumulative Performance Trackers..."
+log "========================================="
+cd "$PROJECT_DIR"
+if python3 generate_performance_trackers.py >> "$LOG_FILE" 2>&1; then
+    log "✓ Performance trackers updated"
+else
+    log "✗ Error updating performance trackers"
+fi
+
 # Summary
 log "========================================="
 log "DAILY REPORT GENERATION COMPLETE"
@@ -154,6 +176,15 @@ log "========================================="
 log "Reports saved to: $REPORT_DIR/$DATE/"
 log "Log file: $LOG_FILE"
 log ""
-log "To view reports:"
+log "📊 Sport-Specific Picks Files:"
+log "  - nhl_picks_$DATE.txt"
+log "  - nba_picks_$DATE.txt"
+log "  - ncaa_picks_$DATE.txt"
+log "  - soccer_picks_$DATE.txt"
+log ""
+log "📈 Performance Trackers Updated:"
+log "  - performance_reports/*_cumulative_performance.csv"
+log ""
+log "To view all files:"
 log "  ls -lh $REPORT_DIR/$DATE/"
 log ""
