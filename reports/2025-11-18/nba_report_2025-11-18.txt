@@ -1,0 +1,17 @@
+NBA BETTING REPORT - 2025-11-18
+================================================================================
+
+#1 Detroit Pistons @ Atlanta Hawks
+BET: Atlanta Hawks ML
+ODDS: -106 | True EV: +20.5%
+Confidence: HIGH
+Angles: 1
+  1. Detroit Pistons on HOME → ROAD B2B (80% win rate historical)
+
+#2 Golden State Warriors @ Orlando Magic
+BET: Orlando Magic ML
+ODDS: +140 | True EV: +37.5%
+Confidence: MEDIUM
+Angles: 1
+  1. Golden State Warriors on 5th game of road trip
+

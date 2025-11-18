@@ -2877,5 +2877,205 @@
     "result": "PENDING",
     "profit": null,
     "logged_at": "2025-11-17 13:18:57"
+  },
+  {
+    "bet_id": "2025-11-18_NHL_110",
+    "date": "2025-11-18",
+    "sport": "NHL",
+    "game": "CBJ @ WPG",
+    "bet_type": "Moneyline",
+    "bet": "WPG ML",
+    "odds": null,
+    "confidence": "ELITE",
+    "expected_edge": 23.5,
+    "true_ev": 23.5,
+    "angles": [
+      {
+        "type": "back_to_back",
+        "reason": "CBJ on HOME \u2192 ROAD B2B (80% win rate historical) | CBJ is 2-9 in B2B situations"
+      },
+      {
+        "type": "three_in_four",
+        "reason": "CBJ playing 3rd game in 4 nights (heavy fatigue)"
+      },
+      {
+        "type": "rest_advantage",
+        "reason": "WPG has 2 days rest vs CBJ 0 days"
+      }
+    ],
+    "angle_count": 3,
+    "recommended_stake_pct": 2.5,
+    "stake": null,
+    "result": "PENDING",
+    "profit": null,
+    "logged_at": "2025-11-18 06:39:12"
+  },
+  {
+    "bet_id": "2025-11-18_NBA_111",
+    "date": "2025-11-18",
+    "sport": "NBA",
+    "game": "Detroit Pistons @ Atlanta Hawks",
+    "bet_type": "Moneyline",
+    "bet": "Atlanta Hawks ML",
+    "odds": -106,
+    "confidence": "HIGH",
+    "expected_edge": 12.0,
+    "true_ev": 20.490566037735846,
+    "angles": [
+      {
+        "type": "back_to_back",
+        "reason": "Detroit Pistons on HOME \u2192 ROAD B2B (80% win rate historical)"
+      }
+    ],
+    "angle_count": 1,
+    "recommended_stake_pct": 1.5,
+    "stake": null,
+    "result": "PENDING",
+    "profit": null,
+    "logged_at": "2025-11-18 06:39:12"
+  },
+  {
+    "bet_id": "2025-11-18_NHL_112",
+    "date": "2025-11-18",
+    "sport": "NHL",
+    "game": "NYI @ DAL",
+    "bet_type": "Moneyline",
+    "bet": "DAL ML",
+    "odds": null,
+    "confidence": "MEDIUM",
+    "expected_edge": 7.4,
+    "true_ev": 7.4,
+    "angles": [
+      {
+        "type": "road_trip_fatigue",
+        "reason": "NYI on 4th game of road trip"
+      }
+    ],
+    "angle_count": 1,
+    "recommended_stake_pct": 0.75,
+    "stake": null,
+    "result": "PENDING",
+    "profit": null,
+    "logged_at": "2025-11-18 06:39:12"
+  },
+  {
+    "bet_id": "2025-11-18_NBA_113",
+    "date": "2025-11-18",
+    "sport": "NBA",
+    "game": "Golden State Warriors @ Orlando Magic",
+    "bet_type": "Moneyline",
+    "bet": "Orlando Magic ML",
+    "odds": 140,
+    "confidence": "MEDIUM",
+    "expected_edge": 7.3,
+    "true_ev": 37.51999999999999,
+    "angles": [
+      {
+        "type": "road_trip_fatigue",
+        "reason": "Golden State Warriors on 5th game of road trip"
+      }
+    ],
+    "angle_count": 1,
+    "recommended_stake_pct": 0.75,
+    "stake": null,
+    "result": "PENDING",
+    "profit": null,
+    "logged_at": "2025-11-18 06:39:12"
+  },
+  {
+    "bet_id": "2025-11-18_NHL_114",
+    "date": "2025-11-18",
+    "sport": "NHL",
+    "game": "SEA @ DET",
+    "bet_type": "Moneyline",
+    "bet": "SEA ML",
+    "odds": null,
+    "confidence": "LOW",
+    "expected_edge": 6.5,
+    "true_ev": 6.5,
+    "angles": [
+      {
+        "type": "three_in_four",
+        "reason": "DET playing 3rd game in 4 nights (heavy fatigue)"
+      }
+    ],
+    "angle_count": 1,
+    "recommended_stake_pct": 0.5,
+    "stake": null,
+    "result": "PENDING",
+    "profit": null,
+    "logged_at": "2025-11-18 06:39:12"
+  },
+  {
+    "bet_id": "2025-11-18_NHL_115",
+    "date": "2025-11-18",
+    "sport": "NHL",
+    "game": "NJD @ TBL",
+    "bet_type": "Moneyline",
+    "bet": "NJD ML",
+    "odds": null,
+    "confidence": "LOW",
+    "expected_edge": 6.5,
+    "true_ev": 6.5,
+    "angles": [
+      {
+        "type": "three_in_four",
+        "reason": "TBL playing 3rd game in 4 nights (heavy fatigue)"
+      }
+    ],
+    "angle_count": 1,
+    "recommended_stake_pct": 0.5,
+    "stake": null,
+    "result": "PENDING",
+    "profit": null,
+    "logged_at": "2025-11-18 06:39:12"
+  },
+  {
+    "bet_id": "2025-11-18_NHL_116",
+    "date": "2025-11-18",
+    "sport": "NHL",
+    "game": "NYR @ VGK",
+    "bet_type": "Moneyline",
+    "bet": "NYR ML",
+    "odds": null,
+    "confidence": "LOW",
+    "expected_edge": 6.5,
+    "true_ev": 6.5,
+    "angles": [
+      {
+        "type": "three_in_four",
+        "reason": "VGK playing 3rd game in 4 nights (heavy fatigue)"
+      }
+    ],
+    "angle_count": 1,
+    "recommended_stake_pct": 0.5,
+    "stake": null,
+    "result": "PENDING",
+    "profit": null,
+    "logged_at": "2025-11-18 06:39:12"
+  },
+  {
+    "bet_id": "2025-11-18_NHL_117",
+    "date": "2025-11-18",
+    "sport": "NHL",
+    "game": "UTA @ SJS",
+    "bet_type": "Moneyline",
+    "bet": "SJS ML",
+    "odds": null,
+    "confidence": "LOW",
+    "expected_edge": 5.0,
+    "true_ev": 5.0,
+    "angles": [
+      {
+        "type": "rest_advantage",
+        "reason": "SJS has 2 days rest vs UTA 0 days"
+      }
+    ],
+    "angle_count": 1,
+    "recommended_stake_pct": 0.5,
+    "stake": null,
+    "result": "PENDING",
+    "profit": null,
+    "logged_at": "2025-11-18 06:39:12"
   }
 ]

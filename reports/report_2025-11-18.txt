@@ -1,0 +1,35 @@
+DAILY BETTING REPORT - 2025-11-18
+================================================================================
+
+#1 NHL: CBJ @ WPG
+BET: WPG ML
+Edge: +23.5% | Confidence: ELITE
+
+#2 NBA: Detroit Pistons @ Atlanta Hawks
+BET: Atlanta Hawks ML
+Edge: +12.0% | Confidence: HIGH
+
+#3 NHL: NYI @ DAL
+BET: DAL ML
+Edge: +7.4% | Confidence: MEDIUM
+
+#4 NBA: Golden State Warriors @ Orlando Magic
+BET: Orlando Magic ML
+Edge: +7.3% | Confidence: MEDIUM
+
+#5 NHL: SEA @ DET
+BET: SEA ML
+Edge: +6.5% | Confidence: LOW
+
+#6 NHL: NJD @ TBL
+BET: NJD ML
+Edge: +6.5% | Confidence: LOW
+
+#7 NHL: NYR @ VGK
+BET: NYR ML
+Edge: +6.5% | Confidence: LOW
+
+#8 NHL: UTA @ SJS
+BET: SJS ML
+Edge: +5.0% | Confidence: LOW
+

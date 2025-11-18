@@ -1,0 +1,46 @@
+NHL BETTING REPORT - 2025-11-18
+================================================================================
+
+#1 CBJ @ WPG
+BET: WPG ML
+Edge: +23.5%
+Confidence: ELITE
+Angles: 3
+  1. CBJ on HOME → ROAD B2B (80% win rate historical) | CBJ is 2-9 in B2B situations
+  2. CBJ playing 3rd game in 4 nights (heavy fatigue)
+
+#2 NYI @ DAL
+BET: DAL ML
+Edge: +7.4%
+Confidence: MEDIUM
+Angles: 1
+  1. NYI on 4th game of road trip
+
+#3 SEA @ DET
+BET: SEA ML
+Edge: +6.5%
+Confidence: LOW
+Angles: 1
+  1. DET playing 3rd game in 4 nights (heavy fatigue)
+
+#4 NJD @ TBL
+BET: NJD ML
+Edge: +6.5%
+Confidence: LOW
+Angles: 1
+  1. TBL playing 3rd game in 4 nights (heavy fatigue)
+
+#5 NYR @ VGK
+BET: NYR ML
+Edge: +6.5%
+Confidence: LOW
+Angles: 1
+  1. VGK playing 3rd game in 4 nights (heavy fatigue)
+
+#6 UTA @ SJS
+BET: SJS ML
+Edge: +5.0%
+Confidence: LOW
+Angles: 1
+  1. SJS has 2 days rest vs UTA 0 days
+

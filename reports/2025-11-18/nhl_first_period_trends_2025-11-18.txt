@@ -1,0 +1,1013 @@
+
+================================================================================
+🏒 NHL FIRST PERIOD PERFORMANCE REPORT - 2025-11-18
+================================================================================
+
+
+────────────────────────────────────────────────────────────────────────────────
+🏒 Anaheim Ducks
+────────────────────────────────────────────────────────────────────────────────
+
+📊 SEASON STATS (110 games)
+   1P Total OVER 1.5 goals:   53.6% (59/110)
+   Team scores 1+ goals:      58.2% (64/110)
+
+🏠 HOME SPLITS (52 games)
+   1P Total OVER 1.5:   50.0%
+   Team scores 1+:      57.7%
+
+🛫 ROAD SPLITS (58 games)
+   1P Total OVER 1.5:   56.9%
+   Team scores 1+:      58.6%
+
+📈 LAST 3 GAMES
+   1P Total OVER 1.5:    0.0% (0/3)
+   Team scores 1+:      33.3% (1/3)
+
+📈 LAST 5 GAMES
+   1P Total OVER 1.5:   40.0% (2/5)
+   Team scores 1+:      60.0% (3/5)
+
+📈 LAST 10 GAMES
+   1P Total OVER 1.5:   70.0% (7/10)
+   Team scores 1+:      70.0% (7/10)
+
+────────────────────────────────────────────────────────────────────────────────
+🏒 Boston Bruins
+────────────────────────────────────────────────────────────────────────────────
+
+📊 SEASON STATS (112 games)
+   1P Total OVER 1.5 goals:   58.0% (65/112)
+   Team scores 1+ goals:      58.0% (65/112)
+
+🏠 HOME SPLITS (57 games)
+   1P Total OVER 1.5:   57.9%
+   Team scores 1+:      59.6%
+
+🛫 ROAD SPLITS (55 games)
+   1P Total OVER 1.5:   58.2%
+   Team scores 1+:      56.4%
+
+📈 LAST 3 GAMES
+   1P Total OVER 1.5:   66.7% (2/3)
+   Team scores 1+:      33.3% (1/3)
+
+📈 LAST 5 GAMES
+   1P Total OVER 1.5:   80.0% (4/5)
+   Team scores 1+:      60.0% (3/5)
+
+📈 LAST 10 GAMES
+   1P Total OVER 1.5:   60.0% (6/10)
+   Team scores 1+:      40.0% (4/10)
+
+────────────────────────────────────────────────────────────────────────────────
+🏒 Buffalo Sabres
+────────────────────────────────────────────────────────────────────────────────
+
+📊 SEASON STATS (107 games)
+   1P Total OVER 1.5 goals:   57.9% (62/107)
+   Team scores 1+ goals:      62.6% (67/107)
+
+🏠 HOME SPLITS (55 games)
+   1P Total OVER 1.5:   52.7%
+   Team scores 1+:      61.8%
+
+🛫 ROAD SPLITS (52 games)
+   1P Total OVER 1.5:   63.5%
+   Team scores 1+:      63.5%
+
+📈 LAST 3 GAMES
+   1P Total OVER 1.5:   66.7% (2/3)
+   Team scores 1+:     100.0% (3/3)
+
+📈 LAST 5 GAMES
+   1P Total OVER 1.5:   60.0% (3/5)
+   Team scores 1+:     100.0% (5/5)
+
+📈 LAST 10 GAMES
+   1P Total OVER 1.5:   50.0% (5/10)
+   Team scores 1+:      60.0% (6/10)
+
+────────────────────────────────────────────────────────────────────────────────
+🏒 Calgary Flames
+────────────────────────────────────────────────────────────────────────────────
+
+📊 SEASON STATS (112 games)
+   1P Total OVER 1.5 goals:   42.0% (47/112)
+   Team scores 1+ goals:      50.0% (56/112)
+
+🏠 HOME SPLITS (55 games)
+   1P Total OVER 1.5:   40.0%
+   Team scores 1+:      52.7%
+
+🛫 ROAD SPLITS (57 games)
+   1P Total OVER 1.5:   43.9%
+   Team scores 1+:      47.4%
+
+📈 LAST 3 GAMES
+   1P Total OVER 1.5:   33.3% (1/3)
+   Team scores 1+:       0.0% (0/3)
+
+📈 LAST 5 GAMES
+   1P Total OVER 1.5:   20.0% (1/5)
+   Team scores 1+:       0.0% (0/5)
+
+📈 LAST 10 GAMES
+   1P Total OVER 1.5:   40.0% (4/10)
+   Team scores 1+:      30.0% (3/10)
+
+────────────────────────────────────────────────────────────────────────────────
+🏒 Canada
+────────────────────────────────────────────────────────────────────────────────
+
+📊 SEASON STATS (4 games)
+   1P Total OVER 1.5 goals:  100.0% (4/4)
+   Team scores 1+ goals:     100.0% (4/4)
+
+🏠 HOME SPLITS (1 games)
+   1P Total OVER 1.5:  100.0%
+   Team scores 1+:     100.0%
+
+🛫 ROAD SPLITS (3 games)
+   1P Total OVER 1.5:  100.0%
+   Team scores 1+:     100.0%
+
+📈 LAST 3 GAMES
+   1P Total OVER 1.5:  100.0% (3/3)
+   Team scores 1+:     100.0% (3/3)
+
+────────────────────────────────────────────────────────────────────────────────
+🏒 Carolina Hurricanes
+────────────────────────────────────────────────────────────────────────────────
+
+📊 SEASON STATS (125 games)
+   1P Total OVER 1.5 goals:   52.0% (65/125)
+   Team scores 1+ goals:      58.4% (73/125)
+
+🏠 HOME SPLITS (63 games)
+   1P Total OVER 1.5:   60.3%
+   Team scores 1+:      66.7%
+
+🛫 ROAD SPLITS (62 games)
+   1P Total OVER 1.5:   43.5%
+   Team scores 1+:      50.0%
+
+📈 LAST 3 GAMES
+   1P Total OVER 1.5:   66.7% (2/3)
+   Team scores 1+:      66.7% (2/3)
+
+📈 LAST 5 GAMES
+   1P Total OVER 1.5:   60.0% (3/5)
+   Team scores 1+:      60.0% (3/5)
+
+📈 LAST 10 GAMES
+   1P Total OVER 1.5:   60.0% (6/10)
+   Team scores 1+:      70.0% (7/10)
+
+────────────────────────────────────────────────────────────────────────────────
+🏒 Chicago Blackhawks
+────────────────────────────────────────────────────────────────────────────────
+
+📊 SEASON STATS (109 games)
+   1P Total OVER 1.5 goals:   56.0% (61/109)
+   Team scores 1+ goals:      61.5% (67/109)
+
+🏠 HOME SPLITS (54 games)
+   1P Total OVER 1.5:   66.7%
+   Team scores 1+:      70.4%
+
+🛫 ROAD SPLITS (55 games)
+   1P Total OVER 1.5:   45.5%
+   Team scores 1+:      52.7%
+
+📈 LAST 3 GAMES
+   1P Total OVER 1.5:   66.7% (2/3)
+   Team scores 1+:     100.0% (3/3)
+
+📈 LAST 5 GAMES
+   1P Total OVER 1.5:   40.0% (2/5)
+   Team scores 1+:      80.0% (4/5)
+
+📈 LAST 10 GAMES
+   1P Total OVER 1.5:   40.0% (4/10)
+   Team scores 1+:      70.0% (7/10)
+
+────────────────────────────────────────────────────────────────────────────────
+🏒 Colorado Avalanche
+────────────────────────────────────────────────────────────────────────────────
+
+📊 SEASON STATS (117 games)
+   1P Total OVER 1.5 goals:   50.4% (59/117)
+   Team scores 1+ goals:      61.5% (72/117)
+
+🏠 HOME SPLITS (57 games)
+   1P Total OVER 1.5:   54.4%
+   Team scores 1+:      66.7%
+
+🛫 ROAD SPLITS (60 games)
+   1P Total OVER 1.5:   46.7%
+   Team scores 1+:      56.7%
+
+📈 LAST 3 GAMES
+   1P Total OVER 1.5:   66.7% (2/3)
+   Team scores 1+:      66.7% (2/3)
+
+📈 LAST 5 GAMES
+   1P Total OVER 1.5:   80.0% (4/5)
+   Team scores 1+:      80.0% (4/5)
+
+📈 LAST 10 GAMES
+   1P Total OVER 1.5:   80.0% (8/10)
+   Team scores 1+:      90.0% (9/10)
+
+────────────────────────────────────────────────────────────────────────────────
+🏒 Columbus Blue Jackets
+────────────────────────────────────────────────────────────────────────────────
+
+📊 SEASON STATS (111 games)
+   1P Total OVER 1.5 goals:   53.2% (59/111)
+   Team scores 1+ goals:      59.5% (66/111)
+
+🏠 HOME SPLITS (55 games)
+   1P Total OVER 1.5:   60.0%
+   Team scores 1+:      65.5%
+
+🛫 ROAD SPLITS (56 games)
+   1P Total OVER 1.5:   46.4%
+   Team scores 1+:      53.6%
+
+📈 LAST 3 GAMES
+   1P Total OVER 1.5:    0.0% (0/3)
+   Team scores 1+:      66.7% (2/3)
+
+📈 LAST 5 GAMES
+   1P Total OVER 1.5:   20.0% (1/5)
+   Team scores 1+:      60.0% (3/5)
+
+📈 LAST 10 GAMES
+   1P Total OVER 1.5:   40.0% (4/10)
+   Team scores 1+:      60.0% (6/10)
+
+────────────────────────────────────────────────────────────────────────────────
+🏒 Dallas Stars
+────────────────────────────────────────────────────────────────────────────────
+
+📊 SEASON STATS (126 games)
+   1P Total OVER 1.5 goals:   54.0% (68/126)
+   Team scores 1+ goals:      59.5% (75/126)
+
+🏠 HOME SPLITS (64 games)
+   1P Total OVER 1.5:   51.6%
+   Team scores 1+:      60.9%
+
+🛫 ROAD SPLITS (62 games)
+   1P Total OVER 1.5:   56.5%
+   Team scores 1+:      58.1%
+
+📈 LAST 3 GAMES
+   1P Total OVER 1.5:   33.3% (1/3)
+   Team scores 1+:      66.7% (2/3)
+
+📈 LAST 5 GAMES
+   1P Total OVER 1.5:   60.0% (3/5)
+   Team scores 1+:      80.0% (4/5)
+
+📈 LAST 10 GAMES
+   1P Total OVER 1.5:   50.0% (5/10)
+   Team scores 1+:      50.0% (5/10)
+
+────────────────────────────────────────────────────────────────────────────────
+🏒 Detroit Red Wings
+────────────────────────────────────────────────────────────────────────────────
+
+📊 SEASON STATS (113 games)
+   1P Total OVER 1.5 goals:   55.8% (63/113)
+   Team scores 1+ goals:      60.2% (68/113)
+
+🏠 HOME SPLITS (57 games)
+   1P Total OVER 1.5:   56.1%
+   Team scores 1+:      59.6%
+
+🛫 ROAD SPLITS (56 games)
+   1P Total OVER 1.5:   55.4%
+   Team scores 1+:      60.7%
+
+📈 LAST 3 GAMES
+   1P Total OVER 1.5:   33.3% (1/3)
+   Team scores 1+:      33.3% (1/3)
+
+📈 LAST 5 GAMES
+   1P Total OVER 1.5:   60.0% (3/5)
+   Team scores 1+:      60.0% (3/5)
+
+📈 LAST 10 GAMES
+   1P Total OVER 1.5:   50.0% (5/10)
+   Team scores 1+:      50.0% (5/10)
+
+────────────────────────────────────────────────────────────────────────────────
+🏒 Edmonton Oilers
+────────────────────────────────────────────────────────────────────────────────
+
+📊 SEASON STATS (135 games)
+   1P Total OVER 1.5 goals:   54.8% (74/135)
+   Team scores 1+ goals:      56.3% (76/135)
+
+🏠 HOME SPLITS (63 games)
+   1P Total OVER 1.5:   63.5%
+   Team scores 1+:      63.5%
+
+🛫 ROAD SPLITS (72 games)
+   1P Total OVER 1.5:   47.2%
+   Team scores 1+:      50.0%
+
+📈 LAST 3 GAMES
+   1P Total OVER 1.5:   33.3% (1/3)
+   Team scores 1+:      33.3% (1/3)
+
+📈 LAST 5 GAMES
+   1P Total OVER 1.5:   40.0% (2/5)
+   Team scores 1+:      60.0% (3/5)
+
+📈 LAST 10 GAMES
+   1P Total OVER 1.5:   50.0% (5/10)
+   Team scores 1+:      60.0% (6/10)
+
+────────────────────────────────────────────────────────────────────────────────
+🏒 Finland
+────────────────────────────────────────────────────────────────────────────────
+
+📊 SEASON STATS (3 games)
+   1P Total OVER 1.5 goals:  100.0% (3/3)
+   Team scores 1+ goals:      66.7% (2/3)
+
+🏠 HOME SPLITS (2 games)
+   1P Total OVER 1.5:  100.0%
+   Team scores 1+:      50.0%
+
+🛫 ROAD SPLITS (1 games)
+   1P Total OVER 1.5:  100.0%
+   Team scores 1+:     100.0%
+
+📈 LAST 3 GAMES
+   1P Total OVER 1.5:  100.0% (3/3)
+   Team scores 1+:      66.7% (2/3)
+
+────────────────────────────────────────────────────────────────────────────────
+🏒 Florida Panthers
+────────────────────────────────────────────────────────────────────────────────
+
+📊 SEASON STATS (133 games)
+   1P Total OVER 1.5 goals:   53.4% (71/133)
+   Team scores 1+ goals:      60.2% (80/133)
+
+🏠 HOME SPLITS (63 games)
+   1P Total OVER 1.5:   44.4%
+   Team scores 1+:      58.7%
+
+🛫 ROAD SPLITS (70 games)
+   1P Total OVER 1.5:   61.4%
+   Team scores 1+:      61.4%
+
+📈 LAST 3 GAMES
+   1P Total OVER 1.5:   66.7% (2/3)
+   Team scores 1+:      66.7% (2/3)
+
+📈 LAST 5 GAMES
+   1P Total OVER 1.5:   40.0% (2/5)
+   Team scores 1+:      60.0% (3/5)
+
+📈 LAST 10 GAMES
+   1P Total OVER 1.5:   40.0% (4/10)
+   Team scores 1+:      60.0% (6/10)
+
+────────────────────────────────────────────────────────────────────────────────
+🏒 Los Angeles Kings
+────────────────────────────────────────────────────────────────────────────────
+
+📊 SEASON STATS (117 games)
+   1P Total OVER 1.5 goals:   45.3% (53/117)
+   Team scores 1+ goals:      59.0% (69/117)
+
+🏠 HOME SPLITS (56 games)
+   1P Total OVER 1.5:   48.2%
+   Team scores 1+:      62.5%
+
+🛫 ROAD SPLITS (61 games)
+   1P Total OVER 1.5:   42.6%
+   Team scores 1+:      55.7%
+
+📈 LAST 3 GAMES
+   1P Total OVER 1.5:   33.3% (1/3)
+   Team scores 1+:      33.3% (1/3)
+
+📈 LAST 5 GAMES
+   1P Total OVER 1.5:   40.0% (2/5)
+   Team scores 1+:      40.0% (2/5)
+
+📈 LAST 10 GAMES
+   1P Total OVER 1.5:   30.0% (3/10)
+   Team scores 1+:      50.0% (5/10)
+
+────────────────────────────────────────────────────────────────────────────────
+🏒 Minnesota Wild
+────────────────────────────────────────────────────────────────────────────────
+
+📊 SEASON STATS (116 games)
+   1P Total OVER 1.5 goals:   50.9% (59/116)
+   Team scores 1+ goals:      60.3% (70/116)
+
+🏠 HOME SPLITS (60 games)
+   1P Total OVER 1.5:   53.3%
+   Team scores 1+:      63.3%
+
+🛫 ROAD SPLITS (56 games)
+   1P Total OVER 1.5:   48.2%
+   Team scores 1+:      57.1%
+
+📈 LAST 3 GAMES
+   1P Total OVER 1.5:   33.3% (1/3)
+   Team scores 1+:      33.3% (1/3)
+
+📈 LAST 5 GAMES
+   1P Total OVER 1.5:   40.0% (2/5)
+   Team scores 1+:      40.0% (2/5)
+
+📈 LAST 10 GAMES
+   1P Total OVER 1.5:   40.0% (4/10)
+   Team scores 1+:      60.0% (6/10)
+
+────────────────────────────────────────────────────────────────────────────────
+🏒 Montreal Canadiens
+────────────────────────────────────────────────────────────────────────────────
+
+📊 SEASON STATS (114 games)
+   1P Total OVER 1.5 goals:   57.9% (66/114)
+   Team scores 1+ goals:      59.6% (68/114)
+
+🏠 HOME SPLITS (58 games)
+   1P Total OVER 1.5:   56.9%
+   Team scores 1+:      65.5%
+
+🛫 ROAD SPLITS (56 games)
+   1P Total OVER 1.5:   58.9%
+   Team scores 1+:      53.6%
+
+📈 LAST 3 GAMES
+   1P Total OVER 1.5:   33.3% (1/3)
+   Team scores 1+:      33.3% (1/3)
+
+📈 LAST 5 GAMES
+   1P Total OVER 1.5:   40.0% (2/5)
+   Team scores 1+:      60.0% (3/5)
+
+📈 LAST 10 GAMES
+   1P Total OVER 1.5:   60.0% (6/10)
+   Team scores 1+:      60.0% (6/10)
+
+────────────────────────────────────────────────────────────────────────────────
+🏒 Nashville Predators
+────────────────────────────────────────────────────────────────────────────────
+
+📊 SEASON STATS (110 games)
+   1P Total OVER 1.5 goals:   48.2% (53/110)
+   Team scores 1+ goals:      55.5% (61/110)
+
+🏠 HOME SPLITS (58 games)
+   1P Total OVER 1.5:   51.7%
+   Team scores 1+:      70.7%
+
+🛫 ROAD SPLITS (52 games)
+   1P Total OVER 1.5:   44.2%
+   Team scores 1+:      38.5%
+
+📈 LAST 3 GAMES
+   1P Total OVER 1.5:   66.7% (2/3)
+   Team scores 1+:      33.3% (1/3)
+
+📈 LAST 5 GAMES
+   1P Total OVER 1.5:   60.0% (3/5)
+   Team scores 1+:      60.0% (3/5)
+
+📈 LAST 10 GAMES
+   1P Total OVER 1.5:   50.0% (5/10)
+   Team scores 1+:      50.0% (5/10)
+
+────────────────────────────────────────────────────────────────────────────────
+🏒 New Jersey Devils
+────────────────────────────────────────────────────────────────────────────────
+
+📊 SEASON STATS (114 games)
+   1P Total OVER 1.5 goals:   41.2% (47/114)
+   Team scores 1+ goals:      52.6% (60/114)
+
+🏠 HOME SPLITS (54 games)
+   1P Total OVER 1.5:   40.7%
+   Team scores 1+:      46.3%
+
+🛫 ROAD SPLITS (60 games)
+   1P Total OVER 1.5:   41.7%
+   Team scores 1+:      58.3%
+
+📈 LAST 3 GAMES
+   1P Total OVER 1.5:   33.3% (1/3)
+   Team scores 1+:      66.7% (2/3)
+
+📈 LAST 5 GAMES
+   1P Total OVER 1.5:   40.0% (2/5)
+   Team scores 1+:      80.0% (4/5)
+
+📈 LAST 10 GAMES
+   1P Total OVER 1.5:   60.0% (6/10)
+   Team scores 1+:      70.0% (7/10)
+
+────────────────────────────────────────────────────────────────────────────────
+🏒 New York Islanders
+────────────────────────────────────────────────────────────────────────────────
+
+📊 SEASON STATS (108 games)
+   1P Total OVER 1.5 goals:   49.1% (53/108)
+   Team scores 1+ goals:      49.1% (53/108)
+
+🏠 HOME SPLITS (53 games)
+   1P Total OVER 1.5:   47.2%
+   Team scores 1+:      47.2%
+
+🛫 ROAD SPLITS (55 games)
+   1P Total OVER 1.5:   50.9%
+   Team scores 1+:      50.9%
+
+📈 LAST 3 GAMES
+   1P Total OVER 1.5:   66.7% (2/3)
+   Team scores 1+:     100.0% (3/3)
+
+📈 LAST 5 GAMES
+   1P Total OVER 1.5:   60.0% (3/5)
+   Team scores 1+:      80.0% (4/5)
+
+📈 LAST 10 GAMES
+   1P Total OVER 1.5:   50.0% (5/10)
+   Team scores 1+:      60.0% (6/10)
+
+────────────────────────────────────────────────────────────────────────────────
+🏒 New York Rangers
+────────────────────────────────────────────────────────────────────────────────
+
+📊 SEASON STATS (110 games)
+   1P Total OVER 1.5 goals:   58.2% (64/110)
+   Team scores 1+ goals:      65.5% (72/110)
+
+🏠 HOME SPLITS (54 games)
+   1P Total OVER 1.5:   51.9%
+   Team scores 1+:      61.1%
+
+🛫 ROAD SPLITS (56 games)
+   1P Total OVER 1.5:   64.3%
+   Team scores 1+:      69.6%
+
+📈 LAST 3 GAMES
+   1P Total OVER 1.5:   33.3% (1/3)
+   Team scores 1+:      33.3% (1/3)
+
+📈 LAST 5 GAMES
+   1P Total OVER 1.5:   60.0% (3/5)
+   Team scores 1+:      40.0% (2/5)
+
+📈 LAST 10 GAMES
+   1P Total OVER 1.5:   60.0% (6/10)
+   Team scores 1+:      60.0% (6/10)
+
+────────────────────────────────────────────────────────────────────────────────
+🏒 Ottawa Senators
+────────────────────────────────────────────────────────────────────────────────
+
+📊 SEASON STATS (116 games)
+   1P Total OVER 1.5 goals:   52.6% (61/116)
+   Team scores 1+ goals:      53.4% (62/116)
+
+🏠 HOME SPLITS (59 games)
+   1P Total OVER 1.5:   55.9%
+   Team scores 1+:      59.3%
+
+🛫 ROAD SPLITS (57 games)
+   1P Total OVER 1.5:   49.1%
+   Team scores 1+:      47.4%
+
+📈 LAST 3 GAMES
+   1P Total OVER 1.5:   66.7% (2/3)
+   Team scores 1+:      66.7% (2/3)
+
+📈 LAST 5 GAMES
+   1P Total OVER 1.5:   80.0% (4/5)
+   Team scores 1+:      80.0% (4/5)
+
+📈 LAST 10 GAMES
+   1P Total OVER 1.5:   80.0% (8/10)
+   Team scores 1+:      70.0% (7/10)
+
+────────────────────────────────────────────────────────────────────────────────
+🏒 Philadelphia Flyers
+────────────────────────────────────────────────────────────────────────────────
+
+📊 SEASON STATS (109 games)
+   1P Total OVER 1.5 goals:   48.6% (53/109)
+   Team scores 1+ goals:      53.2% (58/109)
+
+🏠 HOME SPLITS (56 games)
+   1P Total OVER 1.5:   51.8%
+   Team scores 1+:      50.0%
+
+🛫 ROAD SPLITS (53 games)
+   1P Total OVER 1.5:   45.3%
+   Team scores 1+:      56.6%
+
+📈 LAST 3 GAMES
+   1P Total OVER 1.5:   33.3% (1/3)
+   Team scores 1+:      33.3% (1/3)
+
+📈 LAST 5 GAMES
+   1P Total OVER 1.5:   40.0% (2/5)
+   Team scores 1+:      20.0% (1/5)
+
+📈 LAST 10 GAMES
+   1P Total OVER 1.5:   50.0% (5/10)
+   Team scores 1+:      40.0% (4/10)
+
+────────────────────────────────────────────────────────────────────────────────
+🏒 Pittsburgh Penguins
+────────────────────────────────────────────────────────────────────────────────
+
+📊 SEASON STATS (111 games)
+   1P Total OVER 1.5 goals:   51.4% (57/111)
+   Team scores 1+ goals:      55.0% (61/111)
+
+🏠 HOME SPLITS (54 games)
+   1P Total OVER 1.5:   59.3%
+   Team scores 1+:      64.8%
+
+🛫 ROAD SPLITS (57 games)
+   1P Total OVER 1.5:   43.9%
+   Team scores 1+:      45.6%
+
+📈 LAST 3 GAMES
+   1P Total OVER 1.5:   66.7% (2/3)
+   Team scores 1+:      66.7% (2/3)
+
+📈 LAST 5 GAMES
+   1P Total OVER 1.5:   60.0% (3/5)
+   Team scores 1+:      60.0% (3/5)
+
+📈 LAST 10 GAMES
+   1P Total OVER 1.5:   70.0% (7/10)
+   Team scores 1+:      60.0% (6/10)
+
+────────────────────────────────────────────────────────────────────────────────
+🏒 San Jose Sharks
+────────────────────────────────────────────────────────────────────────────────
+
+📊 SEASON STATS (110 games)
+   1P Total OVER 1.5 goals:   54.5% (60/110)
+   Team scores 1+ goals:      54.5% (60/110)
+
+🏠 HOME SPLITS (56 games)
+   1P Total OVER 1.5:   44.6%
+   Team scores 1+:      48.2%
+
+🛫 ROAD SPLITS (54 games)
+   1P Total OVER 1.5:   64.8%
+   Team scores 1+:      61.1%
+
+📈 LAST 3 GAMES
+   1P Total OVER 1.5:   33.3% (1/3)
+   Team scores 1+:      33.3% (1/3)
+
+📈 LAST 5 GAMES
+   1P Total OVER 1.5:   40.0% (2/5)
+   Team scores 1+:      60.0% (3/5)
+
+📈 LAST 10 GAMES
+   1P Total OVER 1.5:   50.0% (5/10)
+   Team scores 1+:      60.0% (6/10)
+
+────────────────────────────────────────────────────────────────────────────────
+🏒 Seattle Kraken
+────────────────────────────────────────────────────────────────────────────────
+
+📊 SEASON STATS (107 games)
+   1P Total OVER 1.5 goals:   58.9% (63/107)
+   Team scores 1+ goals:      57.0% (61/107)
+
+🏠 HOME SPLITS (55 games)
+   1P Total OVER 1.5:   58.2%
+   Team scores 1+:      58.2%
+
+🛫 ROAD SPLITS (52 games)
+   1P Total OVER 1.5:   59.6%
+   Team scores 1+:      55.8%
+
+📈 LAST 3 GAMES
+   1P Total OVER 1.5:   66.7% (2/3)
+   Team scores 1+:     100.0% (3/3)
+
+📈 LAST 5 GAMES
+   1P Total OVER 1.5:   80.0% (4/5)
+   Team scores 1+:      80.0% (4/5)
+
+📈 LAST 10 GAMES
+   1P Total OVER 1.5:   70.0% (7/10)
+   Team scores 1+:      70.0% (7/10)
+
+────────────────────────────────────────────────────────────────────────────────
+🏒 St. Louis Blues
+────────────────────────────────────────────────────────────────────────────────
+
+📊 SEASON STATS (117 games)
+   1P Total OVER 1.5 goals:   56.4% (66/117)
+   Team scores 1+ goals:      59.0% (69/117)
+
+🏠 HOME SPLITS (61 games)
+   1P Total OVER 1.5:   57.4%
+   Team scores 1+:      55.7%
+
+🛫 ROAD SPLITS (56 games)
+   1P Total OVER 1.5:   55.4%
+   Team scores 1+:      62.5%
+
+📈 LAST 3 GAMES
+   1P Total OVER 1.5:  100.0% (3/3)
+   Team scores 1+:      66.7% (2/3)
+
+📈 LAST 5 GAMES
+   1P Total OVER 1.5:   80.0% (4/5)
+   Team scores 1+:      80.0% (4/5)
+
+📈 LAST 10 GAMES
+   1P Total OVER 1.5:   70.0% (7/10)
+   Team scores 1+:      70.0% (7/10)
+
+────────────────────────────────────────────────────────────────────────────────
+🏒 Sweden
+────────────────────────────────────────────────────────────────────────────────
+
+📊 SEASON STATS (3 games)
+   1P Total OVER 1.5 goals:  100.0% (3/3)
+   Team scores 1+ goals:      66.7% (2/3)
+
+🏠 HOME SPLITS (2 games)
+   1P Total OVER 1.5:  100.0%
+   Team scores 1+:      50.0%
+
+🛫 ROAD SPLITS (1 games)
+   1P Total OVER 1.5:  100.0%
+   Team scores 1+:     100.0%
+
+📈 LAST 3 GAMES
+   1P Total OVER 1.5:  100.0% (3/3)
+   Team scores 1+:      66.7% (2/3)
+
+────────────────────────────────────────────────────────────────────────────────
+🏒 Tampa Bay Lightning
+────────────────────────────────────────────────────────────────────────────────
+
+📊 SEASON STATS (114 games)
+   1P Total OVER 1.5 goals:   50.0% (57/114)
+   Team scores 1+ goals:      65.8% (75/114)
+
+🏠 HOME SPLITS (58 games)
+   1P Total OVER 1.5:   48.3%
+   Team scores 1+:      75.9%
+
+🛫 ROAD SPLITS (56 games)
+   1P Total OVER 1.5:   51.8%
+   Team scores 1+:      55.4%
+
+📈 LAST 3 GAMES
+   1P Total OVER 1.5:   33.3% (1/3)
+   Team scores 1+:     100.0% (3/3)
+
+📈 LAST 5 GAMES
+   1P Total OVER 1.5:   60.0% (3/5)
+   Team scores 1+:      80.0% (4/5)
+
+📈 LAST 10 GAMES
+   1P Total OVER 1.5:   60.0% (6/10)
+   Team scores 1+:      80.0% (8/10)
+
+────────────────────────────────────────────────────────────────────────────────
+🏒 Toronto Maple Leafs
+────────────────────────────────────────────────────────────────────────────────
+
+📊 SEASON STATS (122 games)
+   1P Total OVER 1.5 goals:   54.1% (66/122)
+   Team scores 1+ goals:      61.5% (75/122)
+
+🏠 HOME SPLITS (65 games)
+   1P Total OVER 1.5:   46.2%
+   Team scores 1+:      60.0%
+
+🛫 ROAD SPLITS (57 games)
+   1P Total OVER 1.5:   63.2%
+   Team scores 1+:      63.2%
+
+📈 LAST 3 GAMES
+   1P Total OVER 1.5:  100.0% (3/3)
+   Team scores 1+:     100.0% (3/3)
+
+📈 LAST 5 GAMES
+   1P Total OVER 1.5:  100.0% (5/5)
+   Team scores 1+:     100.0% (5/5)
+
+📈 LAST 10 GAMES
+   1P Total OVER 1.5:   80.0% (8/10)
+   Team scores 1+:      60.0% (6/10)
+
+────────────────────────────────────────────────────────────────────────────────
+🏒 USA
+────────────────────────────────────────────────────────────────────────────────
+
+📊 SEASON STATS (4 games)
+   1P Total OVER 1.5 goals:  100.0% (4/4)
+   Team scores 1+ goals:     100.0% (4/4)
+
+🏠 HOME SPLITS (2 games)
+   1P Total OVER 1.5:  100.0%
+   Team scores 1+:     100.0%
+
+🛫 ROAD SPLITS (2 games)
+   1P Total OVER 1.5:  100.0%
+   Team scores 1+:     100.0%
+
+📈 LAST 3 GAMES
+   1P Total OVER 1.5:  100.0% (3/3)
+   Team scores 1+:     100.0% (3/3)
+
+────────────────────────────────────────────────────────────────────────────────
+🏒 Utah Hockey Club
+────────────────────────────────────────────────────────────────────────────────
+
+📊 SEASON STATS (85 games)
+   1P Total OVER 1.5 goals:   50.6% (43/85)
+   Team scores 1+ goals:      55.3% (47/85)
+
+🏠 HOME SPLITS (42 games)
+   1P Total OVER 1.5:   45.2%
+   Team scores 1+:      54.8%
+
+🛫 ROAD SPLITS (43 games)
+   1P Total OVER 1.5:   55.8%
+   Team scores 1+:      55.8%
+
+📈 LAST 3 GAMES
+   1P Total OVER 1.5:  100.0% (3/3)
+   Team scores 1+:      66.7% (2/3)
+
+📈 LAST 5 GAMES
+   1P Total OVER 1.5:   80.0% (4/5)
+   Team scores 1+:      60.0% (3/5)
+
+📈 LAST 10 GAMES
+   1P Total OVER 1.5:   40.0% (4/10)
+   Team scores 1+:      50.0% (5/10)
+
+────────────────────────────────────────────────────────────────────────────────
+🏒 Utah Mammoth
+────────────────────────────────────────────────────────────────────────────────
+
+📊 SEASON STATS (26 games)
+   1P Total OVER 1.5 goals:   42.3% (11/26)
+   Team scores 1+ goals:      57.7% (15/26)
+
+🏠 HOME SPLITS (11 games)
+   1P Total OVER 1.5:   45.5%
+   Team scores 1+:      63.6%
+
+🛫 ROAD SPLITS (15 games)
+   1P Total OVER 1.5:   40.0%
+   Team scores 1+:      53.3%
+
+📈 LAST 3 GAMES
+   1P Total OVER 1.5:   33.3% (1/3)
+   Team scores 1+:      33.3% (1/3)
+
+📈 LAST 5 GAMES
+   1P Total OVER 1.5:   60.0% (3/5)
+   Team scores 1+:      60.0% (3/5)
+
+📈 LAST 10 GAMES
+   1P Total OVER 1.5:   50.0% (5/10)
+   Team scores 1+:      60.0% (6/10)
+
+────────────────────────────────────────────────────────────────────────────────
+🏒 Vancouver Canucks
+────────────────────────────────────────────────────────────────────────────────
+
+📊 SEASON STATS (110 games)
+   1P Total OVER 1.5 goals:   45.5% (50/110)
+   Team scores 1+ goals:      55.5% (61/110)
+
+🏠 HOME SPLITS (54 games)
+   1P Total OVER 1.5:   44.4%
+   Team scores 1+:      59.3%
+
+🛫 ROAD SPLITS (56 games)
+   1P Total OVER 1.5:   46.4%
+   Team scores 1+:      51.8%
+
+📈 LAST 3 GAMES
+   1P Total OVER 1.5:   66.7% (2/3)
+   Team scores 1+:      66.7% (2/3)
+
+📈 LAST 5 GAMES
+   1P Total OVER 1.5:   80.0% (4/5)
+   Team scores 1+:      80.0% (4/5)
+
+📈 LAST 10 GAMES
+   1P Total OVER 1.5:   60.0% (6/10)
+   Team scores 1+:      60.0% (6/10)
+
+────────────────────────────────────────────────────────────────────────────────
+🏒 Vegas Golden Knights
+────────────────────────────────────────────────────────────────────────────────
+
+📊 SEASON STATS (121 games)
+   1P Total OVER 1.5 goals:   52.1% (63/121)
+   Team scores 1+ goals:      57.0% (69/121)
+
+🏠 HOME SPLITS (63 games)
+   1P Total OVER 1.5:   54.0%
+   Team scores 1+:      57.1%
+
+🛫 ROAD SPLITS (58 games)
+   1P Total OVER 1.5:   50.0%
+   Team scores 1+:      56.9%
+
+📈 LAST 3 GAMES
+   1P Total OVER 1.5:  100.0% (3/3)
+   Team scores 1+:      66.7% (2/3)
+
+📈 LAST 5 GAMES
+   1P Total OVER 1.5:   80.0% (4/5)
+   Team scores 1+:      60.0% (3/5)
+
+📈 LAST 10 GAMES
+   1P Total OVER 1.5:   70.0% (7/10)
+   Team scores 1+:      60.0% (6/10)
+
+────────────────────────────────────────────────────────────────────────────────
+🏒 Washington Capitals
+────────────────────────────────────────────────────────────────────────────────
+
+📊 SEASON STATS (118 games)
+   1P Total OVER 1.5 goals:   57.6% (68/118)
+   Team scores 1+ goals:      66.9% (79/118)
+
+🏠 HOME SPLITS (61 games)
+   1P Total OVER 1.5:   52.5%
+   Team scores 1+:      72.1%
+
+🛫 ROAD SPLITS (57 games)
+   1P Total OVER 1.5:   63.2%
+   Team scores 1+:      61.4%
+
+📈 LAST 3 GAMES
+   1P Total OVER 1.5:   66.7% (2/3)
+   Team scores 1+:      66.7% (2/3)
+
+📈 LAST 5 GAMES
+   1P Total OVER 1.5:   60.0% (3/5)
+   Team scores 1+:      80.0% (4/5)
+
+📈 LAST 10 GAMES
+   1P Total OVER 1.5:   50.0% (5/10)
+   Team scores 1+:      60.0% (6/10)
+
+────────────────────────────────────────────────────────────────────────────────
+🏒 Winnipeg Jets
+────────────────────────────────────────────────────────────────────────────────
+
+📊 SEASON STATS (121 games)
+   1P Total OVER 1.5 goals:   52.9% (64/121)
+   Team scores 1+ goals:      59.5% (72/121)
+
+🏠 HOME SPLITS (60 games)
+   1P Total OVER 1.5:   48.3%
+   Team scores 1+:      58.3%
+
+🛫 ROAD SPLITS (61 games)
+   1P Total OVER 1.5:   57.4%
+   Team scores 1+:      60.7%
+
+📈 LAST 3 GAMES
+   1P Total OVER 1.5:   66.7% (2/3)
+   Team scores 1+:      66.7% (2/3)
+
+📈 LAST 5 GAMES
+   1P Total OVER 1.5:   80.0% (4/5)
+   Team scores 1+:      60.0% (3/5)
+
+📈 LAST 10 GAMES
+   1P Total OVER 1.5:   70.0% (7/10)
+   Team scores 1+:      60.0% (6/10)
+
+================================================================================
+
+✅ CSV report saved to: /Users/dickgibbons/sports-betting/reports/2025-11-18/nhl_first_period_trends_2025-11-18.csv
