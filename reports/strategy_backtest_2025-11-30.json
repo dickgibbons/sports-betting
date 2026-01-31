@@ -1,0 +1,30 @@
+{
+  "nba": {
+    "old": {
+      "wins": 15,
+      "losses": 30,
+      "win_rate": 0.3333333333333333,
+      "profit": -2054.4760629437465
+    },
+    "new": {
+      "wins": 3,
+      "losses": 5,
+      "win_rate": 0.375,
+      "profit": -323.5743560047117
+    },
+    "improvement": {
+      "win_rate": 0.041666666666666685,
+      "profit": 1730.9017069390347
+    }
+  },
+  "nhl": {
+    "current": {
+      "wins": 18,
+      "losses": 15,
+      "win_rate": 0.5454545454545454,
+      "profit": 543.0336803263586
+    },
+    "estimated_new_win_rate": 0.58,
+    "estimated_profit_increase": 300
+  }
+}

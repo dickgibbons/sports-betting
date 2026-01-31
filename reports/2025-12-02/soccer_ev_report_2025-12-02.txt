@@ -1,0 +1,77 @@
+⚽ SOCCER - COMPREHENSIVE EV REPORT
+================================================================================
+Date: 2025-12-02
+Total Matches Analyzed: 4
+================================================================================
+
+📊 ALL MATCHES RANKED BY EXPECTED VALUE (EV)
+================================================================================
+
+#1 Manchester City @ Fulham
+   League: Premier League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Fulham
+   ODDS: +350
+   TRUE EV: +86.8%
+   STATUS: ✅ QUALIFIES (EV >= 5%, odds OK)
+   ANGLE EDGE: +6.5%
+
+   Market Odds:
+     • Fulham: +350
+     • Manchester City: -145
+
+   Betting Angles (1):
+     • Fulham has strong home record
+
+#2 Everton @ Bournemouth
+   League: Premier League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Bournemouth
+   ODDS: +125
+   TRUE EV: -21.3%
+   STATUS: ❌ FILTERED (EV < 5%)
+   ANGLE EDGE: +0.0%
+
+   Market Odds:
+     • Bournemouth: +125
+     • Everton: +220
+
+#3 Tottenham Hotspur @ Newcastle United
+   League: Premier League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Newcastle United
+   ODDS: -125
+   TRUE EV: -25.3%
+   STATUS: ❌ FILTERED (EV < 5%)
+   ANGLE EDGE: +6.5%
+
+   Market Odds:
+     • Newcastle United: -125
+     • Tottenham Hotspur: +320
+
+   Betting Angles (1):
+     • Newcastle United has strong home record
+
+#4 Atlético Madrid @ Barcelona
+   League: La Liga
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Barcelona
+   ODDS: -130
+   TRUE EV: -29.2%
+   STATUS: ❌ FILTERED (EV < 5%)
+   ANGLE EDGE: +5.0%
+
+   Market Odds:
+     • Barcelona: -130
+     • Atlético Madrid: +300
+
+   Betting Angles (1):
+     • Barcelona title contender should beat mid-table at home
+
+================================================================================
+📋 LEGEND
+  ✅ QUALIFIES: EV >= 5% and odds better than -250
+  ❌ FILTERED: Does not meet minimum EV threshold or too heavy favorite
+  TRUE EV: Expected value based on real odds and estimated win probability
+  ANGLE EDGE: Edge from betting angles (doesn't account for market odds)
+================================================================================

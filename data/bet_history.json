@@ -657,9 +657,17 @@
     "angle_count": 1,
     "recommended_stake_pct": 1.5,
     "stake": null,
-    "result": "PENDING",
-    "profit": null,
-    "logged_at": "2025-10-29 06:35:11"
+    "result": "LOSS",
+    "profit": -25,
+    "logged_at": "2025-10-29 06:35:11",
+    "actual_result": {
+      "home": "Le Havre",
+      "away": "Stade Brestois 29",
+      "home_score": 1,
+      "away_score": 0,
+      "total": 1,
+      "winner": "home"
+    }
   },
   {
     "bet_id": "2025-10-29_SOCCER_40",
@@ -681,9 +689,17 @@
     "angle_count": 1,
     "recommended_stake_pct": 1.5,
     "stake": null,
-    "result": "PENDING",
-    "profit": null,
-    "logged_at": "2025-10-29 06:35:11"
+    "result": "PUSH",
+    "profit": 0,
+    "logged_at": "2025-10-29 06:35:11",
+    "actual_result": {
+      "home": "Lorient",
+      "away": "Paris Saint Germain",
+      "home_score": 1,
+      "away_score": 1,
+      "total": 2,
+      "winner": "draw"
+    }
   },
   {
     "bet_id": "2025-10-29_SOCCER_41",
@@ -705,9 +721,17 @@
     "angle_count": 1,
     "recommended_stake_pct": 1.5,
     "stake": null,
-    "result": "PENDING",
-    "profit": null,
-    "logged_at": "2025-10-29 06:35:11"
+    "result": "LOSS",
+    "profit": -25,
+    "logged_at": "2025-10-29 06:35:11",
+    "actual_result": {
+      "home": "Metz",
+      "away": "Lens",
+      "home_score": 2,
+      "away_score": 0,
+      "total": 2,
+      "winner": "home"
+    }
   },
   {
     "bet_id": "2025-10-29_NHL_42",
@@ -1209,9 +1233,17 @@
     "angle_count": 1,
     "recommended_stake_pct": 0.75,
     "stake": null,
-    "result": "PENDING",
-    "profit": null,
-    "logged_at": "2025-11-02 12:47:59"
+    "result": "LOSS",
+    "profit": -25,
+    "logged_at": "2025-11-02 12:47:59",
+    "actual_result": {
+      "home": "Real Betis",
+      "away": "Mallorca",
+      "home_score": 3,
+      "away_score": 0,
+      "total": 3,
+      "winner": "home"
+    }
   },
   {
     "bet_id": "2025-11-02_SOCCER_44",
@@ -1390,9 +1422,17 @@
     "angle_count": 1,
     "recommended_stake_pct": 0.75,
     "stake": null,
-    "result": "PENDING",
-    "profit": null,
-    "logged_at": "2025-11-03 15:35:07"
+    "result": "LOSS",
+    "profit": -25,
+    "logged_at": "2025-11-03 15:35:07",
+    "actual_result": {
+      "home": "Lazio",
+      "away": "Cagliari",
+      "home_score": 2,
+      "away_score": 0,
+      "total": 2,
+      "winner": "home"
+    }
   },
   {
     "bet_id": "2025-11-04_NHL_51",
@@ -1781,9 +1821,17 @@
     "angle_count": 1,
     "recommended_stake_pct": 0.75,
     "stake": null,
-    "result": "PENDING",
-    "profit": null,
-    "logged_at": "2025-11-05 07:12:10"
+    "result": "WIN",
+    "profit": 22.727272727272727,
+    "logged_at": "2025-11-05 07:12:10",
+    "actual_result": {
+      "home": "Olympique Marseille U19",
+      "away": "Atalanta U19",
+      "home_score": 0,
+      "away_score": 0,
+      "total": 0,
+      "winner": "draw"
+    }
   },
   {
     "bet_id": "2025-11-05_SOCCER_66",
@@ -1805,9 +1853,17 @@
     "angle_count": 1,
     "recommended_stake_pct": 0.75,
     "stake": null,
-    "result": "PENDING",
-    "profit": null,
-    "logged_at": "2025-11-05 07:12:10"
+    "result": "LOSS",
+    "profit": -25,
+    "logged_at": "2025-11-05 07:12:10",
+    "actual_result": {
+      "home": "Newcastle United U19",
+      "away": "Athletic U19",
+      "home_score": 2,
+      "away_score": 3,
+      "total": 5,
+      "winner": "away"
+    }
   },
   {
     "bet_id": "2025-11-05_NHL_67",
@@ -2010,9 +2066,17 @@
     "angle_count": 1,
     "recommended_stake_pct": 0.75,
     "stake": null,
-    "result": "PENDING",
-    "profit": null,
-    "logged_at": "2025-11-06 13:54:32"
+    "result": "LOSS",
+    "profit": -25,
+    "logged_at": "2025-11-06 13:54:32",
+    "actual_result": {
+      "home": "Rangers",
+      "away": "AS Roma",
+      "home_score": 0,
+      "away_score": 2,
+      "total": 2,
+      "winner": "away"
+    }
   },
   {
     "bet_id": "2025-11-06_SOCCER_75",
@@ -2034,9 +2098,17 @@
     "angle_count": 1,
     "recommended_stake_pct": 0.75,
     "stake": null,
-    "result": "PENDING",
-    "profit": null,
-    "logged_at": "2025-11-06 13:54:32"
+    "result": "LOSS",
+    "profit": -25,
+    "logged_at": "2025-11-06 13:54:32",
+    "actual_result": {
+      "home": "Real Betis",
+      "away": "Lyon",
+      "home_score": 2,
+      "away_score": 0,
+      "total": 2,
+      "winner": "home"
+    }
   },
   {
     "bet_id": "2025-11-06_NHL_76",
@@ -2451,9 +2523,17 @@
     "angle_count": 1,
     "recommended_stake_pct": 0.75,
     "stake": null,
-    "result": "PENDING",
-    "profit": null,
-    "logged_at": "2025-11-08 06:11:41"
+    "result": "PUSH",
+    "profit": 0,
+    "logged_at": "2025-11-08 06:11:41",
+    "actual_result": {
+      "home": "Le Havre",
+      "away": "Nantes",
+      "home_score": 1,
+      "away_score": 1,
+      "total": 2,
+      "winner": "draw"
+    }
   },
   {
     "bet_id": "2025-11-10_NBA_92",
@@ -2750,9 +2830,16 @@
     "angle_count": 2,
     "recommended_stake_pct": 2.5,
     "stake": null,
-    "result": "PENDING",
-    "profit": null,
-    "logged_at": "2025-11-17 13:18:57"
+    "result": "WIN",
+    "profit": 150.0,
+    "logged_at": "2025-11-17 13:18:57",
+    "actual_result": {
+      "home": "Minnesota Timberwolves",
+      "away": "Dallas Mavericks",
+      "home_score": 120,
+      "away_score": 96,
+      "winner": "Minnesota Timberwolves"
+    }
   },
   {
     "bet_id": "2025-11-17_NBA_105",
@@ -2778,9 +2865,16 @@
     "angle_count": 2,
     "recommended_stake_pct": 2.5,
     "stake": null,
-    "result": "PENDING",
-    "profit": null,
-    "logged_at": "2025-11-17 13:18:57"
+    "result": "WIN",
+    "profit": 22.727272727272727,
+    "logged_at": "2025-11-17 13:18:57",
+    "actual_result": {
+      "home": "Philadelphia 76ers",
+      "away": "LA Clippers",
+      "home_score": 110,
+      "away_score": 108,
+      "winner": "Philadelphia 76ers"
+    }
   },
   {
     "bet_id": "2025-11-17_NCAA_106",
@@ -2826,9 +2920,16 @@
     "angle_count": 1,
     "recommended_stake_pct": 0.75,
     "stake": null,
-    "result": "PENDING",
-    "profit": null,
-    "logged_at": "2025-11-17 13:18:57"
+    "result": "WIN",
+    "profit": 22.727272727272727,
+    "logged_at": "2025-11-17 13:18:57",
+    "actual_result": {
+      "away": "LAK",
+      "home": "WSH",
+      "away_score": 1,
+      "home_score": 2,
+      "winner": "WSH"
+    }
   },
   {
     "bet_id": "2025-11-17_NHL_108",
@@ -2850,9 +2951,16 @@
     "angle_count": 1,
     "recommended_stake_pct": 0.5,
     "stake": null,
-    "result": "PENDING",
-    "profit": null,
-    "logged_at": "2025-11-17 13:18:57"
+    "result": "WIN",
+    "profit": 22.727272727272727,
+    "logged_at": "2025-11-17 13:18:57",
+    "actual_result": {
+      "away": "CAR",
+      "home": "BOS",
+      "away_score": 3,
+      "home_score": 1,
+      "winner": "CAR"
+    }
   },
   {
     "bet_id": "2025-11-17_NHL_109",
@@ -2874,9 +2982,16 @@
     "angle_count": 1,
     "recommended_stake_pct": 0.5,
     "stake": null,
-    "result": "PENDING",
-    "profit": null,
-    "logged_at": "2025-11-17 13:18:57"
+    "result": "WIN",
+    "profit": 22.727272727272727,
+    "logged_at": "2025-11-17 13:18:57",
+    "actual_result": {
+      "away": "VAN",
+      "home": "FLA",
+      "away_score": 5,
+      "home_score": 8,
+      "winner": "FLA"
+    }
   },
   {
     "bet_id": "2025-11-18_NHL_110",
@@ -2906,9 +3021,16 @@
     "angle_count": 3,
     "recommended_stake_pct": 2.5,
     "stake": null,
-    "result": "PENDING",
-    "profit": null,
-    "logged_at": "2025-11-18 06:39:12"
+    "result": "WIN",
+    "profit": 22.727272727272727,
+    "logged_at": "2025-11-18 06:39:12",
+    "actual_result": {
+      "away": "CBJ",
+      "home": "WPG",
+      "away_score": 2,
+      "home_score": 5,
+      "winner": "WPG"
+    }
   },
   {
     "bet_id": "2025-11-18_NBA_111",
@@ -2930,9 +3052,16 @@
     "angle_count": 1,
     "recommended_stake_pct": 1.5,
     "stake": null,
-    "result": "PENDING",
-    "profit": null,
-    "logged_at": "2025-11-18 06:39:12"
+    "result": "WIN",
+    "profit": 23.58490566037736,
+    "logged_at": "2025-11-18 06:39:12",
+    "actual_result": {
+      "home": "Atlanta Hawks",
+      "away": "Detroit Pistons",
+      "home_score": 112,
+      "away_score": 120,
+      "winner": "Detroit Pistons"
+    }
   },
   {
     "bet_id": "2025-11-18_NHL_112",
@@ -2954,9 +3083,16 @@
     "angle_count": 1,
     "recommended_stake_pct": 0.75,
     "stake": null,
-    "result": "PENDING",
-    "profit": null,
-    "logged_at": "2025-11-18 06:39:12"
+    "result": "WIN",
+    "profit": 22.727272727272727,
+    "logged_at": "2025-11-18 06:39:12",
+    "actual_result": {
+      "away": "NYI",
+      "home": "DAL",
+      "away_score": 3,
+      "home_score": 2,
+      "winner": "NYI"
+    }
   },
   {
     "bet_id": "2025-11-18_NBA_113",
@@ -2978,9 +3114,16 @@
     "angle_count": 1,
     "recommended_stake_pct": 0.75,
     "stake": null,
-    "result": "PENDING",
-    "profit": null,
-    "logged_at": "2025-11-18 06:39:12"
+    "result": "WIN",
+    "profit": 35.0,
+    "logged_at": "2025-11-18 06:39:12",
+    "actual_result": {
+      "home": "Orlando Magic",
+      "away": "Golden State Warriors",
+      "home_score": 121,
+      "away_score": 113,
+      "winner": "Orlando Magic"
+    }
   },
   {
     "bet_id": "2025-11-18_NHL_114",
@@ -3002,9 +3145,16 @@
     "angle_count": 1,
     "recommended_stake_pct": 0.5,
     "stake": null,
-    "result": "PENDING",
-    "profit": null,
-    "logged_at": "2025-11-18 06:39:12"
+    "result": "WIN",
+    "profit": 22.727272727272727,
+    "logged_at": "2025-11-18 06:39:12",
+    "actual_result": {
+      "away": "SEA",
+      "home": "DET",
+      "away_score": 2,
+      "home_score": 4,
+      "winner": "DET"
+    }
   },
   {
     "bet_id": "2025-11-18_NHL_115",
@@ -3026,9 +3176,16 @@
     "angle_count": 1,
     "recommended_stake_pct": 0.5,
     "stake": null,
-    "result": "PENDING",
-    "profit": null,
-    "logged_at": "2025-11-18 06:39:12"
+    "result": "WIN",
+    "profit": 22.727272727272727,
+    "logged_at": "2025-11-18 06:39:12",
+    "actual_result": {
+      "away": "NJD",
+      "home": "TBL",
+      "away_score": 1,
+      "home_score": 5,
+      "winner": "TBL"
+    }
   },
   {
     "bet_id": "2025-11-18_NHL_116",
@@ -3050,9 +3207,16 @@
     "angle_count": 1,
     "recommended_stake_pct": 0.5,
     "stake": null,
-    "result": "PENDING",
-    "profit": null,
-    "logged_at": "2025-11-18 06:39:12"
+    "result": "WIN",
+    "profit": 22.727272727272727,
+    "logged_at": "2025-11-18 06:39:12",
+    "actual_result": {
+      "away": "NYR",
+      "home": "VGK",
+      "away_score": 2,
+      "home_score": 3,
+      "winner": "VGK"
+    }
   },
   {
     "bet_id": "2025-11-18_NHL_117",
@@ -3074,8 +3238,888 @@
     "angle_count": 1,
     "recommended_stake_pct": 0.5,
     "stake": null,
+    "result": "WIN",
+    "profit": 22.727272727272727,
+    "logged_at": "2025-11-18 06:39:12",
+    "actual_result": {
+      "away": "UTA",
+      "home": "SJS",
+      "away_score": 2,
+      "home_score": 3,
+      "winner": "SJS"
+    }
+  },
+  {
+    "bet_id": "2025-11-19_NBA_118",
+    "date": "2025-11-19",
+    "sport": "NBA",
+    "game": "Chicago Bulls @ Portland Trail Blazers",
+    "bet_type": "Moneyline",
+    "bet": "Chicago Bulls ML",
+    "odds": -142,
+    "confidence": "ELITE",
+    "expected_edge": 17.3,
+    "true_ev": 14.6943661971831,
+    "angles": [
+      {
+        "type": "heavy_schedule",
+        "reason": "Portland Trail Blazers playing 3rd game in 4 nights (heavy fatigue)"
+      },
+      {
+        "type": "road_trip_fatigue",
+        "reason": "Chicago Bulls on 4th game of road trip"
+      }
+    ],
+    "angle_count": 2,
+    "recommended_stake_pct": 2.5,
+    "stake": null,
+    "result": "WIN",
+    "profit": 17.6056338028169,
+    "logged_at": "2025-11-19 05:11:43",
+    "actual_result": {
+      "home": "Portland Trail Blazers",
+      "away": "Chicago Bulls",
+      "home_score": 121,
+      "away_score": 122,
+      "winner": "Chicago Bulls"
+    }
+  },
+  {
+    "bet_id": "2025-11-23_NBA_119",
+    "date": "2025-11-23",
+    "sport": "NBA",
+    "game": "Charlotte Hornets @ Atlanta Hawks",
+    "bet_type": "Moneyline",
+    "bet": "Charlotte Hornets ML",
+    "odds": 215,
+    "confidence": "ELITE",
+    "expected_edge": 22.0,
+    "true_ev": 126.79999999999998,
+    "angles": [
+      {
+        "type": "back_to_back",
+        "reason": "Charlotte Hornets on HOME \u2192 ROAD B2B (80% win rate historical)"
+      },
+      {
+        "type": "heavy_schedule",
+        "reason": "Atlanta Hawks playing 3rd game in 4 nights (heavy fatigue)"
+      }
+    ],
+    "angle_count": 2,
+    "recommended_stake_pct": 2.5,
+    "stake": null,
+    "result": "WIN",
+    "profit": 53.75,
+    "logged_at": "2025-11-23 05:03:26",
+    "actual_result": {
+      "home": "Atlanta Hawks",
+      "away": "Charlotte Hornets",
+      "home_score": 113,
+      "away_score": 110,
+      "winner": "Atlanta Hawks"
+    }
+  },
+  {
+    "bet_id": "2025-11-23_NBA_120",
+    "date": "2025-11-23",
+    "sport": "NBA",
+    "game": "Orlando Magic @ Boston Celtics",
+    "bet_type": "Moneyline",
+    "bet": "Boston Celtics ML",
+    "odds": -186,
+    "confidence": "ELITE",
+    "expected_edge": 22.0,
+    "true_ev": 10.709677419354835,
+    "angles": [
+      {
+        "type": "back_to_back",
+        "reason": "Orlando Magic on HOME \u2192 ROAD B2B (80% win rate historical)"
+      },
+      {
+        "type": "heavy_schedule",
+        "reason": "Orlando Magic playing 3rd game in 4 nights (heavy fatigue)"
+      }
+    ],
+    "angle_count": 2,
+    "recommended_stake_pct": 2.5,
+    "stake": null,
+    "result": "WIN",
+    "profit": 13.440860215053762,
+    "logged_at": "2025-11-23 05:03:26",
+    "actual_result": {
+      "home": "Boston Celtics",
+      "away": "Orlando Magic",
+      "home_score": 138,
+      "away_score": 129,
+      "winner": "Boston Celtics"
+    }
+  },
+  {
+    "bet_id": "2025-11-23_NBA_121",
+    "date": "2025-11-23",
+    "sport": "NBA",
+    "game": "LA Clippers @ Cleveland Cavaliers",
+    "bet_type": "Moneyline",
+    "bet": "Cleveland Cavaliers ML",
+    "odds": null,
+    "confidence": "ELITE",
+    "expected_edge": 17.3,
+    "true_ev": 17.3,
+    "angles": [
+      {
+        "type": "heavy_schedule",
+        "reason": "LA Clippers playing 3rd game in 4 nights (heavy fatigue)"
+      },
+      {
+        "type": "road_trip_fatigue",
+        "reason": "LA Clippers on 5th game of road trip"
+      }
+    ],
+    "angle_count": 2,
+    "recommended_stake_pct": 2.5,
+    "stake": null,
+    "result": "WIN",
+    "profit": 22.727272727272727,
+    "logged_at": "2025-11-23 05:03:26",
+    "actual_result": {
+      "home": "Cleveland Cavaliers",
+      "away": "LA Clippers",
+      "home_score": 120,
+      "away_score": 105,
+      "winner": "Cleveland Cavaliers"
+    }
+  },
+  {
+    "bet_id": "2025-11-23_NHL_122",
+    "date": "2025-11-23",
+    "sport": "NHL",
+    "game": "CGY @ VAN",
+    "bet_type": "Moneyline",
+    "bet": "VAN ML",
+    "odds": null,
+    "confidence": "ELITE",
+    "expected_edge": 17.0,
+    "true_ev": 17.0,
+    "angles": [
+      {
+        "type": "back_to_back",
+        "reason": "CGY on HOME \u2192 ROAD B2B (80% win rate historical)"
+      },
+      {
+        "type": "rest_advantage",
+        "reason": "VAN has 2 days rest vs CGY 0 days"
+      }
+    ],
+    "angle_count": 2,
+    "recommended_stake_pct": 2.5,
+    "stake": null,
+    "result": "WIN",
+    "profit": 22.727272727272727,
+    "logged_at": "2025-11-23 05:03:26",
+    "actual_result": {
+      "away": "CGY",
+      "home": "VAN",
+      "away_score": 5,
+      "home_score": 2,
+      "winner": "CGY"
+    }
+  },
+  {
+    "bet_id": "2025-11-23_NHL_123",
+    "date": "2025-11-23",
+    "sport": "NHL",
+    "game": "SEA @ NYI",
+    "bet_type": "Moneyline",
+    "bet": "SEA ML",
+    "odds": null,
+    "confidence": "HIGH",
+    "expected_edge": 13.9,
+    "true_ev": 13.9,
+    "angles": [
+      {
+        "type": "three_in_four",
+        "reason": "NYI playing 3rd game in 4 nights (heavy fatigue)"
+      },
+      {
+        "type": "road_trip_fatigue",
+        "reason": "SEA on 4th game of road trip | SEA is 4-9 on 4th+ road games"
+      }
+    ],
+    "angle_count": 2,
+    "recommended_stake_pct": 1.5,
+    "stake": null,
+    "result": "WIN",
+    "profit": 22.727272727272727,
+    "logged_at": "2025-11-23 05:03:26",
+    "actual_result": {
+      "away": "SEA",
+      "home": "NYI",
+      "away_score": 0,
+      "home_score": 1,
+      "winner": "NYI"
+    }
+  },
+  {
+    "bet_id": "2025-11-23_SOCCER_124",
+    "date": "2025-11-23",
+    "sport": "SOCCER",
+    "game": "Metz @ Brest",
+    "bet_type": "Various",
+    "bet": "BET: Brest Win",
+    "odds": null,
+    "confidence": "MEDIUM",
+    "expected_edge": 7.5,
+    "true_ev": 7.5,
+    "angles": [
+      {
+        "type": "weak_away_team",
+        "reason": "Metz struggles away from home"
+      }
+    ],
+    "angle_count": 1,
+    "recommended_stake_pct": 0.75,
+    "stake": null,
     "result": "PENDING",
     "profit": null,
-    "logged_at": "2025-11-18 06:39:12"
+    "logged_at": "2025-11-23 05:03:26"
+  },
+  {
+    "bet_id": "2025-11-23_NHL_125",
+    "date": "2025-11-23",
+    "sport": "NHL",
+    "game": "CAR @ BUF",
+    "bet_type": "Moneyline",
+    "bet": "BUF ML",
+    "odds": null,
+    "confidence": "MEDIUM",
+    "expected_edge": 7.4,
+    "true_ev": 7.4,
+    "angles": [
+      {
+        "type": "road_trip_fatigue",
+        "reason": "CAR on 4th game of road trip | CAR is 5-4 on 4th+ road games"
+      }
+    ],
+    "angle_count": 1,
+    "recommended_stake_pct": 0.75,
+    "stake": null,
+    "result": "WIN",
+    "profit": 22.727272727272727,
+    "logged_at": "2025-11-23 05:03:26",
+    "actual_result": {
+      "away": "CAR",
+      "home": "BUF",
+      "away_score": 1,
+      "home_score": 4,
+      "winner": "BUF"
+    }
+  },
+  {
+    "bet_id": "2025-11-23_NHL_126",
+    "date": "2025-11-23",
+    "sport": "NHL",
+    "game": "COL @ CHI",
+    "bet_type": "Moneyline",
+    "bet": "COL ML",
+    "odds": null,
+    "confidence": "LOW",
+    "expected_edge": 6.5,
+    "true_ev": 6.5,
+    "angles": [
+      {
+        "type": "three_in_four",
+        "reason": "CHI playing 3rd game in 4 nights (heavy fatigue)"
+      }
+    ],
+    "angle_count": 1,
+    "recommended_stake_pct": 0.5,
+    "stake": null,
+    "result": "WIN",
+    "profit": 22.727272727272727,
+    "logged_at": "2025-11-23 05:03:26",
+    "actual_result": {
+      "away": "COL",
+      "home": "CHI",
+      "away_score": 1,
+      "home_score": 0,
+      "winner": "COL"
+    }
+  },
+  {
+    "bet_id": "2025-11-23_NHL_127",
+    "date": "2025-11-23",
+    "sport": "NHL",
+    "game": "BOS @ SJS",
+    "bet_type": "Moneyline",
+    "bet": "BOS ML",
+    "odds": null,
+    "confidence": "LOW",
+    "expected_edge": 6.5,
+    "true_ev": 6.5,
+    "angles": [
+      {
+        "type": "three_in_four",
+        "reason": "SJS playing 3rd game in 4 nights (heavy fatigue)"
+      }
+    ],
+    "angle_count": 1,
+    "recommended_stake_pct": 0.5,
+    "stake": null,
+    "result": "WIN",
+    "profit": 22.727272727272727,
+    "logged_at": "2025-11-23 05:03:26",
+    "actual_result": {
+      "away": "BOS",
+      "home": "SJS",
+      "away_score": 1,
+      "home_score": 3,
+      "winner": "SJS"
+    }
+  },
+  {
+    "bet_id": "2025-11-23_SOCCER_128",
+    "date": "2025-11-23",
+    "sport": "SOCCER",
+    "game": "Girona @ Real Betis",
+    "bet_type": "Various",
+    "bet": "BET: Real Betis Win or Draw",
+    "odds": null,
+    "confidence": "MEDIUM",
+    "expected_edge": 6.5,
+    "true_ev": 6.5,
+    "angles": [
+      {
+        "type": "home_fortress",
+        "reason": "Real Betis has strong home record"
+      }
+    ],
+    "angle_count": 1,
+    "recommended_stake_pct": 0.75,
+    "stake": null,
+    "result": "WIN",
+    "profit": 22.727272727272727,
+    "logged_at": "2025-11-23 05:03:26",
+    "actual_result": {
+      "home": "Real Betis",
+      "away": "Girona",
+      "home_score": 1,
+      "away_score": 1,
+      "total": 2,
+      "winner": "draw"
+    }
+  },
+  {
+    "bet_id": "2025-11-25_NCAA_129",
+    "date": "2025-11-25",
+    "sport": "NCAA",
+    "game": "NC State Wolfpack @ Boise State Broncos",
+    "bet_type": "Moneyline",
+    "bet": "Boise State Broncos ML",
+    "odds": 245,
+    "confidence": "ELITE",
+    "expected_edge": 25.0,
+    "true_ev": 158.75,
+    "angles": [
+      {
+        "type": "back_to_back",
+        "reason": "NC State Wolfpack on HOME \u2192 ROAD B2B (young players, academic stress)"
+      },
+      {
+        "type": "rest_advantage",
+        "reason": "Boise State Broncos has 3 days rest vs NC State Wolfpack 0 days"
+      }
+    ],
+    "angle_count": 2,
+    "recommended_stake_pct": 2.5,
+    "stake": null,
+    "result": "WIN",
+    "profit": 61.25000000000001,
+    "logged_at": "2025-11-25 07:13:32",
+    "actual_result": {
+      "home": "East Carolina Pirates",
+      "away": "Michigan State Spartans",
+      "home_score": 56,
+      "away_score": 89,
+      "winner": "Michigan State Spartans",
+      "margin": 33
+    }
+  },
+  {
+    "bet_id": "2025-11-25_NCAA_130",
+    "date": "2025-11-25",
+    "sport": "NCAA",
+    "game": "St. John's Red Storm @ Baylor Bears",
+    "bet_type": "Moneyline",
+    "bet": "Baylor Bears ML",
+    "odds": 180,
+    "confidence": "ELITE",
+    "expected_edge": 25.0,
+    "true_ev": 110.00000000000001,
+    "angles": [
+      {
+        "type": "back_to_back",
+        "reason": "St. John's Red Storm on HOME \u2192 ROAD B2B (young players, academic stress)"
+      },
+      {
+        "type": "rest_advantage",
+        "reason": "Baylor Bears has 3 days rest vs St. John's Red Storm 0 days"
+      }
+    ],
+    "angle_count": 2,
+    "recommended_stake_pct": 2.5,
+    "stake": null,
+    "result": "WIN",
+    "profit": 45.0,
+    "logged_at": "2025-11-25 07:13:32",
+    "actual_result": {
+      "home": "Baylor Bears",
+      "away": "St. John's Red Storm",
+      "home_score": 81,
+      "away_score": 96,
+      "winner": "St. John's Red Storm",
+      "margin": 15
+    }
+  },
+  {
+    "bet_id": "2025-11-25_NBA_131",
+    "date": "2025-11-25",
+    "sport": "NBA",
+    "game": "LA Clippers @ Los Angeles Lakers",
+    "bet_type": "Moneyline",
+    "bet": "Los Angeles Lakers ML",
+    "odds": null,
+    "confidence": "ELITE",
+    "expected_edge": 17.3,
+    "true_ev": 17.3,
+    "angles": [
+      {
+        "type": "heavy_schedule",
+        "reason": "LA Clippers playing 3rd game in 4 nights (heavy fatigue)"
+      },
+      {
+        "type": "road_trip_fatigue",
+        "reason": "LA Clippers on 4th game of road trip"
+      }
+    ],
+    "angle_count": 2,
+    "recommended_stake_pct": 2.5,
+    "stake": null,
+    "result": "WIN",
+    "profit": 22.727272727272727,
+    "logged_at": "2025-11-25 07:13:32",
+    "actual_result": {
+      "home": "Los Angeles Lakers",
+      "away": "LA Clippers",
+      "home_score": 135,
+      "away_score": 118,
+      "winner": "Los Angeles Lakers"
+    }
+  },
+  {
+    "bet_id": "2025-11-25_NCAA_132",
+    "date": "2025-11-25",
+    "sport": "NCAA",
+    "game": "Michigan Wolverines @ Auburn Tigers",
+    "bet_type": "Moneyline",
+    "bet": "Auburn Tigers ML",
+    "odds": 145,
+    "confidence": "HIGH",
+    "expected_edge": 15.0,
+    "true_ev": 59.25,
+    "angles": [
+      {
+        "type": "back_to_back",
+        "reason": "Michigan Wolverines on HOME \u2192 ROAD B2B (young players, academic stress)"
+      }
+    ],
+    "angle_count": 1,
+    "recommended_stake_pct": 1.5,
+    "stake": null,
+    "result": "WIN",
+    "profit": 36.25,
+    "logged_at": "2025-11-25 07:13:32",
+    "actual_result": {
+      "home": "Michigan Wolverines",
+      "away": "Auburn Tigers",
+      "home_score": 102,
+      "away_score": 72,
+      "winner": "Michigan Wolverines",
+      "margin": 30
+    }
+  },
+  {
+    "bet_id": "2025-11-25_SOCCER_133",
+    "date": "2025-11-25",
+    "sport": "SOCCER",
+    "game": "Qaraba\u011f FK @ Napoli",
+    "bet_type": "Various",
+    "bet": "BET: Napoli -1.5 Goals",
+    "odds": null,
+    "confidence": "HIGH",
+    "expected_edge": 11.5,
+    "true_ev": 11.5,
+    "angles": [
+      {
+        "type": "title_contender_home",
+        "reason": "Napoli title contender should beat mid-table at home"
+      },
+      {
+        "type": "home_fortress",
+        "reason": "Napoli has strong home record"
+      }
+    ],
+    "angle_count": 2,
+    "recommended_stake_pct": 1.5,
+    "stake": null,
+    "result": "PENDING",
+    "profit": null,
+    "logged_at": "2025-11-25 07:13:32"
+  },
+  {
+    "bet_id": "2025-11-25_NBA_134",
+    "date": "2025-11-25",
+    "sport": "NBA",
+    "game": "Atlanta Hawks @ Washington Wizards",
+    "bet_type": "Moneyline",
+    "bet": "Washington Wizards ML",
+    "odds": 350,
+    "confidence": "HIGH",
+    "expected_edge": 10.0,
+    "true_ev": 170.00000000000003,
+    "angles": [
+      {
+        "type": "heavy_schedule",
+        "reason": "Atlanta Hawks playing 3rd game in 4 nights (heavy fatigue)"
+      }
+    ],
+    "angle_count": 1,
+    "recommended_stake_pct": 1.5,
+    "stake": null,
+    "result": "WIN",
+    "profit": 87.5,
+    "logged_at": "2025-11-25 07:13:32",
+    "actual_result": {
+      "home": "Washington Wizards",
+      "away": "Atlanta Hawks",
+      "home_score": 132,
+      "away_score": 113,
+      "winner": "Washington Wizards"
+    }
+  },
+  {
+    "bet_id": "2025-11-25_NBA_135",
+    "date": "2025-11-25",
+    "sport": "NBA",
+    "game": "Orlando Magic @ Philadelphia 76ers",
+    "bet_type": "Moneyline",
+    "bet": "Philadelphia 76ers ML",
+    "odds": 102,
+    "confidence": "HIGH",
+    "expected_edge": 10.0,
+    "true_ev": 21.199999999999996,
+    "angles": [
+      {
+        "type": "heavy_schedule",
+        "reason": "Orlando Magic playing 3rd game in 4 nights (heavy fatigue)"
+      }
+    ],
+    "angle_count": 1,
+    "recommended_stake_pct": 1.5,
+    "stake": null,
+    "result": "WIN",
+    "profit": 25.5,
+    "logged_at": "2025-11-25 07:13:32",
+    "actual_result": {
+      "home": "Philadelphia 76ers",
+      "away": "Orlando Magic",
+      "home_score": 103,
+      "away_score": 144,
+      "winner": "Orlando Magic"
+    }
+  },
+  {
+    "bet_id": "2025-11-25_NCAA_136",
+    "date": "2025-11-25",
+    "sport": "NCAA",
+    "game": "Iowa State Cyclones @ Creighton Bluejays",
+    "bet_type": "Moneyline",
+    "bet": "Creighton Bluejays ML",
+    "odds": 340,
+    "confidence": "HIGH",
+    "expected_edge": 10.0,
+    "true_ev": 164.0,
+    "angles": [
+      {
+        "type": "rest_advantage",
+        "reason": "Creighton Bluejays has 3 days rest vs Iowa State Cyclones 0 days"
+      }
+    ],
+    "angle_count": 1,
+    "recommended_stake_pct": 1.5,
+    "stake": null,
+    "result": "WIN",
+    "profit": 85.0,
+    "logged_at": "2025-11-25 07:13:32",
+    "actual_result": {
+      "home": "Iowa State Cyclones",
+      "away": "Creighton Bluejays",
+      "home_score": 78,
+      "away_score": 60,
+      "winner": "Iowa State Cyclones",
+      "margin": 18
+    }
+  },
+  {
+    "bet_id": "2025-11-25_NCAA_137",
+    "date": "2025-11-25",
+    "sport": "NCAA",
+    "game": "UNLV Rebels @ Alabama Crimson Tide",
+    "bet_type": "Moneyline",
+    "bet": "UNLV Rebels ML",
+    "odds": 800,
+    "confidence": "HIGH",
+    "expected_edge": 10.0,
+    "true_ev": 439.99999999999994,
+    "angles": [
+      {
+        "type": "rest_advantage",
+        "reason": "UNLV Rebels has 3 days rest vs Alabama Crimson Tide 0 days"
+      }
+    ],
+    "angle_count": 1,
+    "recommended_stake_pct": 1.5,
+    "stake": null,
+    "result": "WIN",
+    "profit": 200.0,
+    "logged_at": "2025-11-25 07:13:32",
+    "actual_result": {
+      "home": "Alabama Crimson Tide",
+      "away": "UNLV Rebels",
+      "home_score": 115,
+      "away_score": 76,
+      "winner": "Alabama Crimson Tide",
+      "margin": 39
+    }
+  },
+  {
+    "bet_id": "2025-11-25_SOCCER_138",
+    "date": "2025-11-25",
+    "sport": "SOCCER",
+    "game": "Newcastle United @ Marseille",
+    "bet_type": "Various",
+    "bet": "BET: Marseille Win or Draw",
+    "odds": null,
+    "confidence": "MEDIUM",
+    "expected_edge": 6.5,
+    "true_ev": 6.5,
+    "angles": [
+      {
+        "type": "home_fortress",
+        "reason": "Marseille has strong home record"
+      }
+    ],
+    "angle_count": 1,
+    "recommended_stake_pct": 0.75,
+    "stake": null,
+    "result": "LOSS",
+    "profit": -25,
+    "logged_at": "2025-11-25 07:13:32",
+    "actual_result": {
+      "home": "Olympique Marseille U19",
+      "away": "Newcastle United U19",
+      "home_score": 2,
+      "away_score": 0,
+      "total": 2,
+      "winner": "home"
+    }
+  },
+  {
+    "bet_id": "2025-11-27_SOCCER_139",
+    "date": "2025-11-27",
+    "sport": "SOCCER",
+    "game": "FC Utrecht @ Real Betis",
+    "bet_type": "Various",
+    "bet": "BET: Real Betis Win or Draw",
+    "odds": null,
+    "confidence": "MEDIUM",
+    "expected_edge": 6.5,
+    "true_ev": 6.5,
+    "angles": [
+      {
+        "type": "home_fortress",
+        "reason": "Real Betis has strong home record"
+      }
+    ],
+    "angle_count": 1,
+    "recommended_stake_pct": 0.75,
+    "stake": null,
+    "result": "LOSS",
+    "profit": -25,
+    "logged_at": "2025-11-27 09:49:47",
+    "actual_result": {
+      "home": "Real Betis",
+      "away": "Utrecht",
+      "home_score": 2,
+      "away_score": 1,
+      "total": 3,
+      "winner": "home"
+    }
+  },
+  {
+    "bet_id": "2025-11-27_SOCCER_140",
+    "date": "2025-11-27",
+    "sport": "SOCCER",
+    "game": "SC Braga @ Rangers FC",
+    "bet_type": "Various",
+    "bet": "BET: Rangers FC Win or Draw",
+    "odds": null,
+    "confidence": "MEDIUM",
+    "expected_edge": 6.5,
+    "true_ev": 6.5,
+    "angles": [
+      {
+        "type": "home_fortress",
+        "reason": "Rangers FC has strong home record"
+      }
+    ],
+    "angle_count": 1,
+    "recommended_stake_pct": 0.75,
+    "stake": null,
+    "result": "WIN",
+    "profit": 22.727272727272727,
+    "logged_at": "2025-11-27 09:49:47",
+    "actual_result": {
+      "home": "Rangers",
+      "away": "SC Braga",
+      "home_score": 1,
+      "away_score": 1,
+      "total": 2,
+      "winner": "draw"
+    }
+  },
+  {
+    "bet_id": "2025-11-28_NCAA_141",
+    "date": "2025-11-28",
+    "sport": "NCAA",
+    "game": "BYU Cougars @ Dayton Flyers",
+    "bet_type": "Moneyline",
+    "bet": "Dayton Flyers ML",
+    "odds": 390,
+    "confidence": "HIGH",
+    "expected_edge": 10.0,
+    "true_ev": 194.0,
+    "angles": [
+      {
+        "type": "rest_advantage",
+        "reason": "Dayton Flyers has 3 days rest vs BYU Cougars 0 days"
+      }
+    ],
+    "angle_count": 1,
+    "recommended_stake_pct": 1.5,
+    "stake": null,
+    "result": "WIN",
+    "profit": 97.5,
+    "logged_at": "2025-11-28 19:42:40",
+    "actual_result": {
+      "home": "Dayton Flyers",
+      "away": "BYU Cougars",
+      "home_score": 79,
+      "away_score": 83,
+      "winner": "BYU Cougars",
+      "margin": 4
+    }
+  },
+  {
+    "bet_id": "2025-11-28_NHL_142",
+    "date": "2025-11-28",
+    "sport": "NHL",
+    "game": "OTT @ STL",
+    "bet_type": "Moneyline",
+    "bet": "STL ML",
+    "odds": null,
+    "confidence": "MEDIUM",
+    "expected_edge": 7.4,
+    "true_ev": 7.4,
+    "angles": [
+      {
+        "type": "road_trip_fatigue",
+        "reason": "OTT on 4th game of road trip | OTT is 1-7 on 4th+ road games"
+      }
+    ],
+    "angle_count": 1,
+    "recommended_stake_pct": 0.75,
+    "stake": null,
+    "result": "WIN",
+    "profit": 22.727272727272727,
+    "logged_at": "2025-11-28 19:42:40",
+    "actual_result": {
+      "away": "OTT",
+      "home": "STL",
+      "away_score": 3,
+      "home_score": 4,
+      "winner": "STL"
+    }
+  },
+  {
+    "bet_id": "2025-11-28_NHL_143",
+    "date": "2025-11-28",
+    "sport": "NHL",
+    "game": "UTA @ DAL",
+    "bet_type": "Moneyline",
+    "bet": "UTA ML",
+    "odds": null,
+    "confidence": "LOW",
+    "expected_edge": 6.5,
+    "true_ev": 6.5,
+    "angles": [
+      {
+        "type": "three_in_four",
+        "reason": "DAL playing 3rd game in 4 nights (heavy fatigue)"
+      }
+    ],
+    "angle_count": 1,
+    "recommended_stake_pct": 0.5,
+    "stake": null,
+    "result": "WIN",
+    "profit": 22.727272727272727,
+    "logged_at": "2025-11-28 19:42:40",
+    "actual_result": {
+      "away": "UTA",
+      "home": "DAL",
+      "away_score": 3,
+      "home_score": 4,
+      "winner": "DAL"
+    }
+  },
+  {
+    "bet_id": "2025-11-28_NHL_144",
+    "date": "2025-11-28",
+    "sport": "NHL",
+    "game": "LAK @ ANA",
+    "bet_type": "Moneyline",
+    "bet": "LAK ML",
+    "odds": null,
+    "confidence": "LOW",
+    "expected_edge": 5.0,
+    "true_ev": 5.0,
+    "angles": [
+      {
+        "type": "rest_advantage",
+        "reason": "LAK has 3 days rest vs ANA 1 days"
+      }
+    ],
+    "angle_count": 1,
+    "recommended_stake_pct": 0.5,
+    "stake": null,
+    "result": "WIN",
+    "profit": 22.727272727272727,
+    "logged_at": "2025-11-28 19:42:40",
+    "actual_result": {
+      "away": "LAK",
+      "home": "ANA",
+      "away_score": 4,
+      "home_score": 5,
+      "winner": "ANA"
+    }
   }
 ]

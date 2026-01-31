@@ -1,0 +1,19 @@
+NCAA BASKETBALL BETTING ANGLES - 2025-11-23
+================================================================================
+
+GAME: Howard Bison @ Duke Blue Devils
+--------------------------------------------------------------------------------
+[HIGH] BET: Howard Bison ML
+   Type: REST_ADVANTAGE
+   Reason: Howard Bison has 3 days rest vs Duke Blue Devils 1 days
+   Expected Edge: +8-12%
+
+[MED] BET: Duke Blue Devils Spread
+   Type: ELITE_HOME_COURT
+   Reason: Duke Blue Devils at elite venue (6.5 point HCA vs 3.5 avg)
+   Expected Edge: +8-12%
+
+
+================================================================================
+SUMMARY: 1 High Confidence, 1 Medium Confidence
+================================================================================

@@ -1,0 +1,95 @@
+================================================================================
+SOCCER PROFITABLE ANGLES DAILY REPORT - 2025-12-12
+================================================================================
+
+Based on 7,272 match analysis (2023-2025 seasons)
+Focus: Over 2.5, BTTS Yes, 1H Over 0.5 in high-scoring leagues
+
+--------------------------------------------------------------------------------
+📊 BUNDESLIGA
+   Historical: Over 2.5 hits 61.3% (ROI +16.5%)
+--------------------------------------------------------------------------------
+
+⚽ Union Berlin vs RB Leipzig
+   Time: 19:30 | Venue: Stadion An der Alten Försterei
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  69.3%     | +16.5%         | ✅ YES
+   BTTS Yes          |  51.2%     | +10.1%         |    ---
+   1H Over 0.5       |  84.4%     | +13.6%         | ✅ YES
+   └─ Expected Total Goals: 3.4
+   └─ Home Scores: 61.5% | Away Scores: 84.6%
+
+--------------------------------------------------------------------------------
+📊 LA LIGA
+   Historical: Over 2.5 hits 55.6% (ROI +5.2%)
+--------------------------------------------------------------------------------
+
+⚽ Real Sociedad vs Girona
+   Time: 20:00 | Venue: Reale Arena
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  55.6%     | +5.2%          | ✅ YES
+   BTTS Yes          |  51.7%     | -1.9%          |    ---
+   1H Over 0.5       |  69.8%     | +1.2%          |    ---
+   └─ Expected Total Goals: 2.2
+   └─ Home Scores: 80.0% | Away Scores: 66.7%
+
+--------------------------------------------------------------------------------
+📊 SERIE A
+   Historical: Over 2.5 hits 55.2% (ROI +4.8%)
+--------------------------------------------------------------------------------
+
+⚽ Lecce vs Pisa
+   Time: 19:45 | Venue: Stadio Ettore Giardiniero - Via del Mare
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  47.2%     | +4.8%          |    ---
+   BTTS Yes          |  40.0%     | -0.1%          |    ---
+   1H Over 0.5       |  64.5%     | +2.2%          |    ---
+   └─ Expected Total Goals: 1.4
+   └─ Home Scores: 50.0% | Away Scores: 42.9%
+
+--------------------------------------------------------------------------------
+📊 LIGUE 1
+   Historical: Over 2.5 hits 48.5% (ROI +-7.8%)
+--------------------------------------------------------------------------------
+
+⚽ Angers vs Nantes
+   Time: 19:45 | Venue: Stade Raymond-Kopa
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  40.5%     | -7.8%          |    ---
+   BTTS Yes          |  42.1%     | -7.1%          |    ---
+   1H Over 0.5       |  62.0%     | -1.4%          |    ---
+   └─ Expected Total Goals: 1.8
+   └─ Home Scores: 66.7% | Away Scores: 53.3%
+
+================================================================================
+📋 SUMMARY
+================================================================================
+Total Games Analyzed: 4
+Total Recommendations: 3
+
+🎯 RECOMMENDED BETS (Confidence ≥55% & Historical ROI >5%):
+
+  1. Bundesliga - Union Berlin vs RB Leipzig
+     BET: 1H Over 0.5 @ 84.4% confidence
+     Historical ROI: +13.6%
+
+  2. Bundesliga - Union Berlin vs RB Leipzig
+     BET: Over 2.5 Goals @ 69.3% confidence
+     Historical ROI: +16.5%
+
+  3. La Liga - Real Sociedad vs Girona
+     BET: Over 2.5 Goals @ 55.6% confidence
+     Historical ROI: +5.2%
+
+================================================================================
+⚠️  REMINDER: Only bet on angles with historical ROI > 5%
+   AVOID: BTTS No (-17% ROI), Over 3.5 (-40% ROI), 1H Over 1.5 (-24% ROI)
+================================================================================

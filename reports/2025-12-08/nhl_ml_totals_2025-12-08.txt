@@ -1,0 +1,76 @@
+🏒 NHL ML TOTALS PREDICTION REPORT - 2025-12-08
+====================================================================================================
+
+GAME #1: Lightning @ Maple Leafs
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  5.47
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Maple Leafs                    over 0.5 goals: 56.0%
+      Lightning                      over 0.5 goals: 71.0%
+      1st Period Total over 1.5 goals: 41.0%
+
+   MODEL PREDICTIONS:
+      linear              : 5.67
+      ridge               : 5.69
+      random_forest       : 5.47
+      gradient_boost      : 5.00
+
+
+GAME #2: Sabres @ Flames
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  5.42
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Flames                         over 0.5 goals: 47.0%
+      Sabres                         over 0.5 goals: 56.0%
+      1st Period Total over 1.5 goals: 28.0%
+
+   MODEL PREDICTIONS:
+      linear              : 5.05
+      ridge               : 5.07
+      random_forest       : 5.42
+      gradient_boost      : 5.72
+
+
+GAME #3: Red Wings @ Canucks
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  4.61
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Canucks                        over 0.5 goals: 48.0%
+      Red Wings                      over 0.5 goals: 74.0%
+      1st Period Total over 1.5 goals: 26.0%
+
+   MODEL PREDICTIONS:
+      linear              : 5.50
+      ridge               : 5.50
+      random_forest       : 4.61
+      gradient_boost      : 4.58
+
+
+GAME #4: Wild @ Kraken
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  5.16
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Kraken                         over 0.5 goals: 44.0%
+      Wild                           over 0.5 goals: 48.0%
+      1st Period Total over 1.5 goals: 29.0%
+
+   MODEL PREDICTIONS:
+      linear              : 6.04
+      ridge               : 6.05
+      random_forest       : 5.16
+      gradient_boost      : 4.70
+
+
+====================================================================================================
+SUMMARY
+====================================================================================================
+
+No games with significant edge (±0.5 goals) today

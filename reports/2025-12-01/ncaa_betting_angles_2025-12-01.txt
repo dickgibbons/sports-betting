@@ -1,0 +1,24 @@
+NCAA BASKETBALL BETTING ANGLES - 2025-12-01
+================================================================================
+
+GAME: Temple Owls @ Villanova Wildcats
+LINE: VILL -12.5
+--------------------------------------------------------------------------------
+[MED] BET: Villanova Wildcats -12.5
+   Type: ELITE_HOME_COURT
+   Reason: Villanova Wildcats at elite venue (5.0 point HCA vs 3.5 avg)
+   Expected Edge: +8-12%
+
+
+GAME: Bowling Green Falcons @ Kansas State Wildcats
+LINE: KSU -12.5
+--------------------------------------------------------------------------------
+[MED] BET: Kansas State Wildcats -12.5
+   Type: ELITE_HOME_COURT
+   Reason: Kansas State Wildcats at elite venue (7.0 point HCA vs 3.5 avg)
+   Expected Edge: +8-12%
+
+
+================================================================================
+SUMMARY: 0 High Confidence, 2 Medium Confidence
+================================================================================

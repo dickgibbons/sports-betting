@@ -1,0 +1,60 @@
+🏀 NCAA BASKETBALL - COMPREHENSIVE EV REPORT
+================================================================================
+Date: 2025-12-07
+Total Games Analyzed: 3
+================================================================================
+
+📊 ALL GAMES RANKED BY EXPECTED VALUE (EV)
+================================================================================
+
+#1 Missouri Tigers @ Kansas Jayhawks
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Kansas Jayhawks ML
+   ODDS: -285
+   TRUE EV: -21.6%
+   STATUS: ❌ FILTERED (EV < 5%)
+   WARNING: ⚠️  Heavy favorite (worse than -250)
+   ANGLE EDGE: +8.0%
+
+   Market Odds:
+     • Kansas Jayhawks: -285
+     • Missouri Tigers: +230
+
+   Betting Angles (1):
+     • Kansas Jayhawks at elite venue (7.0 point HCA vs 3.5 avg)
+
+#2 Georgetown Hoyas @ North Carolina Tar Heels
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: North Carolina Tar Heels ML
+   ODDS: -800
+   TRUE EV: -34.8%
+   STATUS: ❌ FILTERED (EV < 5%)
+   WARNING: ⚠️  Heavy favorite (worse than -250)
+   ANGLE EDGE: +8.0%
+
+   Market Odds:
+     • North Carolina Tar Heels: -800
+     • Georgetown Hoyas: +550
+
+   Betting Angles (1):
+     • North Carolina Tar Heels at elite venue (5.5 point HCA vs 3.5 avg)
+
+#3 North Florida Ospreys @ Gonzaga Bulldogs
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: North Florida Ospreys ML
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +16.0%
+
+   Betting Angles (2):
+     • North Florida Ospreys has 3 days rest vs Gonzaga Bulldogs 1 days
+     • Gonzaga Bulldogs at elite venue (5.5 point HCA vs 3.5 avg)
+
+================================================================================
+📋 LEGEND
+  ✅ QUALIFIES: EV >= 5% and odds better than -250
+  ❌ FILTERED: Does not meet minimum EV threshold or too heavy favorite
+  TRUE EV: Expected value based on real odds and estimated win probability
+  ANGLE EDGE: Edge from betting angles (doesn't account for market odds)
+================================================================================

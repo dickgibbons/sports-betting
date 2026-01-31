@@ -1,0 +1,76 @@
+🏒 NHL ML TOTALS PREDICTION REPORT - 2025-12-19
+====================================================================================================
+
+GAME #1: Hurricanes @ Panthers
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  6.34
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Panthers                       over 0.5 goals: 62.0%
+      Hurricanes                     over 0.5 goals: 46.0%
+      1st Period Total over 1.5 goals: 23.0%
+
+   MODEL PREDICTIONS:
+      linear              : 6.40
+      ridge               : 6.40
+      random_forest       : 6.34
+      gradient_boost      : 7.08
+
+
+GAME #2: Canucks @ Islanders
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  5.01
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Islanders                      over 0.5 goals: 72.0%
+      Canucks                        over 0.5 goals: 51.0%
+      1st Period Total over 1.5 goals: 41.0%
+
+   MODEL PREDICTIONS:
+      linear              : 5.51
+      ridge               : 5.50
+      random_forest       : 5.01
+      gradient_boost      : 4.81
+
+
+GAME #3: Jets @ Avalanche
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  6.00
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Avalanche                      over 0.5 goals: 64.0%
+      Jets                           over 0.5 goals: 56.0%
+      1st Period Total over 1.5 goals: 38.0%
+
+   MODEL PREDICTIONS:
+      linear              : 5.60
+      ridge               : 5.66
+      random_forest       : 6.00
+      gradient_boost      : 5.79
+
+
+GAME #4: Stars @ Ducks
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  5.49
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Ducks                          over 0.5 goals: 42.0%
+      Stars                          over 0.5 goals: 60.0%
+      1st Period Total over 1.5 goals: 23.0%
+
+   MODEL PREDICTIONS:
+      linear              : 6.35
+      ridge               : 6.38
+      random_forest       : 5.49
+      gradient_boost      : 6.27
+
+
+====================================================================================================
+SUMMARY
+====================================================================================================
+
+No games with significant edge (±0.5 goals) today

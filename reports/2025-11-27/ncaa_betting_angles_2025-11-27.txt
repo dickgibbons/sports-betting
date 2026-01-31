@@ -1,0 +1,22 @@
+NCAA BASKETBALL BETTING ANGLES - 2025-11-27
+================================================================================
+
+GAME: Vanderbilt Commodores @ VCU Rams
+--------------------------------------------------------------------------------
+[HIGH] BET: VCU Rams ML
+   Type: REST_ADVANTAGE
+   Reason: VCU Rams has 3 days rest vs Vanderbilt Commodores 0 days
+   Expected Edge: +8-12%
+
+
+GAME: North Carolina Tar Heels @ Michigan State Spartans
+--------------------------------------------------------------------------------
+[MED] BET: Michigan State Spartans Spread
+   Type: ELITE_HOME_COURT
+   Reason: Michigan State Spartans at elite venue (5.0 point HCA vs 3.5 avg)
+   Expected Edge: +8-12%
+
+
+================================================================================
+SUMMARY: 1 High Confidence, 1 Medium Confidence
+================================================================================

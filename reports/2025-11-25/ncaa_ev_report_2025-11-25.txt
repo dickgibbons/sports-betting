@@ -1,0 +1,132 @@
+🏀 NCAA BASKETBALL - COMPREHENSIVE EV REPORT
+================================================================================
+Date: 2025-11-25
+Total Games Analyzed: 8
+================================================================================
+
+📊 ALL GAMES RANKED BY EXPECTED VALUE (EV)
+================================================================================
+
+#1 UNLV Rebels @ Alabama Crimson Tide
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: UNLV Rebels ML
+   ODDS: +800
+   TRUE EV: +422.0%
+   STATUS: ✅ QUALIFIES (EV >= 5%)
+   ANGLE EDGE: +8.0%
+
+   Market Odds:
+     • Alabama Crimson Tide: -1350
+     • UNLV Rebels: +800
+
+   Betting Angles (1):
+     • UNLV Rebels has 3 days rest vs Alabama Crimson Tide 0 days
+
+#2 Iowa State Cyclones @ Creighton Bluejays
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Creighton Bluejays ML
+   ODDS: +340
+   TRUE EV: +155.2%
+   STATUS: ✅ QUALIFIES (EV >= 5%)
+   ANGLE EDGE: +8.0%
+
+   Market Odds:
+     • Creighton Bluejays: +340
+     • Iowa State Cyclones: -440
+
+   Betting Angles (1):
+     • Creighton Bluejays has 3 days rest vs Iowa State Cyclones 0 days
+
+#3 NC State Wolfpack @ Boise State Broncos
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Boise State Broncos ML
+   ODDS: +245
+   TRUE EV: +151.8%
+   STATUS: ✅ QUALIFIES (EV >= 5%)
+   ANGLE EDGE: +23.0%
+
+   Market Odds:
+     • Boise State Broncos: +245
+     • NC State Wolfpack: -310
+
+   Betting Angles (2):
+     • NC State Wolfpack on HOME → ROAD B2B (young players, academic stress)
+     • Boise State Broncos has 3 days rest vs NC State Wolfpack 0 days
+
+#4 St. John's Red Storm @ Baylor Bears
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Baylor Bears ML
+   ODDS: +180
+   TRUE EV: +104.4%
+   STATUS: ✅ QUALIFIES (EV >= 5%)
+   ANGLE EDGE: +23.0%
+
+   Market Odds:
+     • Baylor Bears: +180
+     • St. John's Red Storm: -218
+
+   Betting Angles (2):
+     • St. John's Red Storm on HOME → ROAD B2B (young players, academic stress)
+     • Baylor Bears has 3 days rest vs St. John's Red Storm 0 days
+
+#5 Michigan Wolverines @ Auburn Tigers
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Auburn Tigers ML
+   ODDS: +145
+   TRUE EV: +59.2%
+   STATUS: ✅ QUALIFIES (EV >= 5%)
+   ANGLE EDGE: +15.0%
+
+   Market Odds:
+     • Auburn Tigers: +145
+     • Michigan Wolverines: -175
+
+   Betting Angles (1):
+     • Michigan Wolverines on HOME → ROAD B2B (young players, academic stress)
+
+#6 St. Bonaventure Bonnies @ North Carolina Tar Heels
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: North Carolina Tar Heels ML
+   ODDS: -675
+   TRUE EV: -33.4%
+   STATUS: ❌ FILTERED (EV < 5%)
+   WARNING: ⚠️  Heavy favorite (worse than -250)
+   ANGLE EDGE: +8.0%
+
+   Market Odds:
+     • North Carolina Tar Heels: -675
+     • St. Bonaventure Bonnies: +490
+
+   Betting Angles (1):
+     • North Carolina Tar Heels at elite venue (5.5 point HCA vs 3.5 avg)
+
+#7 Tennessee Volunteers @ Houston Cougars
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Houston Cougars ML
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +15.0%
+
+   Betting Angles (1):
+     • Tennessee Volunteers on HOME → ROAD B2B (young players, academic stress)
+
+#8 Maryland Terrapins @ Gonzaga Bulldogs
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Maryland Terrapins ML
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +16.0%
+
+   Betting Angles (2):
+     • Maryland Terrapins has 3 days rest vs Gonzaga Bulldogs 0 days
+     • Gonzaga Bulldogs at elite venue (5.5 point HCA vs 3.5 avg)
+
+================================================================================
+📋 LEGEND
+  ✅ QUALIFIES: EV >= 5% and odds better than -250
+  ❌ FILTERED: Does not meet minimum EV threshold or too heavy favorite
+  TRUE EV: Expected value based on real odds and estimated win probability
+  ANGLE EDGE: Edge from betting angles (doesn't account for market odds)
+================================================================================

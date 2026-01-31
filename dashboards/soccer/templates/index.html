@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soccer Schedule Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #fff;
+            color: #333;
+            min-height: 100vh;
+        }
+
+        .header {
+            background: #2E7D32;
+            padding: 15px 20px;
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .date-nav {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .date-nav button {
+            background: #fff;
+            color: #2E7D32;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+
+        .date-nav button:hover {
+            background: #e0e0e0;
+        }
+
+        .date-nav input[type="date"] {
+            padding: 8px 12px;
+            border-radius: 4px;
+            border: none;
+            font-size: 0.9rem;
+        }
+
+        .stats-summary {
+            margin-left: 20px;
+            font-size: 0.95rem;
+        }
+
+        /* Filter bar styles */
+        .filter-bar {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            padding: 10px 20px;
+            background: #f5f5f5;
+            border-bottom: 1px solid #ddd;
+            flex-wrap: wrap;
+        }
+
+        .filter-group {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .filter-group label {
+            font-weight: bold;
+            font-size: 0.85rem;
+            color: #333;
+        }
+
+        .filter-group select {
+            padding: 6px 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            min-width: 150px;
+        }
+
+        .filter-group input[type="text"] {
+            padding: 6px 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            width: 200px;
+        }
+
+        .clear-filters {
+            background: #f44336;
+            color: white;
+            border: none;
+            padding: 6px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.85rem;
+        }
+
+        .clear-filters:hover {
+            background: #d32f2f;
+        }
+
+        /* Sortable header styles */
+        th.sortable {
+            cursor: pointer;
+            user-select: none;
+            position: relative;
+        }
+
+        th.sortable:hover {
+            background: #1B5E20;
+        }
+
+        th.sortable::after {
+            content: ' \u2195';
+            font-size: 0.7rem;
+            opacity: 0.5;
+        }
+
+        th.sortable.sort-asc::after {
+            content: ' \u25B2';
+            opacity: 1;
+        }
+
+        th.sortable.sort-desc::after {
+            content: ' \u25BC';
+            opacity: 1;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 50px;
+            font-size: 1.2rem;
+            color: #666;
+        }
+
+        .league-section {
+            margin-bottom: 25px;
+        }
+
+        .league-header {
+            background: #2E7D32;
+            color: white;
+            padding: 8px 12px;
+            font-weight: bold;
+            font-size: 1rem;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.8rem;
+        }
+
+        th {
+            background: #2E7D32;
+            color: white;
+            padding: 6px 4px;
+            text-align: center;
+            font-weight: bold;
+            border: 1px solid #1B5E20;
+        }
+
+        td {
+            padding: 4px 3px;
+            text-align: center;
+            border: 1px solid #ccc;
+        }
+
+        .team-col {
+            text-align: left;
+            min-width: 140px;
+        }
+
+        .away-row {
+            background: #f8f8f8;
+        }
+
+        .home-row {
+            background: #fff;
+            border-bottom: 2px solid #2E7D32 !important;
+        }
+
+        .home-row td {
+            border-bottom: 2px solid #2E7D32;
+        }
+
+        tr:hover {
+            background: #e8f5e9;
+        }
+
+        /* Color coding for H1 O0.5%: <70 red, 70-79.9 yellow, >=80 green */
+        .stat-h1o05-red {
+            background-color: #ff6b6b !important;
+            color: white;
+            font-weight: bold;
+        }
+
+        .stat-h1o05-yellow {
+            background-color: #ffd93d !important;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .stat-h1o05-green {
+            background-color: #6bcb77 !important;
+            color: white;
+            font-weight: bold;
+        }
+
+        /* Color coding for O2.5%: <50 red, 50-64.9 yellow, >=65 green */
+        .stat-o25-red {
+            background-color: #ff6b6b !important;
+            color: white;
+            font-weight: bold;
+        }
+
+        .stat-o25-yellow {
+            background-color: #ffd93d !important;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .stat-o25-green {
+            background-color: #6bcb77 !important;
+            color: white;
+            font-weight: bold;
+        }
+
+        /* Color coding for H1 Scored%: <50 red, 50-59.9 yellow, >=60 green */
+        .stat-h1scored-red {
+            background-color: #ff6b6b !important;
+            color: white;
+            font-weight: bold;
+        }
+
+        .stat-h1scored-yellow {
+            background-color: #ffd93d !important;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .stat-h1scored-green {
+            background-color: #6bcb77 !important;
+            color: white;
+            font-weight: bold;
+        }
+
+        /* Color coding for H1 Avg: <1.0 red, 1.0-1.39 yellow, >=1.4 green */
+        .stat-h1avg-red {
+            background-color: #ff6b6b !important;
+            color: white;
+            font-weight: bold;
+        }
+
+        .stat-h1avg-yellow {
+            background-color: #ffd93d !important;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .stat-h1avg-green {
+            background-color: #6bcb77 !important;
+            color: white;
+            font-weight: bold;
+        }
+
+        /* Color coding for H2 Scored%: <50 red, 50-59.9 yellow, >=60 green */
+        .stat-h2scored-red {
+            background-color: #ff6b6b !important;
+            color: white;
+            font-weight: bold;
+        }
+
+        .stat-h2scored-yellow {
+            background-color: #ffd93d !important;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .stat-h2scored-green {
+            background-color: #6bcb77 !important;
+            color: white;
+            font-weight: bold;
+        }
+
+        /* Color coding for H2 Avg: <1.0 red, 1.0-1.39 yellow, >=1.4 green */
+        .stat-h2avg-red {
+            background-color: #ff6b6b !important;
+            color: white;
+            font-weight: bold;
+        }
+
+        .stat-h2avg-yellow {
+            background-color: #ffd93d !important;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .stat-h2avg-green {
+            background-color: #6bcb77 !important;
+            color: white;
+            font-weight: bold;
+        }
+
+        /* Green when team avg > league avg */
+        .stat-above-league {
+            background-color: #6bcb77 !important;
+            color: white;
+            font-weight: bold;
+        }
+
+        .no-games {
+            text-align: center;
+            padding: 50px;
+            color: #666;
+            font-size: 1.2rem;
+        }
+
+        .time-col {
+            white-space: nowrap;
+        }
+
+        .status-live {
+            background: #e94560;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.75rem;
+        }
+
+        .status-final {
+            color: #666;
+        }
+
+        .ha-col {
+            font-weight: bold;
+            width: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Soccer Schedule Dashboard</h1>
+        <div class="date-nav">
+            <button onclick="changeDate(-1)">&larr; Prev</button>
+            <input type="date" id="date-picker" onchange="loadGames()">
+            <button onclick="changeDate(1)">Next &rarr;</button>
+            <button onclick="goToToday()">Today</button>
+            <select id="period-select" onchange="loadGames()">
+                <option value="season">Season</option>
+                <option value="L10">Last 10</option>
+                <option value="L5">Last 5</option>
+            </select>
+            <button onclick="downloadCSV()" style="background: #1976D2; margin-left: 10px;">Download CSV</button>
+            <button onclick="loadGames()" style="background: #FF9800; margin-left: 10px;">Refresh</button>
+            <span class="stats-summary" id="stats-summary"></span>
+        </div>
+    </div>
+
+    <!-- Filter Bar -->
+    <div class="filter-bar">
+        <div class="filter-group">
+            <label>Country:</label>
+            <select id="country-filter" onchange="applyFilters()">
+                <option value="">All Countries</option>
+            </select>
+        </div>
+        <div class="filter-group">
+            <label>League:</label>
+            <select id="league-filter" onchange="applyFilters()">
+                <option value="">All Leagues</option>
+            </select>
+        </div>
+        <div class="filter-group">
+            <label>Team Search:</label>
+            <input type="text" id="team-search" placeholder="Search team name..." oninput="applyFilters()">
+        </div>
+        <button class="clear-filters" onclick="clearFilters()">Clear Filters</button>
+        <span id="filter-count" style="margin-left: 10px; font-size: 0.85rem; color: #666;"></span>
+    </div>
+    <!-- Stat Filter Bar -->
+    <div class="filter-bar" style="background: #e8f5e9;">
+        <span style="font-weight: bold; margin-right: 10px;">Min %:</span>
+        <div class="filter-group">
+            <label>H1 O0.5%:</label>
+            <input type="number" id="filter-h1o05" placeholder="e.g. 70" min="0" max="100" style="width: 70px;" oninput="applyFilters()">
+        </div>
+        <div class="filter-group">
+            <label>H1 Scored%:</label>
+            <input type="number" id="filter-h1scored" placeholder="e.g. 50" min="0" max="100" style="width: 70px;" oninput="applyFilters()">
+        </div>
+        <div class="filter-group">
+            <label>O1.5%:</label>
+            <input type="number" id="filter-o15" placeholder="e.g. 70" min="0" max="100" style="width: 70px;" oninput="applyFilters()">
+        </div>
+        <div class="filter-group">
+            <label>O2.5%:</label>
+            <input type="number" id="filter-o25" placeholder="e.g. 50" min="0" max="100" style="width: 70px;" oninput="applyFilters()">
+        </div>
+        <div class="filter-group">
+            <label>Comb O1.5:</label>
+            <input type="number" id="filter-comb-o15" placeholder="e.g. 70" min="0" max="100" style="width: 70px;" oninput="applyFilters()">
+        </div>
+        <div class="filter-group">
+            <label>Comb O2.5:</label>
+            <input type="number" id="filter-comb-o25" placeholder="e.g. 50" min="0" max="100" style="width: 70px;" oninput="applyFilters()">
+        </div>
+    </div>
+
+    <div class="container" id="games-container">
+        <div class="loading">Loading games...</div>
+    </div>
+
+    <script>
+        const datePicker = document.getElementById('date-picker');
+        datePicker.value = '{{ default_date }}';
+
+        // Store all games for filtering
+        let allGamesData = [];
+        let currentSort = { column: null, direction: 'asc' };
+
+        function changeDate(days) {
+            const current = new Date(datePicker.value);
+            current.setDate(current.getDate() + days);
+            datePicker.value = current.toISOString().split('T')[0];
+            loadGames();
+        }
+
+        function goToToday() {
+            datePicker.value = new Date().toISOString().split('T')[0];
+            loadGames();
+        }
+
+        function downloadCSV() {
+            const periodSelect = document.getElementById('period-select');
+            const url = `/api/download_csv?date=${datePicker.value}&period=${periodSelect.value}`;
+            window.location.href = url;
+        }
+
+        // H1 O0.5% color: 70-77.9 yellow, >=78 green
+        function getH1O05Class(value) {
+            if (value === null || value === undefined || value === 0) return '';
+            if (value >= 78) return 'stat-h1o05-green';
+            if (value >= 70) return 'stat-h1o05-yellow';
+            return '';
+        }
+
+        // Simple 50%+ green for H1 O1.5% and H1 Scored%
+        function get50PlusClass(value) {
+            if (value === null || value === undefined || value === 0) return '';
+            if (value >= 50) return 'stat-above-league';
+            return '';
+        }
+
+        // O2.5% color: 50-59.9 yellow, >=60 green
+        function getO25Class(value) {
+            if (value === null || value === undefined || value === 0) return '';
+            if (value >= 60) return 'stat-above-league';
+            if (value >= 50) return 'stat-o25-yellow';
+            return '';
+        }
+
+        // H1 Scored% color: <50 red, 50-59.9 yellow, >=60 green
+        function getH1ScoredClass(value) {
+            if (value === null || value === undefined || value === 0) return '';
+            if (value < 50) return 'stat-h1scored-red';
+            if (value < 60) return 'stat-h1scored-yellow';
+            return 'stat-h1scored-green';
+        }
+
+        // H1 Avg color: <1.0 red, 1.0-1.39 yellow, >=1.4 green
+        function getH1AvgClass(value) {
+            if (value === null || value === undefined || value === 0) return '';
+            if (value < 1.0) return 'stat-h1avg-red';
+            if (value < 1.4) return 'stat-h1avg-yellow';
+            return 'stat-h1avg-green';
+        }
+
+        // Comb O1.5 color: 70-79.9 yellow, >=80 green
+        function getCombO15Class(value) {
+            if (value === null || value === undefined || value === '-') return '';
+            const num = parseFloat(value);
+            if (isNaN(num)) return '';
+            if (num >= 80) return 'stat-above-league';
+            if (num >= 70) return 'stat-o25-yellow';
+            return '';
+        }
+
+        // Comb O2.5 color: 50-59.9 yellow, >=60 green
+        function getCombO25Class(value) {
+            if (value === null || value === undefined || value === '-') return '';
+            const num = parseFloat(value);
+            if (isNaN(num)) return '';
+            if (num >= 60) return 'stat-above-league';
+            if (num >= 50) return 'stat-o25-yellow';
+            return '';
+        }
+
+        // O3.5% color: >=40 green
+        function getO35Class(value) {
+            if (value === null || value === undefined || value === 0) return '';
+            if (value >= 40) return 'stat-above-league';
+            return '';
+        }
+
+        // H2 Scored% color: 50-59.9 yellow, >=60 green
+        function getH2ScoredClass(value) {
+            if (value === null || value === undefined || value === 0) return '';
+            if (value >= 60) return 'stat-h2scored-green';
+            if (value >= 50) return 'stat-h2scored-yellow';
+            return '';
+        }
+
+        // H2 Avg color: <1.0 red, 1.0-1.39 yellow, >=1.4 green
+        function getH2AvgClass(value) {
+            if (value === null || value === undefined || value === 0) return '';
+            if (value < 1.0) return 'stat-h2avg-red';
+            if (value < 1.4) return 'stat-h2avg-yellow';
+            return 'stat-h2avg-green';
+        }
+
+        // Convert percentage to decimal odds (100/pct)
+        function pctToOdds(pct) {
+            if (!pct || pct === 0) return '-';
+            return (100 / pct).toFixed(2);
+        }
+
+        // Calculate combined percentage from two teams and convert to odds
+        function combinedPctOdds(pct1, pct2) {
+            if (!pct1 || !pct2) return { pct: '-', odds: '-' };
+            const combined = (pct1 + pct2) / 2;
+            return {
+                pct: combined.toFixed(0),
+                odds: (100 / combined).toFixed(2)
+            };
+        }
+
+        function formatTime(timeStr) {
+            if (!timeStr) return '';
+            try {
+                const [hours, minutes] = timeStr.split(':');
+                const h = parseInt(hours);
+                const ampm = h >= 12 ? 'PM' : 'AM';
+                const hour12 = h % 12 || 12;
+                return `${hour12}:${minutes} ${ampm}`;
+            } catch {
+                return timeStr;
+            }
+        }
+
+        function getStatusDisplay(status, homeScore, awayScore) {
+            if (status === 'FT' || status === 'AET' || status === 'PEN') {
+                return `<span class="status-final">${awayScore}-${homeScore}</span>`;
+            } else if (status === '1H' || status === '2H' || status === 'HT' || status === 'LIVE') {
+                return `<span class="status-live">${status} ${awayScore}-${homeScore}</span>`;
+            } else if (status === 'NS') {
+                return '-';
+            }
+            return status || '-';
+        }
+
+        async function loadGames() {
+            const container = document.getElementById('games-container');
+            const summary = document.getElementById('stats-summary');
+            const periodSelect = document.getElementById('period-select');
+
+            container.innerHTML = '<div class="loading">Loading games...</div>';
+
+            try {
+                const response = await fetch(`/api/games?date=${datePicker.value}&period=${periodSelect.value}`);
+                const data = await response.json();
+
+                summary.innerHTML = `<strong>${data.total_games}</strong> games on <strong>${data.date}</strong>`;
+
+                if (data.total_games === 0) {
+                    container.innerHTML = '<div class="no-games">No games scheduled for this date</div>';
+                    return;
+                }
+
+                // Flatten all games into a single array with league/country info
+                allGamesData = [];
+                for (const [league, games] of Object.entries(data.games_by_league)) {
+                    for (const game of games) {
+                        allGamesData.push({...game, league_name: league});
+                    }
+                }
+
+                // Populate filter dropdowns
+                populateFilters();
+
+                // Render the games
+                renderGames(allGamesData);
+
+            } catch (error) {
+                console.error('Error loading games:', error);
+                container.innerHTML = '<div class="no-games">Error loading games. Please try again.</div>';
+            }
+        }
+
+        function populateFilters() {
+            const countryFilter = document.getElementById('country-filter');
+            const leagueFilter = document.getElementById('league-filter');
+
+            // Get unique countries and leagues
+            const countries = [...new Set(allGamesData.map(g => g.country).filter(c => c))].sort();
+            const leagues = [...new Set(allGamesData.map(g => g.league_name).filter(l => l))].sort();
+
+            // Save current selections
+            const selectedCountry = countryFilter.value;
+            const selectedLeague = leagueFilter.value;
+
+            // Populate country dropdown
+            countryFilter.innerHTML = '<option value="">All Countries</option>';
+            countries.forEach(country => {
+                countryFilter.innerHTML += `<option value="${country}">${country}</option>`;
+            });
+
+            // Populate league dropdown
+            leagueFilter.innerHTML = '<option value="">All Leagues</option>';
+            leagues.forEach(league => {
+                leagueFilter.innerHTML += `<option value="${league}">${league}</option>`;
+            });
+
+            // Restore selections if still valid
+            if (countries.includes(selectedCountry)) countryFilter.value = selectedCountry;
+            if (leagues.includes(selectedLeague)) leagueFilter.value = selectedLeague;
+        }
+
+        function applyFilters() {
+            const countryFilter = document.getElementById('country-filter').value;
+            const leagueFilter = document.getElementById('league-filter').value;
+            const teamSearch = document.getElementById('team-search').value.toLowerCase();
+
+            // Stat filters (min values)
+            const minH1O05 = parseFloat(document.getElementById('filter-h1o05').value) || 0;
+            const minH1Scored = parseFloat(document.getElementById('filter-h1scored').value) || 0;
+            const minO15 = parseFloat(document.getElementById('filter-o15').value) || 0;
+            const minO25 = parseFloat(document.getElementById('filter-o25').value) || 0;
+            const minCombO15 = parseFloat(document.getElementById('filter-comb-o15').value) || 0;
+            const minCombO25 = parseFloat(document.getElementById('filter-comb-o25').value) || 0;
+
+            let filtered = allGamesData.filter(game => {
+                // Country filter
+                if (countryFilter && game.country !== countryFilter) return false;
+
+                // League filter
+                if (leagueFilter && game.league_name !== leagueFilter) return false;
+
+                // Team search
+                if (teamSearch) {
+                    const homeMatch = game.home_team.toLowerCase().includes(teamSearch);
+                    const awayMatch = game.away_team.toLowerCase().includes(teamSearch);
+                    if (!homeMatch && !awayMatch) return false;
+                }
+
+                // Stat filters - check that BOTH teams meet the criteria
+                // H1 O0.5% filter
+                if (minH1O05 > 0) {
+                    const homeVal = game.home_stats?.h1_over_05_pct || 0;
+                    const awayVal = game.away_stats?.h1_over_05_pct || 0;
+                    if (homeVal < minH1O05 || awayVal < minH1O05) return false;
+                }
+
+                // H1 Scored% filter
+                if (minH1Scored > 0) {
+                    const homeVal = game.home_stats?.h1_scored_pct || 0;
+                    const awayVal = game.away_stats?.h1_scored_pct || 0;
+                    if (homeVal < minH1Scored || awayVal < minH1Scored) return false;
+                }
+
+                // O1.5% filter
+                if (minO15 > 0) {
+                    const homeVal = game.home_stats?.over_15_pct || 0;
+                    const awayVal = game.away_stats?.over_15_pct || 0;
+                    if (homeVal < minO15 || awayVal < minO15) return false;
+                }
+
+                // O2.5% filter
+                if (minO25 > 0) {
+                    const homeVal = game.home_stats?.over_25_pct || 0;
+                    const awayVal = game.away_stats?.over_25_pct || 0;
+                    if (homeVal < minO25 || awayVal < minO25) return false;
+                }
+
+                // Comb O1.5 filter (combined percentage)
+                if (minCombO15 > 0) {
+                    const combVal = game.combined_o15_pct || 0;
+                    if (combVal < minCombO15) return false;
+                }
+
+                // Comb O2.5 filter (combined percentage)
+                if (minCombO25 > 0) {
+                    const combVal = game.combined_o25_pct || 0;
+                    if (combVal < minCombO25) return false;
+                }
+
+                return true;
+            });
+
+            // Update filter count
+            const filterCount = document.getElementById('filter-count');
+            const hasAnyFilter = countryFilter || leagueFilter || teamSearch || minH1O05 || minH1Scored || minO15 || minO25 || minCombO15 || minCombO25;
+            if (hasAnyFilter) {
+                filterCount.textContent = `Showing ${filtered.length} of ${allGamesData.length} games`;
+            } else {
+                filterCount.textContent = '';
+            }
+
+            renderGames(filtered);
+        }
+
+        function clearFilters() {
+            document.getElementById('country-filter').value = '';
+            document.getElementById('league-filter').value = '';
+            document.getElementById('team-search').value = '';
+            document.getElementById('filter-count').textContent = '';
+
+            // Clear stat filters
+            document.getElementById('filter-h1o05').value = '';
+            document.getElementById('filter-h1scored').value = '';
+            document.getElementById('filter-o15').value = '';
+            document.getElementById('filter-o25').value = '';
+            document.getElementById('filter-comb-o15').value = '';
+            document.getElementById('filter-comb-o25').value = '';
+
+            currentSort = { column: null, direction: 'asc' };
+
+            // Remove sort classes from headers
+            document.querySelectorAll('th.sortable').forEach(th => {
+                th.classList.remove('sort-asc', 'sort-desc');
+            });
+
+            renderGames(allGamesData);
+        }
+
+        function sortGames(column) {
+            // Toggle direction if clicking same column
+            if (currentSort.column === column) {
+                currentSort.direction = currentSort.direction === 'asc' ? 'desc' : 'asc';
+            } else {
+                currentSort.column = column;
+                currentSort.direction = 'asc';
+            }
+
+            applyFilters();
+        }
+
+        function renderGames(games) {
+            const container = document.getElementById('games-container');
+
+            if (games.length === 0) {
+                container.innerHTML = '<div class="no-games">No games match the current filters</div>';
+                return;
+            }
+
+            // Sort games if a sort column is selected
+            if (currentSort.column) {
+                games = [...games].sort((a, b) => {
+                    let valA, valB;
+
+                    switch (currentSort.column) {
+                        case 'country':
+                            valA = a.country || '';
+                            valB = b.country || '';
+                            break;
+                        case 'league':
+                            valA = a.league_name || '';
+                            valB = b.league_name || '';
+                            break;
+                        case 'time':
+                            valA = a.time || '';
+                            valB = b.time || '';
+                            break;
+                        case 'gp':
+                            valA = ((a.home_stats?.games || 0) + (a.away_stats?.games || 0)) / 2;
+                            valB = ((b.home_stats?.games || 0) + (b.away_stats?.games || 0)) / 2;
+                            break;
+                        case 'avg_total':
+                            valA = ((a.home_stats?.avg_total || 0) + (a.away_stats?.avg_total || 0)) / 2;
+                            valB = ((b.home_stats?.avg_total || 0) + (b.away_stats?.avg_total || 0)) / 2;
+                            break;
+                        case 'avg_scored':
+                            valA = ((a.home_stats?.avg_scored || 0) + (a.away_stats?.avg_scored || 0)) / 2;
+                            valB = ((b.home_stats?.avg_scored || 0) + (b.away_stats?.avg_scored || 0)) / 2;
+                            break;
+                        case 'avg_conceded':
+                            valA = ((a.home_stats?.avg_conceded || 0) + (a.away_stats?.avg_conceded || 0)) / 2;
+                            valB = ((b.home_stats?.avg_conceded || 0) + (b.away_stats?.avg_conceded || 0)) / 2;
+                            break;
+                        case 'h1_o05':
+                            valA = ((a.home_stats?.h1_over_05_pct || 0) + (a.away_stats?.h1_over_05_pct || 0)) / 2;
+                            valB = ((b.home_stats?.h1_over_05_pct || 0) + (b.away_stats?.h1_over_05_pct || 0)) / 2;
+                            break;
+                        case 'h1_o15':
+                            valA = ((a.home_stats?.h1_over_15_pct || 0) + (a.away_stats?.h1_over_15_pct || 0)) / 2;
+                            valB = ((b.home_stats?.h1_over_15_pct || 0) + (b.away_stats?.h1_over_15_pct || 0)) / 2;
+                            break;
+                        case 'h1_scored':
+                            valA = ((a.home_stats?.h1_scored_pct || 0) + (a.away_stats?.h1_scored_pct || 0)) / 2;
+                            valB = ((b.home_stats?.h1_scored_pct || 0) + (b.away_stats?.h1_scored_pct || 0)) / 2;
+                            break;
+                        case 'h1_avg':
+                            valA = ((a.home_stats?.h1_avg_total || 0) + (a.away_stats?.h1_avg_total || 0)) / 2;
+                            valB = ((b.home_stats?.h1_avg_total || 0) + (b.away_stats?.h1_avg_total || 0)) / 2;
+                            break;
+                        case 'h2_scored':
+                            valA = ((a.home_stats?.h2_scored_pct || 0) + (a.away_stats?.h2_scored_pct || 0)) / 2;
+                            valB = ((b.home_stats?.h2_scored_pct || 0) + (b.away_stats?.h2_scored_pct || 0)) / 2;
+                            break;
+                        case 'h2_avg':
+                            valA = ((a.home_stats?.h2_avg_total || 0) + (a.away_stats?.h2_avg_total || 0)) / 2;
+                            valB = ((b.home_stats?.h2_avg_total || 0) + (b.away_stats?.h2_avg_total || 0)) / 2;
+                            break;
+                        case 'o15':
+                            valA = ((a.home_stats?.over_15_pct || 0) + (a.away_stats?.over_15_pct || 0)) / 2;
+                            valB = ((b.home_stats?.over_15_pct || 0) + (b.away_stats?.over_15_pct || 0)) / 2;
+                            break;
+                        case 'comb_o15':
+                            valA = ((a.home_stats?.over_15_pct || 0) + (a.away_stats?.over_15_pct || 0)) / 2;
+                            valB = ((b.home_stats?.over_15_pct || 0) + (b.away_stats?.over_15_pct || 0)) / 2;
+                            break;
+                        case 'o25':
+                            valA = ((a.home_stats?.over_25_pct || 0) + (a.away_stats?.over_25_pct || 0)) / 2;
+                            valB = ((b.home_stats?.over_25_pct || 0) + (b.away_stats?.over_25_pct || 0)) / 2;
+                            break;
+                        case 'comb_o25':
+                            valA = ((a.home_stats?.over_25_pct || 0) + (a.away_stats?.over_25_pct || 0)) / 2;
+                            valB = ((b.home_stats?.over_25_pct || 0) + (b.away_stats?.over_25_pct || 0)) / 2;
+                            break;
+                        case 'o35':
+                            valA = ((a.home_stats?.over_35_pct || 0) + (a.away_stats?.over_35_pct || 0)) / 2;
+                            valB = ((b.home_stats?.over_35_pct || 0) + (b.away_stats?.over_35_pct || 0)) / 2;
+                            break;
+                        case 'comb_o35':
+                            valA = ((a.home_stats?.over_35_pct || 0) + (a.away_stats?.over_35_pct || 0)) / 2;
+                            valB = ((b.home_stats?.over_35_pct || 0) + (b.away_stats?.over_35_pct || 0)) / 2;
+                            break;
+                        default:
+                            valA = 0;
+                            valB = 0;
+                    }
+
+                    if (typeof valA === 'string') {
+                        return currentSort.direction === 'asc'
+                            ? valA.localeCompare(valB)
+                            : valB.localeCompare(valA);
+                    }
+                    return currentSort.direction === 'asc' ? valA - valB : valB - valA;
+                });
+            }
+
+            let html = `
+                    <div class="league-section">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th class="sortable ${currentSort.column === 'country' ? 'sort-' + currentSort.direction : ''}" onclick="sortGames('country')">Country</th>
+                                    <th class="sortable ${currentSort.column === 'league' ? 'sort-' + currentSort.direction : ''}" onclick="sortGames('league')">League</th>
+                                    <th></th>
+                                    <th class="sortable ${currentSort.column === 'time' ? 'sort-' + currentSort.direction : ''}" onclick="sortGames('time')">Time</th>
+                                    <th>Score</th>
+                                    <th class="team-col">Team</th>
+                                    <th class="sortable ${currentSort.column === 'gp' ? 'sort-' + currentSort.direction : ''}" onclick="sortGames('gp')">GP</th>
+                                    <th class="sortable ${currentSort.column === 'avg_total' ? 'sort-' + currentSort.direction : ''}" onclick="sortGames('avg_total')">Avg</th>
+                                    <th class="sortable ${currentSort.column === 'avg_scored' ? 'sort-' + currentSort.direction : ''}" onclick="sortGames('avg_scored')">Avg Scored</th>
+                                    <th>Lg Avg</th>
+                                    <th class="sortable ${currentSort.column === 'avg_conceded' ? 'sort-' + currentSort.direction : ''}" onclick="sortGames('avg_conceded')">Avg Conceded</th>
+                                    <th>Lg Avg</th>
+                                    <th class="sortable ${currentSort.column === 'h1_o05' ? 'sort-' + currentSort.direction : ''}" onclick="sortGames('h1_o05')">H1 O0.5%</th>
+                                    <th class="sortable ${currentSort.column === 'h1_o15' ? 'sort-' + currentSort.direction : ''}" onclick="sortGames('h1_o15')">H1 O1.5%</th>
+                                    <th class="sortable ${currentSort.column === 'h1_scored' ? 'sort-' + currentSort.direction : ''}" onclick="sortGames('h1_scored')">H1 Scored%</th>
+                                    <th class="sortable ${currentSort.column === 'h1_avg' ? 'sort-' + currentSort.direction : ''}" onclick="sortGames('h1_avg')">H1 Avg</th>
+                                    <th class="sortable ${currentSort.column === 'h2_scored' ? 'sort-' + currentSort.direction : ''}" onclick="sortGames('h2_scored')">H2 Scored%</th>
+                                    <th class="sortable ${currentSort.column === 'h2_avg' ? 'sort-' + currentSort.direction : ''}" onclick="sortGames('h2_avg')">H2 Avg</th>
+                                    <th class="sortable ${currentSort.column === 'o15' ? 'sort-' + currentSort.direction : ''}" onclick="sortGames('o15')">O1.5%</th>
+                                    <th class="sortable ${currentSort.column === 'comb_o15' ? 'sort-' + currentSort.direction : ''}" onclick="sortGames('comb_o15')">Comb O1.5</th>
+                                    <th class="sortable ${currentSort.column === 'o25' ? 'sort-' + currentSort.direction : ''}" onclick="sortGames('o25')">O2.5%</th>
+                                    <th class="sortable ${currentSort.column === 'comb_o25' ? 'sort-' + currentSort.direction : ''}" onclick="sortGames('comb_o25')">Comb O2.5</th>
+                                    <th class="sortable ${currentSort.column === 'o35' ? 'sort-' + currentSort.direction : ''}" onclick="sortGames('o35')">O3.5%</th>
+                                    <th class="sortable ${currentSort.column === 'comb_o35' ? 'sort-' + currentSort.direction : ''}" onclick="sortGames('comb_o35')">Comb O3.5</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                `;
+
+                for (const game of games) {
+                        const homeStats = game.home_stats || {};
+                        const awayStats = game.away_stats || {};
+
+                        // Away team color coding
+                        const awayH1O05Class = getH1O05Class(awayStats.h1_over_05_pct);
+                        const awayO25Class = getO25Class(awayStats.over_25_pct);
+                        const awayH1ScoredClass = getH1ScoredClass(awayStats.h1_scored_pct);
+                        const awayH1AvgClass = getH1AvgClass(awayStats.h1_avg_total);
+                        const awayH2ScoredClass = getH2ScoredClass(awayStats.h2_scored_pct);
+                        const awayH2AvgClass = getH2AvgClass(awayStats.h2_avg_total);
+
+                        // Home team color coding
+                        const homeH1O05Class = getH1O05Class(homeStats.h1_over_05_pct);
+                        const homeO25Class = getO25Class(homeStats.over_25_pct);
+                        const homeH1ScoredClass = getH1ScoredClass(homeStats.h1_scored_pct);
+                        const homeH1AvgClass = getH1AvgClass(homeStats.h1_avg_total);
+                        const homeH2ScoredClass = getH2ScoredClass(homeStats.h2_scored_pct);
+                        const homeH2AvgClass = getH2AvgClass(homeStats.h2_avg_total);
+
+                        // Calculate combined percentages and odds for both teams
+                        const combO15 = combinedPctOdds(homeStats.over_15_pct, awayStats.over_15_pct);
+                        const combO25 = combinedPctOdds(homeStats.over_25_pct, awayStats.over_25_pct);
+                        const combO35 = combinedPctOdds(homeStats.over_35_pct, awayStats.over_35_pct);
+
+                        // Away row (top)
+                        html += `
+                            <tr class="away-row">
+                                <td rowspan="2">${game.country || ''}</td>
+                                <td rowspan="2">${game.league_name || ''}</td>
+                                <td class="ha-col">A</td>
+                                <td class="time-col" rowspan="2">${formatTime(game.time)}</td>
+                                <td rowspan="2">${getStatusDisplay(game.status, game.home_score, game.away_score)}</td>
+                                <td class="team-col">${game.away_team}</td>
+                                <td>${awayStats.games || '-'}</td>
+                                <td>${awayStats.avg_total || '-'}</td>
+                                <td class="${awayStats.avg_scored && game.league_avg_scored && parseFloat(awayStats.avg_scored) > parseFloat(game.league_avg_scored) ? 'stat-above-league' : ''}">${awayStats.avg_scored || '-'}</td>
+                                <td rowspan="2">${game.league_avg_scored || '-'}</td>
+                                <td class="${awayStats.avg_conceded && game.league_avg_conceded && parseFloat(awayStats.avg_conceded) > parseFloat(game.league_avg_conceded) ? 'stat-above-league' : ''}">${awayStats.avg_conceded || '-'}</td>
+                                <td rowspan="2">${game.league_avg_conceded || '-'}</td>
+                                <td class="${getH1O05Class(awayStats.h1_over_05_pct)}">${awayStats.h1_over_05_pct ? awayStats.h1_over_05_pct.toFixed(1) : '-'}</td>
+                                <td class="${get50PlusClass(awayStats.h1_over_15_pct)}">${awayStats.h1_over_15_pct ? awayStats.h1_over_15_pct.toFixed(1) : '-'}</td>
+                                <td class="${get50PlusClass(awayStats.h1_scored_pct)}">${awayStats.h1_scored_pct ? awayStats.h1_scored_pct.toFixed(1) : '-'}</td>
+                                <td>${awayStats.h1_avg_total || '-'}</td>
+                                <td class="${getH2ScoredClass(awayStats.h2_scored_pct)}">${awayStats.h2_scored_pct ? awayStats.h2_scored_pct.toFixed(1) : '-'}</td>
+                                <td>${awayStats.h2_avg_total || '-'}</td>
+                                <td class="${getH1O05Class(awayStats.over_15_pct)}">${awayStats.over_15_pct ? awayStats.over_15_pct.toFixed(1) : '-'}</td>
+                                <td rowspan="2" class="${getCombO15Class(combO15.pct)}"><strong>${combO15.pct}%</strong><br>${combO15.odds}</td>
+                                <td class="${getO25Class(awayStats.over_25_pct)}">${awayStats.over_25_pct ? awayStats.over_25_pct.toFixed(1) : '-'}</td>
+                                <td rowspan="2" class="${getCombO25Class(combO25.pct)}"><strong>${combO25.pct}%</strong><br>${combO25.odds}</td>
+                                <td class="${getO35Class(awayStats.over_35_pct)}">${awayStats.over_35_pct ? awayStats.over_35_pct.toFixed(1) : '-'}</td>
+                                <td rowspan="2"><strong>${combO35.pct}%</strong><br>${combO35.odds}</td>
+                            </tr>
+                        `;
+
+                        // Home row (bottom)
+                        html += `
+                            <tr class="home-row">
+                                <td class="ha-col">H</td>
+                                <td class="team-col">${game.home_team}</td>
+                                <td>${homeStats.games || '-'}</td>
+                                <td>${homeStats.avg_total || '-'}</td>
+                                <td class="${homeStats.avg_scored && game.league_avg_scored && parseFloat(homeStats.avg_scored) > parseFloat(game.league_avg_scored) ? 'stat-above-league' : ''}">${homeStats.avg_scored || '-'}</td>
+                                <td class="${homeStats.avg_conceded && game.league_avg_conceded && parseFloat(homeStats.avg_conceded) > parseFloat(game.league_avg_conceded) ? 'stat-above-league' : ''}">${homeStats.avg_conceded || '-'}</td>
+                                <td class="${getH1O05Class(homeStats.h1_over_05_pct)}">${homeStats.h1_over_05_pct ? homeStats.h1_over_05_pct.toFixed(1) : '-'}</td>
+                                <td class="${get50PlusClass(homeStats.h1_over_15_pct)}">${homeStats.h1_over_15_pct ? homeStats.h1_over_15_pct.toFixed(1) : '-'}</td>
+                                <td class="${get50PlusClass(homeStats.h1_scored_pct)}">${homeStats.h1_scored_pct ? homeStats.h1_scored_pct.toFixed(1) : '-'}</td>
+                                <td>${homeStats.h1_avg_total || '-'}</td>
+                                <td class="${getH2ScoredClass(homeStats.h2_scored_pct)}">${homeStats.h2_scored_pct ? homeStats.h2_scored_pct.toFixed(1) : '-'}</td>
+                                <td>${homeStats.h2_avg_total || '-'}</td>
+                                <td class="${getH1O05Class(homeStats.over_15_pct)}">${homeStats.over_15_pct ? homeStats.over_15_pct.toFixed(1) : '-'}</td>
+                                <td class="${getO25Class(homeStats.over_25_pct)}">${homeStats.over_25_pct ? homeStats.over_25_pct.toFixed(1) : '-'}</td>
+                                <td class="${getO35Class(homeStats.over_35_pct)}">${homeStats.over_35_pct ? homeStats.over_35_pct.toFixed(1) : '-'}</td>
+                            </tr>
+                        `;
+                    }
+
+                    html += `
+                                </tbody>
+                            </table>
+                        </div>
+                    `;
+
+                container.innerHTML = html;
+        }
+
+        // Load games on page load
+        loadGames();
+    </script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+⚽ SOCCER - COMPREHENSIVE EV REPORT
+================================================================================
+Date: 2025-12-08
+Total Matches Analyzed: 5
+================================================================================
+
+📊 ALL MATCHES RANKED BY EXPECTED VALUE (EV)
+================================================================================
+
+#1 Parma @ Pisa
+   League: Serie A
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Pisa
+   ODDS: +150
+   TRUE EV: -12.5%
+   STATUS: ❌ FILTERED (EV < 5%)
+   ANGLE EDGE: +0.0%
+
+   Market Odds:
+     • Pisa: +150
+     • Parma: +210
+
+#2 Manchester United @ Wolverhampton Wanderers
+   League: Premier League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Wolverhampton Wanderers
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#3 Levante @ CA Osasuna
+   League: La Liga
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: CA Osasuna
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#4 Genoa @ Udinese
+   League: Serie A
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Udinese
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#5 AC Milan @ Torino
+   League: Serie A
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Torino
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+================================================================================
+📋 LEGEND
+  ✅ QUALIFIES: EV >= 5% and odds better than -250
+  ❌ FILTERED: Does not meet minimum EV threshold or too heavy favorite
+  TRUE EV: Expected value based on real odds and estimated win probability
+  ANGLE EDGE: Edge from betting angles (doesn't account for market odds)
+================================================================================

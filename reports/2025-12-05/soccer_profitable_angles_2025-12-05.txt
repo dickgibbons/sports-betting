@@ -1,0 +1,110 @@
+================================================================================
+SOCCER PROFITABLE ANGLES DAILY REPORT - 2025-12-05
+================================================================================
+
+Based on 7,272 match analysis (2023-2025 seasons)
+Focus: Over 2.5, BTTS Yes, 1H Over 0.5 in high-scoring leagues
+
+--------------------------------------------------------------------------------
+📊 BUNDESLIGA
+   Historical: Over 2.5 hits 61.3% (ROI +16.5%)
+--------------------------------------------------------------------------------
+
+⚽ FSV Mainz 05 vs Borussia Mönchengladbach
+   Time: 19:30 | Venue: Mewa Arena
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  61.3%     | +16.5%         | ✅ YES
+   BTTS Yes          |  42.9%     | +10.1%         |    ---
+   1H Over 0.5       |  78.4%     | +13.6%         | ✅ YES
+   └─ Expected Total Goals: 2.2
+   └─ Home Scores: 50.0% | Away Scores: 50.0%
+
+--------------------------------------------------------------------------------
+📊 EREDIVISIE
+   Historical: Over 2.5 hits 59.8% (ROI +13.6%)
+--------------------------------------------------------------------------------
+
+⚽ Excelsior vs Groningen
+   Time: 19:00 | Venue: Stadion Woudestein
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  59.8%     | +13.6%         | ✅ YES
+   BTTS Yes          |  51.9%     | +0.8%          |    ---
+   1H Over 0.5       |  74.4%     | +7.9%          | ✅ YES
+   └─ Expected Total Goals: 2.4
+   └─ Home Scores: 78.6% | Away Scores: 71.4%
+
+--------------------------------------------------------------------------------
+📊 LA LIGA
+   Historical: Over 2.5 hits 55.6% (ROI +5.2%)
+--------------------------------------------------------------------------------
+
+⚽ Oviedo vs Mallorca
+   Time: 20:00 | Venue: Estadio Nuevo Carlos Tartiere
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  47.6%     | +5.2%          |    ---
+   BTTS Yes          |  40.0%     | -1.9%          |    ---
+   1H Over 0.5       |  63.8%     | +1.2%          |    ---
+   └─ Expected Total Goals: 1.6
+   └─ Home Scores: 28.6% | Away Scores: 78.6%
+
+--------------------------------------------------------------------------------
+📊 LIGUE 1
+   Historical: Over 2.5 hits 48.5% (ROI +-7.8%)
+--------------------------------------------------------------------------------
+
+⚽ Stade Brestois 29 vs Monaco
+   Time: 18:00 | Venue: Stade Francis-Le Blé
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  56.5%     | -7.8%          |    ---
+   BTTS Yes          |  47.4%     | -7.1%          |    ---
+   1H Over 0.5       |  74.0%     | -1.4%          |    ---
+   └─ Expected Total Goals: 3.3
+   └─ Home Scores: 57.1% | Away Scores: 85.7%
+
+⚽ Lille vs Marseille
+   Time: 20:00 | Venue: Decathlon Arena - Stade Pierre-Mauroy
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  56.5%     | -7.8%          |    ---
+   BTTS Yes          |  49.4%     | -7.1%          |    ---
+   1H Over 0.5       |  74.0%     | -1.4%          |    ---
+   └─ Expected Total Goals: 4.5
+   └─ Home Scores: 71.4% | Away Scores: 85.7%
+
+================================================================================
+📋 SUMMARY
+================================================================================
+Total Games Analyzed: 5
+Total Recommendations: 4
+
+🎯 RECOMMENDED BETS (Confidence ≥55% & Historical ROI >5%):
+
+  1. Bundesliga - FSV Mainz 05 vs Borussia Mönchengladbach
+     BET: 1H Over 0.5 @ 78.4% confidence
+     Historical ROI: +13.6%
+
+  2. Eredivisie - Excelsior vs Groningen
+     BET: 1H Over 0.5 @ 74.4% confidence
+     Historical ROI: +7.9%
+
+  3. Bundesliga - FSV Mainz 05 vs Borussia Mönchengladbach
+     BET: Over 2.5 Goals @ 61.3% confidence
+     Historical ROI: +16.5%
+
+  4. Eredivisie - Excelsior vs Groningen
+     BET: Over 2.5 Goals @ 59.8% confidence
+     Historical ROI: +13.6%
+
+================================================================================
+⚠️  REMINDER: Only bet on angles with historical ROI > 5%
+   AVOID: BTTS No (-17% ROI), Over 3.5 (-40% ROI), 1H Over 1.5 (-24% ROI)
+================================================================================

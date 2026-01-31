@@ -1,0 +1,76 @@
+🏒 NHL ML TOTALS PREDICTION REPORT - 2026-01-07
+====================================================================================================
+
+GAME #1: Stars @ Capitals
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  6.62
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Capitals                       over 0.5 goals: 52.0%
+      Stars                          over 0.5 goals: 70.0%
+      1st Period Total over 1.5 goals: 51.0%
+
+   MODEL PREDICTIONS:
+      linear              : 7.78
+      ridge               : 7.79
+      random_forest       : 6.62
+      gradient_boost      : 6.24
+
+
+GAME #2: Flames @ Canadiens
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  5.41
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Canadiens                      over 0.5 goals: 61.0%
+      Flames                         over 0.5 goals: 44.0%
+      1st Period Total over 1.5 goals: 47.0%
+
+   MODEL PREDICTIONS:
+      linear              : 6.11
+      ridge               : 6.12
+      random_forest       : 5.41
+      gradient_boost      : 5.16
+
+
+GAME #3: Blues @ Blackhawks
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  5.08
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Blackhawks                     over 0.5 goals: 53.0%
+      Blues                          over 0.5 goals: 67.0%
+      1st Period Total over 1.5 goals: 42.0%
+
+   MODEL PREDICTIONS:
+      linear              : 5.17
+      ridge               : 5.23
+      random_forest       : 5.08
+      gradient_boost      : 5.46
+
+
+GAME #4: Sharks @ Kings
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  5.76
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Kings                          over 0.5 goals: 66.0%
+      Sharks                         over 0.5 goals: 38.0%
+      1st Period Total over 1.5 goals: 58.0%
+
+   MODEL PREDICTIONS:
+      linear              : 5.83
+      ridge               : 5.83
+      random_forest       : 5.76
+      gradient_boost      : 5.65
+
+
+====================================================================================================
+SUMMARY
+====================================================================================================
+
+No games with significant edge (±0.5 goals) today

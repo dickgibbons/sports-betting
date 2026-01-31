@@ -1,0 +1,63 @@
+⚽ SOCCER - COMPREHENSIVE EV REPORT
+================================================================================
+Date: 2026-01-19
+Total Matches Analyzed: 4
+================================================================================
+
+📊 ALL MATCHES RANKED BY EXPECTED VALUE (EV)
+================================================================================
+
+#1 Como @ Lazio
+   League: Serie A
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Lazio
+   ODDS: +190
+   TRUE EV: +20.4%
+   STATUS: ✅ QUALIFIES (EV >= 5%, odds OK)
+   ANGLE EDGE: +6.5%
+
+   Market Odds:
+     • Lazio: +190
+     • Como: +175
+
+   Betting Angles (1):
+     • Lazio has strong home record
+
+#2 Hellas Verona @ Cremonese
+   League: Serie A
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Cremonese
+   ODDS: +150
+   TRUE EV: -12.5%
+   STATUS: ❌ FILTERED (EV < 5%)
+   ANGLE EDGE: +0.0%
+
+   Market Odds:
+     • Cremonese: +150
+     • Hellas Verona: +220
+
+#3 Bournemouth @ Brighton and Hove Albion
+   League: Premier League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Brighton and Hove Albion
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#4 Sevilla @ Elche CF
+   League: La Liga
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Elche CF
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+================================================================================
+📋 LEGEND
+  ✅ QUALIFIES: EV >= 5% and odds better than -250
+  ❌ FILTERED: Does not meet minimum EV threshold or too heavy favorite
+  TRUE EV: Expected value based on real odds and estimated win probability
+  ANGLE EDGE: Edge from betting angles (doesn't account for market odds)
+================================================================================

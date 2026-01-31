@@ -1,0 +1,67 @@
+🏒 NHL BETTING PICKS - 2026-01-06
+================================================================================
+
+📊 SUMMARY
+────────────────────────────────────────────────────────────────────────────────
+Total Picks: 7
+✅ HIGH: 4 picks
+💡 MEDIUM: 3 picks
+
+✅✅ #1 COL @ TBL
+   BET: TBL ML
+   Expected Edge: +10.0%
+   Confidence: HIGH
+   Angles (1):
+     • COL playing 3rd game in 4 nights (heavy fatigue)
+   💰 Recommended: 1-2% of bankroll
+
+✅✅ #2 DAL @ CAR
+   BET: DAL ML
+   Expected Edge: +10.0%
+   Confidence: HIGH
+   Angles (1):
+     • CAR playing 3rd game in 4 nights (heavy fatigue)
+   💰 Recommended: 1-2% of bankroll
+
+✅✅ #3 NJD @ NYI
+   BET: NYI ML
+   Expected Edge: +10.0%
+   Confidence: HIGH
+   Angles (1):
+     • NJD playing 3rd game in 4 nights (heavy fatigue)
+   💰 Recommended: 1-2% of bankroll
+
+✅✅ #4 CBJ @ SJS
+   BET: SJS ML
+   Expected Edge: +10.0%
+   Confidence: HIGH
+   Angles (1):
+     • CBJ playing 3rd game in 4 nights (heavy fatigue)
+   💰 Recommended: 1-2% of bankroll
+
+💡 #5 ANA @ PHI
+   BET: PHI ML
+   Expected Edge: +8.0%
+   Confidence: MEDIUM
+   Angles (1):
+     • PHI has 2 days rest vs ANA 0 days
+   💰 Recommended: 0.5-1% of bankroll
+
+💡 #6 BOS @ SEA
+   BET: BOS ML
+   Expected Edge: +8.0%
+   Confidence: MEDIUM
+   Angles (1):
+     • BOS has 2 days rest vs SEA 0 days
+   💰 Recommended: 0.5-1% of bankroll
+
+💡 #7 NSH @ EDM
+   BET: EDM ML
+   Expected Edge: +7.4%
+   Confidence: MEDIUM
+   Angles (1):
+     • NSH on 4th game of road trip
+   💰 Recommended: 0.5-1% of bankroll
+
+================================================================================
+📁 Full analysis saved to: /Users/dickgibbons/sports-betting/reports/2026-01-06/nhl_picks_2026-01-06.txt

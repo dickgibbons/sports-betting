@@ -1,0 +1,413 @@
+{
+  "experiments": [
+    {
+      "date": "2026-01-06T21:59:08.211523",
+      "sport": "Soccer",
+      "problem": "Underperforming",
+      "status": "suggested",
+      "experiments": [
+        "Increase confidence threshold to 95%",
+        "Add form streak analysis (5+ game trends)",
+        "Filter by league (some leagues may be more predictable)",
+        "Add head-to-head history",
+        "Check data quality - may have wrong league labels"
+      ]
+    },
+    {
+      "date": "2026-01-06T21:59:08.211632",
+      "sport": "Soccer",
+      "problem": "Underperforming",
+      "status": "suggested",
+      "experiments": [
+        "Increase confidence threshold to 95%",
+        "Add form streak analysis (5+ game trends)",
+        "Filter by league (some leagues may be more predictable)",
+        "Add head-to-head history",
+        "Check data quality - may have wrong league labels"
+      ]
+    },
+    {
+      "date": "2026-01-06T21:59:08.211751",
+      "sport": "Soccer",
+      "problem": "Underperforming",
+      "status": "suggested",
+      "experiments": [
+        "Increase confidence threshold to 95%",
+        "Add form streak analysis (5+ game trends)",
+        "Filter by league (some leagues may be more predictable)",
+        "Add head-to-head history",
+        "Check data quality - may have wrong league labels"
+      ]
+    },
+    {
+      "date": "2026-01-06T21:59:08.211836",
+      "sport": "All",
+      "problem": "Model calibration",
+      "status": "suggested",
+      "experiments": [
+        "Apply confidence calibration (temperature scaling)",
+        "Retrain with Platt scaling",
+        "Increase minimum confidence thresholds by 5%",
+        "Add uncertainty quantification"
+      ]
+    },
+    {
+      "date": "2026-01-07T05:17:24.995337",
+      "sport": "Soccer",
+      "problem": "Underperforming",
+      "status": "suggested",
+      "experiments": [
+        "Increase confidence threshold to 95%",
+        "Add form streak analysis (5+ game trends)",
+        "Filter by league (some leagues may be more predictable)",
+        "Add head-to-head history",
+        "Check data quality - may have wrong league labels"
+      ]
+    },
+    {
+      "date": "2026-01-07T05:17:24.995896",
+      "sport": "Soccer",
+      "problem": "Underperforming",
+      "status": "suggested",
+      "experiments": [
+        "Increase confidence threshold to 95%",
+        "Add form streak analysis (5+ game trends)",
+        "Filter by league (some leagues may be more predictable)",
+        "Add head-to-head history",
+        "Check data quality - may have wrong league labels"
+      ]
+    },
+    {
+      "date": "2026-01-07T05:17:24.996162",
+      "sport": "Soccer",
+      "problem": "Underperforming",
+      "status": "suggested",
+      "experiments": [
+        "Increase confidence threshold to 95%",
+        "Add form streak analysis (5+ game trends)",
+        "Filter by league (some leagues may be more predictable)",
+        "Add head-to-head history",
+        "Check data quality - may have wrong league labels"
+      ]
+    },
+    {
+      "date": "2026-01-07T05:17:24.996422",
+      "sport": "All",
+      "problem": "Model calibration",
+      "status": "suggested",
+      "experiments": [
+        "Apply confidence calibration (temperature scaling)",
+        "Retrain with Platt scaling",
+        "Increase minimum confidence thresholds by 5%",
+        "Add uncertainty quantification"
+      ]
+    },
+    {
+      "date": "2026-01-09T06:26:37.555237",
+      "sport": "Soccer",
+      "problem": "Underperforming",
+      "status": "suggested",
+      "experiments": [
+        "Increase confidence threshold to 95%",
+        "Add form streak analysis (5+ game trends)",
+        "Filter by league (some leagues may be more predictable)",
+        "Add head-to-head history",
+        "Check data quality - may have wrong league labels"
+      ]
+    },
+    {
+      "date": "2026-01-09T06:26:37.555695",
+      "sport": "Soccer",
+      "problem": "Underperforming",
+      "status": "suggested",
+      "experiments": [
+        "Increase confidence threshold to 95%",
+        "Add form streak analysis (5+ game trends)",
+        "Filter by league (some leagues may be more predictable)",
+        "Add head-to-head history",
+        "Check data quality - may have wrong league labels"
+      ]
+    },
+    {
+      "date": "2026-01-09T06:26:37.555815",
+      "sport": "Soccer",
+      "problem": "Underperforming",
+      "status": "suggested",
+      "experiments": [
+        "Increase confidence threshold to 95%",
+        "Add form streak analysis (5+ game trends)",
+        "Filter by league (some leagues may be more predictable)",
+        "Add head-to-head history",
+        "Check data quality - may have wrong league labels"
+      ]
+    },
+    {
+      "date": "2026-01-09T06:26:37.555915",
+      "sport": "All",
+      "problem": "Model calibration",
+      "status": "suggested",
+      "experiments": [
+        "Apply confidence calibration (temperature scaling)",
+        "Retrain with Platt scaling",
+        "Increase minimum confidence thresholds by 5%",
+        "Add uncertainty quantification"
+      ]
+    },
+    {
+      "date": "2026-01-16T05:04:41.682941",
+      "sport": "Soccer",
+      "problem": "Underperforming",
+      "status": "suggested",
+      "experiments": [
+        "Increase confidence threshold to 95%",
+        "Add form streak analysis (5+ game trends)",
+        "Filter by league (some leagues may be more predictable)",
+        "Add head-to-head history",
+        "Check data quality - may have wrong league labels"
+      ]
+    },
+    {
+      "date": "2026-01-16T05:04:41.683778",
+      "sport": "Soccer",
+      "problem": "Underperforming",
+      "status": "suggested",
+      "experiments": [
+        "Increase confidence threshold to 95%",
+        "Add form streak analysis (5+ game trends)",
+        "Filter by league (some leagues may be more predictable)",
+        "Add head-to-head history",
+        "Check data quality - may have wrong league labels"
+      ]
+    },
+    {
+      "date": "2026-01-16T05:04:41.684241",
+      "sport": "Soccer",
+      "problem": "Underperforming",
+      "status": "suggested",
+      "experiments": [
+        "Increase confidence threshold to 95%",
+        "Add form streak analysis (5+ game trends)",
+        "Filter by league (some leagues may be more predictable)",
+        "Add head-to-head history",
+        "Check data quality - may have wrong league labels"
+      ]
+    },
+    {
+      "date": "2026-01-16T05:04:41.684818",
+      "sport": "All",
+      "problem": "Model calibration",
+      "status": "suggested",
+      "experiments": [
+        "Apply confidence calibration (temperature scaling)",
+        "Retrain with Platt scaling",
+        "Increase minimum confidence thresholds by 5%",
+        "Add uncertainty quantification"
+      ]
+    },
+    {
+      "date": "2026-01-19T05:05:01.497586",
+      "sport": "Soccer",
+      "problem": "Underperforming",
+      "status": "suggested",
+      "experiments": [
+        "Increase confidence threshold to 95%",
+        "Add form streak analysis (5+ game trends)",
+        "Filter by league (some leagues may be more predictable)",
+        "Add head-to-head history",
+        "Check data quality - may have wrong league labels"
+      ]
+    },
+    {
+      "date": "2026-01-19T05:05:01.499025",
+      "sport": "Soccer",
+      "problem": "Underperforming",
+      "status": "suggested",
+      "experiments": [
+        "Increase confidence threshold to 95%",
+        "Add form streak analysis (5+ game trends)",
+        "Filter by league (some leagues may be more predictable)",
+        "Add head-to-head history",
+        "Check data quality - may have wrong league labels"
+      ]
+    },
+    {
+      "date": "2026-01-19T05:05:01.499589",
+      "sport": "Soccer",
+      "problem": "Underperforming",
+      "status": "suggested",
+      "experiments": [
+        "Increase confidence threshold to 95%",
+        "Add form streak analysis (5+ game trends)",
+        "Filter by league (some leagues may be more predictable)",
+        "Add head-to-head history",
+        "Check data quality - may have wrong league labels"
+      ]
+    },
+    {
+      "date": "2026-01-19T05:05:01.500292",
+      "sport": "All",
+      "problem": "Model calibration",
+      "status": "suggested",
+      "experiments": [
+        "Apply confidence calibration (temperature scaling)",
+        "Retrain with Platt scaling",
+        "Increase minimum confidence thresholds by 5%",
+        "Add uncertainty quantification"
+      ]
+    },
+    {
+      "date": "2026-01-21T05:27:47.574637",
+      "sport": "Soccer",
+      "problem": "Underperforming",
+      "status": "suggested",
+      "experiments": [
+        "Increase confidence threshold to 95%",
+        "Add form streak analysis (5+ game trends)",
+        "Filter by league (some leagues may be more predictable)",
+        "Add head-to-head history",
+        "Check data quality - may have wrong league labels"
+      ]
+    },
+    {
+      "date": "2026-01-21T05:27:47.576578",
+      "sport": "Soccer",
+      "problem": "Underperforming",
+      "status": "suggested",
+      "experiments": [
+        "Increase confidence threshold to 95%",
+        "Add form streak analysis (5+ game trends)",
+        "Filter by league (some leagues may be more predictable)",
+        "Add head-to-head history",
+        "Check data quality - may have wrong league labels"
+      ]
+    },
+    {
+      "date": "2026-01-21T05:27:47.578058",
+      "sport": "Soccer",
+      "problem": "Underperforming",
+      "status": "suggested",
+      "experiments": [
+        "Increase confidence threshold to 95%",
+        "Add form streak analysis (5+ game trends)",
+        "Filter by league (some leagues may be more predictable)",
+        "Add head-to-head history",
+        "Check data quality - may have wrong league labels"
+      ]
+    },
+    {
+      "date": "2026-01-21T05:27:47.579276",
+      "sport": "All",
+      "problem": "Model calibration",
+      "status": "suggested",
+      "experiments": [
+        "Apply confidence calibration (temperature scaling)",
+        "Retrain with Platt scaling",
+        "Increase minimum confidence thresholds by 5%",
+        "Add uncertainty quantification"
+      ]
+    },
+    {
+      "date": "2026-01-25T05:04:58.429749",
+      "sport": "Soccer",
+      "problem": "Underperforming",
+      "status": "suggested",
+      "experiments": [
+        "Increase confidence threshold to 95%",
+        "Add form streak analysis (5+ game trends)",
+        "Filter by league (some leagues may be more predictable)",
+        "Add head-to-head history",
+        "Check data quality - may have wrong league labels"
+      ]
+    },
+    {
+      "date": "2026-01-25T05:04:58.431171",
+      "sport": "Soccer",
+      "problem": "Underperforming",
+      "status": "suggested",
+      "experiments": [
+        "Increase confidence threshold to 95%",
+        "Add form streak analysis (5+ game trends)",
+        "Filter by league (some leagues may be more predictable)",
+        "Add head-to-head history",
+        "Check data quality - may have wrong league labels"
+      ]
+    },
+    {
+      "date": "2026-01-25T05:04:58.432059",
+      "sport": "Soccer",
+      "problem": "Underperforming",
+      "status": "suggested",
+      "experiments": [
+        "Increase confidence threshold to 95%",
+        "Add form streak analysis (5+ game trends)",
+        "Filter by league (some leagues may be more predictable)",
+        "Add head-to-head history",
+        "Check data quality - may have wrong league labels"
+      ]
+    },
+    {
+      "date": "2026-01-25T05:04:58.432700",
+      "sport": "All",
+      "problem": "Model calibration",
+      "status": "suggested",
+      "experiments": [
+        "Apply confidence calibration (temperature scaling)",
+        "Retrain with Platt scaling",
+        "Increase minimum confidence thresholds by 5%",
+        "Add uncertainty quantification"
+      ]
+    },
+    {
+      "date": "2026-01-28T05:05:14.355078",
+      "sport": "Soccer",
+      "problem": "Underperforming",
+      "status": "suggested",
+      "experiments": [
+        "Increase confidence threshold to 95%",
+        "Add form streak analysis (5+ game trends)",
+        "Filter by league (some leagues may be more predictable)",
+        "Add head-to-head history",
+        "Check data quality - may have wrong league labels"
+      ]
+    },
+    {
+      "date": "2026-01-28T05:05:14.356621",
+      "sport": "Soccer",
+      "problem": "Underperforming",
+      "status": "suggested",
+      "experiments": [
+        "Increase confidence threshold to 95%",
+        "Add form streak analysis (5+ game trends)",
+        "Filter by league (some leagues may be more predictable)",
+        "Add head-to-head history",
+        "Check data quality - may have wrong league labels"
+      ]
+    },
+    {
+      "date": "2026-01-28T05:05:14.357372",
+      "sport": "Soccer",
+      "problem": "Underperforming",
+      "status": "suggested",
+      "experiments": [
+        "Increase confidence threshold to 95%",
+        "Add form streak analysis (5+ game trends)",
+        "Filter by league (some leagues may be more predictable)",
+        "Add head-to-head history",
+        "Check data quality - may have wrong league labels"
+      ]
+    },
+    {
+      "date": "2026-01-28T05:05:14.358060",
+      "sport": "All",
+      "problem": "Model calibration",
+      "status": "suggested",
+      "experiments": [
+        "Apply confidence calibration (temperature scaling)",
+        "Retrain with Platt scaling",
+        "Increase minimum confidence thresholds by 5%",
+        "Add uncertainty quantification"
+      ]
+    }
+  ],
+  "last_analysis": "2026-01-28T05:05:14.358158"
+}

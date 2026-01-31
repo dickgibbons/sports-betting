@@ -1,0 +1,27 @@
+NBA BETTING REPORT - 2025-11-23
+================================================================================
+
+#1 Charlotte Hornets @ Atlanta Hawks
+BET: Charlotte Hornets ML
+ODDS: +215 | True EV: +126.8%
+Confidence: ELITE
+Angles: 2
+  1. Charlotte Hornets on HOME → ROAD B2B (80% win rate historical)
+  2. Atlanta Hawks playing 3rd game in 4 nights (heavy fatigue)
+
+#2 Orlando Magic @ Boston Celtics
+BET: Boston Celtics ML
+ODDS: -186 | True EV: +10.7%
+Confidence: ELITE
+Angles: 2
+  1. Orlando Magic on HOME → ROAD B2B (80% win rate historical)
+  2. Orlando Magic playing 3rd game in 4 nights (heavy fatigue)
+
+#3 LA Clippers @ Cleveland Cavaliers
+BET: Cleveland Cavaliers ML
+Edge: +17.3%
+Confidence: ELITE
+Angles: 2
+  1. LA Clippers playing 3rd game in 4 nights (heavy fatigue)
+  2. LA Clippers on 5th game of road trip
+

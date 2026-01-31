@@ -1,0 +1,96 @@
+⚽ SOCCER - COMPREHENSIVE EV REPORT
+================================================================================
+Date: 2025-12-30
+Total Matches Analyzed: 6
+================================================================================
+
+📊 ALL MATCHES RANKED BY EXPECTED VALUE (EV)
+================================================================================
+
+#1 Newcastle United @ Burnley
+   League: Premier League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Burnley
+   ODDS: +420
+   TRUE EV: +160.0%
+   STATUS: ✅ QUALIFIES (EV >= 5%, odds OK)
+   ANGLE EDGE: +15.0%
+
+   Market Odds:
+     • Burnley: +420
+     • Newcastle United: -171
+
+   Betting Angles (2):
+     • Burnley fighting relegation - desperate for home points
+     • Burnley has strong home record
+
+#2 Brighton and Hove Albion @ West Ham United
+   League: Premier League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: West Ham United
+   ODDS: +234
+   TRUE EV: +38.6%
+   STATUS: ✅ QUALIFIES (EV >= 5%, odds OK)
+   ANGLE EDGE: +6.5%
+
+   Market Odds:
+     • West Ham United: +234
+     • Brighton and Hove Albion: +103
+
+   Betting Angles (1):
+     • West Ham United has strong home record
+
+#3 Everton @ Nottingham Forest
+   League: Premier League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Nottingham Forest
+   ODDS: +110
+   TRUE EV: -26.5%
+   STATUS: ❌ FILTERED (EV < 5%)
+   ANGLE EDGE: +0.0%
+
+   Market Odds:
+     • Nottingham Forest: +110
+     • Everton: +270
+
+#4 Bournemouth @ Chelsea
+   League: Premier League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Chelsea
+   ODDS: -198
+   TRUE EV: -47.3%
+   STATUS: ❌ FILTERED (EV < 5%)
+   ANGLE EDGE: +0.0%
+
+   Market Odds:
+     • Chelsea: -198
+     • Bournemouth: +440
+
+#5 Aston Villa @ Arsenal
+   League: Premier League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Arsenal
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +5.0%
+
+   Betting Angles (1):
+     • Arsenal title contender should beat mid-table at home
+
+#6 Wolverhampton Wanderers @ Manchester United
+   League: Premier League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Manchester United
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+================================================================================
+📋 LEGEND
+  ✅ QUALIFIES: EV >= 5% and odds better than -250
+  ❌ FILTERED: Does not meet minimum EV threshold or too heavy favorite
+  TRUE EV: Expected value based on real odds and estimated win probability
+  ANGLE EDGE: Edge from betting angles (doesn't account for market odds)
+================================================================================

@@ -1,0 +1,64 @@
+🏀 NCAA BASKETBALL - COMPREHENSIVE EV REPORT
+================================================================================
+Date: 2025-12-13
+Total Games Analyzed: 3
+================================================================================
+
+📊 ALL GAMES RANKED BY EXPECTED VALUE (EV)
+================================================================================
+
+#1 UCLA Bruins @ Gonzaga Bulldogs
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Gonzaga Bulldogs ML
+   ODDS: -715
+   TRUE EV: -33.9%
+   STATUS: ❌ FILTERED (EV < 5%)
+   WARNING: ⚠️  Heavy favorite (worse than -250)
+   ANGLE EDGE: +8.0%
+
+   Market Odds:
+     • Gonzaga Bulldogs: -715
+     • UCLA Bruins: +450
+
+   Betting Angles (1):
+     • Gonzaga Bulldogs at elite venue (5.5 point HCA vs 3.5 avg)
+
+#2 Memphis Tigers @ Louisville Cardinals
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Louisville Cardinals ML
+   ODDS: -2300
+   TRUE EV: -39.5%
+   STATUS: ❌ FILTERED (EV < 5%)
+   WARNING: ⚠️  Heavy favorite (worse than -250)
+   ANGLE EDGE: +8.0%
+
+   Market Odds:
+     • Louisville Cardinals: -2300
+     • Memphis Tigers: +1060
+
+   Betting Angles (1):
+     • Louisville Cardinals at elite venue (5.0 point HCA vs 3.5 avg)
+
+#3 South Carolina Upstate Spartans @ North Carolina Tar Heels
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: North Carolina Tar Heels ML
+   ODDS: -30000
+   TRUE EV: -41.8%
+   STATUS: ❌ FILTERED (EV < 5%)
+   WARNING: ⚠️  Heavy favorite (worse than -250)
+   ANGLE EDGE: +8.0%
+
+   Market Odds:
+     • North Carolina Tar Heels: -30000
+     • South Carolina Upstate Spartans: +4000
+
+   Betting Angles (1):
+     • North Carolina Tar Heels at elite venue (5.5 point HCA vs 3.5 avg)
+
+================================================================================
+📋 LEGEND
+  ✅ QUALIFIES: EV >= 5% and odds better than -250
+  ❌ FILTERED: Does not meet minimum EV threshold or too heavy favorite
+  TRUE EV: Expected value based on real odds and estimated win probability
+  ANGLE EDGE: Edge from betting angles (doesn't account for market odds)
+================================================================================

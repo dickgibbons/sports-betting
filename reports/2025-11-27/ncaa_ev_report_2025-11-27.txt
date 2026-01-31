@@ -1,0 +1,42 @@
+🏀 NCAA BASKETBALL - COMPREHENSIVE EV REPORT
+================================================================================
+Date: 2025-11-27
+Total Games Analyzed: 2
+================================================================================
+
+📊 ALL GAMES RANKED BY EXPECTED VALUE (EV)
+================================================================================
+
+#1 Vanderbilt Commodores @ VCU Rams
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: VCU Rams ML
+   ODDS: +220
+   TRUE EV: +85.6%
+   STATUS: ✅ QUALIFIES (EV >= 5%)
+   ANGLE EDGE: +8.0%
+
+   Market Odds:
+     • VCU Rams: +220
+     • Vanderbilt Commodores: -275
+
+   Betting Angles (1):
+     • VCU Rams has 3 days rest vs Vanderbilt Commodores 0 days
+
+#2 North Carolina Tar Heels @ Michigan State Spartans
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Michigan State Spartans ML
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +8.0%
+
+   Betting Angles (1):
+     • Michigan State Spartans at elite venue (5.0 point HCA vs 3.5 avg)
+
+================================================================================
+📋 LEGEND
+  ✅ QUALIFIES: EV >= 5% and odds better than -250
+  ❌ FILTERED: Does not meet minimum EV threshold or too heavy favorite
+  TRUE EV: Expected value based on real odds and estimated win probability
+  ANGLE EDGE: Edge from betting angles (doesn't account for market odds)
+================================================================================

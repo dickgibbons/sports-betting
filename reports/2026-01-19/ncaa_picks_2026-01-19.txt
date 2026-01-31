@@ -1,0 +1,95 @@
+🏀 NCAA BETTING PICKS - 2026-01-19
+================================================================================
+
+📊 SUMMARY
+────────────────────────────────────────────────────────────────────────────────
+Total Picks: 10
+✅ HIGH: 4 picks
+⚪ LOW: 6 picks
+
+✅✅ #1 Bryant Bulldogs @ NJIT Highlanders
+   BET: Bryant Bulldogs +2.5
+   ODDS: -102 | True EV: +6.9%
+   Confidence: HIGH
+   Angles (2):
+     • Bryant Bulldogs underdog value at +142
+     • Close spread (-2.5) suggests competitive game
+   💰 Recommended: 1-2% of bankroll
+
+✅✅ #2 Loyola (MD) Greyhounds @ Lehigh Mountain Hawks
+   BET: Loyola (MD) Greyhounds +4.5
+   ODDS: -102 | True EV: +6.9%
+   Confidence: HIGH
+   Angles (2):
+     • Loyola (MD) Greyhounds underdog value at +195
+     • Close spread (-4.5) suggests competitive game
+   💰 Recommended: 1-2% of bankroll
+
+✅✅ #3 Bryant Bulldogs @ NJIT Highlanders
+   BET: Bryant Bulldogs ML
+   ODDS: +142 | True EV: +40.4%
+   Confidence: HIGH
+   Angles (2):
+     • Bryant Bulldogs underdog value at +142
+     • Close spread (-2.5) suggests competitive game
+   💰 Recommended: 1-2% of bankroll
+
+✅✅ #4 Loyola (MD) Greyhounds @ Lehigh Mountain Hawks
+   BET: Loyola (MD) Greyhounds ML
+   ODDS: +195 | True EV: +71.1%
+   Confidence: HIGH
+   Angles (2):
+     • Loyola (MD) Greyhounds underdog value at +195
+     • Close spread (-4.5) suggests competitive game
+   💰 Recommended: 1-2% of bankroll
+
+⚪ #5 UMBC Retrievers @ Binghamton Bearcats
+   BET: Binghamton Bearcats ML
+   ODDS: +225 | True EV: +72.3%
+   Confidence: LOW
+   Angles (1):
+     • Close spread (+5.5) suggests competitive game
+   💰 Recommended: Optional/skip
+
+⚪ #6 Wagner Seahawks @ Fairleigh Dickinson Knights
+   BET: Fairleigh Dickinson Knights ML
+   ODDS: +198 | True EV: +57.9%
+   Confidence: LOW
+   Angles (1):
+     • Close spread (+4.5) suggests competitive game
+   💰 Recommended: Optional/skip
+
+⚪ #7 LIU Sharks @ Le Moyne Dolphins
+   BET: Le Moyne Dolphins ML
+   ODDS: +108 | True EV: +10.2%
+   Confidence: LOW
+   Angles (1):
+     • Close spread (+1.5) suggests competitive game
+   💰 Recommended: Optional/skip
+
+⚪ #8 Alabama A&M Bulldogs @ Alabama St Hornets
+   BET: Alabama St Hornets -1.0
+   ODDS: +110 | True EV: +8.2%
+   Confidence: LOW
+   Angles (1):
+     • Close spread (-1.0) suggests competitive game
+   💰 Recommended: Optional/skip
+
+⚪ #9 Central Connecticut St Blue Devils @ Mercyhurst Lakers
+   BET: Central Connecticut St Blue Devils ML
+   ODDS: +108 | True EV: +10.2%
+   Confidence: LOW
+   Angles (1):
+     • Close spread (-1.5) suggests competitive game
+   💰 Recommended: Optional/skip
+
+⚪ #10 New Hampshire Wildcats @ Maine Black Bears
+   BET: New Hampshire Wildcats ML
+   ODDS: +112 | True EV: +12.4%
+   Confidence: LOW
+   Angles (1):
+     • Close spread (-1.5) suggests competitive game
+   💰 Recommended: Optional/skip
+
+================================================================================
+📁 Full analysis saved to: /Users/dickgibbons/sports-betting/reports/2026-01-19/ncaa_picks_2026-01-19.txt

@@ -1,0 +1,105 @@
+AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+/Users/dickgibbons/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+------------------fanduel odds data------------------
+Detroit Pistons (-500) @ Indiana Pacers (385)
+Cleveland Cavaliers (-136) @ Toronto Raptors (116)
+New York Knicks (-800) @ Brooklyn Nets (560)
+Dallas Mavericks (275) @ Miami Heat (-340)
+Portland Trail Blazers (108) @ Milwaukee Bucks (-126)
+Denver Nuggets (-330) @ Memphis Grizzlies (265)
+Chicago Bulls (-210) @ New Orleans Pelicans (176)
+Houston Rockets (-250) @ Phoenix Suns (205)
+Utah Jazz (640) @ Golden State Warriors (-950)
+Minnesota Timberwolves (-430) @ Sacramento Kings (340)
+---------------XGBoost Model Predictions---------------
+Indiana Pacers vs Detroit Pistons (70.1%): UNDER 235.5 (61.5%)
+Toronto Raptors (60.2%) vs Cleveland Cavaliers: UNDER 235.5 (73.9%)
+Brooklyn Nets vs New York Knicks (65.6%): UNDER 229.5 (75.9%)
+Miami Heat (72.7%) vs Dallas Mavericks: UNDER 241.5 (90.3%)
+Milwaukee Bucks (69.9%) vs Portland Trail Blazers: UNDER 232.5 (52.1%)
+Memphis Grizzlies vs Denver Nuggets (64.1%): UNDER 233.5 (79.0%)
+New Orleans Pelicans vs Chicago Bulls (67.5%): UNDER 244.5 (90.1%)
+Phoenix Suns vs Houston Rockets (62.9%): UNDER 224.5 (68.4%)
+Golden State Warriors (74.2%) vs Utah Jazz: UNDER 239.5 (62.8%)
+Sacramento Kings vs Minnesota Timberwolves (68.4%): UNDER 237.5 (61.7%)
+------------Expected Value & Kelly Criterion-----------
+Indiana Pacers EV: 44.79 Fraction of Bankroll: 11.63%
+Detroit Pistons EV: -15.82 Fraction of Bankroll: 0%
+Toronto Raptors EV: 30.06 Fraction of Bankroll: 25.91%
+Cleveland Cavaliers EV: -30.95 Fraction of Bankroll: 0%
+Brooklyn Nets EV: 127.3 Fraction of Bankroll: 22.73%
+New York Knicks EV: -26.24 Fraction of Bankroll: 0%
+Miami Heat EV: -5.91 Fraction of Bankroll: 0%
+Dallas Mavericks EV: 2.34 Fraction of Bankroll: 0.85%
+Milwaukee Bucks EV: 25.35 Fraction of Bankroll: 31.77%
+Portland Trail Blazers EV: -37.37 Fraction of Bankroll: 0%
+Memphis Grizzlies EV: 31.19 Fraction of Bankroll: 11.77%
+Denver Nuggets EV: -16.53 Fraction of Bankroll: 0%
+New Orleans Pelicans EV: -10.25 Fraction of Bankroll: 0%
+Chicago Bulls EV: -0.38 Fraction of Bankroll: 0%
+Phoenix Suns EV: 13.19 Fraction of Bankroll: 6.43%
+Houston Rockets EV: -11.95 Fraction of Bankroll: 0%
+Golden State Warriors EV: -17.96 Fraction of Bankroll: 0%
+Utah Jazz EV: 90.71 Fraction of Bankroll: 14.17%
+Sacramento Kings EV: 39.26 Fraction of Bankroll: 11.55%
+Minnesota Timberwolves EV: -15.75 Fraction of Bankroll: 0%
+-------------------------------------------------------
+------------Neural Network Model Predictions-----------
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.RestoredOptimizer` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.RestoredOptimizer`.
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.RestoredOptimizer` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.RestoredOptimizer`.
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 61ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 4ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 4ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 4ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 4ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 4ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 4ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 4ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 4ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 4ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 10ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 4ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 3ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 3ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 4ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 3ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 3ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 3ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 4ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 3ms/step
+Indiana Pacers vs Detroit Pistons (66.2%): OVER 235.5 (50.4%)
+Toronto Raptors (60.7%) vs Cleveland Cavaliers: UNDER 235.5 (50.7%)
+Brooklyn Nets vs New York Knicks (63.5%): OVER 229.5 (50.3%)
+Miami Heat (73.1%) vs Dallas Mavericks: UNDER 241.5 (50.4%)
+Milwaukee Bucks (63.0%) vs Portland Trail Blazers: OVER 232.5 (49.8%)
+Memphis Grizzlies vs Denver Nuggets (63.2%): UNDER 233.5 (50.1%)
+New Orleans Pelicans vs Chicago Bulls (65.4%): OVER 244.5 (50.0%)
+Phoenix Suns (57.0%) vs Houston Rockets: UNDER 224.5 (51.6%)
+Golden State Warriors (65.4%) vs Utah Jazz: OVER 239.5 (49.7%)
+Sacramento Kings vs Minnesota Timberwolves (66.6%): UNDER 237.5 (50.9%)
+------------Expected Value & Kelly Criterion-----------
+Indiana Pacers EV: 63.9 Fraction of Bankroll: 16.6%
+Detroit Pistons EV: -20.55 Fraction of Bankroll: 0%
+Toronto Raptors EV: 31.18 Fraction of Bankroll: 26.88%
+Cleveland Cavaliers EV: -31.86 Fraction of Bankroll: 0%
+Brooklyn Nets EV: 141.15 Fraction of Bankroll: 25.21%
+New York Knicks EV: -28.61 Fraction of Bankroll: 0%
+Miami Heat EV: -5.39 Fraction of Bankroll: 0%
+Dallas Mavericks EV: 0.84 Fraction of Bankroll: 0.31%
+Milwaukee Bucks EV: 13.0 Fraction of Bankroll: 16.17%
+Portland Trail Blazers EV: -23.04 Fraction of Bankroll: 0%
+Memphis Grizzlies EV: 34.41 Fraction of Bankroll: 12.99%
+Denver Nuggets EV: -17.68 Fraction of Bankroll: 0%
+New Orleans Pelicans EV: -4.53 Fraction of Bankroll: 0%
+Chicago Bulls EV: -3.44 Fraction of Bankroll: 0%
+Phoenix Suns EV: 73.75 Fraction of Bankroll: 35.97%
+Houston Rockets EV: -39.75 Fraction of Bankroll: 0%
+Golden State Warriors EV: -27.72 Fraction of Bankroll: 0%
+Utah Jazz EV: 156.06 Fraction of Bankroll: 24.38%
+Sacramento Kings EV: 46.79 Fraction of Bankroll: 13.76%
+Minnesota Timberwolves EV: -17.86 Fraction of Bankroll: 0%
+-------------------------------------------------------

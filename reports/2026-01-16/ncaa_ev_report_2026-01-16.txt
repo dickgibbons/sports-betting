@@ -1,0 +1,32 @@
+🏀 NCAA BASKETBALL - COMPREHENSIVE EV REPORT
+================================================================================
+Date: 2026-01-16
+Total Games Analyzed: 1
+================================================================================
+
+📊 ALL GAMES RANKED BY EXPECTED VALUE (EV)
+================================================================================
+
+#1 Baylor Bears @ Kansas Jayhawks
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Kansas Jayhawks ML
+   ODDS: -350
+   TRUE EV: -25.4%
+   STATUS: ❌ FILTERED (EV < 5%)
+   WARNING: ⚠️  Heavy favorite (worse than -250)
+   ANGLE EDGE: +8.0%
+
+   Market Odds:
+     • Kansas Jayhawks: -350
+     • Baylor Bears: +280
+
+   Betting Angles (1):
+     • Kansas Jayhawks at elite venue (7.0 point HCA vs 3.5 avg)
+
+================================================================================
+📋 LEGEND
+  ✅ QUALIFIES: EV >= 5% and odds better than -250
+  ❌ FILTERED: Does not meet minimum EV threshold or too heavy favorite
+  TRUE EV: Expected value based on real odds and estimated win probability
+  ANGLE EDGE: Edge from betting angles (doesn't account for market odds)
+================================================================================

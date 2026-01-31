@@ -1,0 +1,266 @@
+⚽ SOCCER - COMPREHENSIVE EV REPORT
+================================================================================
+Date: 2025-12-06
+Total Matches Analyzed: 24
+================================================================================
+
+📊 ALL MATCHES RANKED BY EXPECTED VALUE (EV)
+================================================================================
+
+#1 Arsenal @ Aston Villa
+   League: Premier League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Aston Villa
+   ODDS: +330
+   TRUE EV: +50.5%
+   STATUS: ✅ QUALIFIES (EV >= 5%, odds OK)
+   ANGLE EDGE: +0.0%
+
+   Market Odds:
+     • Aston Villa: +330
+     • Arsenal: -115
+
+#2 Chelsea @ Bournemouth
+   League: Premier League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Bournemouth
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#3 Brentford @ Tottenham Hotspur
+   League: Premier League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Tottenham Hotspur
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +5.0%
+
+   Betting Angles (1):
+     • Tottenham Hotspur title contender should beat mid-table at home
+
+#4 Burnley @ Newcastle United
+   League: Premier League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Newcastle United
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +6.5%
+
+   Betting Angles (1):
+     • Newcastle United has strong home record
+
+#5 Nottingham Forest @ Everton
+   League: Premier League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Everton
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#6 Sunderland @ Manchester City
+   League: Premier League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Manchester City
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +5.0%
+
+   Betting Angles (1):
+     • Manchester City title contender should beat mid-table at home
+
+#7 Liverpool @ Leeds United
+   League: Premier League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Leeds United
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#8 Getafe @ Villarreal
+   League: La Liga
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Villarreal
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +7.5%
+
+   Betting Angles (1):
+     • Getafe struggles away from home
+
+#9 Real Sociedad @ Alavés
+   League: La Liga
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Alavés
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#10 Barcelona @ Real Betis
+   League: La Liga
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Real Betis
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +6.5%
+
+   Betting Angles (1):
+     • Real Betis has strong home record
+
+#11 Atlético Madrid @ Athletic Bilbao
+   League: La Liga
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Athletic Bilbao
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +6.5%
+
+   Betting Angles (1):
+     • Athletic Bilbao has strong home record
+
+#12 Fiorentina @ Sassuolo
+   League: Serie A
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Sassuolo
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +8.5%
+
+   Betting Angles (1):
+     • Sassuolo fighting relegation - desperate for home points
+
+#13 Como @ Inter Milan
+   League: Serie A
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Inter Milan
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +5.0%
+
+   Betting Angles (1):
+     • Inter Milan title contender should beat mid-table at home
+
+#14 Atalanta BC @ Hellas Verona
+   League: Serie A
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Hellas Verona
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#15 SC Freiburg @ 1. FC Heidenheim
+   League: Bundesliga
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: 1. FC Heidenheim
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +8.5%
+
+   Betting Angles (1):
+     • 1. FC Heidenheim fighting relegation - desperate for home points
+
+#16 FC St. Pauli @ 1. FC Köln
+   League: Bundesliga
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: 1. FC Köln
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#17 Bayer Leverkusen @ Augsburg
+   League: Bundesliga
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Augsburg
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#18 Bayern Munich @ VfB Stuttgart
+   League: Bundesliga
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: VfB Stuttgart
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#19 Union Berlin @ VfL Wolfsburg
+   League: Bundesliga
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: VfL Wolfsburg
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#20 Eintracht Frankfurt @ RB Leipzig
+   League: Bundesliga
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: RB Leipzig
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +5.0%
+
+   Betting Angles (1):
+     • RB Leipzig title contender should beat mid-table at home
+
+#21 RC Lens @ Nantes
+   League: Ligue 1
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Nantes
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#22 Strasbourg @ Toulouse
+   League: Ligue 1
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Toulouse
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#23 Rennes @ Paris Saint Germain
+   League: Ligue 1
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Paris Saint Germain
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#24 Vancouver Whitecaps FC @ Inter Miami CF
+   League: MLS
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Inter Miami CF
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+================================================================================
+📋 LEGEND
+  ✅ QUALIFIES: EV >= 5% and odds better than -250
+  ❌ FILTERED: Does not meet minimum EV threshold or too heavy favorite
+  TRUE EV: Expected value based on real odds and estimated win probability
+  ANGLE EDGE: Edge from betting angles (doesn't account for market odds)
+================================================================================

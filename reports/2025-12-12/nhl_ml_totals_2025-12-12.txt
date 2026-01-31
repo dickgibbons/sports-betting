@@ -1,0 +1,25 @@
+🏒 NHL ML TOTALS PREDICTION REPORT - 2025-12-12
+====================================================================================================
+
+GAME #1: Blackhawks @ Blues
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  5.93
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Blues                          over 0.5 goals: 38.0%
+      Blackhawks                     over 0.5 goals: 50.0%
+      1st Period Total over 1.5 goals: 57.0%
+
+   MODEL PREDICTIONS:
+      linear              : 5.86
+      ridge               : 5.82
+      random_forest       : 5.93
+      gradient_boost      : 6.37
+
+
+====================================================================================================
+SUMMARY
+====================================================================================================
+
+No games with significant edge (±0.5 goals) today

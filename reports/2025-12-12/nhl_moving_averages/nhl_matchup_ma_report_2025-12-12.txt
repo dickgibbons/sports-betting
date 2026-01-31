@@ -1,0 +1,108 @@
+==========================================================================================
+NHL DAILY MATCHUP MOVING AVERAGE REPORT - 2025-12-12
+==========================================================================================
+
+Comparing team trends: 3-Game, 5-Game, 10-Game, and Season Moving Averages
+Use this to identify betting opportunities based on recent form
+
+📅 2 games scheduled
+
+------------------------------------------------------------------------------------------
+🏒 CHI @ STL
+   Venue: Enterprise Center
+------------------------------------------------------------------------------------------
+
+METRIC               |              CHI               |              STL              
+------------------------------------------------------------------------------------------
+GOALS FOR            |                              |                              
+  Last Game          |               4                |               3               
+  3-Game MA          |              4.00              |              3.67             
+  5-Game MA          |              3.40              |              4.60             
+  10-Game MA         |              3.00              |              3.90             
+  Season Avg         |              2.76              |              3.16             
+  TREND              |             🔥 HOT              |           📉 Falling           
+
+GOALS AGAINST        |                              |                              
+  3-Game MA          |              3.67              |              3.67             
+  5-Game MA          |              3.60              |              2.80             
+  Season Avg         |              3.61              |              2.85             
+
+TOTAL GOALS          |                              |                              
+  3-Game MA          |              7.67              |              7.33             
+  5-Game MA          |              7.00              |              7.40             
+  10-Game MA         |              6.70              |              6.90             
+  Season Avg         |              6.37              |              6.01             
+  TREND              |            📈 Rising            |            📈 Rising           
+
+1ST PERIOD TOTAL     |                              |                              
+  3-Game MA          |              2.67              |              2.00             
+  5-Game MA          |              2.00              |              2.20             
+  Season Avg         |              1.89              |              1.88             
+  TREND              |             🔥 HOT              |           📉 Falling           
+
+COMBINED PROJECTION  |                              |                              
+  Expected Total     |              7.20              | (5G MA avg)
+  Season Baseline    |              6.19              | (Season avg)
+  Expected 1P Total  |              2.10              | (5G MA avg)
+
+💡 INSIGHT: OVER value - Combined 5G MA (7.2) well above season avg (6.2)
+
+------------------------------------------------------------------------------------------
+🏒 SEA @ UTA
+   Venue: Delta Center
+------------------------------------------------------------------------------------------
+
+METRIC               |              SEA               |              UTA              
+------------------------------------------------------------------------------------------
+GOALS FOR            |                              |                              
+  Last Game          |               5                |               1               
+  3-Game MA          |              3.33              |              4.33             
+  5-Game MA          |              2.60              |              4.60             
+  10-Game MA         |              3.10              |              3.80             
+  Season Avg         |              3.01              |              2.94             
+  TREND              |            📈 Rising            |            📈 Rising           
+
+GOALS AGAINST        |                              |                              
+  3-Game MA          |              3.67              |              4.00             
+  5-Game MA          |              3.80              |              3.40             
+  Season Avg         |              3.23              |              3.06             
+
+TOTAL GOALS          |                              |                              
+  3-Game MA          |              7.00              |              8.33             
+  5-Game MA          |              6.40              |              8.00             
+  10-Game MA         |              6.00              |              6.50             
+  Season Avg         |              6.24              |              6.00             
+  TREND              |             🔥 HOT              |             🔥 HOT             
+
+1ST PERIOD TOTAL     |                              |                              
+  3-Game MA          |              1.00              |              3.00             
+  5-Game MA          |              1.80              |              2.40             
+  Season Avg         |              1.91              |              1.52             
+  TREND              |             🥶 COLD             |             🔥 HOT             
+
+COMBINED PROJECTION  |                              |                              
+  Expected Total     |              7.20              | (5G MA avg)
+  Season Baseline    |              6.12              | (Season avg)
+  Expected 1P Total  |              2.10              | (5G MA avg)
+
+💡 INSIGHT: OVER looks strong - Both teams trending HOT. Combined 5G MA: 7.2
+
+==========================================================================================
+📊 BETTING INSIGHTS SUMMARY
+==========================================================================================
+1. CHI @ STL
+   OVER value - Combined 5G MA (7.2) well above season avg (6.2)
+   Confidence: MEDIUM
+
+2. SEA @ UTA
+   OVER looks strong - Both teams trending HOT. Combined 5G MA: 7.2
+   Confidence: HIGH
+
+
+==========================================================================================
+📈 MA TREND LEGEND:
+   🔥 HOT = 3G MA > 10G MA by 15%+ (strong recent uptick)
+   📈 Rising = 3G MA > 10G MA by 5-15%
+   🥶 COLD = 3G MA < 10G MA by 15%+ (strong recent downturn)
+   📉 Falling = 3G MA < 10G MA by 5-15%
+==========================================================================================

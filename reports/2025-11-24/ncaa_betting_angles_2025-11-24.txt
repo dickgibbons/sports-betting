@@ -1,0 +1,30 @@
+NCAA BASKETBALL BETTING ANGLES - 2025-11-24
+================================================================================
+
+GAME: Notre Dame Fighting Irish @ Kansas Jayhawks
+--------------------------------------------------------------------------------
+[MED] BET: Kansas Jayhawks Spread
+   Type: ELITE_HOME_COURT
+   Reason: Kansas Jayhawks at elite venue (7.0 point HCA vs 3.5 avg)
+   Expected Edge: +8-12%
+
+
+GAME: Eastern Michigan Eagles @ Louisville Cardinals
+--------------------------------------------------------------------------------
+[MED] BET: Louisville Cardinals Spread
+   Type: ELITE_HOME_COURT
+   Reason: Louisville Cardinals at elite venue (5.0 point HCA vs 3.5 avg)
+   Expected Edge: +8-12%
+
+
+GAME: UT Rio Grande Valley Vaqueros @ Illinois Fighting Illini
+--------------------------------------------------------------------------------
+[HIGH] BET: UT Rio Grande Valley Vaqueros ML
+   Type: REST_ADVANTAGE
+   Reason: UT Rio Grande Valley Vaqueros has 3 days rest vs Illinois Fighting Illini 1 days
+   Expected Edge: +8-12%
+
+
+================================================================================
+SUMMARY: 1 High Confidence, 2 Medium Confidence
+================================================================================

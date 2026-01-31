@@ -1,0 +1,59 @@
+🏀 NCAA BASKETBALL - COMPREHENSIVE EV REPORT
+================================================================================
+Date: 2025-11-18
+Total Games Analyzed: 3
+================================================================================
+
+📊 ALL GAMES RANKED BY EXPECTED VALUE (EV)
+================================================================================
+
+#1 Kansas Jayhawks @ Duke Blue Devils
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Duke Blue Devils ML
+   ODDS: -675
+   TRUE EV: -33.4%
+   STATUS: ❌ FILTERED (EV < 5%)
+   WARNING: ⚠️  Heavy favorite (worse than -250)
+   ANGLE EDGE: +8.0%
+
+   Market Odds:
+     • Duke Blue Devils: -675
+     • Kansas Jayhawks: +490
+
+   Betting Angles (1):
+     • Duke Blue Devils at elite venue (6.5 point HCA vs 3.5 avg)
+
+#2 Navy Midshipmen @ North Carolina Tar Heels
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: North Carolina Tar Heels ML
+   ODDS: -20000
+   TRUE EV: -41.7%
+   STATUS: ❌ FILTERED (EV < 5%)
+   WARNING: ⚠️  Heavy favorite (worse than -250)
+   ANGLE EDGE: +8.0%
+
+   Market Odds:
+     • North Carolina Tar Heels: -20000
+     • Navy Midshipmen: +2500
+
+   Betting Angles (1):
+     • North Carolina Tar Heels at elite venue (5.5 point HCA vs 3.5 avg)
+
+#3 Michigan State Spartans @ Kentucky Wildcats
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Kentucky Wildcats ML
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +8.0%
+
+   Betting Angles (1):
+     • Kentucky Wildcats at elite venue (6.0 point HCA vs 3.5 avg)
+
+================================================================================
+📋 LEGEND
+  ✅ QUALIFIES: EV >= 5% and odds better than -250
+  ❌ FILTERED: Does not meet minimum EV threshold or too heavy favorite
+  TRUE EV: Expected value based on real odds and estimated win probability
+  ANGLE EDGE: Edge from betting angles (doesn't account for market odds)
+================================================================================

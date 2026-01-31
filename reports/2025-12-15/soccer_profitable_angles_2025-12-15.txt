@@ -1,0 +1,83 @@
+================================================================================
+SOCCER PROFITABLE ANGLES DAILY REPORT - 2025-12-15
+================================================================================
+
+Based on 7,272 match analysis (2023-2025 seasons)
+Focus: Over 2.5, BTTS Yes, 1H Over 0.5 in high-scoring leagues
+
+--------------------------------------------------------------------------------
+📊 PREMIER LEAGUE
+   Historical: Over 2.5 hits 60.7% (ROI +15.3%)
+--------------------------------------------------------------------------------
+
+⚽ Manchester United vs Bournemouth
+   Time: 20:00 | Venue: Old Trafford
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  68.7%     | +15.3%         | ✅ YES
+   BTTS Yes          |  56.0%     | +10.0%         | ✅ YES
+   1H Over 0.5       |  81.7%     | +9.7%          | ✅ YES
+   └─ Expected Total Goals: 3.1
+   └─ Home Scores: 80.0% | Away Scores: 73.3%
+
+--------------------------------------------------------------------------------
+📊 LA LIGA
+   Historical: Over 2.5 hits 55.6% (ROI +5.2%)
+--------------------------------------------------------------------------------
+
+⚽ Rayo Vallecano vs Real Betis
+   Time: 20:00 | Venue: Campo de Futbol de Vallecas
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  57.6%     | +5.2%          | ✅ YES
+   BTTS Yes          |  47.7%     | -1.9%          |    ---
+   1H Over 0.5       |  72.8%     | +1.2%          |    ---
+   └─ Expected Total Goals: 2.6
+   └─ Home Scores: 53.3% | Away Scores: 93.3%
+
+--------------------------------------------------------------------------------
+📊 SERIE A
+   Historical: Over 2.5 hits 55.2% (ROI +4.8%)
+--------------------------------------------------------------------------------
+
+⚽ AS Roma vs Como
+   Time: 19:45 | Venue: Stadio Olimpico
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  57.2%     | +4.8%          |    ---
+   BTTS Yes          |  44.2%     | -0.1%          |    ---
+   1H Over 0.5       |  70.5%     | +2.2%          |    ---
+   └─ Expected Total Goals: 2.5
+   └─ Home Scores: 64.3% | Away Scores: 64.3%
+
+================================================================================
+📋 SUMMARY
+================================================================================
+Total Games Analyzed: 3
+Total Recommendations: 4
+
+🎯 RECOMMENDED BETS (Confidence ≥55% & Historical ROI >5%):
+
+  1. Premier League - Manchester United vs Bournemouth
+     BET: 1H Over 0.5 @ 81.7% confidence
+     Historical ROI: +9.7%
+
+  2. Premier League - Manchester United vs Bournemouth
+     BET: Over 2.5 Goals @ 68.7% confidence
+     Historical ROI: +15.3%
+
+  3. La Liga - Rayo Vallecano vs Real Betis
+     BET: Over 2.5 Goals @ 57.6% confidence
+     Historical ROI: +5.2%
+
+  4. Premier League - Manchester United vs Bournemouth
+     BET: BTTS Yes @ 56.0% confidence
+     Historical ROI: +10.0%
+
+================================================================================
+⚠️  REMINDER: Only bet on angles with historical ROI > 5%
+   AVOID: BTTS No (-17% ROI), Over 3.5 (-40% ROI), 1H Over 1.5 (-24% ROI)
+================================================================================

@@ -1,0 +1,1117 @@
+{
+  "Pittsburgh Penguins": {
+    "total_games": 117,
+    "season": {
+      "over_1_5_pct": 51.28205128205128,
+      "over_1_5_count": 60,
+      "team_scores_1_plus_pct": 55.55555555555556,
+      "team_scores_1_plus_count": 65
+    },
+    "home": {
+      "games": 58,
+      "over_1_5_pct": 58.620689655172406,
+      "team_scores_1_plus_pct": 63.793103448275865
+    },
+    "away": {
+      "games": 59,
+      "over_1_5_pct": 44.06779661016949,
+      "team_scores_1_plus_pct": 47.45762711864407
+    },
+    "last_3": {
+      "over_1_5_pct": 66.66666666666666,
+      "team_scores_1_plus_pct": 100.0
+    },
+    "last_5": {
+      "over_1_5_pct": 40.0,
+      "team_scores_1_plus_pct": 80.0
+    },
+    "last_10": {
+      "over_1_5_pct": 50.0,
+      "team_scores_1_plus_pct": 60.0
+    }
+  },
+  "Detroit Red Wings": {
+    "total_games": 121,
+    "season": {
+      "over_1_5_pct": 55.371900826446286,
+      "over_1_5_count": 67,
+      "team_scores_1_plus_pct": 58.67768595041323,
+      "team_scores_1_plus_count": 71
+    },
+    "home": {
+      "games": 63,
+      "over_1_5_pct": 55.55555555555556,
+      "team_scores_1_plus_pct": 57.14285714285714
+    },
+    "away": {
+      "games": 58,
+      "over_1_5_pct": 55.172413793103445,
+      "team_scores_1_plus_pct": 60.3448275862069
+    },
+    "last_3": {
+      "over_1_5_pct": 66.66666666666666,
+      "team_scores_1_plus_pct": 66.66666666666666
+    },
+    "last_5": {
+      "over_1_5_pct": 60.0,
+      "team_scores_1_plus_pct": 60.0
+    },
+    "last_10": {
+      "over_1_5_pct": 50.0,
+      "team_scores_1_plus_pct": 40.0
+    }
+  },
+  "New York Rangers": {
+    "total_games": 118,
+    "season": {
+      "over_1_5_pct": 57.6271186440678,
+      "over_1_5_count": 68,
+      "team_scores_1_plus_pct": 65.2542372881356,
+      "team_scores_1_plus_count": 77
+    },
+    "home": {
+      "games": 57,
+      "over_1_5_pct": 50.877192982456144,
+      "team_scores_1_plus_pct": 59.64912280701754
+    },
+    "away": {
+      "games": 61,
+      "over_1_5_pct": 63.934426229508205,
+      "team_scores_1_plus_pct": 70.49180327868852
+    },
+    "last_3": {
+      "over_1_5_pct": 66.66666666666666,
+      "team_scores_1_plus_pct": 66.66666666666666
+    },
+    "last_5": {
+      "over_1_5_pct": 40.0,
+      "team_scores_1_plus_pct": 60.0
+    },
+    "last_10": {
+      "over_1_5_pct": 40.0,
+      "team_scores_1_plus_pct": 50.0
+    }
+  },
+  "New Jersey Devils": {
+    "total_games": 123,
+    "season": {
+      "over_1_5_pct": 43.08943089430895,
+      "over_1_5_count": 53,
+      "team_scores_1_plus_pct": 53.65853658536586,
+      "team_scores_1_plus_count": 66
+    },
+    "home": {
+      "games": 59,
+      "over_1_5_pct": 44.06779661016949,
+      "team_scores_1_plus_pct": 49.152542372881356
+    },
+    "away": {
+      "games": 64,
+      "over_1_5_pct": 42.1875,
+      "team_scores_1_plus_pct": 57.8125
+    },
+    "last_3": {
+      "over_1_5_pct": 66.66666666666666,
+      "team_scores_1_plus_pct": 66.66666666666666
+    },
+    "last_5": {
+      "over_1_5_pct": 60.0,
+      "team_scores_1_plus_pct": 80.0
+    },
+    "last_10": {
+      "over_1_5_pct": 70.0,
+      "team_scores_1_plus_pct": 70.0
+    }
+  },
+  "Montreal Canadiens": {
+    "total_games": 121,
+    "season": {
+      "over_1_5_pct": 58.67768595041323,
+      "over_1_5_count": 71,
+      "team_scores_1_plus_pct": 60.33057851239669,
+      "team_scores_1_plus_count": 73
+    },
+    "home": {
+      "games": 62,
+      "over_1_5_pct": 58.06451612903226,
+      "team_scores_1_plus_pct": 66.12903225806451
+    },
+    "away": {
+      "games": 59,
+      "over_1_5_pct": 59.32203389830508,
+      "team_scores_1_plus_pct": 54.23728813559322
+    },
+    "last_3": {
+      "over_1_5_pct": 66.66666666666666,
+      "team_scores_1_plus_pct": 33.33333333333333
+    },
+    "last_5": {
+      "over_1_5_pct": 60.0,
+      "team_scores_1_plus_pct": 60.0
+    },
+    "last_10": {
+      "over_1_5_pct": 60.0,
+      "team_scores_1_plus_pct": 60.0
+    }
+  },
+  "Ottawa Senators": {
+    "total_games": 123,
+    "season": {
+      "over_1_5_pct": 52.03252032520326,
+      "over_1_5_count": 64,
+      "team_scores_1_plus_pct": 53.65853658536586,
+      "team_scores_1_plus_count": 66
+    },
+    "home": {
+      "games": 59,
+      "over_1_5_pct": 55.932203389830505,
+      "team_scores_1_plus_pct": 59.32203389830508
+    },
+    "away": {
+      "games": 64,
+      "over_1_5_pct": 48.4375,
+      "team_scores_1_plus_pct": 48.4375
+    },
+    "last_3": {
+      "over_1_5_pct": 33.33333333333333,
+      "team_scores_1_plus_pct": 33.33333333333333
+    },
+    "last_5": {
+      "over_1_5_pct": 40.0,
+      "team_scores_1_plus_pct": 40.0
+    },
+    "last_10": {
+      "over_1_5_pct": 50.0,
+      "team_scores_1_plus_pct": 60.0
+    }
+  },
+  "Boston Bruins": {
+    "total_games": 119,
+    "season": {
+      "over_1_5_pct": 57.98319327731093,
+      "over_1_5_count": 69,
+      "team_scores_1_plus_pct": 56.30252100840336,
+      "team_scores_1_plus_count": 67
+    },
+    "home": {
+      "games": 59,
+      "over_1_5_pct": 57.6271186440678,
+      "team_scores_1_plus_pct": 57.6271186440678
+    },
+    "away": {
+      "games": 60,
+      "over_1_5_pct": 58.333333333333336,
+      "team_scores_1_plus_pct": 55.00000000000001
+    },
+    "last_3": {
+      "over_1_5_pct": 66.66666666666666,
+      "team_scores_1_plus_pct": 0.0
+    },
+    "last_5": {
+      "over_1_5_pct": 60.0,
+      "team_scores_1_plus_pct": 20.0
+    },
+    "last_10": {
+      "over_1_5_pct": 60.0,
+      "team_scores_1_plus_pct": 30.0
+    }
+  },
+  "Philadelphia Flyers": {
+    "total_games": 117,
+    "season": {
+      "over_1_5_pct": 49.572649572649574,
+      "over_1_5_count": 58,
+      "team_scores_1_plus_pct": 52.991452991452995,
+      "team_scores_1_plus_count": 62
+    },
+    "home": {
+      "games": 60,
+      "over_1_5_pct": 53.333333333333336,
+      "team_scores_1_plus_pct": 50.0
+    },
+    "away": {
+      "games": 57,
+      "over_1_5_pct": 45.614035087719294,
+      "team_scores_1_plus_pct": 56.14035087719298
+    },
+    "last_3": {
+      "over_1_5_pct": 66.66666666666666,
+      "team_scores_1_plus_pct": 66.66666666666666
+    },
+    "last_5": {
+      "over_1_5_pct": 60.0,
+      "team_scores_1_plus_pct": 60.0
+    },
+    "last_10": {
+      "over_1_5_pct": 60.0,
+      "team_scores_1_plus_pct": 50.0
+    }
+  },
+  "Minnesota Wild": {
+    "total_games": 123,
+    "season": {
+      "over_1_5_pct": 50.40650406504065,
+      "over_1_5_count": 62,
+      "team_scores_1_plus_pct": 60.16260162601627,
+      "team_scores_1_plus_count": 74
+    },
+    "home": {
+      "games": 63,
+      "over_1_5_pct": 53.96825396825397,
+      "team_scores_1_plus_pct": 63.49206349206349
+    },
+    "away": {
+      "games": 60,
+      "over_1_5_pct": 46.666666666666664,
+      "team_scores_1_plus_pct": 56.666666666666664
+    },
+    "last_3": {
+      "over_1_5_pct": 33.33333333333333,
+      "team_scores_1_plus_pct": 66.66666666666666
+    },
+    "last_5": {
+      "over_1_5_pct": 20.0,
+      "team_scores_1_plus_pct": 40.0
+    },
+    "last_10": {
+      "over_1_5_pct": 40.0,
+      "team_scores_1_plus_pct": 50.0
+    }
+  },
+  "Chicago Blackhawks": {
+    "total_games": 117,
+    "season": {
+      "over_1_5_pct": 54.700854700854705,
+      "over_1_5_count": 64,
+      "team_scores_1_plus_pct": 61.53846153846154,
+      "team_scores_1_plus_count": 72
+    },
+    "home": {
+      "games": 60,
+      "over_1_5_pct": 61.66666666666667,
+      "team_scores_1_plus_pct": 68.33333333333333
+    },
+    "away": {
+      "games": 57,
+      "over_1_5_pct": 47.368421052631575,
+      "team_scores_1_plus_pct": 54.385964912280706
+    },
+    "last_3": {
+      "over_1_5_pct": 66.66666666666666,
+      "team_scores_1_plus_pct": 100.0
+    },
+    "last_5": {
+      "over_1_5_pct": 40.0,
+      "team_scores_1_plus_pct": 60.0
+    },
+    "last_10": {
+      "over_1_5_pct": 40.0,
+      "team_scores_1_plus_pct": 70.0
+    }
+  },
+  "St. Louis Blues": {
+    "total_games": 125,
+    "season": {
+      "over_1_5_pct": 56.00000000000001,
+      "over_1_5_count": 70,
+      "team_scores_1_plus_pct": 60.0,
+      "team_scores_1_plus_count": 75
+    },
+    "home": {
+      "games": 64,
+      "over_1_5_pct": 56.25,
+      "team_scores_1_plus_pct": 54.6875
+    },
+    "away": {
+      "games": 61,
+      "over_1_5_pct": 55.73770491803278,
+      "team_scores_1_plus_pct": 65.57377049180327
+    },
+    "last_3": {
+      "over_1_5_pct": 33.33333333333333,
+      "team_scores_1_plus_pct": 33.33333333333333
+    },
+    "last_5": {
+      "over_1_5_pct": 40.0,
+      "team_scores_1_plus_pct": 60.0
+    },
+    "last_10": {
+      "over_1_5_pct": 60.0,
+      "team_scores_1_plus_pct": 70.0
+    }
+  },
+  "Columbus Blue Jackets": {
+    "total_games": 118,
+    "season": {
+      "over_1_5_pct": 52.54237288135594,
+      "over_1_5_count": 62,
+      "team_scores_1_plus_pct": 59.32203389830508,
+      "team_scores_1_plus_count": 70
+    },
+    "home": {
+      "games": 57,
+      "over_1_5_pct": 59.64912280701754,
+      "team_scores_1_plus_pct": 64.91228070175438
+    },
+    "away": {
+      "games": 61,
+      "over_1_5_pct": 45.90163934426229,
+      "team_scores_1_plus_pct": 54.09836065573771
+    },
+    "last_3": {
+      "over_1_5_pct": 66.66666666666666,
+      "team_scores_1_plus_pct": 66.66666666666666
+    },
+    "last_5": {
+      "over_1_5_pct": 40.0,
+      "team_scores_1_plus_pct": 60.0
+    },
+    "last_10": {
+      "over_1_5_pct": 30.0,
+      "team_scores_1_plus_pct": 60.0
+    }
+  },
+  "Colorado Avalanche": {
+    "total_games": 124,
+    "season": {
+      "over_1_5_pct": 50.806451612903224,
+      "over_1_5_count": 63,
+      "team_scores_1_plus_pct": 62.903225806451616,
+      "team_scores_1_plus_count": 78
+    },
+    "home": {
+      "games": 61,
+      "over_1_5_pct": 57.377049180327866,
+      "team_scores_1_plus_pct": 68.85245901639344
+    },
+    "away": {
+      "games": 63,
+      "over_1_5_pct": 44.44444444444444,
+      "team_scores_1_plus_pct": 57.14285714285714
+    },
+    "last_3": {
+      "over_1_5_pct": 66.66666666666666,
+      "team_scores_1_plus_pct": 100.0
+    },
+    "last_5": {
+      "over_1_5_pct": 60.0,
+      "team_scores_1_plus_pct": 80.0
+    },
+    "last_10": {
+      "over_1_5_pct": 60.0,
+      "team_scores_1_plus_pct": 80.0
+    }
+  },
+  "Vegas Golden Knights": {
+    "total_games": 129,
+    "season": {
+      "over_1_5_pct": 52.71317829457365,
+      "over_1_5_count": 68,
+      "team_scores_1_plus_pct": 57.36434108527132,
+      "team_scores_1_plus_count": 74
+    },
+    "home": {
+      "games": 68,
+      "over_1_5_pct": 54.41176470588235,
+      "team_scores_1_plus_pct": 58.82352941176471
+    },
+    "away": {
+      "games": 61,
+      "over_1_5_pct": 50.81967213114754,
+      "team_scores_1_plus_pct": 55.73770491803278
+    },
+    "last_3": {
+      "over_1_5_pct": 66.66666666666666,
+      "team_scores_1_plus_pct": 66.66666666666666
+    },
+    "last_5": {
+      "over_1_5_pct": 80.0,
+      "team_scores_1_plus_pct": 60.0
+    },
+    "last_10": {
+      "over_1_5_pct": 70.0,
+      "team_scores_1_plus_pct": 70.0
+    }
+  },
+  "San Jose Sharks": {
+    "total_games": 119,
+    "season": {
+      "over_1_5_pct": 57.14285714285714,
+      "over_1_5_count": 68,
+      "team_scores_1_plus_pct": 56.30252100840336,
+      "team_scores_1_plus_count": 67
+    },
+    "home": {
+      "games": 63,
+      "over_1_5_pct": 49.2063492063492,
+      "team_scores_1_plus_pct": 52.38095238095239
+    },
+    "away": {
+      "games": 56,
+      "over_1_5_pct": 66.07142857142857,
+      "team_scores_1_plus_pct": 60.71428571428571
+    },
+    "last_3": {
+      "over_1_5_pct": 100.0,
+      "team_scores_1_plus_pct": 66.66666666666666
+    },
+    "last_5": {
+      "over_1_5_pct": 100.0,
+      "team_scores_1_plus_pct": 60.0
+    },
+    "last_10": {
+      "over_1_5_pct": 90.0,
+      "team_scores_1_plus_pct": 80.0
+    }
+  },
+  "Utah Hockey Club": {
+    "total_games": 85,
+    "season": {
+      "over_1_5_pct": 50.588235294117645,
+      "over_1_5_count": 43,
+      "team_scores_1_plus_pct": 55.294117647058826,
+      "team_scores_1_plus_count": 47
+    },
+    "home": {
+      "games": 42,
+      "over_1_5_pct": 45.23809523809524,
+      "team_scores_1_plus_pct": 54.761904761904766
+    },
+    "away": {
+      "games": 43,
+      "over_1_5_pct": 55.81395348837209,
+      "team_scores_1_plus_pct": 55.81395348837209
+    },
+    "last_3": {
+      "over_1_5_pct": 100.0,
+      "team_scores_1_plus_pct": 66.66666666666666
+    },
+    "last_5": {
+      "over_1_5_pct": 80.0,
+      "team_scores_1_plus_pct": 60.0
+    },
+    "last_10": {
+      "over_1_5_pct": 40.0,
+      "team_scores_1_plus_pct": 50.0
+    }
+  },
+  "Carolina Hurricanes": {
+    "total_games": 131,
+    "season": {
+      "over_1_5_pct": 51.908396946564885,
+      "over_1_5_count": 68,
+      "team_scores_1_plus_pct": 58.01526717557252,
+      "team_scores_1_plus_count": 76
+    },
+    "home": {
+      "games": 66,
+      "over_1_5_pct": 57.57575757575758,
+      "team_scores_1_plus_pct": 65.15151515151516
+    },
+    "away": {
+      "games": 65,
+      "over_1_5_pct": 46.15384615384615,
+      "team_scores_1_plus_pct": 50.76923076923077
+    },
+    "last_3": {
+      "over_1_5_pct": 0.0,
+      "team_scores_1_plus_pct": 33.33333333333333
+    },
+    "last_5": {
+      "over_1_5_pct": 40.0,
+      "team_scores_1_plus_pct": 60.0
+    },
+    "last_10": {
+      "over_1_5_pct": 50.0,
+      "team_scores_1_plus_pct": 50.0
+    }
+  },
+  "Nashville Predators": {
+    "total_games": 116,
+    "season": {
+      "over_1_5_pct": 47.41379310344828,
+      "over_1_5_count": 55,
+      "team_scores_1_plus_pct": 55.172413793103445,
+      "team_scores_1_plus_count": 64
+    },
+    "home": {
+      "games": 62,
+      "over_1_5_pct": 51.61290322580645,
+      "team_scores_1_plus_pct": 69.35483870967742
+    },
+    "away": {
+      "games": 54,
+      "over_1_5_pct": 42.592592592592595,
+      "team_scores_1_plus_pct": 38.88888888888889
+    },
+    "last_3": {
+      "over_1_5_pct": 33.33333333333333,
+      "team_scores_1_plus_pct": 33.33333333333333
+    },
+    "last_5": {
+      "over_1_5_pct": 40.0,
+      "team_scores_1_plus_pct": 60.0
+    },
+    "last_10": {
+      "over_1_5_pct": 50.0,
+      "team_scores_1_plus_pct": 50.0
+    }
+  },
+  "Tampa Bay Lightning": {
+    "total_games": 122,
+    "season": {
+      "over_1_5_pct": 50.0,
+      "over_1_5_count": 61,
+      "team_scores_1_plus_pct": 66.39344262295081,
+      "team_scores_1_plus_count": 81
+    },
+    "home": {
+      "games": 62,
+      "over_1_5_pct": 48.38709677419355,
+      "team_scores_1_plus_pct": 75.80645161290323
+    },
+    "away": {
+      "games": 60,
+      "over_1_5_pct": 51.66666666666667,
+      "team_scores_1_plus_pct": 56.666666666666664
+    },
+    "last_3": {
+      "over_1_5_pct": 33.33333333333333,
+      "team_scores_1_plus_pct": 66.66666666666666
+    },
+    "last_5": {
+      "over_1_5_pct": 40.0,
+      "team_scores_1_plus_pct": 80.0
+    },
+    "last_10": {
+      "over_1_5_pct": 40.0,
+      "team_scores_1_plus_pct": 80.0
+    }
+  },
+  "Florida Panthers": {
+    "total_games": 139,
+    "season": {
+      "over_1_5_pct": 53.956834532374096,
+      "over_1_5_count": 75,
+      "team_scores_1_plus_pct": 61.15107913669065,
+      "team_scores_1_plus_count": 85
+    },
+    "home": {
+      "games": 68,
+      "over_1_5_pct": 45.588235294117645,
+      "team_scores_1_plus_pct": 60.29411764705882
+    },
+    "away": {
+      "games": 71,
+      "over_1_5_pct": 61.97183098591549,
+      "team_scores_1_plus_pct": 61.97183098591549
+    },
+    "last_3": {
+      "over_1_5_pct": 66.66666666666666,
+      "team_scores_1_plus_pct": 66.66666666666666
+    },
+    "last_5": {
+      "over_1_5_pct": 80.0,
+      "team_scores_1_plus_pct": 80.0
+    },
+    "last_10": {
+      "over_1_5_pct": 60.0,
+      "team_scores_1_plus_pct": 80.0
+    }
+  },
+  "Winnipeg Jets": {
+    "total_games": 129,
+    "season": {
+      "over_1_5_pct": 53.48837209302325,
+      "over_1_5_count": 69,
+      "team_scores_1_plus_pct": 59.68992248062015,
+      "team_scores_1_plus_count": 77
+    },
+    "home": {
+      "games": 63,
+      "over_1_5_pct": 49.2063492063492,
+      "team_scores_1_plus_pct": 58.730158730158735
+    },
+    "away": {
+      "games": 66,
+      "over_1_5_pct": 57.57575757575758,
+      "team_scores_1_plus_pct": 60.60606060606061
+    },
+    "last_3": {
+      "over_1_5_pct": 66.66666666666666,
+      "team_scores_1_plus_pct": 66.66666666666666
+    },
+    "last_5": {
+      "over_1_5_pct": 60.0,
+      "team_scores_1_plus_pct": 60.0
+    },
+    "last_10": {
+      "over_1_5_pct": 60.0,
+      "team_scores_1_plus_pct": 60.0
+    }
+  },
+  "Calgary Flames": {
+    "total_games": 120,
+    "season": {
+      "over_1_5_pct": 42.5,
+      "over_1_5_count": 51,
+      "team_scores_1_plus_pct": 50.0,
+      "team_scores_1_plus_count": 60
+    },
+    "home": {
+      "games": 56,
+      "over_1_5_pct": 39.285714285714285,
+      "team_scores_1_plus_pct": 53.57142857142857
+    },
+    "away": {
+      "games": 64,
+      "over_1_5_pct": 45.3125,
+      "team_scores_1_plus_pct": 46.875
+    },
+    "last_3": {
+      "over_1_5_pct": 33.33333333333333,
+      "team_scores_1_plus_pct": 33.33333333333333
+    },
+    "last_5": {
+      "over_1_5_pct": 60.0,
+      "team_scores_1_plus_pct": 40.0
+    },
+    "last_10": {
+      "over_1_5_pct": 40.0,
+      "team_scores_1_plus_pct": 40.0
+    }
+  },
+  "Seattle Kraken": {
+    "total_games": 113,
+    "season": {
+      "over_1_5_pct": 56.63716814159292,
+      "over_1_5_count": 64,
+      "team_scores_1_plus_pct": 55.75221238938053,
+      "team_scores_1_plus_count": 63
+    },
+    "home": {
+      "games": 57,
+      "over_1_5_pct": 57.89473684210527,
+      "team_scores_1_plus_pct": 57.89473684210527
+    },
+    "away": {
+      "games": 56,
+      "over_1_5_pct": 55.35714285714286,
+      "team_scores_1_plus_pct": 53.57142857142857
+    },
+    "last_3": {
+      "over_1_5_pct": 33.33333333333333,
+      "team_scores_1_plus_pct": 33.33333333333333
+    },
+    "last_5": {
+      "over_1_5_pct": 20.0,
+      "team_scores_1_plus_pct": 20.0
+    },
+    "last_10": {
+      "over_1_5_pct": 40.0,
+      "team_scores_1_plus_pct": 60.0
+    }
+  },
+  "Edmonton Oilers": {
+    "total_games": 141,
+    "season": {
+      "over_1_5_pct": 54.60992907801418,
+      "over_1_5_count": 77,
+      "team_scores_1_plus_pct": 56.73758865248227,
+      "team_scores_1_plus_count": 80
+    },
+    "home": {
+      "games": 65,
+      "over_1_5_pct": 63.07692307692307,
+      "team_scores_1_plus_pct": 61.53846153846154
+    },
+    "away": {
+      "games": 76,
+      "over_1_5_pct": 47.368421052631575,
+      "team_scores_1_plus_pct": 52.63157894736842
+    },
+    "last_3": {
+      "over_1_5_pct": 33.33333333333333,
+      "team_scores_1_plus_pct": 33.33333333333333
+    },
+    "last_5": {
+      "over_1_5_pct": 40.0,
+      "team_scores_1_plus_pct": 60.0
+    },
+    "last_10": {
+      "over_1_5_pct": 40.0,
+      "team_scores_1_plus_pct": 60.0
+    }
+  },
+  "Anaheim Ducks": {
+    "total_games": 118,
+    "season": {
+      "over_1_5_pct": 55.08474576271186,
+      "over_1_5_count": 65,
+      "team_scores_1_plus_pct": 57.6271186440678,
+      "team_scores_1_plus_count": 68
+    },
+    "home": {
+      "games": 58,
+      "over_1_5_pct": 51.724137931034484,
+      "team_scores_1_plus_pct": 55.172413793103445
+    },
+    "away": {
+      "games": 60,
+      "over_1_5_pct": 58.333333333333336,
+      "team_scores_1_plus_pct": 60.0
+    },
+    "last_3": {
+      "over_1_5_pct": 100.0,
+      "team_scores_1_plus_pct": 66.66666666666666
+    },
+    "last_5": {
+      "over_1_5_pct": 80.0,
+      "team_scores_1_plus_pct": 40.0
+    },
+    "last_10": {
+      "over_1_5_pct": 60.0,
+      "team_scores_1_plus_pct": 50.0
+    }
+  },
+  "Los Angeles Kings": {
+    "total_games": 123,
+    "season": {
+      "over_1_5_pct": 43.90243902439025,
+      "over_1_5_count": 54,
+      "team_scores_1_plus_pct": 58.536585365853654,
+      "team_scores_1_plus_count": 72
+    },
+    "home": {
+      "games": 60,
+      "over_1_5_pct": 45.0,
+      "team_scores_1_plus_pct": 60.0
+    },
+    "away": {
+      "games": 63,
+      "over_1_5_pct": 42.857142857142854,
+      "team_scores_1_plus_pct": 57.14285714285714
+    },
+    "last_3": {
+      "over_1_5_pct": 0.0,
+      "team_scores_1_plus_pct": 66.66666666666666
+    },
+    "last_5": {
+      "over_1_5_pct": 0.0,
+      "team_scores_1_plus_pct": 40.0
+    },
+    "last_10": {
+      "over_1_5_pct": 20.0,
+      "team_scores_1_plus_pct": 40.0
+    }
+  },
+  "Toronto Maple Leafs": {
+    "total_games": 129,
+    "season": {
+      "over_1_5_pct": 54.263565891472865,
+      "over_1_5_count": 70,
+      "team_scores_1_plus_pct": 61.240310077519375,
+      "team_scores_1_plus_count": 79
+    },
+    "home": {
+      "games": 67,
+      "over_1_5_pct": 46.26865671641791,
+      "team_scores_1_plus_pct": 59.70149253731343
+    },
+    "away": {
+      "games": 62,
+      "over_1_5_pct": 62.903225806451616,
+      "team_scores_1_plus_pct": 62.903225806451616
+    },
+    "last_3": {
+      "over_1_5_pct": 66.66666666666666,
+      "team_scores_1_plus_pct": 100.0
+    },
+    "last_5": {
+      "over_1_5_pct": 60.0,
+      "team_scores_1_plus_pct": 60.0
+    },
+    "last_10": {
+      "over_1_5_pct": 70.0,
+      "team_scores_1_plus_pct": 70.0
+    }
+  },
+  "Dallas Stars": {
+    "total_games": 135,
+    "season": {
+      "over_1_5_pct": 54.074074074074076,
+      "over_1_5_count": 73,
+      "team_scores_1_plus_pct": 59.25925925925925,
+      "team_scores_1_plus_count": 80
+    },
+    "home": {
+      "games": 67,
+      "over_1_5_pct": 50.74626865671642,
+      "team_scores_1_plus_pct": 59.70149253731343
+    },
+    "away": {
+      "games": 68,
+      "over_1_5_pct": 57.35294117647059,
+      "team_scores_1_plus_pct": 58.82352941176471
+    },
+    "last_3": {
+      "over_1_5_pct": 33.33333333333333,
+      "team_scores_1_plus_pct": 33.33333333333333
+    },
+    "last_5": {
+      "over_1_5_pct": 60.0,
+      "team_scores_1_plus_pct": 60.0
+    },
+    "last_10": {
+      "over_1_5_pct": 50.0,
+      "team_scores_1_plus_pct": 60.0
+    }
+  },
+  "Buffalo Sabres": {
+    "total_games": 115,
+    "season": {
+      "over_1_5_pct": 59.130434782608695,
+      "over_1_5_count": 68,
+      "team_scores_1_plus_pct": 62.60869565217392,
+      "team_scores_1_plus_count": 72
+    },
+    "home": {
+      "games": 60,
+      "over_1_5_pct": 55.00000000000001,
+      "team_scores_1_plus_pct": 61.66666666666667
+    },
+    "away": {
+      "games": 55,
+      "over_1_5_pct": 63.63636363636363,
+      "team_scores_1_plus_pct": 63.63636363636363
+    },
+    "last_3": {
+      "over_1_5_pct": 100.0,
+      "team_scores_1_plus_pct": 100.0
+    },
+    "last_5": {
+      "over_1_5_pct": 60.0,
+      "team_scores_1_plus_pct": 60.0
+    },
+    "last_10": {
+      "over_1_5_pct": 70.0,
+      "team_scores_1_plus_pct": 70.0
+    }
+  },
+  "New York Islanders": {
+    "total_games": 116,
+    "season": {
+      "over_1_5_pct": 48.275862068965516,
+      "over_1_5_count": 56,
+      "team_scores_1_plus_pct": 47.41379310344828,
+      "team_scores_1_plus_count": 55
+    },
+    "home": {
+      "games": 59,
+      "over_1_5_pct": 45.76271186440678,
+      "team_scores_1_plus_pct": 44.06779661016949
+    },
+    "away": {
+      "games": 57,
+      "over_1_5_pct": 50.877192982456144,
+      "team_scores_1_plus_pct": 50.877192982456144
+    },
+    "last_3": {
+      "over_1_5_pct": 33.33333333333333,
+      "team_scores_1_plus_pct": 0.0
+    },
+    "last_5": {
+      "over_1_5_pct": 40.0,
+      "team_scores_1_plus_pct": 20.0
+    },
+    "last_10": {
+      "over_1_5_pct": 40.0,
+      "team_scores_1_plus_pct": 40.0
+    }
+  },
+  "Vancouver Canucks": {
+    "total_games": 116,
+    "season": {
+      "over_1_5_pct": 47.41379310344828,
+      "over_1_5_count": 55,
+      "team_scores_1_plus_pct": 56.896551724137936,
+      "team_scores_1_plus_count": 66
+    },
+    "home": {
+      "games": 56,
+      "over_1_5_pct": 46.42857142857143,
+      "team_scores_1_plus_pct": 60.71428571428571
+    },
+    "away": {
+      "games": 60,
+      "over_1_5_pct": 48.333333333333336,
+      "team_scores_1_plus_pct": 53.333333333333336
+    },
+    "last_3": {
+      "over_1_5_pct": 66.66666666666666,
+      "team_scores_1_plus_pct": 66.66666666666666
+    },
+    "last_5": {
+      "over_1_5_pct": 80.0,
+      "team_scores_1_plus_pct": 80.0
+    },
+    "last_10": {
+      "over_1_5_pct": 80.0,
+      "team_scores_1_plus_pct": 80.0
+    }
+  },
+  "Washington Capitals": {
+    "total_games": 127,
+    "season": {
+      "over_1_5_pct": 57.48031496062992,
+      "over_1_5_count": 73,
+      "team_scores_1_plus_pct": 68.50393700787401,
+      "team_scores_1_plus_count": 87
+    },
+    "home": {
+      "games": 66,
+      "over_1_5_pct": 53.03030303030303,
+      "team_scores_1_plus_pct": 72.72727272727273
+    },
+    "away": {
+      "games": 61,
+      "over_1_5_pct": 62.295081967213115,
+      "team_scores_1_plus_pct": 63.934426229508205
+    },
+    "last_3": {
+      "over_1_5_pct": 33.33333333333333,
+      "team_scores_1_plus_pct": 100.0
+    },
+    "last_5": {
+      "over_1_5_pct": 40.0,
+      "team_scores_1_plus_pct": 80.0
+    },
+    "last_10": {
+      "over_1_5_pct": 50.0,
+      "team_scores_1_plus_pct": 90.0
+    }
+  },
+  "Sweden": {
+    "total_games": 3,
+    "season": {
+      "over_1_5_pct": 100.0,
+      "over_1_5_count": 3,
+      "team_scores_1_plus_pct": 66.66666666666666,
+      "team_scores_1_plus_count": 2
+    },
+    "home": {
+      "games": 2,
+      "over_1_5_pct": 100.0,
+      "team_scores_1_plus_pct": 50.0
+    },
+    "away": {
+      "games": 1,
+      "over_1_5_pct": 100.0,
+      "team_scores_1_plus_pct": 100.0
+    },
+    "last_3": {
+      "over_1_5_pct": 100.0,
+      "team_scores_1_plus_pct": 66.66666666666666
+    }
+  },
+  "Canada": {
+    "total_games": 4,
+    "season": {
+      "over_1_5_pct": 100.0,
+      "over_1_5_count": 4,
+      "team_scores_1_plus_pct": 100.0,
+      "team_scores_1_plus_count": 4
+    },
+    "home": {
+      "games": 1,
+      "over_1_5_pct": 100.0,
+      "team_scores_1_plus_pct": 100.0
+    },
+    "away": {
+      "games": 3,
+      "over_1_5_pct": 100.0,
+      "team_scores_1_plus_pct": 100.0
+    },
+    "last_3": {
+      "over_1_5_pct": 100.0,
+      "team_scores_1_plus_pct": 100.0
+    }
+  },
+  "Finland": {
+    "total_games": 3,
+    "season": {
+      "over_1_5_pct": 100.0,
+      "over_1_5_count": 3,
+      "team_scores_1_plus_pct": 66.66666666666666,
+      "team_scores_1_plus_count": 2
+    },
+    "home": {
+      "games": 2,
+      "over_1_5_pct": 100.0,
+      "team_scores_1_plus_pct": 50.0
+    },
+    "away": {
+      "games": 1,
+      "over_1_5_pct": 100.0,
+      "team_scores_1_plus_pct": 100.0
+    },
+    "last_3": {
+      "over_1_5_pct": 100.0,
+      "team_scores_1_plus_pct": 66.66666666666666
+    }
+  },
+  "USA": {
+    "total_games": 4,
+    "season": {
+      "over_1_5_pct": 100.0,
+      "over_1_5_count": 4,
+      "team_scores_1_plus_pct": 100.0,
+      "team_scores_1_plus_count": 4
+    },
+    "home": {
+      "games": 2,
+      "over_1_5_pct": 100.0,
+      "team_scores_1_plus_pct": 100.0
+    },
+    "away": {
+      "games": 2,
+      "over_1_5_pct": 100.0,
+      "team_scores_1_plus_pct": 100.0
+    },
+    "last_3": {
+      "over_1_5_pct": 100.0,
+      "team_scores_1_plus_pct": 100.0
+    }
+  },
+  "Utah Mammoth": {
+    "total_games": 35,
+    "season": {
+      "over_1_5_pct": 51.42857142857142,
+      "over_1_5_count": 18,
+      "team_scores_1_plus_pct": 57.14285714285714,
+      "team_scores_1_plus_count": 20
+    },
+    "home": {
+      "games": 15,
+      "over_1_5_pct": 53.333333333333336,
+      "team_scores_1_plus_pct": 60.0
+    },
+    "away": {
+      "games": 20,
+      "over_1_5_pct": 50.0,
+      "team_scores_1_plus_pct": 55.00000000000001
+    },
+    "last_3": {
+      "over_1_5_pct": 66.66666666666666,
+      "team_scores_1_plus_pct": 66.66666666666666
+    },
+    "last_5": {
+      "over_1_5_pct": 80.0,
+      "team_scores_1_plus_pct": 60.0
+    },
+    "last_10": {
+      "over_1_5_pct": 70.0,
+      "team_scores_1_plus_pct": 50.0
+    }
+  }
+}

@@ -1,0 +1,220 @@
+==========================================================================================
+NHL DAILY MATCHUP MOVING AVERAGE REPORT - 2025-12-30
+==========================================================================================
+
+Comparing team trends: 3-Game, 5-Game, 10-Game, and Season Moving Averages
+Use this to identify betting opportunities based on recent form
+
+📅 5 games scheduled
+
+------------------------------------------------------------------------------------------
+🏒 NJD @ TOR
+   Venue: Scotiabank Arena
+------------------------------------------------------------------------------------------
+
+METRIC               |              NJD               |              TOR              
+------------------------------------------------------------------------------------------
+GOALS FOR            |                              |                              
+  Last Game          |               4                |               1               
+  3-Game MA          |              3.00              |              1.33             
+  5-Game MA          |              2.20              |              1.60             
+  10-Game MA         |              2.20              |              2.40             
+  Season Avg         |              2.91              |              3.20             
+  TREND              |             🔥 HOT              |             🥶 COLD            
+
+GOALS AGAINST        |                              |                              
+  3-Game MA          |              4.00              |              4.00             
+  5-Game MA          |              3.80              |              3.80             
+  Season Avg         |              2.77              |              2.87             
+
+TOTAL GOALS          |                              |                              
+  3-Game MA          |              7.00              |              5.33             
+  5-Game MA          |              6.00              |              5.40             
+  10-Game MA         |              6.20              |              6.00             
+  Season Avg         |              5.68              |              6.07             
+  TREND              |            📈 Rising            |           📉 Falling           
+
+1ST PERIOD TOTAL     |                              |                              
+  3-Game MA          |              2.00              |              0.33             
+  5-Game MA          |              1.60              |              1.00             
+  Season Avg         |              1.38              |              1.68             
+  TREND              |             🔥 HOT              |             🥶 COLD            
+
+COMBINED PROJECTION  |                              |                              
+  Expected Total     |              5.70              | (5G MA avg)
+  Season Baseline    |              5.88              | (Season avg)
+  Expected 1P Total  |              1.30              | (5G MA avg)
+
+
+------------------------------------------------------------------------------------------
+🏒 MTL @ FLA
+   Venue: Amerant Bank Arena
+------------------------------------------------------------------------------------------
+
+METRIC               |              MTL               |              FLA              
+------------------------------------------------------------------------------------------
+GOALS FOR            |                              |                              
+  Last Game          |               1                |               5               
+  3-Game MA          |              3.00              |              4.67             
+  5-Game MA          |              2.40              |              5.00             
+  10-Game MA         |              2.50              |              4.40             
+  Season Avg         |              2.95              |              3.30             
+  TREND              |             🔥 HOT              |            📈 Rising           
+
+GOALS AGAINST        |                              |                              
+  3-Game MA          |              4.00              |              2.67             
+  5-Game MA          |              3.60              |              2.60             
+  Season Avg         |              3.25              |              2.66             
+
+TOTAL GOALS          |                              |                              
+  3-Game MA          |              7.00              |              7.33             
+  5-Game MA          |              6.00              |              7.60             
+  10-Game MA         |              5.60              |              6.90             
+  Season Avg         |              6.21              |              5.95             
+  TREND              |             🔥 HOT              |            📈 Rising           
+
+1ST PERIOD TOTAL     |                              |                              
+  3-Game MA          |              1.33              |              2.33             
+  5-Game MA          |              1.00              |              2.80             
+  Season Avg         |              1.79              |              1.81             
+  TREND              |         ↘️  Below Avg          |         ↗️  Above Avg         
+
+COMBINED PROJECTION  |                              |                              
+  Expected Total     |              6.80              | (5G MA avg)
+  Season Baseline    |              6.08              | (Season avg)
+  Expected 1P Total  |              1.90              | (5G MA avg)
+
+
+------------------------------------------------------------------------------------------
+🏒 CAR @ PIT
+   Venue: PPG Paints Arena
+------------------------------------------------------------------------------------------
+
+METRIC               |              CAR               |              PIT              
+------------------------------------------------------------------------------------------
+GOALS FOR            |                              |                              
+  Last Game          |               3                |               5               
+  3-Game MA          |              2.67              |              3.33             
+  5-Game MA          |              2.00              |              3.20             
+  10-Game MA         |              2.50              |              3.00             
+  Season Avg         |              3.20              |              2.96             
+  TREND              |            📈 Rising            |            📈 Rising           
+
+GOALS AGAINST        |                              |                              
+  3-Game MA          |              3.67              |              2.67             
+  5-Game MA          |              4.20              |              2.20             
+  Season Avg         |              2.80              |              3.57             
+
+TOTAL GOALS          |                              |                              
+  3-Game MA          |              6.33              |              6.00             
+  5-Game MA          |              6.20              |              5.40             
+  10-Game MA         |              5.30              |              6.20             
+  Season Avg         |              6.00              |              6.54             
+  TREND              |             🔥 HOT              |         ↘️  Below Avg         
+
+1ST PERIOD TOTAL     |                              |                              
+  3-Game MA          |              1.00              |              2.00             
+  5-Game MA          |              1.80              |              1.40             
+  Season Avg         |              1.67              |              1.78             
+  TREND              |             🥶 COLD             |             🔥 HOT             
+
+COMBINED PROJECTION  |                              |                              
+  Expected Total     |              5.80              | (5G MA avg)
+  Season Baseline    |              6.27              | (Season avg)
+  Expected 1P Total  |              1.60              | (5G MA avg)
+
+
+------------------------------------------------------------------------------------------
+🏒 NYI @ CHI
+   Venue: United Center
+------------------------------------------------------------------------------------------
+
+METRIC               |              NYI               |              CHI              
+------------------------------------------------------------------------------------------
+GOALS FOR            |                              |                              
+  Last Game          |               1                |               4               
+  3-Game MA          |              1.00              |              4.00             
+  5-Game MA          |              1.60              |              3.40             
+  10-Game MA         |              2.60              |              3.00             
+  Season Avg         |              2.73              |              2.76             
+  TREND              |             🥶 COLD             |             🔥 HOT             
+
+GOALS AGAINST        |                              |                              
+  3-Game MA          |              3.00              |              3.67             
+  5-Game MA          |              4.40              |              3.60             
+  Season Avg         |              3.17              |              3.61             
+
+TOTAL GOALS          |                              |                              
+  3-Game MA          |              4.00              |              7.67             
+  5-Game MA          |              6.00              |              7.00             
+  10-Game MA         |              6.70              |              6.70             
+  Season Avg         |              5.90              |              6.37             
+  TREND              |             🥶 COLD             |            📈 Rising           
+
+1ST PERIOD TOTAL     |                              |                              
+  3-Game MA          |              0.33              |              2.67             
+  5-Game MA          |              1.00              |              2.00             
+  Season Avg         |              1.50              |              1.89             
+  TREND              |             🥶 COLD             |             🔥 HOT             
+
+COMBINED PROJECTION  |                              |                              
+  Expected Total     |              6.50              | (5G MA avg)
+  Season Baseline    |              6.13              | (Season avg)
+  Expected 1P Total  |              1.50              | (5G MA avg)
+
+
+------------------------------------------------------------------------------------------
+🏒 PHI @ VAN
+   Venue: Rogers Arena
+------------------------------------------------------------------------------------------
+
+METRIC               |              PHI               |              VAN              
+------------------------------------------------------------------------------------------
+GOALS FOR            |                              |                              
+  Last Game          |               4                |               1               
+  3-Game MA          |              2.33              |              1.67             
+  5-Game MA          |              3.80              |              3.00             
+  10-Game MA         |              3.80              |              3.00             
+  Season Avg         |              2.90              |              2.88             
+  TREND              |             🥶 COLD             |             🥶 COLD            
+
+GOALS AGAINST        |                              |                              
+  3-Game MA          |              4.00              |              2.67             
+  5-Game MA          |              4.00              |              2.80             
+  Season Avg         |              3.49              |              3.09             
+
+TOTAL GOALS          |                              |                              
+  3-Game MA          |              6.33              |              4.33             
+  5-Game MA          |              7.80              |              5.80             
+  10-Game MA         |              7.70              |              6.40             
+  Season Avg         |              6.39              |              5.96             
+  TREND              |             🥶 COLD             |             🥶 COLD            
+
+1ST PERIOD TOTAL     |                              |                              
+  3-Game MA          |              1.33              |              0.67             
+  5-Game MA          |              1.00              |              0.80             
+  Season Avg         |              1.66              |              1.62             
+  TREND              |             🥶 COLD             |             🥶 COLD            
+
+COMBINED PROJECTION  |                              |                              
+  Expected Total     |              6.80              | (5G MA avg)
+  Season Baseline    |              6.18              | (Season avg)
+  Expected 1P Total  |              0.90              | (5G MA avg)
+
+💡 INSIGHT: UNDER looks strong - Both teams trending COLD. Combined 5G MA: 6.8
+
+==========================================================================================
+📊 BETTING INSIGHTS SUMMARY
+==========================================================================================
+1. PHI @ VAN
+   UNDER looks strong - Both teams trending COLD. Combined 5G MA: 6.8
+   Confidence: HIGH
+
+
+==========================================================================================
+📈 MA TREND LEGEND:
+   🔥 HOT = 3G MA > 10G MA by 15%+ (strong recent uptick)
+   📈 Rising = 3G MA > 10G MA by 5-15%
+   🥶 COLD = 3G MA < 10G MA by 15%+ (strong recent downturn)
+   📉 Falling = 3G MA < 10G MA by 5-15%
+==========================================================================================

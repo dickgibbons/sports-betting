@@ -1,0 +1,61 @@
+🏀 NCAA BETTING PICKS - 2025-12-21
+================================================================================
+
+📊 SUMMARY
+────────────────────────────────────────────────────────────────────────────────
+Total Picks: 6
+✅ HIGH: 2 picks
+⚪ LOW: 4 picks
+
+✅✅ #1 UMass Lowell River Hawks @ Boston Univ. Terriers
+   BET: UMass Lowell River Hawks +2.5
+   ODDS: -105 | True EV: +5.4%
+   Confidence: HIGH
+   Angles (2):
+     • UMass Lowell River Hawks underdog value at +138
+     • Close spread (-2.5) suggests competitive game
+   💰 Recommended: 1-2% of bankroll
+
+✅✅ #2 UMass Lowell River Hawks @ Boston Univ. Terriers
+   BET: UMass Lowell River Hawks ML
+   ODDS: +138 | True EV: +38.0%
+   Confidence: HIGH
+   Angles (2):
+     • UMass Lowell River Hawks underdog value at +138
+     • Close spread (-2.5) suggests competitive game
+   💰 Recommended: 1-2% of bankroll
+
+⚪ #3 Presbyterian Blue Hose @ Manhattan Jaspers
+   BET: Manhattan Jaspers ML
+   ODDS: +110 | True EV: +11.3%
+   Confidence: LOW
+   Angles (1):
+     • Close spread (+1.5) suggests competitive game
+   💰 Recommended: Optional/skip
+
+⚪ #4 Chattanooga Mocs @ Alabama A&M Bulldogs
+   BET: Alabama A&M Bulldogs ML
+   ODDS: +138 | True EV: +26.1%
+   Confidence: LOW
+   Angles (1):
+     • Close spread (+2.5) suggests competitive game
+   💰 Recommended: Optional/skip
+
+⚪ #5 Southern Jaguars @ Baylor Bears
+   BET: Southern Jaguars ML
+   ODDS: +2800 | True EV: +1466.0%
+   Confidence: LOW
+   Angles (1):
+     • Large spread (-24.5) creates underdog spread value
+   💰 Recommended: Optional/skip
+
+⚪ #6 Morgan St Bears @ San Francisco Dons
+   BET: Morgan St Bears ML
+   ODDS: +3500 | True EV: +1844.0%
+   Confidence: LOW
+   Angles (1):
+     • Large spread (-26.5) creates underdog spread value
+   💰 Recommended: Optional/skip
+
+================================================================================
+📁 Full analysis saved to: /Users/dickgibbons/sports-betting/reports/2025-12-21/ncaa_picks_2025-12-21.txt

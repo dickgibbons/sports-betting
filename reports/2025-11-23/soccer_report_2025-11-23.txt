@@ -1,0 +1,38 @@
+SOCCER BETTING REPORT - 2025-11-23
+================================================================================
+
+#1 Metz @ Brest
+BET: BET: Brest Win
+Edge: +7.5%
+Confidence: MEDIUM
+Angles: 1
+  1. Metz struggles away from home
+
+#2 Girona @ Real Betis
+BET: BET: Real Betis Win or Draw
+Edge: +6.5%
+Confidence: MEDIUM
+Angles: 1
+  1. Real Betis has strong home record
+
+#3 Lecce @ Lazio
+BET: BET: Lazio Win or Draw
+Edge: +6.5%
+Confidence: MEDIUM
+Angles: 1
+  1. Lazio has strong home record
+
+#4 Werder Bremen @ RB Leipzig
+BET: BET: RB Leipzig -1.5 Goals
+Edge: +5.0%
+Confidence: LOW
+Angles: 1
+  1. RB Leipzig title contender should beat mid-table at home
+
+#5 Paris FC @ Lille
+BET: BET: Lille -1.5 Goals
+Edge: +5.0%
+Confidence: LOW
+Angles: 1
+  1. Lille title contender should beat mid-table at home
+

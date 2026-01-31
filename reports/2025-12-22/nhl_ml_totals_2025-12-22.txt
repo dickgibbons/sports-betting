@@ -1,0 +1,76 @@
+🏒 NHL ML TOTALS PREDICTION REPORT - 2025-12-22
+====================================================================================================
+
+GAME #1: Blues @ Lightning
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  5.94
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Lightning                      over 0.5 goals: 79.0%
+      Blues                          over 0.5 goals: 90.0%
+      1st Period Total over 1.5 goals: 75.0%
+
+   MODEL PREDICTIONS:
+      linear              : 5.27
+      ridge               : 5.32
+      random_forest       : 5.94
+      gradient_boost      : 5.80
+
+
+GAME #2: Canucks @ Flyers
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  5.04
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Flyers                         over 0.5 goals: 68.0%
+      Canucks                        over 0.5 goals: 40.0%
+      1st Period Total over 1.5 goals: 48.0%
+
+   MODEL PREDICTIONS:
+      linear              : 5.98
+      ridge               : 5.96
+      random_forest       : 5.04
+      gradient_boost      : 5.14
+
+
+GAME #3: Kraken @ Ducks
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  5.45
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Ducks                          over 0.5 goals: 50.0%
+      Kraken                         over 0.5 goals: 59.0%
+      1st Period Total over 1.5 goals: 37.0%
+
+   MODEL PREDICTIONS:
+      linear              : 6.37
+      ridge               : 6.36
+      random_forest       : 5.45
+      gradient_boost      : 6.13
+
+
+GAME #4: Blue Jackets @ Kings
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  5.75
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Kings                          over 0.5 goals: 67.0%
+      Blue Jackets                   over 0.5 goals: 44.0%
+      1st Period Total over 1.5 goals: 43.0%
+
+   MODEL PREDICTIONS:
+      linear              : 5.43
+      ridge               : 5.46
+      random_forest       : 5.75
+      gradient_boost      : 5.92
+
+
+====================================================================================================
+SUMMARY
+====================================================================================================
+
+No games with significant edge (±0.5 goals) today

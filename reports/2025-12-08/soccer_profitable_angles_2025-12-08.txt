@@ -1,0 +1,97 @@
+================================================================================
+SOCCER PROFITABLE ANGLES DAILY REPORT - 2025-12-08
+================================================================================
+
+Based on 7,272 match analysis (2023-2025 seasons)
+Focus: Over 2.5, BTTS Yes, 1H Over 0.5 in high-scoring leagues
+
+--------------------------------------------------------------------------------
+📊 PREMIER LEAGUE
+   Historical: Over 2.5 hits 60.7% (ROI +15.3%)
+--------------------------------------------------------------------------------
+
+⚽ Wolves vs Manchester United
+   Time: 20:00 | Venue: Molineux Stadium
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  56.7%     | +15.3%         | ✅ YES
+   BTTS Yes          |  45.3%     | +10.0%         |    ---
+   1H Over 0.5       |  75.7%     | +9.7%          | ✅ YES
+   └─ Expected Total Goals: 2.1
+   └─ Home Scores: 35.7% | Away Scores: 78.6%
+
+--------------------------------------------------------------------------------
+📊 LA LIGA
+   Historical: Over 2.5 hits 55.6% (ROI +5.2%)
+--------------------------------------------------------------------------------
+
+⚽ Osasuna vs Levante
+   Time: 20:00 | Venue: Estadio El Sadar
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  51.6%     | +5.2%          |    ---
+   BTTS Yes          |  46.2%     | -1.9%          |    ---
+   1H Over 0.5       |  69.8%     | +1.2%          |    ---
+   └─ Expected Total Goals: 2.0
+   └─ Home Scores: 57.1% | Away Scores: 71.4%
+
+--------------------------------------------------------------------------------
+📊 SERIE A
+   Historical: Over 2.5 hits 55.2% (ROI +4.8%)
+--------------------------------------------------------------------------------
+
+⚽ Pisa vs Parma
+   Time: 14:00 | Venue: Arena Garibaldi - Stadio Romeo Anconetani
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  47.2%     | +4.8%          |    ---
+   BTTS Yes          |  40.0%     | -0.1%          |    ---
+   1H Over 0.5       |  64.5%     | +2.2%          |    ---
+   └─ Expected Total Goals: 1.5
+   └─ Home Scores: 46.2% | Away Scores: 46.2%
+
+⚽ Udinese vs Genoa
+   Time: 17:00 | Venue: Bluenergy Stadium - Stadio Friuli
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  51.2%     | +4.8%          |    ---
+   BTTS Yes          |  48.9%     | -0.1%          |    ---
+   1H Over 0.5       |  70.5%     | +2.2%          |    ---
+   └─ Expected Total Goals: 2.1
+   └─ Home Scores: 76.9% | Away Scores: 61.5%
+
+⚽ Torino vs AC Milan
+   Time: 19:45 | Venue: Stadio Olimpico Grande Torino
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  55.2%     | +4.8%          |    ---
+   BTTS Yes          |  48.1%     | -0.1%          |    ---
+   1H Over 0.5       |  70.5%     | +2.2%          |    ---
+   └─ Expected Total Goals: 2.4
+   └─ Home Scores: 61.5% | Away Scores: 92.3%
+
+================================================================================
+📋 SUMMARY
+================================================================================
+Total Games Analyzed: 5
+Total Recommendations: 2
+
+🎯 RECOMMENDED BETS (Confidence ≥55% & Historical ROI >5%):
+
+  1. Premier League - Wolves vs Manchester United
+     BET: 1H Over 0.5 @ 75.7% confidence
+     Historical ROI: +9.7%
+
+  2. Premier League - Wolves vs Manchester United
+     BET: Over 2.5 Goals @ 56.7% confidence
+     Historical ROI: +15.3%
+
+================================================================================
+⚠️  REMINDER: Only bet on angles with historical ROI > 5%
+   AVOID: BTTS No (-17% ROI), Over 3.5 (-40% ROI), 1H Over 1.5 (-24% ROI)
+================================================================================

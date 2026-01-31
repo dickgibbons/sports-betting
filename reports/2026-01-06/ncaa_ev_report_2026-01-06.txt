@@ -1,0 +1,42 @@
+🏀 NCAA BASKETBALL - COMPREHENSIVE EV REPORT
+================================================================================
+Date: 2026-01-06
+Total Games Analyzed: 2
+================================================================================
+
+📊 ALL GAMES RANKED BY EXPECTED VALUE (EV)
+================================================================================
+
+#1 TCU Horned Frogs @ Kansas Jayhawks
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Kansas Jayhawks ML
+   ODDS: -175
+   TRUE EV: -8.9%
+   STATUS: ❌ FILTERED (EV < 5%)
+   ANGLE EDGE: +8.0%
+
+   Market Odds:
+     • Kansas Jayhawks: -175
+     • TCU Horned Frogs: +135
+
+   Betting Angles (1):
+     • Kansas Jayhawks at elite venue (7.0 point HCA vs 3.5 avg)
+
+#2 Duke Blue Devils @ Louisville Cardinals
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Louisville Cardinals ML
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +8.0%
+
+   Betting Angles (1):
+     • Louisville Cardinals at elite venue (5.0 point HCA vs 3.5 avg)
+
+================================================================================
+📋 LEGEND
+  ✅ QUALIFIES: EV >= 5% and odds better than -250
+  ❌ FILTERED: Does not meet minimum EV threshold or too heavy favorite
+  TRUE EV: Expected value based on real odds and estimated win probability
+  ANGLE EDGE: Edge from betting angles (doesn't account for market odds)
+================================================================================

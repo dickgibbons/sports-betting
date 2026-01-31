@@ -1,0 +1,110 @@
+🏒 NHL ML TOTALS PREDICTION REPORT - 2025-11-23
+====================================================================================================
+
+GAME #1: Hurricanes @ Sabres
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  6.68
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Sabres                         over 0.5 goals: 72.0%
+      Hurricanes                     over 0.5 goals: 36.0%
+      1st Period Total over 1.5 goals: 39.0%
+
+   MODEL PREDICTIONS:
+      linear              : 6.42
+      ridge               : 6.41
+      random_forest       : 6.68
+      gradient_boost      : 7.22
+
+
+GAME #2: Wild @ Jets
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  5.87
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Jets                           over 0.5 goals: 67.0%
+      Wild                           over 0.5 goals: 62.0%
+      1st Period Total over 1.5 goals: 32.0%
+
+   MODEL PREDICTIONS:
+      linear              : 5.99
+      ridge               : 6.02
+      random_forest       : 5.87
+      gradient_boost      : 6.13
+
+
+GAME #3: Kraken @ Islanders
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  5.15
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Islanders                      over 0.5 goals: 66.0%
+      Kraken                         over 0.5 goals: 45.0%
+      1st Period Total over 1.5 goals: 38.0%
+
+   MODEL PREDICTIONS:
+      linear              : 5.82
+      ridge               : 5.83
+      random_forest       : 5.15
+      gradient_boost      : 5.01
+
+
+GAME #4: Avalanche @ Blackhawks
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  5.54
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Blackhawks                     over 0.5 goals: 36.0%
+      Avalanche                      over 0.5 goals: 48.0%
+      1st Period Total over 1.5 goals: 43.0%
+
+   MODEL PREDICTIONS:
+      linear              : 6.23
+      ridge               : 6.20
+      random_forest       : 5.54
+      gradient_boost      : 6.61
+
+
+GAME #5: Bruins @ Sharks
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  5.04
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Sharks                         over 0.5 goals: 46.0%
+      Bruins                         over 0.5 goals: 49.0%
+      1st Period Total over 1.5 goals: 47.0%
+
+   MODEL PREDICTIONS:
+      linear              : 5.92
+      ridge               : 5.90
+      random_forest       : 5.04
+      gradient_boost      : 4.71
+
+
+GAME #6: Flames @ Canucks
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  5.56
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Canucks                        over 0.5 goals: 54.0%
+      Flames                         over 0.5 goals: 61.0%
+      1st Period Total over 1.5 goals: 41.0%
+
+   MODEL PREDICTIONS:
+      linear              : 5.84
+      ridge               : 5.84
+      random_forest       : 5.56
+      gradient_boost      : 5.30
+
+
+====================================================================================================
+SUMMARY
+====================================================================================================
+
+No games with significant edge (±0.5 goals) today

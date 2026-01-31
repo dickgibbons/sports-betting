@@ -1,0 +1,89 @@
+NCAA BASKETBALL BETTING ANGLES - 2025-11-25
+================================================================================
+
+GAME: Iowa State Cyclones @ Creighton Bluejays
+--------------------------------------------------------------------------------
+[HIGH] BET: Creighton Bluejays ML
+   Type: REST_ADVANTAGE
+   Reason: Creighton Bluejays has 3 days rest vs Iowa State Cyclones 0 days
+   Expected Edge: +8-12%
+
+
+GAME: NC State Wolfpack @ Boise State Broncos
+--------------------------------------------------------------------------------
+[HIGH] BET: Boise State Broncos ML or Spread
+   Type: BACK_TO_BACK
+   Reason: NC State Wolfpack on HOME → ROAD B2B (young players, academic stress)
+   Expected Edge: +15%
+   Historical: NCAA: 82%+
+
+[HIGH] BET: Boise State Broncos ML
+   Type: REST_ADVANTAGE
+   Reason: Boise State Broncos has 3 days rest vs NC State Wolfpack 0 days
+   Expected Edge: +8-12%
+
+
+GAME: St. John's Red Storm @ Baylor Bears
+--------------------------------------------------------------------------------
+[HIGH] BET: Baylor Bears ML or Spread
+   Type: BACK_TO_BACK
+   Reason: St. John's Red Storm on HOME → ROAD B2B (young players, academic stress)
+   Expected Edge: +15%
+   Historical: NCAA: 82%+
+
+[HIGH] BET: Baylor Bears ML
+   Type: REST_ADVANTAGE
+   Reason: Baylor Bears has 3 days rest vs St. John's Red Storm 0 days
+   Expected Edge: +8-12%
+
+
+GAME: Tennessee Volunteers @ Houston Cougars
+--------------------------------------------------------------------------------
+[HIGH] BET: Houston Cougars ML or Spread
+   Type: BACK_TO_BACK
+   Reason: Tennessee Volunteers on HOME → ROAD B2B (young players, academic stress)
+   Expected Edge: +15%
+   Historical: NCAA: 82%+
+
+
+GAME: St. Bonaventure Bonnies @ North Carolina Tar Heels
+--------------------------------------------------------------------------------
+[MED] BET: North Carolina Tar Heels Spread
+   Type: ELITE_HOME_COURT
+   Reason: North Carolina Tar Heels at elite venue (5.5 point HCA vs 3.5 avg)
+   Expected Edge: +8-12%
+
+
+GAME: Michigan Wolverines @ Auburn Tigers
+--------------------------------------------------------------------------------
+[HIGH] BET: Auburn Tigers ML or Spread
+   Type: BACK_TO_BACK
+   Reason: Michigan Wolverines on HOME → ROAD B2B (young players, academic stress)
+   Expected Edge: +15%
+   Historical: NCAA: 82%+
+
+
+GAME: Maryland Terrapins @ Gonzaga Bulldogs
+--------------------------------------------------------------------------------
+[HIGH] BET: Maryland Terrapins ML
+   Type: REST_ADVANTAGE
+   Reason: Maryland Terrapins has 3 days rest vs Gonzaga Bulldogs 0 days
+   Expected Edge: +8-12%
+
+[MED] BET: Gonzaga Bulldogs Spread
+   Type: ELITE_HOME_COURT
+   Reason: Gonzaga Bulldogs at elite venue (5.5 point HCA vs 3.5 avg)
+   Expected Edge: +8-12%
+
+
+GAME: UNLV Rebels @ Alabama Crimson Tide
+--------------------------------------------------------------------------------
+[HIGH] BET: UNLV Rebels ML
+   Type: REST_ADVANTAGE
+   Reason: UNLV Rebels has 3 days rest vs Alabama Crimson Tide 0 days
+   Expected Edge: +8-12%
+
+
+================================================================================
+SUMMARY: 9 High Confidence, 2 Medium Confidence
+================================================================================

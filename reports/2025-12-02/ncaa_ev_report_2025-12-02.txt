@@ -1,0 +1,88 @@
+🏀 NCAA BASKETBALL - COMPREHENSIVE EV REPORT
+================================================================================
+Date: 2025-12-02
+Total Games Analyzed: 5
+================================================================================
+
+📊 ALL GAMES RANKED BY EXPECTED VALUE (EV)
+================================================================================
+
+#1 Tennessee Volunteers @ Syracuse Orange
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Syracuse Orange ML
+   ODDS: +225
+   TRUE EV: +88.5%
+   STATUS: ✅ QUALIFIES (EV >= 5%)
+   ANGLE EDGE: +8.0%
+
+   Market Odds:
+     • Syracuse Orange: +225
+     • Tennessee Volunteers: -278
+
+   Betting Angles (1):
+     • Syracuse Orange at elite venue (5.5 point HCA vs 3.5 avg)
+
+#2 UConn Huskies @ Kansas Jayhawks
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Kansas Jayhawks ML
+   ODDS: +105
+   TRUE EV: +18.9%
+   STATUS: ✅ QUALIFIES (EV >= 5%)
+   ANGLE EDGE: +8.0%
+
+   Market Odds:
+     • Kansas Jayhawks: +105
+     • UConn Huskies: -125
+
+   Betting Angles (1):
+     • Kansas Jayhawks at elite venue (7.0 point HCA vs 3.5 avg)
+
+#3 North Carolina Tar Heels @ Kentucky Wildcats
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Kentucky Wildcats ML
+   ODDS: -230
+   TRUE EV: -16.8%
+   STATUS: ❌ FILTERED (EV < 5%)
+   ANGLE EDGE: +8.0%
+
+   Market Odds:
+     • Kentucky Wildcats: -230
+     • North Carolina Tar Heels: +190
+
+   Betting Angles (1):
+     • Kentucky Wildcats at elite venue (6.0 point HCA vs 3.5 avg)
+
+#4 Florida Gators @ Duke Blue Devils
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Duke Blue Devils ML
+   ODDS: -345
+   TRUE EV: -25.2%
+   STATUS: ❌ FILTERED (EV < 5%)
+   WARNING: ⚠️  Heavy favorite (worse than -250)
+   ANGLE EDGE: +8.0%
+
+   Market Odds:
+     • Duke Blue Devils: -345
+     • Florida Gators: +275
+
+   Betting Angles (1):
+     • Duke Blue Devils at elite venue (6.5 point HCA vs 3.5 avg)
+
+#5 Iowa Hawkeyes @ Michigan State Spartans
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Michigan State Spartans ML
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +8.0%
+
+   Betting Angles (1):
+     • Michigan State Spartans at elite venue (5.0 point HCA vs 3.5 avg)
+
+================================================================================
+📋 LEGEND
+  ✅ QUALIFIES: EV >= 5% and odds better than -250
+  ❌ FILTERED: Does not meet minimum EV threshold or too heavy favorite
+  TRUE EV: Expected value based on real odds and estimated win probability
+  ANGLE EDGE: Edge from betting angles (doesn't account for market odds)
+================================================================================

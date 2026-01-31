@@ -1,0 +1,224 @@
+⚽ SOCCER - COMPREHENSIVE EV REPORT
+================================================================================
+Date: 2026-01-25
+Total Matches Analyzed: 20
+================================================================================
+
+📊 ALL MATCHES RANKED BY EXPECTED VALUE (EV)
+================================================================================
+
+#1 Cremonese @ Sassuolo
+   League: Serie A
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Sassuolo
+   ODDS: +110
+   TRUE EV: -8.6%
+   STATUS: ❌ FILTERED (EV < 5%)
+   ANGLE EDGE: +8.5%
+
+   Market Odds:
+     • Sassuolo: +110
+     • Cremonese: +300
+
+   Betting Angles (1):
+     • Sassuolo fighting relegation - desperate for home points
+
+#2 Aston Villa @ Newcastle United
+   League: Premier League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Newcastle United
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +6.5%
+
+   Betting Angles (1):
+     • Newcastle United has strong home record
+
+#3 Nottingham Forest @ Brentford
+   League: Premier League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Brentford
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#4 Chelsea @ Crystal Palace
+   League: Premier League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Crystal Palace
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#5 Manchester United @ Arsenal
+   League: Premier League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Arsenal
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +5.0%
+
+   Betting Angles (1):
+     • Arsenal title contender should beat mid-table at home
+
+#6 Mallorca @ Atlético Madrid
+   League: La Liga
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Atlético Madrid
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#7 Oviedo @ Barcelona
+   League: La Liga
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Barcelona
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +5.0%
+
+   Betting Angles (1):
+     • Barcelona title contender should beat mid-table at home
+
+#8 Celta Vigo @ Real Sociedad
+   League: La Liga
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Real Sociedad
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#9 Real Betis @ Alavés
+   League: La Liga
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Alavés
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#10 Parma @ Atalanta BC
+   League: Serie A
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Atalanta BC
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +6.5%
+
+   Betting Angles (1):
+     • Atalanta BC has strong home record
+
+#11 Bologna @ Genoa
+   League: Serie A
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Genoa
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#12 Napoli @ Juventus
+   League: Serie A
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Juventus
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#13 AC Milan @ AS Roma
+   League: Serie A
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: AS Roma
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#14 VfB Stuttgart @ Borussia Monchengladbach
+   League: Bundesliga
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Borussia Monchengladbach
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#15 1. FC Köln @ SC Freiburg
+   League: Bundesliga
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: SC Freiburg
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +6.5%
+
+   Betting Angles (1):
+     • SC Freiburg has strong home record
+
+#16 Nice @ Nantes
+   League: Ligue 1
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Nantes
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#17 Angers @ Paris FC
+   League: Ligue 1
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Paris FC
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#18 Toulouse @ Brest
+   League: Ligue 1
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Brest
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#19 Lyon @ Metz
+   League: Ligue 1
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Metz
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +8.5%
+
+   Betting Angles (1):
+     • Metz fighting relegation - desperate for home points
+
+#20 Strasbourg @ Lille
+   League: Ligue 1
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Lille
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +5.0%
+
+   Betting Angles (1):
+     • Lille title contender should beat mid-table at home
+
+================================================================================
+📋 LEGEND
+  ✅ QUALIFIES: EV >= 5% and odds better than -250
+  ❌ FILTERED: Does not meet minimum EV threshold or too heavy favorite
+  TRUE EV: Expected value based on real odds and estimated win probability
+  ANGLE EDGE: Edge from betting angles (doesn't account for market odds)
+================================================================================

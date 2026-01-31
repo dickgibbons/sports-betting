@@ -1,0 +1,45 @@
+🏒 NHL BETTING PICKS - 2025-12-28
+================================================================================
+
+📊 SUMMARY
+────────────────────────────────────────────────────────────────────────────────
+Total Picks: 4
+🔥 ELITE: 1 picks
+✅ HIGH: 1 picks
+💡 MEDIUM: 2 picks
+
+🔥🔥🔥 #1 NYI @ CBJ
+   BET: CBJ ML
+   Expected Edge: +20.0%
+   Confidence: ELITE
+   Angles (2):
+     • NYI on HOME → ROAD B2B (80% win rate historical)
+     • CBJ has 3 days rest vs NYI 0 days
+   💰 Recommended: 2-3% of bankroll
+
+✅✅ #2 TOR @ DET
+   BET: DET ML
+   Expected Edge: +12.0%
+   Confidence: HIGH
+   Angles (1):
+     • TOR on HOME → ROAD B2B (80% win rate historical) | TOR is 4-3 in B2B situations
+   💰 Recommended: 1-2% of bankroll
+
+💡 #3 MTL @ TBL
+   BET: MTL ML
+   Expected Edge: +8.0%
+   Confidence: MEDIUM
+   Angles (1):
+     • MTL has 3 days rest vs TBL 0 days
+   💰 Recommended: 0.5-1% of bankroll
+
+💡 #4 PIT @ CHI
+   BET: PIT ML
+   Expected Edge: +8.0%
+   Confidence: MEDIUM
+   Angles (1):
+     • PIT has 3 days rest vs CHI 0 days
+   💰 Recommended: 0.5-1% of bankroll
+
+================================================================================
+📁 Full analysis saved to: /Users/dickgibbons/sports-betting/reports/2025-12-28/nhl_picks_2025-12-28.txt

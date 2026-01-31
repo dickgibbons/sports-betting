@@ -1,0 +1,43 @@
+================================================================================
+SOCCER PROFITABLE ANGLES DAILY REPORT - 2025-12-04
+================================================================================
+
+Based on 7,272 match analysis (2023-2025 seasons)
+Focus: Over 2.5, BTTS Yes, 1H Over 0.5 in high-scoring leagues
+
+--------------------------------------------------------------------------------
+📊 PREMIER LEAGUE
+   Historical: Over 2.5 hits 60.7% (ROI +15.3%)
+--------------------------------------------------------------------------------
+
+⚽ Manchester United vs West Ham
+   Time: 20:00 | Venue: Old Trafford
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  65.7%     | +15.3%         | ✅ YES
+   BTTS Yes          |  53.7%     | +10.0%         |    ---
+   1H Over 0.5       |  78.7%     | +9.7%          | ✅ YES
+   └─ Expected Total Goals: 2.8
+   └─ Home Scores: 76.9% | Away Scores: 61.5%
+
+================================================================================
+📋 SUMMARY
+================================================================================
+Total Games Analyzed: 1
+Total Recommendations: 2
+
+🎯 RECOMMENDED BETS (Confidence ≥55% & Historical ROI >5%):
+
+  1. Premier League - Manchester United vs West Ham
+     BET: 1H Over 0.5 @ 78.7% confidence
+     Historical ROI: +9.7%
+
+  2. Premier League - Manchester United vs West Ham
+     BET: Over 2.5 Goals @ 65.7% confidence
+     Historical ROI: +15.3%
+
+================================================================================
+⚠️  REMINDER: Only bet on angles with historical ROI > 5%
+   AVOID: BTTS No (-17% ROI), Over 3.5 (-40% ROI), 1H Over 1.5 (-24% ROI)
+================================================================================

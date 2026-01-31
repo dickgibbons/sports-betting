@@ -27,9 +27,17 @@ log "========================================="
 log "Soccer Daily Report Generation Starting"
 log "========================================="
 
-# Step 1: Generate main soccer best bets
+# Step 0: Generate PROFITABLE ANGLES DAILY REPORT (PRIMARY - based on 7,272 match analysis)
+log "STEP 0: Generating profitable angles daily report..."
+cd "$PROJECT_DIR/soccer/strategies"
+if python3 soccer_daily_profitable_report.py >> "$LOG_FILE" 2>&1; then
+    log "✓ Profitable angles report generated (All games in Bundesliga/EPL/MLS/Eredivisie with confidence %)"
+else
+    log "✗ Error generating profitable angles report"
+fi
+
+# Step 1: Generate main soccer best bets (legacy - for comparison)
 log "STEP 1: Generating soccer best bets (BTTS, Totals)..."
-cd "$PROJECT_DIR/soccer/analyzers/daily soccer"
 if python3 soccer_best_bets_daily.py >> "$LOG_FILE" 2>&1; then
     log "✓ Soccer best bets generated successfully"
 else
@@ -55,8 +63,15 @@ fi
 # Copy reports to date-organized directory
 log "STEP 4: Organizing reports..."
 cp soccer_report_*.txt "$REPORT_DIR/$DATE/" 2>/dev/null || true
-cp reports/$DATE*.json "$REPORT_DIR/$DATE/" 2>/dev/null || true
+cp reports/*/*.json "$REPORT_DIR/$DATE/" 2>/dev/null || true
 log "✓ Reports organized in $REPORT_DIR/$DATE/"
+
+# Copy to central Daily Reports folder
+DAILY_REPORTS="/Users/dickgibbons/Daily Reports/$DATE"
+mkdir -p "$DAILY_REPORTS"
+DATE_SHORT=$(date +%Y%m%d)
+cp "$PROJECT_DIR/soccer/strategies/reports"/*/soccer_* "$DAILY_REPORTS/" 2>/dev/null || true
+log "✓ Reports copied to $DAILY_REPORTS/"
 
 log "========================================="
 log "Soccer Daily Report Generation Complete"

@@ -1,0 +1,51 @@
+⚽ SOCCER - COMPREHENSIVE EV REPORT
+================================================================================
+Date: 2025-12-15
+Total Matches Analyzed: 3
+================================================================================
+
+📊 ALL MATCHES RANKED BY EXPECTED VALUE (EV)
+================================================================================
+
+#1 Como @ AS Roma
+   League: Serie A
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: AS Roma
+   ODDS: +125
+   TRUE EV: -21.3%
+   STATUS: ❌ FILTERED (EV < 5%)
+   ANGLE EDGE: +0.0%
+
+   Market Odds:
+     • AS Roma: +125
+     • Como: +250
+
+#2 Bournemouth @ Manchester United
+   League: Premier League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Manchester United
+   ODDS: -120
+   TRUE EV: -35.8%
+   STATUS: ❌ FILTERED (EV < 5%)
+   ANGLE EDGE: +0.0%
+
+   Market Odds:
+     • Manchester United: -120
+     • Bournemouth: +290
+
+#3 Real Betis @ Rayo Vallecano
+   League: La Liga
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Rayo Vallecano
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+================================================================================
+📋 LEGEND
+  ✅ QUALIFIES: EV >= 5% and odds better than -250
+  ❌ FILTERED: Does not meet minimum EV threshold or too heavy favorite
+  TRUE EV: Expected value based on real odds and estimated win probability
+  ANGLE EDGE: Edge from betting angles (doesn't account for market odds)
+================================================================================

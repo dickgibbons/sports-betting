@@ -1,0 +1,228 @@
+⚽ SOCCER - COMPREHENSIVE EV REPORT
+================================================================================
+Date: 2026-01-28
+Total Matches Analyzed: 18
+================================================================================
+
+📊 ALL MATCHES RANKED BY EXPECTED VALUE (EV)
+================================================================================
+
+#1 Juventus @ AS Monaco
+   League: Champions League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: AS Monaco
+   ODDS: +300
+   TRUE EV: +40.0%
+   STATUS: ✅ QUALIFIES (EV >= 5%, odds OK)
+   ANGLE EDGE: +0.0%
+
+   Market Odds:
+     • AS Monaco: +300
+     • Juventus: -115
+
+#2 Atalanta BC @ Union Saint-Gilloise
+   League: Champions League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Union Saint-Gilloise
+   ODDS: +225
+   TRUE EV: +13.7%
+   STATUS: ✅ QUALIFIES (EV >= 5%, odds OK)
+   ANGLE EDGE: +0.0%
+
+   Market Odds:
+     • Union Saint-Gilloise: +225
+     • Atalanta BC: +110
+
+#3 Sporting Lisbon @ Athletic Bilbao
+   League: Champions League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Athletic Bilbao
+   ODDS: +165
+   TRUE EV: +10.0%
+   STATUS: ✅ QUALIFIES (EV >= 5%, odds OK)
+   ANGLE EDGE: +6.5%
+
+   Market Odds:
+     • Athletic Bilbao: +165
+     • Sporting Lisbon: +160
+
+   Betting Angles (1):
+     • Athletic Bilbao has strong home record
+
+#4 Olympiakos Piraeus @ Ajax
+   League: Champions League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Ajax
+   ODDS: +180
+   TRUE EV: -2.0%
+   STATUS: ❌ FILTERED (EV < 5%)
+   ANGLE EDGE: +0.0%
+
+   Market Odds:
+     • Ajax: +180
+     • Olympiakos Piraeus: +140
+
+#5 FC Copenhagen @ Barcelona
+   League: Champions League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Barcelona
+   ODDS: -650
+   TRUE EV: -53.8%
+   STATUS: ❌ FILTERED (EV < 5%)
+   ANGLE EDGE: +5.0%
+
+   Market Odds:
+     • Barcelona: -650
+     • FC Copenhagen: +1250
+
+   Betting Angles (1):
+     • Barcelona title contender should beat mid-table at home
+
+#6 Bodø/Glimt @ Atlético Madrid
+   League: Champions League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Atlético Madrid
+   ODDS: -350
+   TRUE EV: -55.0%
+   STATUS: ❌ FILTERED (EV < 5%)
+   ANGLE EDGE: +0.0%
+
+   Market Odds:
+     • Atlético Madrid: -350
+     • Bodø/Glimt: +700
+
+#7 FC Kairat @ Arsenal
+   League: Champions League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Arsenal
+   ODDS: -2500
+   TRUE EV: -58.4%
+   STATUS: ❌ FILTERED (EV < 5%)
+   ANGLE EDGE: +5.0%
+
+   Market Odds:
+     • Arsenal: -2500
+     • FC Kairat: +4500
+
+   Betting Angles (1):
+     • Arsenal title contender should beat mid-table at home
+
+#8 Villarreal @ Bayer Leverkusen
+   League: Champions League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Bayer Leverkusen
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +5.0%
+
+   Betting Angles (1):
+     • Bayer Leverkusen title contender should beat mid-table at home
+
+#9 Bayern Munich @ PSV Eindhoven
+   League: Champions League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: PSV Eindhoven
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#10 Real Madrid @ Benfica
+   League: Champions League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Benfica
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#11 Inter Milan @ Borussia Dortmund
+   League: Champions League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Borussia Dortmund
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#12 Chelsea @ Napoli
+   League: Champions League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Napoli
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +11.5%
+
+   Betting Angles (2):
+     • Napoli title contender should beat mid-table at home
+     • Napoli has strong home record
+
+#13 Marseille @ Club Brugge
+   League: Champions League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Club Brugge
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#14 Tottenham Hotspur @ Eintracht Frankfurt
+   League: Champions League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Eintracht Frankfurt
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#15 Galatasaray @ Manchester City
+   League: Champions League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Manchester City
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +5.0%
+
+   Betting Angles (1):
+     • Manchester City title contender should beat mid-table at home
+
+#16 Qarabağ FK @ Liverpool
+   League: Champions League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Liverpool
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +5.0%
+
+   Betting Angles (1):
+     • Liverpool title contender should beat mid-table at home
+
+#17 Newcastle United @ Paris Saint Germain
+   League: Champions League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Paris Saint Germain
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#18 Slavia Praha @ Pafos FC
+   League: Champions League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Pafos FC
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+================================================================================
+📋 LEGEND
+  ✅ QUALIFIES: EV >= 5% and odds better than -250
+  ❌ FILTERED: Does not meet minimum EV threshold or too heavy favorite
+  TRUE EV: Expected value based on real odds and estimated win probability
+  ANGLE EDGE: Edge from betting angles (doesn't account for market odds)
+================================================================================

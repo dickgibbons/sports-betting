@@ -1,0 +1,76 @@
+🏒 NHL ML TOTALS PREDICTION REPORT - 2025-11-21
+====================================================================================================
+
+GAME #1: Blackhawks @ Sabres
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  6.76
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Sabres                         over 0.5 goals: 78.0%
+      Blackhawks                     over 0.5 goals: 68.0%
+      1st Period Total over 1.5 goals: 65.0%
+
+   MODEL PREDICTIONS:
+      linear              : 6.58
+      ridge               : 6.55
+      random_forest       : 6.76
+      gradient_boost      : 7.44
+
+
+GAME #2: Wild @ Penguins
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  5.51
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Penguins                       over 0.5 goals: 62.0%
+      Wild                           over 0.5 goals: 28.0%
+      1st Period Total over 1.5 goals: 30.0%
+
+   MODEL PREDICTIONS:
+      linear              : 6.52
+      ridge               : 6.53
+      random_forest       : 5.51
+      gradient_boost      : 4.94
+
+
+GAME #3: Hurricanes @ Jets
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  6.32
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Jets                           over 0.5 goals: 77.0%
+      Hurricanes                     over 0.5 goals: 63.0%
+      1st Period Total over 1.5 goals: 38.0%
+
+   MODEL PREDICTIONS:
+      linear              : 6.09
+      ridge               : 6.09
+      random_forest       : 6.32
+      gradient_boost      : 7.76
+
+
+GAME #4: Bruins @ Kings
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  5.85
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Kings                          over 0.5 goals: 61.0%
+      Bruins                         over 0.5 goals: 52.0%
+      1st Period Total over 1.5 goals: 60.0%
+
+   MODEL PREDICTIONS:
+      linear              : 6.11
+      ridge               : 6.10
+      random_forest       : 5.85
+      gradient_boost      : 6.67
+
+
+====================================================================================================
+SUMMARY
+====================================================================================================
+
+No games with significant edge (±0.5 goals) today

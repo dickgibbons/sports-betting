@@ -1,0 +1,134 @@
+⚽ SOCCER - COMPREHENSIVE EV REPORT
+================================================================================
+Date: 2025-12-21
+Total Matches Analyzed: 11
+================================================================================
+
+📊 ALL MATCHES RANKED BY EXPECTED VALUE (EV)
+================================================================================
+
+#1 Pisa @ Cagliari
+   League: Serie A
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Cagliari
+   ODDS: +115
+   TRUE EV: -24.8%
+   STATUS: ❌ FILTERED (EV < 5%)
+   ANGLE EDGE: +0.0%
+
+   Market Odds:
+     • Cagliari: +115
+     • Pisa: +290
+
+#2 Manchester United @ Aston Villa
+   League: Premier League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Aston Villa
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#3 Atlético Madrid @ Girona
+   League: La Liga
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Girona
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +5.0%
+
+   Betting Angles (1):
+     • Girona title contender should beat mid-table at home
+
+#4 Barcelona @ Villarreal
+   League: La Liga
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Villarreal
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#5 Rayo Vallecano @ Elche CF
+   League: La Liga
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Elche CF
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#6 Getafe @ Real Betis
+   League: La Liga
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Real Betis
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +6.5%
+
+   Betting Angles (1):
+     • Real Betis has strong home record
+
+#7 Torino @ Sassuolo
+   League: Serie A
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Sassuolo
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +8.5%
+
+   Betting Angles (1):
+     • Sassuolo fighting relegation - desperate for home points
+
+#8 Udinese @ Fiorentina
+   League: Serie A
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Fiorentina
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +6.5%
+
+   Betting Angles (1):
+     • Fiorentina has strong home record
+
+#9 Atalanta BC @ Genoa
+   League: Serie A
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Genoa
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#10 FC St. Pauli @ FSV Mainz 05
+   League: Bundesliga
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: FSV Mainz 05
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#11 Bayern Munich @ 1. FC Heidenheim
+   League: Bundesliga
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: 1. FC Heidenheim
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +8.5%
+
+   Betting Angles (1):
+     • 1. FC Heidenheim fighting relegation - desperate for home points
+
+================================================================================
+📋 LEGEND
+  ✅ QUALIFIES: EV >= 5% and odds better than -250
+  ❌ FILTERED: Does not meet minimum EV threshold or too heavy favorite
+  TRUE EV: Expected value based on real odds and estimated win probability
+  ANGLE EDGE: Edge from betting angles (doesn't account for market odds)
+================================================================================

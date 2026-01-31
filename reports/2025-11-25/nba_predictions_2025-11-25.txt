@@ -1,0 +1,42 @@
+AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+/Users/dickgibbons/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+------------------fanduel odds data------------------
+Atlanta Hawks (-450) @ Washington Wizards (350)
+Orlando Magic (-126) @ Philadelphia 76ers (108)
+LA Clippers (162) @ Los Angeles Lakers (-194)
+---------------XGBoost Model Predictions---------------
+Washington Wizards vs Atlanta Hawks (70.8%): OVER 236.5 (60.7%)
+Philadelphia 76ers vs Orlando Magic (51.7%): UNDER 227.5 (54.6%)
+Los Angeles Lakers (68.0%) vs LA Clippers: OVER 229.5 (81.2%)
+------------Expected Value & Kelly Criterion-----------
+Washington Wizards EV: 31.62 Fraction of Bankroll: 9.03%
+Atlanta Hawks EV: -13.53 Fraction of Bankroll: 0%
+Philadelphia 76ers EV: 0.46 Fraction of Bankroll: 0.42%
+Orlando Magic EV: -7.26 Fraction of Bankroll: 0%
+Los Angeles Lakers EV: 3.02 Fraction of Bankroll: 6.41%
+LA Clippers EV: -16.11 Fraction of Bankroll: 0%
+-------------------------------------------------------
+------------Neural Network Model Predictions-----------
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.RestoredOptimizer` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.RestoredOptimizer`.
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.RestoredOptimizer` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.RestoredOptimizer`.
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 49ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 4ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 4ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 10ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 4ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 3ms/step
+Washington Wizards vs Atlanta Hawks (67.0%): UNDER 236.5 (50.3%)
+Philadelphia 76ers (59.7%) vs Orlando Magic: UNDER 227.5 (50.9%)
+Los Angeles Lakers (70.0%) vs LA Clippers: UNDER 229.5 (51.4%)
+------------Expected Value & Kelly Criterion-----------
+Washington Wizards EV: 48.3 Fraction of Bankroll: 13.8%
+Atlanta Hawks EV: -18.06 Fraction of Bankroll: 0%
+Philadelphia 76ers EV: 24.15 Fraction of Bankroll: 22.36%
+Orlando Magic EV: -27.7 Fraction of Bankroll: 0%
+Los Angeles Lakers EV: 6.15 Fraction of Bankroll: 12.45%
+LA Clippers EV: -21.52 Fraction of Bankroll: 0%
+-------------------------------------------------------

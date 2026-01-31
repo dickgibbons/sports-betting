@@ -1,0 +1,59 @@
+🏒 NHL ML TOTALS PREDICTION REPORT - 2025-12-10
+====================================================================================================
+
+GAME #1: Rangers @ Blackhawks
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  5.34
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Blackhawks                     over 0.5 goals: 56.0%
+      Rangers                        over 0.5 goals: 48.0%
+      1st Period Total over 1.5 goals: 42.0%
+
+   MODEL PREDICTIONS:
+      linear              : 6.07
+      ridge               : 6.07
+      random_forest       : 5.34
+      gradient_boost      : 6.12
+
+
+GAME #2: Red Wings @ Flames
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  4.84
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Flames                         over 0.5 goals: 42.0%
+      Red Wings                      over 0.5 goals: 57.0%
+      1st Period Total over 1.5 goals: 43.0%
+
+   MODEL PREDICTIONS:
+      linear              : 5.34
+      ridge               : 5.34
+      random_forest       : 4.84
+      gradient_boost      : 4.89
+
+
+GAME #3: Kings @ Kraken
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  5.37
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Kraken                         over 0.5 goals: 50.0%
+      Kings                          over 0.5 goals: 46.0%
+      1st Period Total over 1.5 goals: 32.0%
+
+   MODEL PREDICTIONS:
+      linear              : 5.66
+      ridge               : 5.69
+      random_forest       : 5.37
+      gradient_boost      : 5.12
+
+
+====================================================================================================
+SUMMARY
+====================================================================================================
+
+No games with significant edge (±0.5 goals) today

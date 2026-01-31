@@ -1,0 +1,225 @@
+================================================================================
+SOCCER PROFITABLE ANGLES DAILY REPORT - 2025-12-27
+================================================================================
+
+Based on 7,272 match analysis (2023-2025 seasons)
+Focus: Over 2.5, BTTS Yes, 1H Over 0.5 in high-scoring leagues
+
+--------------------------------------------------------------------------------
+📊 PREMIER LEAGUE
+   Historical: Over 2.5 hits 60.7% (ROI +15.3%)
+--------------------------------------------------------------------------------
+
+⚽ Nottingham Forest vs Manchester City
+   Time: 12:30 | Venue: City Ground
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  68.7%     | +15.3%         | ✅ YES
+   BTTS Yes          |  48.7%     | +10.0%         |    ---
+   1H Over 0.5       |  81.7%     | +9.7%          | ✅ YES
+   └─ Expected Total Goals: 3.4
+   └─ Home Scores: 47.1% | Away Scores: 88.2%
+
+⚽ Liverpool vs Wolves
+   Time: 15:00 | Venue: Anfield
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  56.7%     | +15.3%         | ✅ YES
+   BTTS Yes          |  47.4%     | +10.0%         |    ---
+   1H Over 0.5       |  75.7%     | +9.7%          | ✅ YES
+   └─ Expected Total Goals: 2.1
+   └─ Home Scores: 88.2% | Away Scores: 41.2%
+
+⚽ Arsenal vs Brighton
+   Time: 15:00 | Venue: Emirates Stadium
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  68.7%     | +15.3%         | ✅ YES
+   BTTS Yes          |  57.2%     | +10.0%         | ✅ YES
+   1H Over 0.5       |  81.7%     | +9.7%          | ✅ YES
+   └─ Expected Total Goals: 3.3
+   └─ Home Scores: 94.1% | Away Scores: 76.5%
+
+⚽ Burnley vs Everton
+   Time: 15:00 | Venue: Turf Moor
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  60.7%     | +15.3%         | ✅ YES
+   BTTS Yes          |  51.1%     | +10.0%         |    ---
+   1H Over 0.5       |  75.7%     | +9.7%          | ✅ YES
+   └─ Expected Total Goals: 2.2
+   └─ Home Scores: 70.6% | Away Scores: 64.7%
+
+⚽ West Ham vs Fulham
+   Time: 15:00 | Venue: London Stadium
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  62.7%     | +15.3%         | ✅ YES
+   BTTS Yes          |  54.9%     | +10.0%         |    ---
+   1H Over 0.5       |  75.7%     | +9.7%          | ✅ YES
+   └─ Expected Total Goals: 2.5
+   └─ Home Scores: 64.7% | Away Scores: 82.4%
+
+⚽ Brentford vs Bournemouth
+   Time: 15:00 | Venue: Brentford Community Stadium
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  65.7%     | +15.3%         | ✅ YES
+   BTTS Yes          |  55.4%     | +10.0%         | ✅ YES
+   1H Over 0.5       |  78.7%     | +9.7%          | ✅ YES
+   └─ Expected Total Goals: 2.9
+   └─ Home Scores: 76.5% | Away Scores: 76.5%
+
+⚽ Chelsea vs Aston Villa
+   Time: 17:30 | Venue: Stamford Bridge
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  68.7%     | +15.3%         | ✅ YES
+   BTTS Yes          |  54.3%     | +10.0%         |    ---
+   1H Over 0.5       |  81.7%     | +9.7%          | ✅ YES
+   └─ Expected Total Goals: 3.3
+   └─ Home Scores: 88.2% | Away Scores: 70.6%
+
+--------------------------------------------------------------------------------
+📊 SERIE A
+   Historical: Over 2.5 hits 55.2% (ROI +4.8%)
+--------------------------------------------------------------------------------
+
+⚽ Parma vs Fiorentina
+   Time: 11:30 | Venue: Stadio Ennio Tardini
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  47.2%     | +4.8%          |    ---
+   BTTS Yes          |  43.6%     | -0.1%          |    ---
+   1H Over 0.5       |  64.5%     | +2.2%          |    ---
+   └─ Expected Total Goals: 1.8
+   └─ Home Scores: 46.7% | Away Scores: 68.8%
+
+⚽ Torino vs Cagliari
+   Time: 14:00 | Venue: Stadio Olimpico Grande Torino
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  51.2%     | +4.8%          |    ---
+   BTTS Yes          |  47.4%     | -0.1%          |    ---
+   1H Over 0.5       |  70.5%     | +2.2%          |    ---
+   └─ Expected Total Goals: 2.1
+   └─ Home Scores: 68.8% | Away Scores: 68.8%
+
+⚽ Lecce vs Como
+   Time: 14:00 | Venue: Stadio Ettore Giardiniero - Via del Mare
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  51.2%     | +4.8%          |    ---
+   BTTS Yes          |  41.8%     | -0.1%          |    ---
+   1H Over 0.5       |  70.5%     | +2.2%          |    ---
+   └─ Expected Total Goals: 2.0
+   └─ Home Scores: 53.3% | Away Scores: 60.0%
+
+⚽ Udinese vs Lazio
+   Time: 17:00 | Venue: Bluenergy Stadium - Stadio Friuli
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  55.2%     | +4.8%          |    ---
+   BTTS Yes          |  44.2%     | -0.1%          |    ---
+   1H Over 0.5       |  70.5%     | +2.2%          |    ---
+   └─ Expected Total Goals: 2.2
+   └─ Home Scores: 81.2% | Away Scores: 50.0%
+
+⚽ Pisa vs Juventus
+   Time: 19:45 | Venue: Arena Garibaldi - Stadio Romeo Anconetani
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  51.2%     | +4.8%          |    ---
+   BTTS Yes          |  43.1%     | -0.1%          |    ---
+   1H Over 0.5       |  70.5%     | +2.2%          |    ---
+   └─ Expected Total Goals: 2.1
+   └─ Home Scores: 43.8% | Away Scores: 75.0%
+
+================================================================================
+📋 SUMMARY
+================================================================================
+Total Games Analyzed: 12
+Total Recommendations: 16
+
+🎯 RECOMMENDED BETS (Confidence ≥55% & Historical ROI >5%):
+
+  1. Premier League - Nottingham Forest vs Manchester City
+     BET: 1H Over 0.5 @ 81.7% confidence
+     Historical ROI: +9.7%
+
+  2. Premier League - Arsenal vs Brighton
+     BET: 1H Over 0.5 @ 81.7% confidence
+     Historical ROI: +9.7%
+
+  3. Premier League - Chelsea vs Aston Villa
+     BET: 1H Over 0.5 @ 81.7% confidence
+     Historical ROI: +9.7%
+
+  4. Premier League - Brentford vs Bournemouth
+     BET: 1H Over 0.5 @ 78.7% confidence
+     Historical ROI: +9.7%
+
+  5. Premier League - Liverpool vs Wolves
+     BET: 1H Over 0.5 @ 75.7% confidence
+     Historical ROI: +9.7%
+
+  6. Premier League - Burnley vs Everton
+     BET: 1H Over 0.5 @ 75.7% confidence
+     Historical ROI: +9.7%
+
+  7. Premier League - West Ham vs Fulham
+     BET: 1H Over 0.5 @ 75.7% confidence
+     Historical ROI: +9.7%
+
+  8. Premier League - Nottingham Forest vs Manchester City
+     BET: Over 2.5 Goals @ 68.7% confidence
+     Historical ROI: +15.3%
+
+  9. Premier League - Arsenal vs Brighton
+     BET: Over 2.5 Goals @ 68.7% confidence
+     Historical ROI: +15.3%
+
+  10. Premier League - Chelsea vs Aston Villa
+     BET: Over 2.5 Goals @ 68.7% confidence
+     Historical ROI: +15.3%
+
+  11. Premier League - Brentford vs Bournemouth
+     BET: Over 2.5 Goals @ 65.7% confidence
+     Historical ROI: +15.3%
+
+  12. Premier League - West Ham vs Fulham
+     BET: Over 2.5 Goals @ 62.7% confidence
+     Historical ROI: +15.3%
+
+  13. Premier League - Burnley vs Everton
+     BET: Over 2.5 Goals @ 60.7% confidence
+     Historical ROI: +15.3%
+
+  14. Premier League - Arsenal vs Brighton
+     BET: BTTS Yes @ 57.2% confidence
+     Historical ROI: +10.0%
+
+  15. Premier League - Liverpool vs Wolves
+     BET: Over 2.5 Goals @ 56.7% confidence
+     Historical ROI: +15.3%
+
+  16. Premier League - Brentford vs Bournemouth
+     BET: BTTS Yes @ 55.4% confidence
+     Historical ROI: +10.0%
+
+================================================================================
+⚠️  REMINDER: Only bet on angles with historical ROI > 5%
+   AVOID: BTTS No (-17% ROI), Over 3.5 (-40% ROI), 1H Over 1.5 (-24% ROI)
+================================================================================

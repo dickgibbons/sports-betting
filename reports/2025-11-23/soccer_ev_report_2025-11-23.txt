@@ -1,0 +1,197 @@
+⚽ SOCCER - COMPREHENSIVE EV REPORT
+================================================================================
+Date: 2025-11-23
+Total Matches Analyzed: 18
+================================================================================
+
+📊 ALL MATCHES RANKED BY EXPECTED VALUE (EV)
+================================================================================
+
+#1 Parma @ Hellas Verona
+   League: Serie A
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Hellas Verona
+   ODDS: +125
+   TRUE EV: -21.3%
+   STATUS: ❌ FILTERED (EV < 5%)
+   ANGLE EDGE: +0.0%
+
+   Market Odds:
+     • Hellas Verona: +125
+     • Parma: +260
+
+#2 Aston Villa @ Leeds United
+   League: Premier League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Leeds United
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#3 Tottenham Hotspur @ Arsenal
+   League: Premier League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Arsenal
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#4 Rayo Vallecano @ Oviedo
+   League: La Liga
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Oviedo
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#5 Girona @ Real Betis
+   League: La Liga
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Real Betis
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +6.5%
+
+   Betting Angles (1):
+     • Real Betis has strong home record
+
+#6 Atlético Madrid @ Getafe
+   League: La Liga
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Getafe
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#7 Real Madrid @ Elche CF
+   League: La Liga
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Elche CF
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#8 AS Roma @ Cremonese
+   League: Serie A
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Cremonese
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#9 Lecce @ Lazio
+   League: Serie A
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Lazio
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +6.5%
+
+   Betting Angles (1):
+     • Lazio has strong home record
+
+#10 AC Milan @ Inter Milan
+   League: Serie A
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Inter Milan
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#11 Werder Bremen @ RB Leipzig
+   League: Bundesliga
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: RB Leipzig
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +5.0%
+
+   Betting Angles (1):
+     • RB Leipzig title contender should beat mid-table at home
+
+#12 Union Berlin @ FC St. Pauli
+   League: Bundesliga
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: FC St. Pauli
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#13 Lyon @ Auxerre
+   League: Ligue 1
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Auxerre
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#14 Angers @ Toulouse
+   League: Ligue 1
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Toulouse
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#15 Metz @ Brest
+   League: Ligue 1
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Brest
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +7.5%
+
+   Betting Angles (1):
+     • Metz struggles away from home
+
+#16 Lorient @ Nantes
+   League: Ligue 1
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Nantes
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#17 Paris FC @ Lille
+   League: Ligue 1
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Lille
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +5.0%
+
+   Betting Angles (1):
+     • Lille title contender should beat mid-table at home
+
+#18 Inter Miami CF @ FC Cincinnati
+   League: MLS
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: FC Cincinnati
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+================================================================================
+📋 LEGEND
+  ✅ QUALIFIES: EV >= 5% and odds better than -250
+  ❌ FILTERED: Does not meet minimum EV threshold or too heavy favorite
+  TRUE EV: Expected value based on real odds and estimated win probability
+  ANGLE EDGE: Edge from betting angles (doesn't account for market odds)
+================================================================================

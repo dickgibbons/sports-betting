@@ -1,0 +1,36 @@
+🏀 NCAA BETTING PICKS - 2025-12-30
+================================================================================
+
+📊 SUMMARY
+────────────────────────────────────────────────────────────────────────────────
+Total Picks: 3
+✅ HIGH: 1 picks
+⚪ LOW: 2 picks
+
+✅✅ #1 Notre Dame Fighting Irish @ Stanford Cardinal
+   BET: Notre Dame Fighting Irish ML
+   ODDS: +190 | True EV: +68.2%
+   Confidence: HIGH
+   Angles (2):
+     • Notre Dame Fighting Irish underdog value at +190
+     • Close spread (-5.5) suggests competitive game
+   💰 Recommended: 1-2% of bankroll
+
+⚪ #2 Seton Hall Pirates @ Marquette Golden Eagles
+   BET: Marquette Golden Eagles ML
+   ODDS: +120 | True EV: +16.6%
+   Confidence: LOW
+   Angles (1):
+     • Close spread (+2.5) suggests competitive game
+   💰 Recommended: Optional/skip
+
+⚪ #3 Butler Bulldogs @ Creighton Bluejays
+   BET: Butler Bulldogs ML
+   ODDS: +180 | True EV: +48.4%
+   Confidence: LOW
+   Angles (1):
+     • Close spread (-5.5) suggests competitive game
+   💰 Recommended: Optional/skip
+
+================================================================================
+📁 Full analysis saved to: /Users/dickgibbons/sports-betting/reports/2025-12-30/ncaa_picks_2025-12-30.txt

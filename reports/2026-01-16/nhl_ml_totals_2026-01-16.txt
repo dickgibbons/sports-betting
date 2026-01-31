@@ -1,0 +1,93 @@
+🏒 NHL ML TOTALS PREDICTION REPORT - 2026-01-16
+====================================================================================================
+
+GAME #1: Sharks @ Red Wings
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  5.37
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Red Wings                      over 0.5 goals: 60.0%
+      Sharks                         over 0.5 goals: 51.0%
+      1st Period Total over 1.5 goals: 56.0%
+
+   MODEL PREDICTIONS:
+      linear              : 5.39
+      ridge               : 5.42
+      random_forest       : 5.37
+      gradient_boost      : 4.74
+
+
+GAME #2: Panthers @ Hurricanes
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  5.84
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Hurricanes                     over 0.5 goals: 92.0%
+      Panthers                       over 0.5 goals: 66.0%
+      1st Period Total over 1.5 goals: 61.0%
+
+   MODEL PREDICTIONS:
+      linear              : 5.91
+      ridge               : 5.91
+      random_forest       : 5.84
+      gradient_boost      : 6.01
+
+
+GAME #3: Lightning @ Blues
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  5.47
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Blues                          over 0.5 goals: 38.0%
+      Lightning                      over 0.5 goals: 45.0%
+      1st Period Total over 1.5 goals: 50.0%
+
+   MODEL PREDICTIONS:
+      linear              : 5.09
+      ridge               : 5.11
+      random_forest       : 5.47
+      gradient_boost      : 5.87
+
+
+GAME #4: Predators @ Avalanche
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  6.33
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Avalanche                      over 0.5 goals: 56.0%
+      Predators                      over 0.5 goals: 64.0%
+      1st Period Total over 1.5 goals: 49.0%
+
+   MODEL PREDICTIONS:
+      linear              : 6.39
+      ridge               : 6.38
+      random_forest       : 6.33
+      gradient_boost      : 6.31
+
+
+GAME #5: Ducks @ Kings
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  5.91
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Kings                          over 0.5 goals: 64.0%
+      Ducks                          over 0.5 goals: 53.0%
+      1st Period Total over 1.5 goals: 57.0%
+
+   MODEL PREDICTIONS:
+      linear              : 6.60
+      ridge               : 6.56
+      random_forest       : 5.91
+      gradient_boost      : 5.99
+
+
+====================================================================================================
+SUMMARY
+====================================================================================================
+
+No games with significant edge (±0.5 goals) today

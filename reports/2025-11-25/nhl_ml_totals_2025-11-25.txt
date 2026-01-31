@@ -1,0 +1,25 @@
+🏒 NHL ML TOTALS PREDICTION REPORT - 2025-11-25
+====================================================================================================
+
+GAME #1: Stars @ Oilers
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  5.23
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Oilers                         over 0.5 goals: 46.0%
+      Stars                          over 0.5 goals: 52.0%
+      1st Period Total over 1.5 goals: 23.0%
+
+   MODEL PREDICTIONS:
+      linear              : 5.40
+      ridge               : 5.45
+      random_forest       : 5.23
+      gradient_boost      : 4.47
+
+
+====================================================================================================
+SUMMARY
+====================================================================================================
+
+No games with significant edge (±0.5 goals) today

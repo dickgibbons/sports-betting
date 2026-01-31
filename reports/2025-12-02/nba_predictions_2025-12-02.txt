@@ -1,0 +1,69 @@
+AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+/Users/dickgibbons/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+------------------fanduel odds data------------------
+Washington Wizards (530) @ Philadelphia 76ers (-750)
+Portland Trail Blazers (176) @ Toronto Raptors (-210)
+Memphis Grizzlies (180) @ San Antonio Spurs (-215)
+Minnesota Timberwolves (-420) @ New Orleans Pelicans (330)
+New York Knicks (-104) @ Boston Celtics (-112)
+Oklahoma City Thunder (-590) @ Golden State Warriors (440)
+---------------XGBoost Model Predictions---------------
+Philadelphia 76ers (73.6%) vs Washington Wizards: UNDER 234.5 (74.4%)
+Toronto Raptors (69.9%) vs Portland Trail Blazers: OVER 232.5 (63.7%)
+San Antonio Spurs (74.3%) vs Memphis Grizzlies: OVER 231.5 (87.6%)
+New Orleans Pelicans vs Minnesota Timberwolves (72.7%): UNDER 235.5 (81.6%)
+Boston Celtics vs New York Knicks (52.0%): OVER 230.5 (82.6%)
+Golden State Warriors vs Oklahoma City Thunder (59.3%): UNDER 220.5 (63.1%)
+------------Expected Value & Kelly Criterion-----------
+Philadelphia 76ers EV: -16.53 Fraction of Bankroll: 0%
+Washington Wizards EV: 66.02 Fraction of Bankroll: 12.46%
+Toronto Raptors EV: 3.14 Fraction of Bankroll: 7.09%
+Portland Trail Blazers EV: -16.84 Fraction of Bankroll: 0%
+San Antonio Spurs EV: 8.85 Fraction of Bankroll: 19.6%
+Memphis Grizzlies EV: -28.02 Fraction of Bankroll: 0%
+New Orleans Pelicans EV: 17.27 Fraction of Bankroll: 5.23%
+Minnesota Timberwolves EV: -9.95 Fraction of Bankroll: 0%
+Boston Celtics EV: -9.22 Fraction of Bankroll: 0%
+New York Knicks EV: 2.08 Fraction of Bankroll: 2.08%
+Golden State Warriors EV: 119.81 Fraction of Bankroll: 27.23%
+Oklahoma City Thunder EV: -30.65 Fraction of Bankroll: 0%
+-------------------------------------------------------
+------------Neural Network Model Predictions-----------
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.RestoredOptimizer` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.RestoredOptimizer`.
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.RestoredOptimizer` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.RestoredOptimizer`.
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 108ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 12ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 11ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 11ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 11ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 11ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 11ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 11ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 11ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 13ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 11ms/step
+Philadelphia 76ers (71.7%) vs Washington Wizards: OVER 234.5 (49.8%)
+Toronto Raptors (70.4%) vs Portland Trail Blazers: OVER 232.5 (50.2%)
+San Antonio Spurs (74.4%) vs Memphis Grizzlies: OVER 231.5 (50.4%)
+New Orleans Pelicans vs Minnesota Timberwolves (68.0%): UNDER 235.5 (50.8%)
+Boston Celtics vs New York Knicks (51.9%): OVER 230.5 (49.9%)
+Golden State Warriors vs Oklahoma City Thunder (61.1%): UNDER 220.5 (51.4%)
+------------Expected Value & Kelly Criterion-----------
+Philadelphia 76ers EV: -18.72 Fraction of Bankroll: 0%
+Washington Wizards EV: 78.19 Fraction of Bankroll: 14.75%
+Toronto Raptors EV: 3.89 Fraction of Bankroll: 8.67%
+Portland Trail Blazers EV: -18.25 Fraction of Bankroll: 0%
+San Antonio Spurs EV: 9.01 Fraction of Bankroll: 19.94%
+Memphis Grizzlies EV: -28.33 Fraction of Bankroll: 0%
+New Orleans Pelicans EV: 37.49 Fraction of Bankroll: 11.36%
+Minnesota Timberwolves EV: -15.78 Fraction of Bankroll: 0%
+Boston Celtics EV: -9.05 Fraction of Bankroll: 0%
+New York Knicks EV: 1.9 Fraction of Bankroll: 1.9%
+Golden State Warriors EV: 110.22 Fraction of Bankroll: 25.05%
+Oklahoma City Thunder EV: -28.58 Fraction of Bankroll: 0%
+-------------------------------------------------------

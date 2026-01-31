@@ -1,0 +1,123 @@
+================================================================================
+                    AUTONOMOUS BETTING SYSTEM
+              Self-Improving Sports Betting Platform
+================================================================================
+
+WHAT YOU DO:
+------------
+1. Run: ./run_all_daily.sh
+2. Review the output
+3. That's it!
+
+WHAT THE SYSTEM DOES AUTOMATICALLY:
+------------------------------------
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│  STEP 1: UPDATE RESULTS FROM YESTERDAY                                  │
+│  ✓ Fetches NHL game results from API                                    │
+│  ✓ Fetches NBA game results from API                                    │
+│  ✓ Marks predictions as won/lost                                        │
+│  ✓ Calculates profit/loss                                               │
+└─────────────────────────────────────────────────────────────────────────┘
+                                   ↓
+┌─────────────────────────────────────────────────────────────────────────┐
+│  STEP 2: GENERATE TODAY'S PREDICTIONS                                   │
+│  ✓ Runs NHL ML model (trained on 19,803 games, +4.95% ROI)            │
+│  ✓ Runs NHL 1st Period model                                           │
+│  ✓ Runs NBA models (XGBoost + Neural Network)                          │
+│  ✓ Runs NCAA situational angles                                         │
+│  ✓ Runs Soccer ML model                                                 │
+└─────────────────────────────────────────────────────────────────────────┘
+                                   ↓
+┌─────────────────────────────────────────────────────────────────────────┐
+│  STEP 3: LOG PREDICTIONS TO DATABASE                                    │
+│  ✓ Filters for high-confidence picks only:                              │
+│    - NHL: 90%+ confidence                                               │
+│    - NBA: Positive Expected Value                                       │
+│    - NCAA: HIGH confidence situational angles                           │
+│    - Soccer: 90%+ confidence                                            │
+│  ✓ Saves to betting_tracker.db                                          │
+└─────────────────────────────────────────────────────────────────────────┘
+                                   ↓
+┌─────────────────────────────────────────────────────────────────────────┐
+│  STEP 4: SHOW PERFORMANCE SUMMARY                                       │
+│  ✓ Overall win rate and ROI                                             │
+│  ✓ Performance by sport                                                 │
+│  ✓ Performance by bet type                                              │
+│  ✓ Recent predictions (last 10)                                         │
+└─────────────────────────────────────────────────────────────────────────┘
+                                   ↓
+┌─────────────────────────────────────────────────────────────────────────┐
+│  STEP 5: AUTONOMOUS IMPROVEMENT ANALYSIS (THE MAGIC!)                   │
+│                                                                          │
+│  🔍 ANALYZES:                                                            │
+│  • Which sports are profitable?                                         │
+│  • Which bet types are losing money?                                    │
+│  • Is the model overconfident?                                          │
+│  • Are recent results worse than overall?                               │
+│  • Do favorites/underdogs perform differently?                          │
+│                                                                          │
+│  💡 SUGGESTS IMPROVEMENTS:                                               │
+│  • "NHL win rate below 50% - increase confidence threshold to 93%"      │
+│  • "NBA negative ROI - only bet when EV > 10"                           │
+│  • "High confidence bets underperforming - model overconfident"         │
+│  • "Recent performance declining - check for changes"                   │
+│                                                                          │
+│  🧪 TRACKS EXPERIMENTS:                                                  │
+│  • Logs all suggestions to experiments.json                             │
+│  • Queues improvements to test                                          │
+│  • Documents expected impact                                            │
+│                                                                          │
+│  ⚡ AUTO-IMPLEMENTS (When Enough Data):                                  │
+│  • Adjusts confidence thresholds                                        │
+│  • Disables losing bet types                                            │
+│  • Focuses on profitable sports                                         │
+└─────────────────────────────────────────────────────────────────────────┘
+                                   ↓
+┌─────────────────────────────────────────────────────────────────────────┐
+│  RESULT: CONTINUOUSLY IMPROVING SYSTEM                                  │
+│                                                                          │
+│  Week 1:   Baseline performance                                         │
+│  Week 2:   Identifies issues                                            │
+│  Week 3:   Tests fixes                                                  │
+│  Week 4:   Implements winners                                           │
+│  Week 5+:  Keeps optimizing forever                                     │
+└─────────────────────────────────────────────────────────────────────────┘
+
+KEY FILES:
+----------
+📊 betting_tracker.db           - All predictions and results
+📝 experiments.json             - Queue of improvements to test
+📈 improvements_log.txt         - History of all suggestions
+📁 /Daily Reports/YYYY-MM-DD/  - Daily prediction files
+
+COMMANDS:
+---------
+./run_all_daily.sh                    - Run everything (daily)
+python3 track_performance.py show     - View stats anytime
+python3 analyze_and_improve.py        - Run analysis manually
+python3 run_experiment.py             - View experiment queue
+
+EXAMPLE OUTPUT (After 2 Weeks):
+--------------------------------
+NHL:  58.3% win rate, +7.58% ROI  ← PROFITABLE! ✅
+NBA:  50.0% win rate, -4.55% ROI  ← LOSING ❌
+NCAA: 71.4% win rate, +38.96% ROI ← GREAT! ✅✅
+
+💡 NBA has negative ROI - SUGGESTED IMPROVEMENTS:
+   • Increase EV threshold to 10
+   • Filter out back-to-backs
+   • Add injury impact scoring
+
+NEXT RUN: System will automatically test these suggestions
+
+YOU DON'T NEED TO:
+------------------
+❌ Manually track results
+❌ Calculate ROI
+❌ Suggest improvements
+❌ Decide what to test
+❌ Remember to analyze
+
+THE SYSTEM DOES IT ALL!
+========================

@@ -1,0 +1,65 @@
+================================================================================
+SOCCER PROFITABLE ANGLES DAILY REPORT - 2026-01-02
+================================================================================
+
+Based on 7,272 match analysis (2023-2025 seasons)
+Focus: Over 2.5, BTTS Yes, 1H Over 0.5 in high-scoring leagues
+
+--------------------------------------------------------------------------------
+📊 LA LIGA
+   Historical: Over 2.5 hits 55.6% (ROI +5.2%)
+--------------------------------------------------------------------------------
+
+⚽ Rayo Vallecano vs Getafe
+   Time: 20:00 | Venue: Campo de Futbol de Vallecas
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  47.6%     | +5.2%          |    ---
+   BTTS Yes          |  40.0%     | -1.9%          |    ---
+   1H Over 0.5       |  63.8%     | +1.2%          |    ---
+   └─ Expected Total Goals: 1.6
+   └─ Home Scores: 47.1% | Away Scores: 52.9%
+
+--------------------------------------------------------------------------------
+📊 SERIE A
+   Historical: Over 2.5 hits 55.2% (ROI +4.8%)
+--------------------------------------------------------------------------------
+
+⚽ Cagliari vs AC Milan
+   Time: 19:45 | Venue: Unipol Domus
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  60.2%     | +4.8%          |    ---
+   BTTS Yes          |  52.9%     | -0.1%          |    ---
+   1H Over 0.5       |  73.5%     | +2.2%          |    ---
+   └─ Expected Total Goals: 2.8
+   └─ Home Scores: 70.6% | Away Scores: 93.8%
+
+--------------------------------------------------------------------------------
+📊 LIGUE 1
+   Historical: Over 2.5 hits 48.5% (ROI +-7.8%)
+--------------------------------------------------------------------------------
+
+⚽ Toulouse vs Lens
+   Time: 19:45 | Venue: Stadium de Toulouse
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  56.5%     | -7.8%          |    ---
+   BTTS Yes          |  47.5%     | -7.1%          |    ---
+   1H Over 0.5       |  74.0%     | -1.4%          |    ---
+   └─ Expected Total Goals: 3.3
+   └─ Home Scores: 75.0% | Away Scores: 75.0%
+
+================================================================================
+📋 SUMMARY
+================================================================================
+Total Games Analyzed: 3
+Total Recommendations: 0
+
+================================================================================
+⚠️  REMINDER: Only bet on angles with historical ROI > 5%
+   AVOID: BTTS No (-17% ROI), Over 3.5 (-40% ROI), 1H Over 1.5 (-24% ROI)
+================================================================================

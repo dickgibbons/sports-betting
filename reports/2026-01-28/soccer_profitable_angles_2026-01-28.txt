@@ -1,0 +1,13 @@
+================================================================================
+SOCCER PROFITABLE ANGLES DAILY REPORT - 2026-01-28
+================================================================================
+
+Based on 7,272 match analysis (2023-2025 seasons)
+Focus: Over 2.5, BTTS Yes, 1H Over 0.5 in high-scoring leagues
+
+No fixtures found for today in profitable leagues.
+
+This could mean:
+  - No games scheduled today
+  - API key not configured (set API_FOOTBALL_KEY)
+  - League is in off-season

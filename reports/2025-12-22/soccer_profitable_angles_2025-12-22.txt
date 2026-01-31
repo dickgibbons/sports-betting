@@ -1,0 +1,63 @@
+================================================================================
+SOCCER PROFITABLE ANGLES DAILY REPORT - 2025-12-22
+================================================================================
+
+Based on 7,272 match analysis (2023-2025 seasons)
+Focus: Over 2.5, BTTS Yes, 1H Over 0.5 in high-scoring leagues
+
+--------------------------------------------------------------------------------
+📊 PREMIER LEAGUE
+   Historical: Over 2.5 hits 60.7% (ROI +15.3%)
+--------------------------------------------------------------------------------
+
+⚽ Fulham vs Nottingham Forest
+   Time: 20:00 | Venue: Craven Cottage
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  62.7%     | +15.3%         | ✅ YES
+   BTTS Yes          |  49.9%     | +10.0%         |    ---
+   1H Over 0.5       |  75.7%     | +9.7%          | ✅ YES
+   └─ Expected Total Goals: 2.5
+   └─ Home Scores: 81.2% | Away Scores: 50.0%
+
+--------------------------------------------------------------------------------
+📊 LA LIGA
+   Historical: Over 2.5 hits 55.6% (ROI +5.2%)
+--------------------------------------------------------------------------------
+
+⚽ Athletic Club vs Espanyol
+   Time: 20:00 | Venue: Estadio de San Mamés
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  55.6%     | +5.2%          | ✅ YES
+   BTTS Yes          |  44.8%     | -1.9%          |    ---
+   1H Over 0.5       |  69.8%     | +1.2%          |    ---
+   └─ Expected Total Goals: 2.2
+   └─ Home Scores: 52.9% | Away Scores: 81.2%
+
+================================================================================
+📋 SUMMARY
+================================================================================
+Total Games Analyzed: 2
+Total Recommendations: 3
+
+🎯 RECOMMENDED BETS (Confidence ≥55% & Historical ROI >5%):
+
+  1. Premier League - Fulham vs Nottingham Forest
+     BET: 1H Over 0.5 @ 75.7% confidence
+     Historical ROI: +9.7%
+
+  2. Premier League - Fulham vs Nottingham Forest
+     BET: Over 2.5 Goals @ 62.7% confidence
+     Historical ROI: +15.3%
+
+  3. La Liga - Athletic Club vs Espanyol
+     BET: Over 2.5 Goals @ 55.6% confidence
+     Historical ROI: +5.2%
+
+================================================================================
+⚠️  REMINDER: Only bet on angles with historical ROI > 5%
+   AVOID: BTTS No (-17% ROI), Over 3.5 (-40% ROI), 1H Over 1.5 (-24% ROI)
+================================================================================

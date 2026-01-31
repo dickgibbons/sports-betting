@@ -1,0 +1,185 @@
+⚽ SOCCER - COMPREHENSIVE EV REPORT
+================================================================================
+Date: 2026-01-07
+Total Matches Analyzed: 13
+================================================================================
+
+📊 ALL MATCHES RANKED BY EXPECTED VALUE (EV)
+================================================================================
+
+#1 Chelsea @ Fulham
+   League: Premier League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Fulham
+   ODDS: +250
+   TRUE EV: +45.2%
+   STATUS: ✅ QUALIFIES (EV >= 5%, odds OK)
+   ANGLE EDGE: +6.5%
+
+   Market Odds:
+     • Fulham: +250
+     • Chelsea: +105
+
+   Betting Angles (1):
+     • Fulham has strong home record
+
+#2 Aston Villa @ Crystal Palace
+   League: Premier League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Crystal Palace
+   ODDS: +200
+   TRUE EV: +5.0%
+   STATUS: ❌ FILTERED (EV < 5%)
+   ANGLE EDGE: +0.0%
+
+   Market Odds:
+     • Crystal Palace: +200
+     • Aston Villa: +135
+
+#3 Atalanta BC @ Bologna
+   League: Serie A
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Bologna
+   ODDS: +200
+   TRUE EV: +5.0%
+   STATUS: ❌ FILTERED (EV < 5%)
+   ANGLE EDGE: +0.0%
+
+   Market Odds:
+     • Bologna: +200
+     • Atalanta BC: +145
+
+#4 Tottenham Hotspur @ Bournemouth
+   League: Premier League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Bournemouth
+   ODDS: +120
+   TRUE EV: -23.0%
+   STATUS: ❌ FILTERED (EV < 5%)
+   ANGLE EDGE: +0.0%
+
+   Market Odds:
+     • Bournemouth: +120
+     • Tottenham Hotspur: +220
+
+#5 Hellas Verona @ Napoli
+   League: Serie A
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Napoli
+   ODDS: -280
+   TRUE EV: -36.9%
+   STATUS: ❌ FILTERED (EV < 5%)
+   ANGLE EDGE: +11.5%
+
+   Market Odds:
+     • Napoli: -280
+     • Hellas Verona: +850
+
+   Betting Angles (2):
+     • Napoli title contender should beat mid-table at home
+     • Napoli has strong home record
+
+#6 Sunderland @ Brentford
+   League: Premier League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Brentford
+   ODDS: -125
+   TRUE EV: -37.0%
+   STATUS: ❌ FILTERED (EV < 5%)
+   ANGLE EDGE: +0.0%
+
+   Market Odds:
+     • Brentford: -125
+     • Sunderland: +360
+
+#7 Wolverhampton Wanderers @ Everton
+   League: Premier League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Everton
+   ODDS: -130
+   TRUE EV: -38.1%
+   STATUS: ❌ FILTERED (EV < 5%)
+   ANGLE EDGE: +0.0%
+
+   Market Odds:
+     • Everton: -130
+     • Wolverhampton Wanderers: +390
+
+#8 Brighton and Hove Albion @ Manchester City
+   League: Premier League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Manchester City
+   ODDS: -230
+   TRUE EV: -42.6%
+   STATUS: ❌ FILTERED (EV < 5%)
+   ANGLE EDGE: +5.0%
+
+   Market Odds:
+     • Manchester City: -230
+     • Brighton and Hove Albion: +550
+
+   Betting Angles (1):
+     • Manchester City title contender should beat mid-table at home
+
+#9 Manchester United @ Burnley
+   League: Premier League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Burnley
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +15.0%
+
+   Betting Angles (2):
+     • Burnley fighting relegation - desperate for home points
+     • Burnley has strong home record
+
+#10 Leeds United @ Newcastle United
+   League: Premier League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Newcastle United
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +6.5%
+
+   Betting Angles (1):
+     • Newcastle United has strong home record
+
+#11 Fiorentina @ Lazio
+   League: Serie A
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Lazio
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +6.5%
+
+   Betting Angles (1):
+     • Lazio has strong home record
+
+#12 Inter Milan @ Parma
+   League: Serie A
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Parma
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#13 Udinese @ Torino
+   League: Serie A
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Torino
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+================================================================================
+📋 LEGEND
+  ✅ QUALIFIES: EV >= 5% and odds better than -250
+  ❌ FILTERED: Does not meet minimum EV threshold or too heavy favorite
+  TRUE EV: Expected value based on real odds and estimated win probability
+  ANGLE EDGE: Edge from betting angles (doesn't account for market odds)
+================================================================================

@@ -1,0 +1,81 @@
+================================================================================
+SOCCER PROFITABLE ANGLES DAILY REPORT - 2026-01-06
+================================================================================
+
+Based on 7,272 match analysis (2023-2025 seasons)
+Focus: Over 2.5, BTTS Yes, 1H Over 0.5 in high-scoring leagues
+
+--------------------------------------------------------------------------------
+📊 PREMIER LEAGUE
+   Historical: Over 2.5 hits 60.7% (ROI +15.3%)
+--------------------------------------------------------------------------------
+
+⚽ West Ham vs Nottingham Forest
+   Time: 20:00 | Venue: London Stadium
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  56.7%     | +15.3%         | ✅ YES
+   BTTS Yes          |  47.8%     | +10.0%         |    ---
+   1H Over 0.5       |  75.7%     | +9.7%          | ✅ YES
+   └─ Expected Total Goals: 2.0
+   └─ Home Scores: 61.9% | Away Scores: 52.4%
+
+--------------------------------------------------------------------------------
+📊 SERIE A
+   Historical: Over 2.5 hits 55.2% (ROI +4.8%)
+--------------------------------------------------------------------------------
+
+⚽ Pisa vs Como
+   Time: 14:00 | Venue: Arena Garibaldi - Stadio Romeo Anconetani
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  51.2%     | +4.8%          |    ---
+   BTTS Yes          |  41.0%     | -0.1%          |    ---
+   1H Over 0.5       |  70.5%     | +2.2%          |    ---
+   └─ Expected Total Goals: 2.1
+   └─ Home Scores: 42.1% | Away Scores: 66.7%
+
+⚽ Lecce vs AS Roma
+   Time: 17:00 | Venue: Via del Mare
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  47.2%     | +4.8%          |    ---
+   BTTS Yes          |  42.6%     | -0.1%          |    ---
+   1H Over 0.5       |  64.5%     | +2.2%          |    ---
+   └─ Expected Total Goals: 1.9
+   └─ Home Scores: 50.0% | Away Scores: 68.4%
+
+⚽ Sassuolo vs Juventus
+   Time: 19:45 | Venue: MAPEI Stadium - Città del Tricolore
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  57.2%     | +4.8%          |    ---
+   BTTS Yes          |  50.7%     | -0.1%          |    ---
+   1H Over 0.5       |  73.5%     | +2.2%          |    ---
+   └─ Expected Total Goals: 2.7
+   └─ Home Scores: 72.2% | Away Scores: 78.9%
+
+================================================================================
+📋 SUMMARY
+================================================================================
+Total Games Analyzed: 4
+Total Recommendations: 2
+
+🎯 RECOMMENDED BETS (Confidence ≥55% & Historical ROI >5%):
+
+  1. Premier League - West Ham vs Nottingham Forest
+     BET: 1H Over 0.5 @ 75.7% confidence
+     Historical ROI: +9.7%
+
+  2. Premier League - West Ham vs Nottingham Forest
+     BET: Over 2.5 Goals @ 56.7% confidence
+     Historical ROI: +15.3%
+
+================================================================================
+⚠️  REMINDER: Only bet on angles with historical ROI > 5%
+   AVOID: BTTS No (-17% ROI), Over 3.5 (-40% ROI), 1H Over 1.5 (-24% ROI)
+================================================================================

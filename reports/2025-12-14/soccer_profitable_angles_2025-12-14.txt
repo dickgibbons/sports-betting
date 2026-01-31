@@ -1,0 +1,466 @@
+================================================================================
+SOCCER PROFITABLE ANGLES DAILY REPORT - 2025-12-14
+================================================================================
+
+Based on 7,272 match analysis (2023-2025 seasons)
+Focus: Over 2.5, BTTS Yes, 1H Over 0.5 in high-scoring leagues
+
+--------------------------------------------------------------------------------
+📊 BUNDESLIGA
+   Historical: Over 2.5 hits 61.3% (ROI +16.5%)
+--------------------------------------------------------------------------------
+
+⚽ SC Freiburg vs Borussia Dortmund
+   Time: 14:30 | Venue: Europa-Park-Stadion
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  69.3%     | +16.5%         | ✅ YES
+   BTTS Yes          |  50.2%     | +10.1%         |    ---
+   1H Over 0.5       |  84.4%     | +13.6%         | ✅ YES
+   └─ Expected Total Goals: 3.2
+   └─ Home Scores: 76.9% | Away Scores: 64.3%
+
+⚽ Bayern München vs FSV Mainz 05
+   Time: 16:30 | Venue: Allianz Arena
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  69.3%     | +16.5%         | ✅ YES
+   BTTS Yes          |  44.1%     | +10.1%         |    ---
+   1H Over 0.5       |  84.4%     | +13.6%         | ✅ YES
+   └─ Expected Total Goals: 4.4
+   └─ Home Scores: 64.3% | Away Scores: 46.2%
+
+⚽ Werder Bremen vs VfB Stuttgart
+   Time: 18:30 | Venue: Weserstadion
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  69.3%     | +16.5%         | ✅ YES
+   BTTS Yes          |  57.2%     | +10.1%         | ✅ YES
+   1H Over 0.5       |  84.4%     | +13.6%         | ✅ YES
+   └─ Expected Total Goals: 3.1
+   └─ Home Scores: 71.4% | Away Scores: 92.9%
+
+--------------------------------------------------------------------------------
+📊 PREMIER LEAGUE
+   Historical: Over 2.5 hits 60.7% (ROI +15.3%)
+--------------------------------------------------------------------------------
+
+⚽ West Ham vs Aston Villa
+   Time: 14:00 | Venue: London Stadium
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  65.7%     | +15.3%         | ✅ YES
+   BTTS Yes          |  52.2%     | +10.0%         |    ---
+   1H Over 0.5       |  78.7%     | +9.7%          | ✅ YES
+   └─ Expected Total Goals: 2.8
+   └─ Home Scores: 68.8% | Away Scores: 68.8%
+
+⚽ Crystal Palace vs Manchester City
+   Time: 14:00 | Venue: Selhurst Park
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  68.7%     | +15.3%         | ✅ YES
+   BTTS Yes          |  52.7%     | +10.0%         |    ---
+   1H Over 0.5       |  81.7%     | +9.7%          | ✅ YES
+   └─ Expected Total Goals: 3.7
+   └─ Home Scores: 68.8% | Away Scores: 87.5%
+
+⚽ Nottingham Forest vs Tottenham
+   Time: 14:00 | Venue: City Ground
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  62.7%     | +15.3%         | ✅ YES
+   BTTS Yes          |  49.2%     | +10.0%         |    ---
+   1H Over 0.5       |  78.7%     | +9.7%          | ✅ YES
+   └─ Expected Total Goals: 2.7
+   └─ Home Scores: 50.0% | Away Scores: 81.2%
+
+⚽ Sunderland vs Newcastle
+   Time: 14:00 | Venue: Stadium of Light
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  62.7%     | +15.3%         | ✅ YES
+   BTTS Yes          |  52.0%     | +10.0%         |    ---
+   1H Over 0.5       |  75.7%     | +9.7%          | ✅ YES
+   └─ Expected Total Goals: 2.5
+   └─ Home Scores: 68.8% | Away Scores: 75.0%
+
+⚽ Brentford vs Leeds
+   Time: 16:30 | Venue: Brentford Community Stadium
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  62.7%     | +15.3%         | ✅ YES
+   BTTS Yes          |  54.6%     | +10.0%         |    ---
+   1H Over 0.5       |  78.7%     | +9.7%          | ✅ YES
+   └─ Expected Total Goals: 2.7
+   └─ Home Scores: 75.0% | Away Scores: 68.8%
+
+--------------------------------------------------------------------------------
+📊 EREDIVISIE
+   Historical: Over 2.5 hits 59.8% (ROI +13.6%)
+--------------------------------------------------------------------------------
+
+⚽ Sparta Rotterdam vs Heerenveen
+   Time: 11:15 | Venue: Sparta Stadion Het Kasteel
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  61.8%     | +13.6%         | ✅ YES
+   BTTS Yes          |  52.3%     | +0.8%          |    ---
+   1H Over 0.5       |  77.4%     | +7.9%          | ✅ YES
+   └─ Expected Total Goals: 2.7
+   └─ Home Scores: 68.8% | Away Scores: 81.2%
+
+⚽ Ajax vs Feyenoord
+   Time: 13:30 | Venue: Johan Cruijff Arena
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  67.8%     | +13.6%         | ✅ YES
+   BTTS Yes          |  60.5%     | +0.8%          |    ---
+   1H Over 0.5       |  80.4%     | +7.9%          | ✅ YES
+   └─ Expected Total Goals: 4.5
+   └─ Home Scores: 93.8% | Away Scores: 93.8%
+
+⚽ Twente vs GO Ahead Eagles
+   Time: 13:30 | Venue: De Grolsch Veste
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  67.8%     | +13.6%         | ✅ YES
+   BTTS Yes          |  54.0%     | +0.8%          |    ---
+   1H Over 0.5       |  80.4%     | +7.9%          | ✅ YES
+   └─ Expected Total Goals: 3.2
+   └─ Home Scores: 75.0% | Away Scores: 81.2%
+
+⚽ NAC Breda vs Utrecht
+   Time: 15:45 | Venue: Rat Verlegh Stadion
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  61.8%     | +13.6%         | ✅ YES
+   BTTS Yes          |  52.8%     | +0.8%          |    ---
+   1H Over 0.5       |  77.4%     | +7.9%          | ✅ YES
+   └─ Expected Total Goals: 2.7
+   └─ Home Scores: 62.5% | Away Scores: 87.5%
+
+⚽ AZ Alkmaar vs Excelsior
+   Time: 15:45 | Venue: AFAS Stadion
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  64.8%     | +13.6%         | ✅ YES
+   BTTS Yes          |  56.4%     | +0.8%          |    ---
+   1H Over 0.5       |  77.4%     | +7.9%          | ✅ YES
+   └─ Expected Total Goals: 2.8
+   └─ Home Scores: 93.3% | Away Scores: 73.3%
+
+--------------------------------------------------------------------------------
+📊 LA LIGA
+   Historical: Over 2.5 hits 55.6% (ROI +5.2%)
+--------------------------------------------------------------------------------
+
+⚽ Sevilla vs Oviedo
+   Time: 13:00 | Venue: Estadio Ramón Sánchez Pizjuán
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  47.6%     | +5.2%          |    ---
+   BTTS Yes          |  40.0%     | -1.9%          |    ---
+   1H Over 0.5       |  63.8%     | +1.2%          |    ---
+   └─ Expected Total Goals: 1.9
+   └─ Home Scores: 87.5% | Away Scores: 25.0%
+
+⚽ Celta Vigo vs Athletic Club
+   Time: 15:15 | Venue: Estadio Abanca-Balaídos
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  55.6%     | +5.2%          | ✅ YES
+   BTTS Yes          |  47.4%     | -1.9%          |    ---
+   1H Over 0.5       |  69.8%     | +1.2%          |    ---
+   └─ Expected Total Goals: 2.2
+   └─ Home Scores: 87.5% | Away Scores: 52.9%
+
+⚽ Alaves vs Real Madrid
+   Time: 20:00 | Venue: Estadio Mendizorrotza
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  60.6%     | +5.2%          | ✅ YES
+   BTTS Yes          |  49.1%     | -1.9%          |    ---
+   1H Over 0.5       |  72.8%     | +1.2%          |    ---
+   └─ Expected Total Goals: 2.9
+   └─ Home Scores: 62.5% | Away Scores: 87.5%
+
+⚽ Levante vs Villarreal
+   Time: 17:30 | Venue: Estadio Ciudad de Valencia
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  63.6%     | +5.2%          | ✅ YES
+   BTTS Yes          |  51.7%     | -1.9%          |    ---
+   1H Over 0.5       |  75.8%     | +1.2%          |    ---
+   └─ Expected Total Goals: 3.2
+   └─ Home Scores: 66.7% | Away Scores: 93.3%
+
+--------------------------------------------------------------------------------
+📊 SERIE A
+   Historical: Over 2.5 hits 55.2% (ROI +4.8%)
+--------------------------------------------------------------------------------
+
+⚽ AC Milan vs Sassuolo
+   Time: 11:30 | Venue: Stadio Giuseppe Meazza
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  60.2%     | +4.8%          |    ---
+   BTTS Yes          |  53.1%     | -0.1%          |    ---
+   1H Over 0.5       |  73.5%     | +2.2%          |    ---
+   └─ Expected Total Goals: 3.0
+   └─ Home Scores: 93.3% | Away Scores: 73.3%
+
+⚽ Udinese vs Napoli
+   Time: 14:00 | Venue: Bluenergy Stadium - Stadio Friuli
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  57.2%     | +4.8%          |    ---
+   BTTS Yes          |  51.2%     | -0.1%          |    ---
+   1H Over 0.5       |  73.5%     | +2.2%          |    ---
+   └─ Expected Total Goals: 2.6
+   └─ Home Scores: 80.0% | Away Scores: 73.3%
+
+⚽ Fiorentina vs Verona
+   Time: 14:00 | Venue: Stadio Artemio Franchi
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  47.2%     | +4.8%          |    ---
+   BTTS Yes          |  46.6%     | -0.1%          |    ---
+   1H Over 0.5       |  64.5%     | +2.2%          |    ---
+   └─ Expected Total Goals: 1.7
+   └─ Home Scores: 66.7% | Away Scores: 60.0%
+
+⚽ Genoa vs Inter
+   Time: 17:00 | Venue: Luigi Ferraris
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  63.2%     | +4.8%          |    ---
+   BTTS Yes          |  52.3%     | -0.1%          |    ---
+   1H Over 0.5       |  76.5%     | +2.2%          |    ---
+   └─ Expected Total Goals: 3.4
+   └─ Home Scores: 66.7% | Away Scores: 93.3%
+
+⚽ Bologna vs Juventus
+   Time: 19:45 | Venue: Stadio Renato Dall'Ara
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  60.2%     | +4.8%          |    ---
+   BTTS Yes          |  48.6%     | -0.1%          |    ---
+   1H Over 0.5       |  73.5%     | +2.2%          |    ---
+   └─ Expected Total Goals: 2.8
+   └─ Home Scores: 73.3% | Away Scores: 71.4%
+
+--------------------------------------------------------------------------------
+📊 LIGUE 1
+   Historical: Over 2.5 hits 48.5% (ROI +-7.8%)
+--------------------------------------------------------------------------------
+
+⚽ Lyon vs Le Havre
+   Time: 14:00 | Venue: Parc Olympique Lyonnais
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  48.5%     | -7.8%          |    ---
+   BTTS Yes          |  43.1%     | -7.1%          |    ---
+   1H Over 0.5       |  68.0%     | -1.4%          |    ---
+   └─ Expected Total Goals: 2.2
+   └─ Home Scores: 81.2% | Away Scores: 56.2%
+
+⚽ Strasbourg vs Lorient
+   Time: 16:15 | Venue: Stade de la Meinau
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  53.5%     | -7.8%          |    ---
+   BTTS Yes          |  49.1%     | -7.1%          |    ---
+   1H Over 0.5       |  71.0%     | -1.4%          |    ---
+   └─ Expected Total Goals: 3.0
+   └─ Home Scores: 86.7% | Away Scores: 66.7%
+
+⚽ Auxerre vs Lille
+   Time: 16:15 | Venue: Stade de l'Abbé Deschamps
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  53.5%     | -7.8%          |    ---
+   BTTS Yes          |  43.4%     | -7.1%          |    ---
+   1H Over 0.5       |  71.0%     | -1.4%          |    ---
+   └─ Expected Total Goals: 2.8
+   └─ Home Scores: 53.3% | Away Scores: 75.0%
+
+⚽ Lens vs Nice
+   Time: 16:15 | Venue: Stade Bollaert-Delelis
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  53.5%     | -7.8%          |    ---
+   BTTS Yes          |  49.3%     | -7.1%          |    ---
+   1H Over 0.5       |  71.0%     | -1.4%          |    ---
+   └─ Expected Total Goals: 3.0
+   └─ Home Scores: 75.0% | Away Scores: 75.0%
+
+⚽ Marseille vs Monaco
+   Time: 19:45 | Venue: Orange Vélodrome
+
+   BET TYPE          | CONFIDENCE | HISTORICAL ROI | RECOMMEND
+   ------------------------------------------------------------
+   Over 2.5 Goals    |  56.5%     | -7.8%          |    ---
+   BTTS Yes          |  51.7%     | -7.1%          |    ---
+   1H Over 0.5       |  74.0%     | -1.4%          |    ---
+   └─ Expected Total Goals: 4.0
+   └─ Home Scores: 80.0% | Away Scores: 80.0%
+
+================================================================================
+📋 SUMMARY
+================================================================================
+Total Games Analyzed: 27
+Total Recommendations: 30
+
+🎯 RECOMMENDED BETS (Confidence ≥55% & Historical ROI >5%):
+
+  1. Bundesliga - SC Freiburg vs Borussia Dortmund
+     BET: 1H Over 0.5 @ 84.4% confidence
+     Historical ROI: +13.6%
+
+  2. Bundesliga - Bayern München vs FSV Mainz 05
+     BET: 1H Over 0.5 @ 84.4% confidence
+     Historical ROI: +13.6%
+
+  3. Bundesliga - Werder Bremen vs VfB Stuttgart
+     BET: 1H Over 0.5 @ 84.4% confidence
+     Historical ROI: +13.6%
+
+  4. Premier League - Crystal Palace vs Manchester City
+     BET: 1H Over 0.5 @ 81.7% confidence
+     Historical ROI: +9.7%
+
+  5. Eredivisie - Ajax vs Feyenoord
+     BET: 1H Over 0.5 @ 80.4% confidence
+     Historical ROI: +7.9%
+
+  6. Eredivisie - Twente vs GO Ahead Eagles
+     BET: 1H Over 0.5 @ 80.4% confidence
+     Historical ROI: +7.9%
+
+  7. Premier League - West Ham vs Aston Villa
+     BET: 1H Over 0.5 @ 78.7% confidence
+     Historical ROI: +9.7%
+
+  8. Premier League - Nottingham Forest vs Tottenham
+     BET: 1H Over 0.5 @ 78.7% confidence
+     Historical ROI: +9.7%
+
+  9. Premier League - Brentford vs Leeds
+     BET: 1H Over 0.5 @ 78.7% confidence
+     Historical ROI: +9.7%
+
+  10. Eredivisie - Sparta Rotterdam vs Heerenveen
+     BET: 1H Over 0.5 @ 77.4% confidence
+     Historical ROI: +7.9%
+
+  11. Eredivisie - NAC Breda vs Utrecht
+     BET: 1H Over 0.5 @ 77.4% confidence
+     Historical ROI: +7.9%
+
+  12. Eredivisie - AZ Alkmaar vs Excelsior
+     BET: 1H Over 0.5 @ 77.4% confidence
+     Historical ROI: +7.9%
+
+  13. Premier League - Sunderland vs Newcastle
+     BET: 1H Over 0.5 @ 75.7% confidence
+     Historical ROI: +9.7%
+
+  14. Bundesliga - SC Freiburg vs Borussia Dortmund
+     BET: Over 2.5 Goals @ 69.3% confidence
+     Historical ROI: +16.5%
+
+  15. Bundesliga - Bayern München vs FSV Mainz 05
+     BET: Over 2.5 Goals @ 69.3% confidence
+     Historical ROI: +16.5%
+
+  16. Bundesliga - Werder Bremen vs VfB Stuttgart
+     BET: Over 2.5 Goals @ 69.3% confidence
+     Historical ROI: +16.5%
+
+  17. Premier League - Crystal Palace vs Manchester City
+     BET: Over 2.5 Goals @ 68.7% confidence
+     Historical ROI: +15.3%
+
+  18. Eredivisie - Ajax vs Feyenoord
+     BET: Over 2.5 Goals @ 67.8% confidence
+     Historical ROI: +13.6%
+
+  19. Eredivisie - Twente vs GO Ahead Eagles
+     BET: Over 2.5 Goals @ 67.8% confidence
+     Historical ROI: +13.6%
+
+  20. Premier League - West Ham vs Aston Villa
+     BET: Over 2.5 Goals @ 65.7% confidence
+     Historical ROI: +15.3%
+
+  21. Eredivisie - AZ Alkmaar vs Excelsior
+     BET: Over 2.5 Goals @ 64.8% confidence
+     Historical ROI: +13.6%
+
+  22. La Liga - Levante vs Villarreal
+     BET: Over 2.5 Goals @ 63.6% confidence
+     Historical ROI: +5.2%
+
+  23. Premier League - Nottingham Forest vs Tottenham
+     BET: Over 2.5 Goals @ 62.7% confidence
+     Historical ROI: +15.3%
+
+  24. Premier League - Sunderland vs Newcastle
+     BET: Over 2.5 Goals @ 62.7% confidence
+     Historical ROI: +15.3%
+
+  25. Premier League - Brentford vs Leeds
+     BET: Over 2.5 Goals @ 62.7% confidence
+     Historical ROI: +15.3%
+
+  26. Eredivisie - Sparta Rotterdam vs Heerenveen
+     BET: Over 2.5 Goals @ 61.8% confidence
+     Historical ROI: +13.6%
+
+  27. Eredivisie - NAC Breda vs Utrecht
+     BET: Over 2.5 Goals @ 61.8% confidence
+     Historical ROI: +13.6%
+
+  28. La Liga - Alaves vs Real Madrid
+     BET: Over 2.5 Goals @ 60.6% confidence
+     Historical ROI: +5.2%
+
+  29. Bundesliga - Werder Bremen vs VfB Stuttgart
+     BET: BTTS Yes @ 57.2% confidence
+     Historical ROI: +10.1%
+
+  30. La Liga - Celta Vigo vs Athletic Club
+     BET: Over 2.5 Goals @ 55.6% confidence
+     Historical ROI: +5.2%
+
+================================================================================
+⚠️  REMINDER: Only bet on angles with historical ROI > 5%
+   AVOID: BTTS No (-17% ROI), Over 3.5 (-40% ROI), 1H Over 1.5 (-24% ROI)
+================================================================================

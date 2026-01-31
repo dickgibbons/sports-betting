@@ -1,0 +1,40 @@
+NHL BETTING REPORT - 2025-11-23
+================================================================================
+
+#1 CGY @ VAN
+BET: VAN ML
+Edge: +17.0%
+Confidence: ELITE
+Angles: 2
+  1. CGY on HOME → ROAD B2B (80% win rate historical)
+  2. VAN has 2 days rest vs CGY 0 days
+
+#2 SEA @ NYI
+BET: SEA ML
+Edge: +13.9%
+Confidence: HIGH
+Angles: 2
+  1. NYI playing 3rd game in 4 nights (heavy fatigue)
+  2. SEA on 4th game of road trip | SEA is 4-9 on 4th+ road games
+
+#3 CAR @ BUF
+BET: BUF ML
+Edge: +7.4%
+Confidence: MEDIUM
+Angles: 1
+  1. CAR on 4th game of road trip | CAR is 5-4 on 4th+ road games
+
+#4 COL @ CHI
+BET: COL ML
+Edge: +6.5%
+Confidence: LOW
+Angles: 1
+  1. CHI playing 3rd game in 4 nights (heavy fatigue)
+
+#5 BOS @ SJS
+BET: BOS ML
+Edge: +6.5%
+Confidence: LOW
+Angles: 1
+  1. SJS playing 3rd game in 4 nights (heavy fatigue)
+

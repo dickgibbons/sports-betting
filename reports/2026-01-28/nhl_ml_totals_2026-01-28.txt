@@ -1,0 +1,59 @@
+🏒 NHL ML TOTALS PREDICTION REPORT - 2026-01-28
+====================================================================================================
+
+GAME #1: Rangers @ Islanders
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  4.94
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Islanders                      over 0.5 goals: 66.0%
+      Rangers                        over 0.5 goals: 38.0%
+      1st Period Total over 1.5 goals: 31.0%
+
+   MODEL PREDICTIONS:
+      linear              : 5.57
+      ridge               : 5.58
+      random_forest       : 4.94
+      gradient_boost      : 4.15
+
+
+GAME #2: Flyers @ Blue Jackets
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  6.03
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Blue Jackets                   over 0.5 goals: 75.0%
+      Flyers                         over 0.5 goals: 37.0%
+      1st Period Total over 1.5 goals: 52.0%
+
+   MODEL PREDICTIONS:
+      linear              : 6.30
+      ridge               : 6.28
+      random_forest       : 6.03
+      gradient_boost      : 6.00
+
+
+GAME #3: Avalanche @ Senators
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  6.54
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Senators                       over 0.5 goals: 52.0%
+      Avalanche                      over 0.5 goals: 56.0%
+      1st Period Total over 1.5 goals: 48.0%
+
+   MODEL PREDICTIONS:
+      linear              : 6.57
+      ridge               : 6.50
+      random_forest       : 6.54
+      gradient_boost      : 6.89
+
+
+====================================================================================================
+SUMMARY
+====================================================================================================
+
+No games with significant edge (±0.5 goals) today

@@ -1,0 +1,93 @@
+🏒 NHL ML TOTALS PREDICTION REPORT - 2025-12-28
+====================================================================================================
+
+GAME #1: Canadiens @ Lightning
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  6.01
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Lightning                      over 0.5 goals: 76.0%
+      Canadiens                      over 0.5 goals: 73.0%
+      1st Period Total over 1.5 goals: 61.0%
+
+   MODEL PREDICTIONS:
+      linear              : 6.24
+      ridge               : 6.19
+      random_forest       : 6.01
+      gradient_boost      : 6.17
+
+
+GAME #2: Islanders @ Blue Jackets
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  6.22
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Blue Jackets                   over 0.5 goals: 76.0%
+      Islanders                      over 0.5 goals: 39.0%
+      1st Period Total over 1.5 goals: 52.0%
+
+   MODEL PREDICTIONS:
+      linear              : 7.16
+      ridge               : 7.10
+      random_forest       : 6.22
+      gradient_boost      : 7.04
+
+
+GAME #3: Maple Leafs @ Red Wings
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  5.39
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Red Wings                      over 0.5 goals: 43.0%
+      Maple Leafs                    over 0.5 goals: 60.0%
+      1st Period Total over 1.5 goals: 39.0%
+
+   MODEL PREDICTIONS:
+      linear              : 5.84
+      ridge               : 5.86
+      random_forest       : 5.39
+      gradient_boost      : 5.93
+
+
+GAME #4: Penguins @ Blackhawks
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  5.56
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Blackhawks                     over 0.5 goals: 42.0%
+      Penguins                       over 0.5 goals: 38.0%
+      1st Period Total over 1.5 goals: 47.0%
+
+   MODEL PREDICTIONS:
+      linear              : 5.36
+      ridge               : 5.41
+      random_forest       : 5.56
+      gradient_boost      : 5.75
+
+
+GAME #5: Flyers @ Kraken
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  5.37
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Kraken                         over 0.5 goals: 56.0%
+      Flyers                         over 0.5 goals: 55.0%
+      1st Period Total over 1.5 goals: 46.0%
+
+   MODEL PREDICTIONS:
+      linear              : 5.64
+      ridge               : 5.62
+      random_forest       : 5.37
+      gradient_boost      : 5.24
+
+
+====================================================================================================
+SUMMARY
+====================================================================================================
+
+No games with significant edge (±0.5 goals) today

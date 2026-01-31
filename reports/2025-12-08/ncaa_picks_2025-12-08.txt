@@ -1,0 +1,87 @@
+🏀 NCAA BETTING PICKS - 2025-12-08
+================================================================================
+
+📊 SUMMARY
+────────────────────────────────────────────────────────────────────────────────
+Total Picks: 9
+✅ HIGH: 4 picks
+⚪ LOW: 5 picks
+
+✅✅ #1 Lafayette Leopards @ Pennsylvania Quakers
+   BET: Lafayette Leopards +5.5
+   ODDS: -102 | True EV: +6.9%
+   Confidence: HIGH
+   Angles (2):
+     • Lafayette Leopards underdog value at +230
+     • Close spread (-5.5) suggests competitive game
+   💰 Recommended: 1-2% of bankroll
+
+✅✅ #2 Clemson Tigers @ BYU Cougars
+   BET: Clemson Tigers +5.5
+   ODDS: -105 | True EV: +5.4%
+   Confidence: HIGH
+   Angles (2):
+     • Clemson Tigers underdog value at +195
+     • Close spread (-5.5) suggests competitive game
+   💰 Recommended: 1-2% of bankroll
+
+✅✅ #3 Lafayette Leopards @ Pennsylvania Quakers
+   BET: Lafayette Leopards ML
+   ODDS: +230 | True EV: +91.4%
+   Confidence: HIGH
+   Angles (2):
+     • Lafayette Leopards underdog value at +230
+     • Close spread (-5.5) suggests competitive game
+   💰 Recommended: 1-2% of bankroll
+
+✅✅ #4 Clemson Tigers @ BYU Cougars
+   BET: Clemson Tigers ML
+   ODDS: +195 | True EV: +71.1%
+   Confidence: HIGH
+   Angles (2):
+     • Clemson Tigers underdog value at +195
+     • Close spread (-5.5) suggests competitive game
+   💰 Recommended: 1-2% of bankroll
+
+⚪ #5 Incarnate Word Cardinals @ New Orleans Privateers
+   BET: New Orleans Privateers ML
+   ODDS: +100 | True EV: +6.0%
+   Confidence: LOW
+   Angles (1):
+     • Close spread (+1.5) suggests competitive game
+   💰 Recommended: Optional/skip
+
+⚪ #6 Illinois Fighting Illini @ Ohio State Buckeyes
+   BET: Ohio State Buckeyes ML
+   ODDS: +145 | True EV: +29.8%
+   Confidence: LOW
+   Angles (1):
+     • Close spread (+3.5) suggests competitive game
+   💰 Recommended: Optional/skip
+
+⚪ #7 Grambling St Tigers @ Southern Miss Golden Eagles
+   BET: Grambling St Tigers ML
+   ODDS: +280 | True EV: +109.0%
+   Confidence: LOW
+   Angles (1):
+     • Grambling St Tigers underdog value at +280
+   💰 Recommended: Optional/skip
+
+⚪ #8 Southern Jaguars @ Texas Longhorns
+   BET: Southern Jaguars ML
+   ODDS: +2000 | True EV: +1034.0%
+   Confidence: LOW
+   Angles (1):
+     • Large spread (-21.5) creates underdog spread value
+   💰 Recommended: Optional/skip
+
+⚪ #9 Florida Gators @ UConn Huskies
+   BET: Florida Gators ML
+   ODDS: +180 | True EV: +48.4%
+   Confidence: LOW
+   Angles (1):
+     • Close spread (-4.5) suggests competitive game
+   💰 Recommended: Optional/skip
+
+================================================================================
+📁 Full analysis saved to: /Users/dickgibbons/sports-betting/reports/2025-12-08/ncaa_picks_2025-12-08.txt

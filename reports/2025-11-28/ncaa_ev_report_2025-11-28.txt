@@ -1,0 +1,54 @@
+🏀 NCAA BASKETBALL - COMPREHENSIVE EV REPORT
+================================================================================
+Date: 2025-11-28
+Total Games Analyzed: 3
+================================================================================
+
+📊 ALL GAMES RANKED BY EXPECTED VALUE (EV)
+================================================================================
+
+#1 BYU Cougars @ Dayton Flyers
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Dayton Flyers ML
+   ODDS: +390
+   TRUE EV: +184.2%
+   STATUS: ✅ QUALIFIES (EV >= 5%)
+   ANGLE EDGE: +8.0%
+
+   Market Odds:
+     • Dayton Flyers: +390
+     • BYU Cougars: -520
+
+   Betting Angles (1):
+     • Dayton Flyers has 3 days rest vs BYU Cougars 0 days
+
+#2 Saint Mary's Gaels @ Vanderbilt Commodores
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Saint Mary's Gaels ML
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +18.0%
+
+   Betting Angles (2):
+     • Vanderbilt Commodores playing 3rd game in 4 nights (tournament fatigue)
+     • Saint Mary's Gaels has 3 days rest vs Vanderbilt Commodores 0 days
+
+#3 Providence Friars @ Florida Gators
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Providence Friars ML
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +8.0%
+
+   Betting Angles (1):
+     • Providence Friars has 3 days rest vs Florida Gators 0 days
+
+================================================================================
+📋 LEGEND
+  ✅ QUALIFIES: EV >= 5% and odds better than -250
+  ❌ FILTERED: Does not meet minimum EV threshold or too heavy favorite
+  TRUE EV: Expected value based on real odds and estimated win probability
+  ANGLE EDGE: Edge from betting angles (doesn't account for market odds)
+================================================================================

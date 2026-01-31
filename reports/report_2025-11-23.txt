@@ -1,0 +1,43 @@
+DAILY BETTING REPORT - 2025-11-23
+================================================================================
+
+#1 NBA: Charlotte Hornets @ Atlanta Hawks
+BET: Charlotte Hornets ML
+Edge: +22.0% | Confidence: ELITE
+
+#2 NBA: Orlando Magic @ Boston Celtics
+BET: Boston Celtics ML
+Edge: +22.0% | Confidence: ELITE
+
+#3 NBA: LA Clippers @ Cleveland Cavaliers
+BET: Cleveland Cavaliers ML
+Edge: +17.3% | Confidence: ELITE
+
+#4 NHL: CGY @ VAN
+BET: VAN ML
+Edge: +17.0% | Confidence: ELITE
+
+#5 NHL: SEA @ NYI
+BET: SEA ML
+Edge: +13.9% | Confidence: HIGH
+
+#6 SOCCER: Metz @ Brest
+BET: BET: Brest Win
+Edge: +7.5% | Confidence: MEDIUM
+
+#7 NHL: CAR @ BUF
+BET: BUF ML
+Edge: +7.4% | Confidence: MEDIUM
+
+#8 NHL: COL @ CHI
+BET: COL ML
+Edge: +6.5% | Confidence: LOW
+
+#9 NHL: BOS @ SJS
+BET: BOS ML
+Edge: +6.5% | Confidence: LOW
+
+#10 SOCCER: Girona @ Real Betis
+BET: BET: Real Betis Win or Draw
+Edge: +6.5% | Confidence: MEDIUM
+

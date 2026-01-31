@@ -1,0 +1,207 @@
+⚽ SOCCER - COMPREHENSIVE EV REPORT
+================================================================================
+Date: 2025-11-27
+Total Matches Analyzed: 18
+================================================================================
+
+📊 ALL MATCHES RANKED BY EXPECTED VALUE (EV)
+================================================================================
+
+#1 Celta Vigo @ PFC Ludogorets Razgrad
+   League: Europa League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: PFC Ludogorets Razgrad
+   ODDS: +420
+   TRUE EV: +82.0%
+   STATUS: ✅ QUALIFIES (EV >= 5%, odds OK)
+   ANGLE EDGE: +0.0%
+
+   Market Odds:
+     • PFC Ludogorets Razgrad: +420
+     • Celta Vigo: -165
+
+#2 Celtic @ Feyenoord
+   League: Europa League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Feyenoord
+   ODDS: -150
+   TRUE EV: -41.7%
+   STATUS: ❌ FILTERED (EV < 5%)
+   ANGLE EDGE: +0.0%
+
+   Market Odds:
+     • Feyenoord: -150
+     • Celtic: +340
+
+#3 Dinamo Zagreb @ Lille
+   League: Europa League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Lille
+   ODDS: -240
+   TRUE EV: -43.3%
+   STATUS: ❌ FILTERED (EV < 5%)
+   ANGLE EDGE: +5.0%
+
+   Market Odds:
+     • Lille: -240
+     • Dinamo Zagreb: +550
+
+   Betting Angles (1):
+     • Lille title contender should beat mid-table at home
+
+#4 FC Midtjylland @ AS Roma
+   League: Europa League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: AS Roma
+   ODDS: -195
+   TRUE EV: -47.1%
+   STATUS: ❌ FILTERED (EV < 5%)
+   ANGLE EDGE: +0.0%
+
+   Market Odds:
+     • AS Roma: -195
+     • FC Midtjylland: +490
+
+#5 Young Boys @ Aston Villa
+   League: Europa League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Aston Villa
+   ODDS: -650
+   TRUE EV: -59.6%
+   STATUS: ❌ FILTERED (EV < 5%)
+   ANGLE EDGE: +0.0%
+
+   Market Odds:
+     • Aston Villa: -650
+     • Young Boys: +1100
+
+#6 Ferencváros TC @ Fenerbahce
+   League: Europa League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Fenerbahce
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#7 Nice @ Porto
+   League: Europa League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Porto
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#8 SK Brann @ PAOK
+   League: Europa League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: PAOK
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#9 SC Freiburg @ Viktoria Plzeň
+   League: Europa League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Viktoria Plzeň
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#10 Salzburg @ Bologna
+   League: Europa League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Bologna
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#11 FC Basel @ KRC Genk
+   League: Europa League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: KRC Genk
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#12 FC Utrecht @ Real Betis
+   League: Europa League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Real Betis
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +6.5%
+
+   Betting Angles (1):
+     • Real Betis has strong home record
+
+#13 FCSB @ Red Star Belgrade
+   League: Europa League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Red Star Belgrade
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#14 VfB Stuttgart @ Go Ahead Eagles
+   League: Europa League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Go Ahead Eagles
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#15 Lyon @ Maccabi Tel Aviv
+   League: Europa League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Maccabi Tel Aviv
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#16 Malmo FF @ Nottingham Forest
+   League: Europa League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Nottingham Forest
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#17 SK Sturm Graz @ Panathinaikos FC
+   League: Europa League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Panathinaikos FC
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#18 SC Braga @ Rangers FC
+   League: Europa League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Rangers FC
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +6.5%
+
+   Betting Angles (1):
+     • Rangers FC has strong home record
+
+================================================================================
+📋 LEGEND
+  ✅ QUALIFIES: EV >= 5% and odds better than -250
+  ❌ FILTERED: Does not meet minimum EV threshold or too heavy favorite
+  TRUE EV: Expected value based on real odds and estimated win probability
+  ANGLE EDGE: Edge from betting angles (doesn't account for market odds)
+================================================================================

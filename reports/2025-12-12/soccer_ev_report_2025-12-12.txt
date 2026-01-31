@@ -1,0 +1,55 @@
+⚽ SOCCER - COMPREHENSIVE EV REPORT
+================================================================================
+Date: 2025-12-12
+Total Matches Analyzed: 4
+================================================================================
+
+📊 ALL MATCHES RANKED BY EXPECTED VALUE (EV)
+================================================================================
+
+#1 Girona @ Real Sociedad
+   League: La Liga
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Real Sociedad
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#2 Pisa @ Lecce
+   League: Serie A
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Lecce
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+#3 RB Leipzig @ Union Berlin
+   League: Bundesliga
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Union Berlin
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +6.5%
+
+   Betting Angles (1):
+     • Union Berlin has strong home record
+
+#4 Nantes @ Angers
+   League: Ligue 1
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Angers
+   ODDS: Not Available
+   TRUE EV: Cannot Calculate (no odds)
+   STATUS: ❌ NO ODDS AVAILABLE
+   ANGLE EDGE: +0.0%
+
+================================================================================
+📋 LEGEND
+  ✅ QUALIFIES: EV >= 5% and odds better than -250
+  ❌ FILTERED: Does not meet minimum EV threshold or too heavy favorite
+  TRUE EV: Expected value based on real odds and estimated win probability
+  ANGLE EDGE: Edge from betting angles (doesn't account for market odds)
+================================================================================

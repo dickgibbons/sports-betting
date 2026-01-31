@@ -1,0 +1,80 @@
+🏒 NHL ML TOTALS PREDICTION REPORT - 2025-11-19
+====================================================================================================
+
+GAME #1: Oilers @ Capitals
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  6.51
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Capitals                       over 0.5 goals: 0.0%
+      Oilers                         over 0.5 goals: 0.0%
+      1st Period Total over 1.5 goals: 0.0%
+
+   MODEL PREDICTIONS:
+      linear              : 6.52
+      ridge               : 6.51
+      random_forest       : 7.20
+      gradient_boost      : 7.36
+      xgboost             : 7.62
+
+
+GAME #2: Flames @ Sabres
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  6.59
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Sabres                         over 0.5 goals: 0.0%
+      Flames                         over 0.5 goals: 0.0%
+      1st Period Total over 1.5 goals: 0.0%
+
+   MODEL PREDICTIONS:
+      linear              : 6.59
+      ridge               : 6.59
+      random_forest       : 6.99
+      gradient_boost      : 6.32
+      xgboost             : 8.12
+
+
+GAME #3: Hurricanes @ Wild
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  6.07
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Wild                           over 0.5 goals: 0.0%
+      Hurricanes                     over 0.5 goals: 0.0%
+      1st Period Total over 1.5 goals: 0.0%
+
+   MODEL PREDICTIONS:
+      linear              : 6.06
+      ridge               : 6.07
+      random_forest       : 5.86
+      gradient_boost      : 6.70
+      xgboost             : 6.92
+
+
+GAME #4: Bruins @ Ducks
+----------------------------------------------------------------------------------------------------
+   ML Predicted Total:  5.69
+   Market Total:        Not Available
+
+   FIRST PERIOD PROBABILITIES:
+      Ducks                          over 0.5 goals: 0.0%
+      Bruins                         over 0.5 goals: 0.0%
+      1st Period Total over 1.5 goals: 0.0%
+
+   MODEL PREDICTIONS:
+      linear              : 5.69
+      ridge               : 5.69
+      random_forest       : 5.08
+      gradient_boost      : 5.24
+      xgboost             : 4.83
+
+
+====================================================================================================
+SUMMARY
+====================================================================================================
+
+No games with significant edge (±0.5 goals) today

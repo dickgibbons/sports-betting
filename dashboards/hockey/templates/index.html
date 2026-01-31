@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockey Schedule Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #fff;
+            color: #333;
+            min-height: 100vh;
+        }
+
+        .header {
+            background: #4472C4;
+            padding: 15px 20px;
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .date-nav {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .date-nav button {
+            background: #fff;
+            color: #4472C4;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+
+        .date-nav button:hover {
+            background: #e0e0e0;
+        }
+
+        .date-nav input[type="date"] {
+            padding: 8px 12px;
+            border-radius: 4px;
+            border: none;
+            font-size: 0.9rem;
+        }
+
+        .stats-summary {
+            margin-left: 20px;
+            font-size: 0.95rem;
+        }
+
+        /* Filter Bar */
+        .filter-bar {
+            background: #f0f4f8;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .filter-group {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .filter-group label {
+            font-size: 0.85rem;
+            font-weight: bold;
+            color: #555;
+        }
+
+        .filter-group select, .filter-group input {
+            padding: 6px 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 0.85rem;
+        }
+
+        .filter-group input[type="text"] {
+            width: 150px;
+        }
+
+        .filter-group input[type="number"] {
+            width: 70px;
+        }
+
+        .clear-filters-btn {
+            background: #e74c3c;
+            color: white;
+            border: none;
+            padding: 6px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.85rem;
+        }
+
+        .clear-filters-btn:hover {
+            background: #c0392b;
+        }
+
+        #filter-count {
+            font-size: 0.85rem;
+            color: #666;
+            margin-left: 10px;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 50px;
+            font-size: 1.2rem;
+            color: #666;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.85rem;
+        }
+
+        th {
+            background: #4472C4;
+            color: white;
+            padding: 8px 6px;
+            text-align: center;
+            font-weight: bold;
+            border: 1px solid #3366b3;
+            cursor: pointer;
+            position: relative;
+        }
+
+        th.sortable:hover {
+            background: #3a62a8;
+        }
+
+        th.sort-asc::after {
+            content: ' ▲';
+            font-size: 0.7rem;
+        }
+
+        th.sort-desc::after {
+            content: ' ▼';
+            font-size: 0.7rem;
+        }
+
+        td {
+            padding: 5px 6px;
+            text-align: center;
+            border: 1px solid #ccc;
+        }
+
+        .team-col {
+            text-align: left;
+            min-width: 150px;
+        }
+
+        .country-col {
+            text-align: left;
+            min-width: 80px;
+        }
+
+        .league-col {
+            text-align: left;
+            min-width: 120px;
+        }
+
+        .away-row {
+            background: #f8f8f8;
+        }
+
+        .home-row {
+            background: #fff;
+            border-bottom: 2px solid #4472C4 !important;
+        }
+
+        .home-row td {
+            border-bottom: 2px solid #4472C4;
+        }
+
+        tr:hover {
+            background: #e8f0fe;
+        }
+
+        /* Color coding for 1P Avg: <1.5 red, 1.5-1.69 yellow, >=1.7 green */
+        .stat-1p-red {
+            background-color: #ff6b6b !important;
+            color: white;
+            font-weight: bold;
+        }
+
+        .stat-1p-yellow {
+            background-color: #ffd93d !important;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .stat-1p-green {
+            background-color: #6bcb77 !important;
+            color: white;
+            font-weight: bold;
+        }
+
+        /* Color coding for 1P %: <50 red, 50-70 yellow, >70 green */
+        .stat-pct-red {
+            background-color: #ff6b6b !important;
+            color: white;
+            font-weight: bold;
+        }
+
+        .stat-pct-yellow {
+            background-color: #ffd93d !important;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .stat-pct-green {
+            background-color: #6bcb77 !important;
+            color: white;
+            font-weight: bold;
+        }
+
+        .no-games {
+            text-align: center;
+            padding: 50px;
+            color: #666;
+            font-size: 1.2rem;
+        }
+
+        .time-col {
+            white-space: nowrap;
+        }
+
+        .status-live {
+            background: #e94560;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.8rem;
+        }
+
+        .status-final {
+            color: #666;
+        }
+
+        .ha-col {
+            font-weight: bold;
+            width: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Hockey Schedule Dashboard</h1>
+        <div class="date-nav">
+            <button onclick="changeDate(-1)">&larr; Prev</button>
+            <input type="date" id="date-picker" onchange="loadGames()">
+            <button onclick="changeDate(1)">Next &rarr;</button>
+            <button onclick="goToToday()">Today</button>
+            <select id="period-select" onchange="loadGames()" style="padding: 8px 12px; border-radius: 4px; border: none; font-size: 0.9rem; margin-left: 10px;">
+                <option value="season">Season</option>
+                <option value="L10">Last 10 Games</option>
+                <option value="L5">Last 5 Games</option>
+            </select>
+            <button onclick="loadGames()" style="background: #FF9800; color: white; margin-left: 10px;">Refresh</button>
+            <span class="stats-summary" id="stats-summary"></span>
+        </div>
+    </div>
+
+    <!-- Filter Bar -->
+    <div class="filter-bar">
+        <div class="filter-group">
+            <label>Country:</label>
+            <select id="country-filter" onchange="updateLeagueOptions(); applyFilters();">
+                <option value="">All Countries</option>
+            </select>
+        </div>
+        <div class="filter-group">
+            <label>League:</label>
+            <select id="league-filter" onchange="applyFilters()">
+                <option value="">All Leagues</option>
+            </select>
+        </div>
+        <div class="filter-group">
+            <label>Team:</label>
+            <input type="text" id="team-search" placeholder="Search team..." oninput="applyFilters()">
+        </div>
+        <button class="clear-filters-btn" onclick="clearFilters()">Clear Filters</button>
+        <span id="filter-count"></span>
+    </div>
+
+    <!-- Stat Filter Bar -->
+    <div class="filter-bar" style="background: #e8f5e9;">
+        <span style="font-weight: bold; margin-right: 10px;">Min %:</span>
+        <div class="filter-group">
+            <label>O1.5%:</label>
+            <input type="number" id="filter-o15" placeholder="e.g. 70" min="0" max="100" oninput="applyFilters()">
+        </div>
+        <div class="filter-group">
+            <label>O2.5%:</label>
+            <input type="number" id="filter-o25" placeholder="e.g. 50" min="0" max="100" oninput="applyFilters()">
+        </div>
+        <div class="filter-group">
+            <label>O3.5%:</label>
+            <input type="number" id="filter-o35" placeholder="e.g. 30" min="0" max="100" oninput="applyFilters()">
+        </div>
+        <div class="filter-group">
+            <label>1P O1.5%:</label>
+            <input type="number" id="filter-1p-o15" placeholder="e.g. 50" min="0" max="100" oninput="applyFilters()">
+        </div>
+        <div class="filter-group">
+            <label>1P Scored%:</label>
+            <input type="number" id="filter-1p-scored" placeholder="e.g. 60" min="0" max="100" oninput="applyFilters()">
+        </div>
+    </div>
+
+    <div class="container" id="games-container">
+        <div class="loading">Loading games...</div>
+    </div>
+
+    <script>
+        const datePicker = document.getElementById('date-picker');
+        datePicker.value = '{{ default_date }}';
+
+        let allGamesData = [];
+        let currentSort = { column: null, direction: 'asc' };
+
+        function changeDate(days) {
+            const current = new Date(datePicker.value);
+            current.setDate(current.getDate() + days);
+            datePicker.value = current.toISOString().split('T')[0];
+            loadGames();
+        }
+
+        function goToToday() {
+            datePicker.value = new Date().toISOString().split('T')[0];
+            loadGames();
+        }
+
+        // Parse league name into country and league
+        function parseLeagueName(leagueName) {
+            // Format: "Country - League Name" or just "League Name"
+            if (leagueName === 'NHL') {
+                return { country: 'USA/Canada', league: 'NHL' };
+            }
+            if (leagueName === 'PWHL Women') {
+                return { country: 'USA/Canada', league: 'PWHL Women' };
+            }
+            if (leagueName === 'Alps Hockey League') {
+                return { country: 'Alps', league: 'Alps Hockey League' };
+            }
+            if (leagueName === 'Champions Hockey League') {
+                return { country: 'Europe', league: 'Champions Hockey League' };
+            }
+
+            const parts = leagueName.split(' - ');
+            if (parts.length >= 2) {
+                return { country: parts[0], league: parts.slice(1).join(' - ') };
+            }
+            return { country: '', league: leagueName };
+        }
+
+        // 1P Avg color: <1.5 red, 1.5-1.69 yellow, >=1.7 green
+        function get1pAvgClass(value) {
+            if (value === null || value === undefined || value === 0) return '';
+            if (value < 1.5) return 'stat-1p-red';
+            if (value < 1.7) return 'stat-1p-yellow';
+            return 'stat-1p-green';
+        }
+
+        // 1P % color: <50 red, 50-54.9 yellow, 55+ green
+        function get1pPctClass(value) {
+            if (value === null || value === undefined || value === 0) return '';
+            if (value < 50) return 'stat-pct-red';
+            if (value < 55) return 'stat-pct-yellow';
+            return 'stat-pct-green';
+        }
+
+        // 1P Scored color: <1 red, 1-1.5 yellow, >1.5 green
+        function get1pScoredClass(value) {
+            if (value === null || value === undefined || value === 0) return '';
+            if (value < 1) return 'stat-1p-red';
+            if (value <= 1.5) return 'stat-1p-yellow';
+            return 'stat-1p-green';
+        }
+
+        // 1P Scored % color: <50 red, 50-59.9 yellow, 60+ green
+        function get1pScoredPctClass(value) {
+            if (value === null || value === undefined || value === 0) return '';
+            if (value < 50) return 'stat-pct-red';
+            if (value < 60) return 'stat-pct-yellow';
+            return 'stat-pct-green';
+        }
+
+        // Team Over % color with customizable thresholds
+        function getTeamOverClass(value, lowThresh, highThresh) {
+            if (value === null || value === undefined || value === 0) return '';
+            if (value < lowThresh) return 'stat-pct-red';
+            if (value < highThresh) return 'stat-pct-yellow';
+            return 'stat-pct-green';
+        }
+
+        function formatTime(timeStr) {
+            if (!timeStr) return '';
+            try {
+                const [hours, minutes] = timeStr.split(':');
+                const h = parseInt(hours);
+                const ampm = h >= 12 ? 'PM' : 'AM';
+                const hour12 = h % 12 || 12;
+                return `${hour12}:${minutes} ${ampm}`;
+            } catch {
+                return timeStr;
+            }
+        }
+
+        function getStatusDisplay(status, homeScore, awayScore) {
+            if (status === 'FT' || status === 'AOT' || status === 'AP') {
+                return `<span class="status-final">${awayScore}-${homeScore}</span>`;
+            } else if (status === 'LIVE' || status === '1P' || status === '2P' || status === '3P' || status === 'OT') {
+                return `<span class="status-live">${status} ${awayScore}-${homeScore}</span>`;
+            } else if (status === 'NS') {
+                return '-';
+            }
+            return status || '-';
+        }
+
+        function populateFilters(games) {
+            const countryFilter = document.getElementById('country-filter');
+            const leagueFilter = document.getElementById('league-filter');
+
+            // Get unique countries and leagues
+            const countries = new Set();
+            const leagues = new Set();
+
+            games.forEach(game => {
+                const parsed = parseLeagueName(game.league);
+                if (parsed.country) countries.add(parsed.country);
+                leagues.add(game.league);
+            });
+
+            // Populate country dropdown
+            countryFilter.innerHTML = '<option value="">All Countries</option>';
+            [...countries].sort().forEach(country => {
+                countryFilter.innerHTML += `<option value="${country}">${country}</option>`;
+            });
+
+            // Populate league dropdown
+            leagueFilter.innerHTML = '<option value="">All Leagues</option>';
+            [...leagues].sort().forEach(league => {
+                leagueFilter.innerHTML += `<option value="${league}">${league}</option>`;
+            });
+        }
+
+        function updateLeagueOptions() {
+            const countryFilter = document.getElementById('country-filter').value;
+            const leagueFilter = document.getElementById('league-filter');
+
+            if (!countryFilter) {
+                // Show all leagues
+                const leagues = new Set();
+                allGamesData.forEach(game => leagues.add(game.league));
+                leagueFilter.innerHTML = '<option value="">All Leagues</option>';
+                [...leagues].sort().forEach(league => {
+                    leagueFilter.innerHTML += `<option value="${league}">${league}</option>`;
+                });
+            } else {
+                // Filter leagues by country
+                const leagues = new Set();
+                allGamesData.forEach(game => {
+                    const parsed = parseLeagueName(game.league);
+                    if (parsed.country === countryFilter) {
+                        leagues.add(game.league);
+                    }
+                });
+                leagueFilter.innerHTML = '<option value="">All Leagues</option>';
+                [...leagues].sort().forEach(league => {
+                    leagueFilter.innerHTML += `<option value="${league}">${league}</option>`;
+                });
+            }
+        }
+
+        function applyFilters() {
+            const countryFilter = document.getElementById('country-filter').value;
+            const leagueFilter = document.getElementById('league-filter').value;
+            const teamSearch = document.getElementById('team-search').value.toLowerCase();
+
+            // Stat filters
+            const minO15 = parseFloat(document.getElementById('filter-o15').value) || 0;
+            const minO25 = parseFloat(document.getElementById('filter-o25').value) || 0;
+            const minO35 = parseFloat(document.getElementById('filter-o35').value) || 0;
+            const min1pO15 = parseFloat(document.getElementById('filter-1p-o15').value) || 0;
+            const min1pScored = parseFloat(document.getElementById('filter-1p-scored').value) || 0;
+
+            let filtered = allGamesData.filter(game => {
+                const parsed = parseLeagueName(game.league);
+
+                // Country filter
+                if (countryFilter && parsed.country !== countryFilter) return false;
+
+                // League filter
+                if (leagueFilter && game.league !== leagueFilter) return false;
+
+                // Team search
+                if (teamSearch) {
+                    const homeMatch = game.home_team.toLowerCase().includes(teamSearch);
+                    const awayMatch = game.away_team.toLowerCase().includes(teamSearch);
+                    if (!homeMatch && !awayMatch) return false;
+                }
+
+                // Stat filters - check that BOTH teams meet the criteria
+                if (minO15 > 0) {
+                    const homeVal = game.home_stats?.pct_scored_over_1_5 || 0;
+                    const awayVal = game.away_stats?.pct_scored_over_1_5 || 0;
+                    if (homeVal < minO15 || awayVal < minO15) return false;
+                }
+                if (minO25 > 0) {
+                    const homeVal = game.home_stats?.pct_scored_over_2_5 || 0;
+                    const awayVal = game.away_stats?.pct_scored_over_2_5 || 0;
+                    if (homeVal < minO25 || awayVal < minO25) return false;
+                }
+                if (minO35 > 0) {
+                    const homeVal = game.home_stats?.pct_scored_over_3_5 || 0;
+                    const awayVal = game.away_stats?.pct_scored_over_3_5 || 0;
+                    if (homeVal < minO35 || awayVal < minO35) return false;
+                }
+                if (min1pO15 > 0) {
+                    const homeVal = game.home_stats?.pct_1p_over_1_5 || 0;
+                    const awayVal = game.away_stats?.pct_1p_over_1_5 || 0;
+                    if (homeVal < min1pO15 || awayVal < min1pO15) return false;
+                }
+                if (min1pScored > 0) {
+                    const homeVal = game.home_stats?.pct_1p_scored || 0;
+                    const awayVal = game.away_stats?.pct_1p_scored || 0;
+                    if (homeVal < min1pScored || awayVal < min1pScored) return false;
+                }
+
+                return true;
+            });
+
+            // Update filter count
+            const filterCount = document.getElementById('filter-count');
+            const hasAnyFilter = countryFilter || leagueFilter || teamSearch || minO15 || minO25 || minO35 || min1pO15 || min1pScored;
+            if (hasAnyFilter) {
+                filterCount.textContent = `Showing ${filtered.length} of ${allGamesData.length} games`;
+            } else {
+                filterCount.textContent = '';
+            }
+
+            renderGames(filtered);
+        }
+
+        function clearFilters() {
+            document.getElementById('country-filter').value = '';
+            document.getElementById('league-filter').value = '';
+            document.getElementById('team-search').value = '';
+            document.getElementById('filter-count').textContent = '';
+
+            // Clear stat filters
+            document.getElementById('filter-o15').value = '';
+            document.getElementById('filter-o25').value = '';
+            document.getElementById('filter-o35').value = '';
+            document.getElementById('filter-1p-o15').value = '';
+            document.getElementById('filter-1p-scored').value = '';
+
+            // Reset league dropdown
+            updateLeagueOptions();
+
+            currentSort = { column: null, direction: 'asc' };
+            document.querySelectorAll('th.sortable').forEach(th => {
+                th.classList.remove('sort-asc', 'sort-desc');
+            });
+
+            renderGames(allGamesData);
+        }
+
+        function sortGames(games, column, direction) {
+            return [...games].sort((a, b) => {
+                let aVal, bVal;
+
+                // Get values based on column
+                switch(column) {
+                    case 'country':
+                        aVal = parseLeagueName(a.league).country;
+                        bVal = parseLeagueName(b.league).country;
+                        break;
+                    case 'league':
+                        aVal = parseLeagueName(a.league).league;
+                        bVal = parseLeagueName(b.league).league;
+                        break;
+                    case 'time':
+                        aVal = a.time || '';
+                        bVal = b.time || '';
+                        break;
+                    case 'home_o15':
+                        aVal = a.home_stats?.pct_scored_over_1_5 || 0;
+                        bVal = b.home_stats?.pct_scored_over_1_5 || 0;
+                        break;
+                    case 'home_o25':
+                        aVal = a.home_stats?.pct_scored_over_2_5 || 0;
+                        bVal = b.home_stats?.pct_scored_over_2_5 || 0;
+                        break;
+                    case 'home_1p_pct':
+                        aVal = a.home_stats?.pct_1p_over_1_5 || 0;
+                        bVal = b.home_stats?.pct_1p_over_1_5 || 0;
+                        break;
+                    case 'home_1p_scored_pct':
+                        aVal = a.home_stats?.pct_1p_scored || 0;
+                        bVal = b.home_stats?.pct_1p_scored || 0;
+                        break;
+                    case 'home_1p_conceded_pct':
+                        aVal = a.home_stats?.pct_1p_conceded || 0;
+                        bVal = b.home_stats?.pct_1p_conceded || 0;
+                        break;
+                    default:
+                        aVal = 0;
+                        bVal = 0;
+                }
+
+                if (typeof aVal === 'string') {
+                    const cmp = aVal.localeCompare(bVal);
+                    return direction === 'asc' ? cmp : -cmp;
+                } else {
+                    return direction === 'asc' ? aVal - bVal : bVal - aVal;
+                }
+            });
+        }
+
+        function handleSort(column) {
+            if (currentSort.column === column) {
+                currentSort.direction = currentSort.direction === 'asc' ? 'desc' : 'asc';
+            } else {
+                currentSort.column = column;
+                currentSort.direction = 'desc';  // Default to descending for numeric columns
+            }
+
+            // Update header classes
+            document.querySelectorAll('th.sortable').forEach(th => {
+                th.classList.remove('sort-asc', 'sort-desc');
+            });
+            const th = document.querySelector(`th[data-sort="${column}"]`);
+            if (th) {
+                th.classList.add(currentSort.direction === 'asc' ? 'sort-asc' : 'sort-desc');
+            }
+
+            applyFilters();
+        }
+
+        function renderGames(games) {
+            const container = document.getElementById('games-container');
+
+            if (games.length === 0) {
+                container.innerHTML = '<div class="no-games">No games match your filters</div>';
+                return;
+            }
+
+            // Apply sorting if set
+            if (currentSort.column) {
+                games = sortGames(games, currentSort.column, currentSort.direction);
+            }
+
+            let html = `
+                <table>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th class="sortable" data-sort="country" onclick="handleSort('country')">Country</th>
+                            <th class="sortable" data-sort="league" onclick="handleSort('league')">League</th>
+                            <th class="sortable" data-sort="time" onclick="handleSort('time')">Time</th>
+                            <th>Score</th>
+                            <th class="team-col">Team</th>
+                            <th>Record</th>
+                            <th>Standing</th>
+                            <th>Games</th>
+                            <th>Avg Total</th>
+                            <th>Avg Scored</th>
+                            <th style="background:#6a9ed4;font-size:0.75rem">Lg Avg</th>
+                            <th>Avg Conceded</th>
+                            <th style="background:#6a9ed4;font-size:0.75rem">Lg Avg</th>
+                            <th class="sortable" data-sort="home_o15" onclick="handleSort('home_o15')">O1.5%</th>
+                            <th class="sortable" data-sort="home_o25" onclick="handleSort('home_o25')">O2.5%</th>
+                            <th>O3.5%</th>
+                            <th>1P Avg</th>
+                            <th class="sortable" data-sort="home_1p_pct" onclick="handleSort('home_1p_pct')">1P O1.5%</th>
+                            <th>1P Scored</th>
+                            <th class="sortable" data-sort="home_1p_scored_pct" onclick="handleSort('home_1p_scored_pct')">1P Scored%</th>
+                            <th>1P Allowed</th>
+                            <th class="sortable" data-sort="home_1p_conceded_pct" onclick="handleSort('home_1p_conceded_pct')">1P Allowed%</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+            `;
+
+            for (const game of games) {
+                const homeStats = game.home_stats || {};
+                const awayStats = game.away_stats || {};
+                const parsed = parseLeagueName(game.league);
+
+                // Away team color coding
+                const away1pAvgClass = get1pAvgClass(awayStats.avg_1p_total);
+                const away1pPctClass = get1pPctClass(awayStats.pct_1p_over_1_5);
+                const away1pScoredClass = get1pScoredClass(awayStats.avg_1p_scored);
+                const away1pScoredPctClass = get1pScoredPctClass(awayStats.pct_1p_scored);
+
+                // Home team color coding
+                const home1pAvgClass = get1pAvgClass(homeStats.avg_1p_total);
+                const home1pPctClass = get1pPctClass(homeStats.pct_1p_over_1_5);
+                const home1pScoredClass = get1pScoredClass(homeStats.avg_1p_scored);
+                const home1pScoredPctClass = get1pScoredPctClass(homeStats.pct_1p_scored);
+
+                // Check if team avg exceeds league avg for color coding
+                const awayScoredAboveAvg = awayStats.avg_scored && game.league_avg_scored && awayStats.avg_scored > game.league_avg_scored;
+                const awayConcededAboveAvg = awayStats.avg_conceded && game.league_avg_conceded && awayStats.avg_conceded > game.league_avg_conceded;
+                const homeScoredAboveAvg = homeStats.avg_scored && game.league_avg_scored && homeStats.avg_scored > game.league_avg_scored;
+                const homeConcededAboveAvg = homeStats.avg_conceded && game.league_avg_conceded && homeStats.avg_conceded > game.league_avg_conceded;
+
+                // Get standings info
+                const awayStandings = game.away_standings || {};
+                const homeStandings = game.home_standings || {};
+
+                // Away row (top)
+                html += `
+                    <tr class="away-row">
+                        <td class="ha-col">A</td>
+                        <td class="country-col" rowspan="2">${parsed.country}</td>
+                        <td class="league-col" rowspan="2">${parsed.league}</td>
+                        <td class="time-col" rowspan="2">${formatTime(game.time)}</td>
+                        <td rowspan="2">${getStatusDisplay(game.status, game.home_score, game.away_score)}</td>
+                        <td class="team-col">${game.away_team}</td>
+                        <td style="font-size:0.8rem">${awayStandings.record || '-'}</td>
+                        <td style="font-size:0.8rem">${awayStandings.position ? awayStandings.position + '/' + awayStandings.total_teams : '-'}</td>
+                        <td>${awayStats.games || '-'}</td>
+                        <td>${awayStats.avg_total || '-'}</td>
+                        <td ${awayScoredAboveAvg ? 'class="stat-pct-green"' : ''}>${awayStats.avg_scored || '-'}</td>
+                        <td style="background:#e8f0fe;color:#666;font-size:0.8rem">${game.league_avg_scored || '-'}</td>
+                        <td ${awayConcededAboveAvg ? 'class="stat-pct-green"' : ''}>${awayStats.avg_conceded || '-'}</td>
+                        <td style="background:#e8f0fe;color:#666;font-size:0.8rem">${game.league_avg_conceded || '-'}</td>
+                        <td ${awayStats.pct_scored_over_1_5 >= 75 ? 'class="stat-pct-green"' : ''}>${awayStats.pct_scored_over_1_5 ? awayStats.pct_scored_over_1_5.toFixed(1) : '-'}</td>
+                        <td ${awayStats.pct_scored_over_2_5 >= 65 ? 'class="stat-pct-green"' : ''}>${awayStats.pct_scored_over_2_5 ? awayStats.pct_scored_over_2_5.toFixed(1) : '-'}</td>
+                        <td ${awayStats.pct_scored_over_3_5 >= 45 ? 'class="stat-pct-green"' : ''}>${awayStats.pct_scored_over_3_5 ? awayStats.pct_scored_over_3_5.toFixed(1) : '-'}</td>
+                        <td ${awayStats.avg_1p_total >= 1.5 ? 'class="stat-pct-green"' : ''}>${awayStats.avg_1p_total || '-'}</td>
+                        <td ${awayStats.pct_1p_over_1_5 >= 60 ? 'class="stat-pct-green"' : ''}>${awayStats.pct_1p_over_1_5 ? awayStats.pct_1p_over_1_5.toFixed(1) : '-'}</td>
+                        <td>${awayStats.avg_1p_scored || '-'}</td>
+                        <td ${awayStats.pct_1p_scored >= 60 ? 'class="stat-pct-green"' : ''}>${awayStats.pct_1p_scored ? awayStats.pct_1p_scored.toFixed(1) : '-'}</td>
+                        <td ${awayStats.avg_1p_conceded >= 1.0 ? 'class="stat-pct-green"' : ''}>${awayStats.avg_1p_conceded || '-'}</td>
+                        <td ${awayStats.pct_1p_conceded >= 60 ? 'class="stat-pct-green"' : ''}>${awayStats.pct_1p_conceded ? awayStats.pct_1p_conceded.toFixed(1) : '-'}</td>
+                    </tr>
+                `;
+
+                // Home row (bottom)
+                html += `
+                    <tr class="home-row">
+                        <td class="ha-col">H</td>
+                        <td class="team-col">${game.home_team}</td>
+                        <td style="font-size:0.8rem">${homeStandings.record || '-'}</td>
+                        <td style="font-size:0.8rem">${homeStandings.position ? homeStandings.position + '/' + homeStandings.total_teams : '-'}</td>
+                        <td>${homeStats.games || '-'}</td>
+                        <td>${homeStats.avg_total || '-'}</td>
+                        <td ${homeScoredAboveAvg ? 'class="stat-pct-green"' : ''}>${homeStats.avg_scored || '-'}</td>
+                        <td style="background:#e8f0fe;color:#666;font-size:0.8rem"></td>
+                        <td ${homeConcededAboveAvg ? 'class="stat-pct-green"' : ''}>${homeStats.avg_conceded || '-'}</td>
+                        <td style="background:#e8f0fe;color:#666;font-size:0.8rem"></td>
+                        <td ${homeStats.pct_scored_over_1_5 >= 75 ? 'class="stat-pct-green"' : ''}>${homeStats.pct_scored_over_1_5 ? homeStats.pct_scored_over_1_5.toFixed(1) : '-'}</td>
+                        <td ${homeStats.pct_scored_over_2_5 >= 65 ? 'class="stat-pct-green"' : ''}>${homeStats.pct_scored_over_2_5 ? homeStats.pct_scored_over_2_5.toFixed(1) : '-'}</td>
+                        <td ${homeStats.pct_scored_over_3_5 >= 45 ? 'class="stat-pct-green"' : ''}>${homeStats.pct_scored_over_3_5 ? homeStats.pct_scored_over_3_5.toFixed(1) : '-'}</td>
+                        <td ${homeStats.avg_1p_total >= 1.5 ? 'class="stat-pct-green"' : ''}>${homeStats.avg_1p_total || '-'}</td>
+                        <td ${homeStats.pct_1p_over_1_5 >= 60 ? 'class="stat-pct-green"' : ''}>${homeStats.pct_1p_over_1_5 ? homeStats.pct_1p_over_1_5.toFixed(1) : '-'}</td>
+                        <td>${homeStats.avg_1p_scored || '-'}</td>
+                        <td ${homeStats.pct_1p_scored >= 60 ? 'class="stat-pct-green"' : ''}>${homeStats.pct_1p_scored ? homeStats.pct_1p_scored.toFixed(1) : '-'}</td>
+                        <td ${homeStats.avg_1p_conceded >= 1.0 ? 'class="stat-pct-green"' : ''}>${homeStats.avg_1p_conceded || '-'}</td>
+                        <td ${homeStats.pct_1p_conceded >= 60 ? 'class="stat-pct-green"' : ''}>${homeStats.pct_1p_conceded ? homeStats.pct_1p_conceded.toFixed(1) : '-'}</td>
+                    </tr>
+                `;
+            }
+
+            html += `
+                    </tbody>
+                </table>
+            `;
+
+            container.innerHTML = html;
+
+            // Re-apply sort indicator
+            if (currentSort.column) {
+                const th = document.querySelector(`th[data-sort="${currentSort.column}"]`);
+                if (th) {
+                    th.classList.add(currentSort.direction === 'asc' ? 'sort-asc' : 'sort-desc');
+                }
+            }
+        }
+
+        async function loadGames() {
+            const container = document.getElementById('games-container');
+            const summary = document.getElementById('stats-summary');
+            const periodSelect = document.getElementById('period-select');
+
+            container.innerHTML = '<div class="loading">Loading games...</div>';
+
+            try {
+                const response = await fetch(`/api/games?date=${datePicker.value}&period=${periodSelect.value}`);
+                const data = await response.json();
+
+                summary.innerHTML = `<strong>${data.total_games}</strong> games on <strong>${data.date}</strong>`;
+
+                if (data.total_games === 0) {
+                    allGamesData = [];
+                    container.innerHTML = '<div class="no-games">No games scheduled for this date</div>';
+                    return;
+                }
+
+                // Flatten games from all leagues into one array
+                allGamesData = [];
+                for (const [league, games] of Object.entries(data.games_by_league)) {
+                    for (const game of games) {
+                        allGamesData.push(game);
+                    }
+                }
+
+                // Populate filters
+                populateFilters(allGamesData);
+
+                // Render all games
+                renderGames(allGamesData);
+
+            } catch (error) {
+                console.error('Error loading games:', error);
+                container.innerHTML = '<div class="no-games">Error loading games. Please try again.</div>';
+            }
+        }
+
+        // Load games on page load
+        loadGames();
+    </script>
+</body>
+</html>

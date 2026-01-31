@@ -1,0 +1,42 @@
+⚽ SOCCER - COMPREHENSIVE EV REPORT
+================================================================================
+Date: 2025-12-28
+Total Matches Analyzed: 2
+================================================================================
+
+📊 ALL MATCHES RANKED BY EXPECTED VALUE (EV)
+================================================================================
+
+#1 Leeds United @ Sunderland
+   League: Premier League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Sunderland
+   ODDS: +175
+   TRUE EV: -3.8%
+   STATUS: ❌ FILTERED (EV < 5%)
+   ANGLE EDGE: +0.0%
+
+   Market Odds:
+     • Sunderland: +175
+     • Leeds United: +180
+
+#2 Tottenham Hotspur @ Crystal Palace
+   League: Premier League
+--------------------------------------------------------------------------------
+   RECOMMENDED BET: Crystal Palace
+   ODDS: +120
+   TRUE EV: -23.0%
+   STATUS: ❌ FILTERED (EV < 5%)
+   ANGLE EDGE: +0.0%
+
+   Market Odds:
+     • Crystal Palace: +120
+     • Tottenham Hotspur: +230
+
+================================================================================
+📋 LEGEND
+  ✅ QUALIFIES: EV >= 5% and odds better than -250
+  ❌ FILTERED: Does not meet minimum EV threshold or too heavy favorite
+  TRUE EV: Expected value based on real odds and estimated win probability
+  ANGLE EDGE: Edge from betting angles (doesn't account for market odds)
+================================================================================

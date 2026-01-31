@@ -1,0 +1,40 @@
+NCAA BETTING REPORT - 2025-11-25
+================================================================================
+
+#1 NC State Wolfpack @ Boise State Broncos
+BET: Boise State Broncos ML
+ODDS: +245 | True EV: +158.8%
+Confidence: ELITE
+Angles: 2
+  1. NC State Wolfpack on HOME → ROAD B2B (young players, academic stress)
+  2. Boise State Broncos has 3 days rest vs NC State Wolfpack 0 days
+
+#2 St. John's Red Storm @ Baylor Bears
+BET: Baylor Bears ML
+ODDS: +180 | True EV: +110.0%
+Confidence: ELITE
+Angles: 2
+  1. St. John's Red Storm on HOME → ROAD B2B (young players, academic stress)
+  2. Baylor Bears has 3 days rest vs St. John's Red Storm 0 days
+
+#3 Michigan Wolverines @ Auburn Tigers
+BET: Auburn Tigers ML
+ODDS: +145 | True EV: +59.2%
+Confidence: HIGH
+Angles: 1
+  1. Michigan Wolverines on HOME → ROAD B2B (young players, academic stress)
+
+#4 Iowa State Cyclones @ Creighton Bluejays
+BET: Creighton Bluejays ML
+ODDS: +340 | True EV: +164.0%
+Confidence: HIGH
+Angles: 1
+  1. Creighton Bluejays has 3 days rest vs Iowa State Cyclones 0 days
+
+#5 UNLV Rebels @ Alabama Crimson Tide
+BET: UNLV Rebels ML
+ODDS: +800 | True EV: +440.0%
+Confidence: HIGH
+Angles: 1
+  1. UNLV Rebels has 3 days rest vs Alabama Crimson Tide 0 days
+
