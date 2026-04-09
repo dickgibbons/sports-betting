@@ -10,7 +10,9 @@ import io
 import csv
 from pathlib import Path
 
-app = Flask(__name__, template_folder='templates')
+# Absolute template dir so the correct UI loads regardless of process cwd (e.g. nohup from repo root).
+_FLASK_APP_DIR = Path(__file__).resolve().parent
+app = Flask(__name__, template_folder=str(_FLASK_APP_DIR / "templates"))
 
 _SPORTS_BETTING_ROOT = Path(__file__).resolve().parents[2]
 _DAILY_REPORTS = Path(

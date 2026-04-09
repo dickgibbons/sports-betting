@@ -10,7 +10,8 @@ import io
 import csv
 from pathlib import Path
 
-app = Flask(__name__, template_folder='templates')
+_FLASK_APP_DIR = Path(__file__).resolve().parent
+app = Flask(__name__, template_folder=str(_FLASK_APP_DIR / "templates"))
 
 # Repo root = sports-betting/ (parent of dashboards/)
 _SPORTS_BETTING_ROOT = Path(__file__).resolve().parents[2]
