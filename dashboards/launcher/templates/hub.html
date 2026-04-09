@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Dashboards — Hub</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            min-height: 100vh;
+            font-family: "Segoe UI", system-ui, sans-serif;
+            background: #0a121f;
+            color: #e8eef6;
+            padding: 28px 20px 48px;
+        }
+        .top {
+            max-width: 960px;
+            margin: 0 auto 28px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+        .top a.back {
+            color: #7ab8f0;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        .top a.back:hover { text-decoration: underline; }
+        h1 {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        .grid {
+            max-width: 960px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 18px;
+        }
+        section {
+            background: linear-gradient(145deg, rgba(26, 44, 68, 0.9), rgba(14, 26, 42, 0.95));
+            border: 1px solid #2d4a6e;
+            border-radius: 14px;
+            padding: 1.25rem 1.35rem;
+        }
+        section h2 {
+            font-size: 1.1rem;
+            margin-bottom: 12px;
+            color: #f0f6fc;
+            border-bottom: 1px solid #2d4a6e;
+            padding-bottom: 8px;
+        }
+        ul { list-style: none; }
+        li { margin-bottom: 10px; }
+        a.link {
+            display: inline-block;
+            color: #5eb8ff;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.92rem;
+        }
+        a.link:hover { text-decoration: underline; }
+        .meta {
+            display: block;
+            font-size: 0.78rem;
+            color: #7a8fa3;
+            margin-top: 2px;
+            font-weight: 400;
+        }
+        .placeholder {
+            color: #9db3cc;
+            font-size: 0.88rem;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="top">
+        <h1>Sports Dashboards</h1>
+        <a class="back" href="{{ url_for('home') }}">← Back</a>
+    </div>
+    <div class="grid">
+        <section>
+            <h2>Soccer</h2>
+            <ul>
+                <li>
+                    <a class="link" href="{{ link_base }}:{{ ports.soccer_flask }}/" target="_blank" rel="noopener">Schedule + team stats (Flask)</a>
+                    <span class="meta">Port {{ ports.soccer_flask }}</span>
+                </li>
+                <li>
+                    <a class="link" href="{{ link_base }}:{{ ports.soccer_streamlit }}/" target="_blank" rel="noopener">Global schedule &amp; detailed stats (Streamlit)</a>
+                    <span class="meta">Port {{ ports.soccer_streamlit }}</span>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Hockey</h2>
+            <ul>
+                <li>
+                    <a class="link" href="{{ link_base }}:{{ ports.hockey_flask }}/" target="_blank" rel="noopener">Schedule + team stats (Flask)</a>
+                    <span class="meta">Port {{ ports.hockey_flask }}</span>
+                </li>
+                <li>
+                    <a class="link" href="{{ link_base }}:{{ ports.nhl_streamlit }}/" target="_blank" rel="noopener">NHL 1P totals (Streamlit)</a>
+                    <span class="meta">Port {{ ports.nhl_streamlit }}</span>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Baseball</h2>
+            <p class="placeholder">No baseball dashboard is in this repo yet. Add a Streamlit or Flask app under <code style="color:#5eb8ff;">dashboards/</code> and link it here.</p>
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Betting — Home</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            min-height: 100vh;
+            font-family: "Segoe UI", system-ui, sans-serif;
+            background: radial-gradient(ellipse at top, #1a2f4a 0%, #0a121f 55%);
+            color: #e8eef6;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+        }
+        .tile {
+            display: block;
+            width: min(420px, 100%);
+            padding: 2.25rem 2rem;
+            border-radius: 16px;
+            text-decoration: none;
+            color: inherit;
+            background: linear-gradient(145deg, rgba(30, 52, 78, 0.95), rgba(18, 32, 52, 0.98));
+            border: 1px solid #2d4a6e;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+            transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+        }
+        .tile:hover {
+            transform: translateY(-3px);
+            border-color: #3d9eff;
+            box-shadow: 0 24px 56px rgba(0, 0, 0, 0.4);
+        }
+        .tile h1 {
+            font-size: 1.65rem;
+            font-weight: 700;
+            letter-spacing: 0.02em;
+            margin-bottom: 0.5rem;
+        }
+        .tile p {
+            color: #9db3cc;
+            font-size: 0.95rem;
+            line-height: 1.45;
+        }
+        .tile .cta {
+            margin-top: 1.25rem;
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: #5eb8ff;
+        }
+    </style>
+</head>
+<body>
+    <a class="tile" href="{{ url_for('hub') }}">
+        <h1>Sports Dashboards</h1>
+        <p>Open soccer, hockey, and more. Each tool runs on its own port; start them on the server first.</p>
+        <p class="cta">Enter hub →</p>
+    </a>
+</body>
+</html>
