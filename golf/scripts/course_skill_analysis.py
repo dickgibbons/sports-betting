@@ -269,7 +269,7 @@ def main():
 
     # Save raw data
     if len(analyzer.historical_data) > 0:
-        raw_path = "/Users/dickgibbons/sports-betting/PGA_Bets/data/raw/historical_sg_data.csv"
+        raw_path = "/Users/dickgibbons/AI Projects/sports-betting/PGA_Bets/data/raw/historical_sg_data.csv"
         analyzer.historical_data.to_csv(raw_path, index=False)
         print(f"\nSaved raw data to {raw_path}")
 
@@ -285,7 +285,7 @@ def main():
             results = results.sort_values('r_squared', ascending=False)
 
             # Save results
-            output_path = "/Users/dickgibbons/sports-betting/PGA_Bets/data/processed/course_skill_weights.csv"
+            output_path = "/Users/dickgibbons/AI Projects/sports-betting/PGA_Bets/data/processed/course_skill_weights.csv"
             results.to_csv(output_path, index=False)
             print(f"\nSaved analysis to {output_path}")
 

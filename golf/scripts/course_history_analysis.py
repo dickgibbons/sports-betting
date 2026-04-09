@@ -300,7 +300,7 @@ def main():
     print("=" * 70)
 
     # Load historical data
-    historical_sg = pd.read_csv("/Users/dickgibbons/sports-betting/PGA_Bets/data/raw/historical_sg_data.csv")
+    historical_sg = pd.read_csv("/Users/dickgibbons/AI Projects/sports-betting/PGA_Bets/data/raw/historical_sg_data.csv")
     print(f"\nLoaded {len(historical_sg)} player-tournament records")
 
     analyzer = CourseHistoryAnalyzer(historical_sg)
@@ -351,7 +351,7 @@ def main():
     # Save all specialists data
     if all_specialists:
         all_df = pd.concat(all_specialists, ignore_index=True)
-        output_path = "/Users/dickgibbons/sports-betting/PGA_Bets/data/processed/course_specialists.csv"
+        output_path = "/Users/dickgibbons/AI Projects/sports-betting/PGA_Bets/data/processed/course_specialists.csv"
         all_df.to_csv(output_path, index=False)
         print(f"\n\nSaved course specialists data to {output_path}")
 
@@ -370,7 +370,7 @@ def main():
         print(f"{row['event_name'][:40]:<40} {row['avg_course_effect_spread']:>14.3f} {row['max_positive_effect']:>10.2f}")
 
     # Save summary
-    summary_path = "/Users/dickgibbons/sports-betting/PGA_Bets/data/processed/course_effect_summary.csv"
+    summary_path = "/Users/dickgibbons/AI Projects/sports-betting/PGA_Bets/data/processed/course_effect_summary.csv"
     summary.to_csv(summary_path, index=False)
     print(f"\nSaved course effect summary to {summary_path}")
 

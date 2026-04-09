@@ -290,7 +290,7 @@ def generate_reports(days_back=30, output_dir=None):
     # Set output directory
     if output_dir is None:
         today = datetime.now().strftime('%Y-%m-%d')
-        output_dir = f"/Users/dickgibbons/Daily Reports/{today}"
+        output_dir = f"/Users/dickgibbons/AI Projects/sports-betting/Daily Reports/{today}"
 
     os.makedirs(output_dir, exist_ok=True)
 

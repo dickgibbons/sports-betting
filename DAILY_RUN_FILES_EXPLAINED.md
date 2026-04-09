@@ -19,7 +19,7 @@ This is where most NHL analysis happens. The daily script runs these scripts in 
   - Outputs: `nhl_daily_report_*.csv` files
 
 - **`nhl_first_period_daily_report.py`** - First period analysis
-  - Outputs to: `/Users/dickgibbons/betting_data/nhl_1p_daily_report.json` and `.csv`
+  - Outputs to: `/Users/dickgibbons/AI Projects/sports-betting/hockey/betting_data/nhl_1p_daily_report.json` and `.csv`
 
 - **`daily_goalie_saves_report.py`** - Goalie saves predictions
   - Uses models: `nhl_goalie_models.pkl`
@@ -52,7 +52,7 @@ Contains all the pickle (.pkl) model files:
 
 #### 4. **Project Root Scripts**
 - **`generate_1p_trend_reports.py`** - Generates NHL 1P trend reports
-  - Outputs to: `/Users/dickgibbons/Daily Reports/YYYY-MM-DD/`
+  - Outputs to: `/Users/dickgibbons/AI Projects/sports-betting/Daily Reports/YYYY-MM-DD/`
 
 ### **Data Directories:**
 
@@ -66,8 +66,8 @@ Contains all the pickle (.pkl) model files:
   - All NHL reports are copied here after generation
 
 #### 7. **External Output Locations:**
-- `/Users/dickgibbons/betting_data/` - NHL 1P reports saved here
-- `/Users/dickgibbons/Daily Reports/YYYY-MM-DD/` - Final daily reports destination
+- `/Users/dickgibbons/AI Projects/sports-betting/hockey/betting_data/` - NHL 1P reports saved here
+- `/Users/dickgibbons/AI Projects/sports-betting/Daily Reports/YYYY-MM-DD/` - Final daily reports destination
 
 ### **Output Files Created:**
 
@@ -145,7 +145,7 @@ Contains historical reports organized by date (20251014, 20251016, etc.)
   - Soccer reports are copied here after generation
 
 #### 10. **External Output Locations:**
-- `/Users/dickgibbons/Daily Reports/YYYY-MM-DD/` - Final daily reports destination
+- `/Users/dickgibbons/AI Projects/sports-betting/Daily Reports/YYYY-MM-DD/` - Final daily reports destination
   - Soccer reports copied here: `soccer_*` files
 
 ### **Output Files Created:**
@@ -190,7 +190,7 @@ When `run_soccer_daily.sh` runs, it creates:
 3. Scripts use data from `data/nhl_game_cache.db`
 4. Reports generated in `nhl/analyzers/` or `nhl/`
 5. Reports copied to `reports/YYYY-MM-DD/`
-6. Reports copied to `/Users/dickgibbons/Daily Reports/YYYY-MM-DD/`
+6. Reports copied to `/Users/dickgibbons/AI Projects/sports-betting/Daily Reports/YYYY-MM-DD/`
 
 ### **Soccer Flow:**
 1. `run_soccer_daily.sh` → Calls scripts in `soccer/investigation/` and `soccer/analyzers/daily soccer/`
@@ -198,7 +198,7 @@ When `run_soccer_daily.sh` runs, it creates:
 3. Scripts use data from `soccer/analyzers/daily soccer/data/team_stats_cache.db`
 4. Reports generated in `soccer/analyzers/daily soccer/reports/YYYYMMDD/`
 5. Reports copied to `reports/YYYY-MM-DD/`
-6. Reports copied to `/Users/dickgibbons/Daily Reports/YYYY-MM-DD/`
+6. Reports copied to `/Users/dickgibbons/AI Projects/sports-betting/Daily Reports/YYYY-MM-DD/`
 
 ---
 
@@ -218,5 +218,5 @@ When `run_soccer_daily.sh` runs, it creates:
 1. **Model Files Must Exist:** The scripts will fail if required `.pkl` model files are missing
 2. **API Keys:** Scripts use hardcoded API keys or environment variables for external APIs
 3. **Date Format:** Most scripts use `YYYY-MM-DD` format for dates
-4. **Report Organization:** Reports are organized by date in both `reports/YYYY-MM-DD/` and `/Users/dickgibbons/Daily Reports/YYYY-MM-DD/`
+4. **Report Organization:** Reports are organized by date in both `reports/YYYY-MM-DD/` and `/Users/dickgibbons/AI Projects/sports-betting/Daily Reports/YYYY-MM-DD/`
 5. **Cache Databases:** Both systems use SQLite databases to cache API data and reduce API calls

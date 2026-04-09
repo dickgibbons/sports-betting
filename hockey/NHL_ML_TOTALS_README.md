@@ -21,11 +21,11 @@ Machine learning system that predicts NHL game totals and first period probabili
 ## 📁 Files
 
 ```
-/Users/dickgibbons/sports-betting/nhl/analyzers/
+/Users/dickgibbons/AI Projects/sports-betting/nhl/analyzers/
 ├── nhl_ml_totals_predictor.py       # ML models & training
 └── nhl_daily_totals_report.py       # Daily report generator
 
-/Users/dickgibbons/sports-betting/nhl/models/
+/Users/dickgibbons/AI Projects/sports-betting/nhl/models/
 ├── totals_*.pkl                      # Trained totals models
 ├── first_period_*.pkl                # First period probability models
 ├── scaler.pkl                        # Feature scaler
@@ -58,12 +58,12 @@ The system is integrated into your daily automation (`run_all_daily.sh`):
 
 ```bash
 # Runs every day at 5:00 AM via cron
-0 5 * * * cd /Users/dickgibbons/sports-betting && ./run_all_daily.sh
+0 5 * * * cd /Users/dickgibbons/AI Projects/sports-betting && ./run_all_daily.sh
 ```
 
 ### Report Location
 ```
-/Users/dickgibbons/sports-betting/reports/YYYY-MM-DD/nhl_ml_totals_YYYY-MM-DD.txt
+/Users/dickgibbons/AI Projects/sports-betting/reports/YYYY-MM-DD/nhl_ml_totals_YYYY-MM-DD.txt
 ```
 
 ---
@@ -96,12 +96,12 @@ GAME #1: Oilers @ Capitals
 
 ### View Today's Report
 ```bash
-cat /Users/dickgibbons/sports-betting/reports/$(date +%Y-%m-%d)/nhl_ml_totals_$(date +%Y-%m-%d).txt
+cat /Users/dickgibbons/AI Projects/sports-betting/reports/$(date +%Y-%m-%d)/nhl_ml_totals_$(date +%Y-%m-%d).txt
 ```
 
 ### Generate Report Manually
 ```bash
-cd /Users/dickgibbons/sports-betting/nhl/analyzers
+cd /Users/dickgibbons/AI Projects/sports-betting/nhl/analyzers
 python3 nhl_daily_totals_report.py
 ```
 
@@ -254,7 +254,7 @@ Home over 0.5 goals: 80%    → Strong bet on home 1P team total over 0.5
 
 **Command:**
 ```bash
-cd /Users/dickgibbons/sports-betting/nhl/analyzers
+cd /Users/dickgibbons/AI Projects/sports-betting/nhl/analyzers
 # Edit dates in script if needed
 python3 nhl_ml_totals_predictor.py
 ```

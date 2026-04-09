@@ -10,7 +10,7 @@ import os
 import time
 from datetime import datetime
 
-PROJECT_DIR = "/Users/dickgibbons/sports-betting"
+PROJECT_DIR = "/Users/dickgibbons/AI Projects/sports-betting"
 DATE = datetime.now().strftime('%Y-%m-%d')
 
 def run_command(cmd, description, background=False):

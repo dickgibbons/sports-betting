@@ -16,7 +16,7 @@ class AnglePerformanceLearner:
 
     def __init__(self):
         self.tracker = BetTracker()
-        self.angle_weights_file = '/Users/dickgibbons/sports-betting/data/angle_weights.json'
+        self.angle_weights_file = '/Users/dickgibbons/AI Projects/sports-betting/data/angle_weights.json'
         self.angle_weights = self._load_weights()
 
         print("🧠 Angle Performance Learner initialized")

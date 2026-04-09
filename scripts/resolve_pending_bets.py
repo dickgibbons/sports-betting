@@ -16,7 +16,7 @@ NCAA_API_BASE = "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-c
 FOOTBALL_API_KEY = "960c628e1c91c4b1f125e1eec52ad862"
 FOOTBALL_API_BASE = "https://v3.football.api-sports.io"
 
-BET_HISTORY_PATH = "/Users/dickgibbons/sports-betting/data/bet_history.json"
+BET_HISTORY_PATH = "/Users/dickgibbons/AI Projects/sports-betting/data/bet_history.json"
 
 
 def load_bet_history():

@@ -20,7 +20,7 @@ def calculate_profit(odds, stake=25.0):
 
 def load_bet_history():
     """Load bet history from JSON file"""
-    with open('/Users/dickgibbons/sports-betting/data/bet_history.json', 'r') as f:
+    with open('/Users/dickgibbons/AI Projects/sports-betting/data/bet_history.json', 'r') as f:
         return json.load(f)
 
 
@@ -167,7 +167,7 @@ def main():
 
     # Create reports directory
     import os
-    reports_dir = '/Users/dickgibbons/sports-betting/performance_reports'
+    reports_dir = '/Users/dickgibbons/AI Projects/sports-betting/performance_reports'
     os.makedirs(reports_dir, exist_ok=True)
 
     # Generate tracker for each sport

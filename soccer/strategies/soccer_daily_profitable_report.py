@@ -477,7 +477,7 @@ class SoccerDailyProfitableReport:
         print(report)
 
         # Save to files
-        report_dir = Path("/Users/dickgibbons/sports-betting/reports") / date
+        report_dir = Path("/Users/dickgibbons/AI Projects/sports-betting/reports") / date
         report_dir.mkdir(parents=True, exist_ok=True)
 
         # Text report
@@ -486,7 +486,7 @@ class SoccerDailyProfitableReport:
             f.write(report)
 
         # Also save to Daily Reports
-        daily_dir = Path("/Users/dickgibbons/Daily Reports") / date
+        daily_dir = Path("/Users/dickgibbons/AI Projects/sports-betting/Daily Reports") / date
         daily_dir.mkdir(parents=True, exist_ok=True)
         daily_path = daily_dir / f"soccer_profitable_angles_{date}.txt"
         with open(daily_path, "w") as f:

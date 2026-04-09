@@ -104,7 +104,7 @@ def main():
     print("Showing results if betting $25 on every recommended bet")
     print("=" * 80)
 
-    reports_dir = '/Users/dickgibbons/sports-betting/performance_reports'
+    reports_dir = '/Users/dickgibbons/AI Projects/sports-betting/performance_reports'
 
     sports = [
         ('NHL', 'nhl_cumulative_performance.csv'),

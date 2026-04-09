@@ -32,9 +32,9 @@ class TeamWeightsLoader:
         """Load team profiles from JSON"""
         try:
             if self.sport == 'NHL':
-                profile_path = '/Users/dickgibbons/sports-betting/data/team_profiles_nhl_2024-25.json'
+                profile_path = '/Users/dickgibbons/AI Projects/sports-betting/data/team_profiles_nhl_2024-25.json'
             elif self.sport == 'NBA':
-                profile_path = '/Users/dickgibbons/sports-betting/data/team_profiles_nba_2024-25.json'
+                profile_path = '/Users/dickgibbons/AI Projects/sports-betting/data/team_profiles_nba_2024-25.json'
             else:
                 print(f"⚠️  Sport {self.sport} not supported for team weights")
                 return

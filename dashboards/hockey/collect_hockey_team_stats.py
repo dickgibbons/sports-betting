@@ -5,14 +5,20 @@ Fetches historical game data and calculates team statistics for all DraftKings l
 Uses API-Hockey to get game results with period scores.
 """
 
-import requests
-import pandas as pd
-from datetime import datetime
+import os
 import time
+from datetime import datetime
+from pathlib import Path
+
+import pandas as pd
+import requests
 
 API_KEY = "960c628e1c91c4b1f125e1eec52ad862"
 BASE_URL = "https://v1.hockey.api-sports.io"
-OUTPUT_DIR = "/Users/dickgibbons/Daily Reports"
+_ROOT = Path(__file__).resolve().parents[2]
+OUTPUT_DIR = str(
+    Path(os.environ.get("SPORTS_BETTING_DAILY_REPORTS", _ROOT / "Daily Reports"))
+)
 OUTPUT_FILES = {
     'season': f"{OUTPUT_DIR}/draftkings_hockey_team_stats_with_1p.csv",
     'L10': f"{OUTPUT_DIR}/draftkings_hockey_team_stats_L10.csv",
@@ -149,6 +155,10 @@ def calculate_team_stats(games, league_name, game_limit=None):
                         'team_over_3_5': 0,
                         # Team 1P scoring
                         'team_1p_goals': 0,
+                        # Game total overs
+                        'game_over_5_5': 0,
+                        'game_over_6_5': 0,
+                        'game_over_7_5': 0,
                     }
 
             # Update home team stats (if not at limit)
@@ -165,6 +175,10 @@ def calculate_team_stats(games, league_name, game_limit=None):
                 team_stats[home_team]['team_over_1_5'] += 1 if home_goals >= 2 else 0
                 team_stats[home_team]['team_over_2_5'] += 1 if home_goals >= 3 else 0
                 team_stats[home_team]['team_over_3_5'] += 1 if home_goals >= 4 else 0
+                # Game total thresholds
+                team_stats[home_team]['game_over_5_5'] += 1 if total_goals >= 6 else 0
+                team_stats[home_team]['game_over_6_5'] += 1 if total_goals >= 7 else 0
+                team_stats[home_team]['game_over_7_5'] += 1 if total_goals >= 8 else 0
                 # Update game count for limit tracking
                 team_game_counts[home_team] = team_game_counts.get(home_team, 0) + 1
 
@@ -182,6 +196,10 @@ def calculate_team_stats(games, league_name, game_limit=None):
                 team_stats[away_team]['team_over_1_5'] += 1 if away_goals >= 2 else 0
                 team_stats[away_team]['team_over_2_5'] += 1 if away_goals >= 3 else 0
                 team_stats[away_team]['team_over_3_5'] += 1 if away_goals >= 4 else 0
+                # Game total thresholds
+                team_stats[away_team]['game_over_5_5'] += 1 if total_goals >= 6 else 0
+                team_stats[away_team]['game_over_6_5'] += 1 if total_goals >= 7 else 0
+                team_stats[away_team]['game_over_7_5'] += 1 if total_goals >= 8 else 0
                 # Update game count for limit tracking
                 team_game_counts[away_team] = team_game_counts.get(away_team, 0) + 1
 
@@ -212,6 +230,10 @@ def calculate_team_stats(games, league_name, game_limit=None):
                 'pct_scored_over_1_5': round(stats['team_over_1_5'] / stats['games'] * 100, 1),
                 'pct_scored_over_2_5': round(stats['team_over_2_5'] / stats['games'] * 100, 1),
                 'pct_scored_over_3_5': round(stats['team_over_3_5'] / stats['games'] * 100, 1),
+                # Game total percentages
+                'pct_over_5_5': round(stats['game_over_5_5'] / stats['games'] * 100, 1),
+                'pct_over_6_5': round(stats['game_over_6_5'] / stats['games'] * 100, 1),
+                'pct_over_7_5': round(stats['game_over_7_5'] / stats['games'] * 100, 1),
             })
 
     return results

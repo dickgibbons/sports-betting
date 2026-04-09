@@ -4,7 +4,7 @@ Quick Performance Dashboard - Show betting performance by sport
 """
 
 import sys
-sys.path.insert(0, '/Users/dickgibbons/sports-betting/core')
+sys.path.insert(0, '/Users/dickgibbons/AI Projects/sports-betting/core')
 
 from bet_tracker import BetTracker
 

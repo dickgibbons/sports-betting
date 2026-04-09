@@ -458,8 +458,8 @@ def main():
 
     # Load data
     print("\nLoading data...")
-    skill_weights = pd.read_csv("/Users/dickgibbons/sports-betting/PGA_Bets/data/processed/course_skill_weights.csv")
-    historical_sg = pd.read_csv("/Users/dickgibbons/sports-betting/PGA_Bets/data/raw/historical_sg_data.csv")
+    skill_weights = pd.read_csv("/Users/dickgibbons/AI Projects/sports-betting/PGA_Bets/data/processed/course_skill_weights.csv")
+    historical_sg = pd.read_csv("/Users/dickgibbons/AI Projects/sports-betting/PGA_Bets/data/raw/historical_sg_data.csv")
 
     print(f"  Loaded {len(skill_weights)} course profiles")
     print(f"  Loaded {len(historical_sg)} player-tournament records")
@@ -556,7 +556,7 @@ def main():
         print(f"  {row['event_name'][:35]:<35} {row['year']} | r={row['spearman_corr']:.3f} | Top10={row['top10_precision']:.1%}")
 
     # Save results
-    output_path = "/Users/dickgibbons/sports-betting/PGA_Bets/data/processed/backtest_results.csv"
+    output_path = "/Users/dickgibbons/AI Projects/sports-betting/PGA_Bets/data/processed/backtest_results.csv"
     results_df.to_csv(output_path, index=False)
     print(f"\nSaved detailed results to {output_path}")
 

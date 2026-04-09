@@ -352,7 +352,7 @@ def main():
     profiler = TeamSituationProfiler(sport=args.sport)
     profiler.analyze_season(args.start_date, args.end_date)
 
-    output_file = args.output or f"/Users/dickgibbons/sports-betting/data/team_profiles_{args.sport.lower()}_{args.start_date}_{args.end_date}.json"
+    output_file = args.output or f"/Users/dickgibbons/AI Projects/sports-betting/data/team_profiles_{args.sport.lower()}_{args.start_date}_{args.end_date}.json"
     profiler.generate_team_report(output_file)
 
 

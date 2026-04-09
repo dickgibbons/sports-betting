@@ -487,7 +487,7 @@ class NHLValueBetsAnalyzer:
         report = "\n".join(lines)
 
         # Save to file
-        report_dir = Path("/Users/dickgibbons/Daily Reports") / date
+        report_dir = Path("/Users/dickgibbons/AI Projects/sports-betting/Daily Reports") / date
         report_dir.mkdir(parents=True, exist_ok=True)
         report_file = report_dir / "NHL_VALUE_BETS.txt"
         with open(report_file, "w") as f:

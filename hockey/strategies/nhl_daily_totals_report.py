@@ -239,7 +239,7 @@ class NHLDailyTotalsReport:
     def _save_report(self, predictions, date_str):
         """Save report to file"""
 
-        output_dir = f"/Users/dickgibbons/sports-betting/reports/{date_str}"
+        output_dir = f"/Users/dickgibbons/AI Projects/sports-betting/reports/{date_str}"
         os.makedirs(output_dir, exist_ok=True)
 
         filename = f"{output_dir}/nhl_ml_totals_{date_str}.txt"

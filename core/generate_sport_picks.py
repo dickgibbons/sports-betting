@@ -9,11 +9,11 @@ import os
 from datetime import datetime
 
 # Add paths
-sys.path.insert(0, '/Users/dickgibbons/sports-betting/core')
-sys.path.insert(0, '/Users/dickgibbons/sports-betting/hockey/analysis')
-sys.path.insert(0, '/Users/dickgibbons/sports-betting/nba/analysis')
-sys.path.insert(0, '/Users/dickgibbons/sports-betting/ncaa/analyzers')
-sys.path.insert(0, '/Users/dickgibbons/sports-betting/soccer/analysis')
+sys.path.insert(0, '/Users/dickgibbons/AI Projects/sports-betting/core')
+sys.path.insert(0, '/Users/dickgibbons/AI Projects/sports-betting/hockey/analysis')
+sys.path.insert(0, '/Users/dickgibbons/AI Projects/sports-betting/nba/analysis')
+sys.path.insert(0, '/Users/dickgibbons/AI Projects/sports-betting/ncaa/analyzers')
+sys.path.insert(0, '/Users/dickgibbons/AI Projects/sports-betting/soccer/analysis')
 
 from nhl_betting_angles_analyzer import NHLBettingAnglesAnalyzer
 from nba_betting_angles_analyzer_v2 import NBABettingAnglesAnalyzer
@@ -27,7 +27,7 @@ class SportPicksGenerator:
 
     def __init__(self, date_str=None):
         self.date = date_str or datetime.now().strftime('%Y-%m-%d')
-        self.output_dir = f"/Users/dickgibbons/sports-betting/reports/{self.date}"
+        self.output_dir = f"/Users/dickgibbons/AI Projects/sports-betting/reports/{self.date}"
         os.makedirs(self.output_dir, exist_ok=True)
 
         # Odds API

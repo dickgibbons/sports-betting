@@ -409,8 +409,8 @@ def main():
 
     # Load data
     print("\nLoading data...")
-    skill_weights = pd.read_csv("/Users/dickgibbons/sports-betting/PGA_Bets/data/processed/course_skill_weights.csv")
-    historical_sg = pd.read_csv("/Users/dickgibbons/sports-betting/PGA_Bets/data/raw/historical_sg_data.csv")
+    skill_weights = pd.read_csv("/Users/dickgibbons/AI Projects/sports-betting/PGA_Bets/data/processed/course_skill_weights.csv")
+    historical_sg = pd.read_csv("/Users/dickgibbons/AI Projects/sports-betting/PGA_Bets/data/raw/historical_sg_data.csv")
 
     print(f"  Loaded {len(skill_weights)} course profiles")
     print(f"  Loaded {len(historical_sg)} player-tournament records")
@@ -491,7 +491,7 @@ def main():
 
     # Save monthly results
     monthly_df = pd.DataFrame(monthly_results)
-    monthly_df.to_csv("/Users/dickgibbons/sports-betting/PGA_Bets/data/processed/monthly_betting_results.csv", index=False)
+    monthly_df.to_csv("/Users/dickgibbons/AI Projects/sports-betting/PGA_Bets/data/processed/monthly_betting_results.csv", index=False)
 
     # Best and Worst Events
     print("\n" + "=" * 80)
@@ -551,9 +551,9 @@ def main():
             print(f"{month:<12} ${win:>+10,.2f} ${top5:>+10,.2f} ${top10:>+10,.2f}")
 
     # Save all bets
-    bets_df.to_csv("/Users/dickgibbons/sports-betting/PGA_Bets/data/processed/all_simulated_bets.csv", index=False)
-    print(f"\n\nSaved detailed bet records to /Users/dickgibbons/sports-betting/PGA_Bets/data/processed/all_simulated_bets.csv")
-    print(f"Saved monthly summary to /Users/dickgibbons/sports-betting/PGA_Bets/data/processed/monthly_betting_results.csv")
+    bets_df.to_csv("/Users/dickgibbons/AI Projects/sports-betting/PGA_Bets/data/processed/all_simulated_bets.csv", index=False)
+    print(f"\n\nSaved detailed bet records to /Users/dickgibbons/AI Projects/sports-betting/PGA_Bets/data/processed/all_simulated_bets.csv")
+    print(f"Saved monthly summary to /Users/dickgibbons/AI Projects/sports-betting/PGA_Bets/data/processed/monthly_betting_results.csv")
 
     # Final Analysis
     print("\n" + "=" * 80)

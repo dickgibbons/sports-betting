@@ -15,9 +15,9 @@ from typing import List, Dict, Optional
 import requests
 
 
-PROJECT_DIR = "/Users/dickgibbons/sports-betting"
+PROJECT_DIR = "/Users/dickgibbons/AI Projects/sports-betting"
 REPORTS_DIR = f"{PROJECT_DIR}/reports"
-DAILY_REPORTS = "/Users/dickgibbons/Daily Reports"
+DAILY_REPORTS = "/Users/dickgibbons/AI Projects/sports-betting/Daily Reports"
 CONSOLIDATED_CSV = f"{PROJECT_DIR}/daily_selections_consolidated.csv"
 
 

@@ -23,7 +23,7 @@ class DailyReportsRunner:
 
     def __init__(self):
         self.date = datetime.now().strftime('%Y-%m-%d')
-        base_dir = "/Users/dickgibbons/sports-betting/reports"
+        base_dir = "/Users/dickgibbons/AI Projects/sports-betting/reports"
         self.reports_dir = os.path.join(base_dir, self.date)
         os.makedirs(self.reports_dir, exist_ok=True)
 

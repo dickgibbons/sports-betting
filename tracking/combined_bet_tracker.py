@@ -32,7 +32,7 @@ SOCCER_LEAGUES = {
 
 class CombinedBetTracker:
     def __init__(self):
-        self.db_path = Path("/Users/dickgibbons/sports-betting/tracking/combined_bets.db")
+        self.db_path = Path("/Users/dickgibbons/AI Projects/sports-betting/tracking/combined_bets.db")
         self.db_path.parent.mkdir(parents=True, exist_ok=True)
         self._init_db()
 
@@ -320,7 +320,7 @@ class CombinedBetTracker:
         outcomes = cursor.fetchall()
         conn.close()
 
-        output_dir = Path(f"/Users/dickgibbons/Daily Reports/{date_str}")
+        output_dir = Path(f"/Users/dickgibbons/AI Projects/sports-betting/Daily Reports/{date_str}")
         output_dir.mkdir(parents=True, exist_ok=True)
         csv_file = output_dir / "ALL_SPORTS_BET_RESULTS.csv"
 
@@ -510,7 +510,7 @@ def save_soccer_predictions_from_report(tracker, date_str: str = None):
     - Over 2.5 Goals still profitable (60% win rate, +0.73u)
     """
     date_str = date_str or datetime.now().strftime("%Y-%m-%d")
-    report_path = f"/Users/dickgibbons/Daily Reports/{date_str}/soccer_profitable_angles_{date_str}.txt"
+    report_path = f"/Users/dickgibbons/AI Projects/sports-betting/Daily Reports/{date_str}/soccer_profitable_angles_{date_str}.txt"
 
     predictions = parse_soccer_profitable_report(report_path)
 
@@ -562,7 +562,7 @@ def save_soccer_predictions_from_report(tracker, date_str: str = None):
 
 def import_nhl_data():
     """Import existing NHL bet data into combined tracker"""
-    nhl_db = Path("/Users/dickgibbons/sports-betting/nhl/tracking/bet_results.db")
+    nhl_db = Path("/Users/dickgibbons/AI Projects/sports-betting/nhl/tracking/bet_results.db")
     if not nhl_db.exists():
         print("No existing NHL database found")
         return
@@ -633,7 +633,7 @@ def main():
     print("\n" + report)
 
     # Save reports
-    output_dir = Path(f"/Users/dickgibbons/Daily Reports/{date_str}")
+    output_dir = Path(f"/Users/dickgibbons/AI Projects/sports-betting/Daily Reports/{date_str}")
     output_dir.mkdir(parents=True, exist_ok=True)
 
     report_file = output_dir / "ALL_SPORTS_BET_RESULTS.txt"

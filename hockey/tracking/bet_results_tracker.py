@@ -16,8 +16,8 @@ from typing import Dict, List, Optional, Tuple
 import requests
 
 # Add paths
-sys.path.insert(0, "/Users/dickgibbons/sports-betting/nhl/models")
-sys.path.insert(0, "/Users/dickgibbons/sports-betting/nhl/analyzers")
+sys.path.insert(0, "/Users/dickgibbons/AI Projects/sports-betting/nhl/models")
+sys.path.insert(0, "/Users/dickgibbons/AI Projects/sports-betting/nhl/analyzers")
 
 # Constants
 ODDS_API_KEY = '518c226b561ad7586ec8c5dd1144e3fb'
@@ -33,7 +33,7 @@ MAX_ODDS = -140  # Don't bet heavy favorites (worse than -140)
 
 class BetResultsTracker:
     def __init__(self):
-        self.db_path = Path("/Users/dickgibbons/sports-betting/nhl/tracking/bet_results.db")
+        self.db_path = Path("/Users/dickgibbons/AI Projects/sports-betting/nhl/tracking/bet_results.db")
         self.db_path.parent.mkdir(parents=True, exist_ok=True)
         self._init_db()
 
@@ -551,7 +551,7 @@ class BetResultsTracker:
         outcomes = cursor.fetchall()
         conn.close()
 
-        output_dir = Path(f"/Users/dickgibbons/Daily Reports/{date_str}")
+        output_dir = Path(f"/Users/dickgibbons/AI Projects/sports-betting/Daily Reports/{date_str}")
         output_dir.mkdir(parents=True, exist_ok=True)
         csv_file = output_dir / "NHL_BET_RESULTS_CUMULATIVE.csv"
 
@@ -598,7 +598,7 @@ class BetResultsTracker:
         report = self.generate_report(date_str)
 
         # Save report
-        output_dir = Path(f"/Users/dickgibbons/Daily Reports/{date_str}")
+        output_dir = Path(f"/Users/dickgibbons/AI Projects/sports-betting/Daily Reports/{date_str}")
         output_dir.mkdir(parents=True, exist_ok=True)
         output_file = output_dir / f"NHL_BET_RESULTS_{date_str}.txt"
 

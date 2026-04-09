@@ -525,10 +525,10 @@ def main():
     parser.add_argument('--end-date', type=str, default=datetime.now().strftime('%Y-%m-%d'),
                        help='End date (YYYY-MM-DD)')
     parser.add_argument('--output', type=str,
-                       default='/Users/dickgibbons/betting_data/nhl_1p_daily_report.json',
+                       default='/Users/dickgibbons/AI Projects/sports-betting/hockey/betting_data/nhl_1p_daily_report.json',
                        help='Output JSON file path')
     parser.add_argument('--csv', type=str,
-                       default='/Users/dickgibbons/betting_data/nhl_1p_daily_report.csv',
+                       default='/Users/dickgibbons/AI Projects/sports-betting/hockey/betting_data/nhl_1p_daily_report.csv',
                        help='Output CSV file path')
 
     args = parser.parse_args()

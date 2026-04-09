@@ -282,7 +282,7 @@ class NHLRestAdvantageAnalyzer:
 
         # Save to Daily Reports
         from pathlib import Path
-        daily_dir = Path(f"/Users/dickgibbons/Daily Reports/{date}")
+        daily_dir = Path(f"/Users/dickgibbons/AI Projects/sports-betting/Daily Reports/{date}")
         daily_dir.mkdir(parents=True, exist_ok=True)
 
         report_path = daily_dir / f"nhl_rest_advantage_{date}.txt"

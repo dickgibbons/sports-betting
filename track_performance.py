@@ -11,7 +11,7 @@ import os
 import json
 import requests
 
-DB_PATH = "/Users/dickgibbons/sports-betting/betting_tracker.db"
+DB_PATH = "/Users/dickgibbons/AI Projects/sports-betting/betting_tracker.db"
 
 def init_database():
     """Initialize the tracking database"""

@@ -11,9 +11,9 @@ from datetime import datetime, timedelta
 import json
 import os
 
-DB_PATH = "/Users/dickgibbons/sports-betting/betting_tracker.db"
-EXPERIMENTS_FILE = "/Users/dickgibbons/sports-betting/experiments.json"
-IMPROVEMENTS_LOG = "/Users/dickgibbons/sports-betting/improvements_log.txt"
+DB_PATH = "/Users/dickgibbons/AI Projects/sports-betting/betting_tracker.db"
+EXPERIMENTS_FILE = "/Users/dickgibbons/AI Projects/sports-betting/experiments.json"
+IMPROVEMENTS_LOG = "/Users/dickgibbons/AI Projects/sports-betting/improvements_log.txt"
 
 def log_improvement(message):
     """Log improvement suggestions to file"""

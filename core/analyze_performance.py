@@ -2,7 +2,7 @@
 import json
 from collections import defaultdict
 
-with open("/Users/dickgibbons/sports-betting/data/bet_history.json", "r") as f:
+with open("/Users/dickgibbons/AI Projects/sports-betting/data/bet_history.json", "r") as f:
     bets = json.load(f)
 
 # Count wins/losses

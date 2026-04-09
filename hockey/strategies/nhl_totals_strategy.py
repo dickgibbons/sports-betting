@@ -280,7 +280,7 @@ def generate_daily_picks(date_str=None):
         print("\nNo qualifying picks for today.")
 
     # Save to file
-    output_dir = Path(f"/Users/dickgibbons/Daily Reports/{date_str}")
+    output_dir = Path(f"/Users/dickgibbons/AI Projects/sports-betting/Daily Reports/{date_str}")
     output_dir.mkdir(parents=True, exist_ok=True)
 
     output_file = output_dir / f"nhl_totals_picks_{date_str}.json"

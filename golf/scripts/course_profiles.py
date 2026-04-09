@@ -824,7 +824,7 @@ def main():
 
     # Export to CSV
     df = analyzer.export_to_dataframe()
-    output_path = "/Users/dickgibbons/sports-betting/PGA_Bets/data/processed/course_profiles.csv"
+    output_path = "/Users/dickgibbons/AI Projects/sports-betting/PGA_Bets/data/processed/course_profiles.csv"
     df.to_csv(output_path, index=False)
     print(f"\nExported {len(df)} course profiles to {output_path}")
 

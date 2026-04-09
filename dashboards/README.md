@@ -72,13 +72,13 @@ dashboards/
 
 ### Running Streamlit Dashboard (NHL)
 ```bash
-cd /Users/dickgibbons/sports-betting
+cd /Users/dickgibbons/AI Projects/sports-betting
 streamlit run dashboards/nhl/nhl_1p_totals_ui.py
 ```
 
 ### Running Flask Dashboards (Soccer/Hockey)
 ```bash
-cd /Users/dickgibbons/sports-betting
+cd /Users/dickgibbons/AI Projects/sports-betting
 # Soccer
 python3 dashboards/soccer/soccer_dashboard.py
 
@@ -88,7 +88,7 @@ python3 dashboards/hockey/hockey_dashboard.py
 
 ### Running Performance Dashboard
 ```bash
-cd /Users/dickgibbons/sports-betting
+cd /Users/dickgibbons/AI Projects/sports-betting
 python3 dashboards/performance/show_performance.py
 ```
 

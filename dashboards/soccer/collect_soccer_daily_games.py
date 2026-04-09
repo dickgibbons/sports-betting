@@ -5,14 +5,20 @@ This script fetches games from all target leagues for a given date
 and saves them to a CSV file that the dashboard can read without hitting the API.
 """
 
-import requests
-import pandas as pd
-from datetime import datetime
+import os
 import sys
+from datetime import datetime
+from pathlib import Path
+
+import pandas as pd
+import requests
 
 API_KEY = "960c628e1c91c4b1f125e1eec52ad862"
 BASE_URL = "https://v3.football.api-sports.io"
-OUTPUT_DIR = "/Users/dickgibbons/Daily Reports"
+_ROOT = Path(__file__).resolve().parents[2]
+OUTPUT_DIR = str(
+    Path(os.environ.get("SPORTS_BETTING_DAILY_REPORTS", _ROOT / "Daily Reports"))
+)
 
 # TOP 50 LEAGUES BY AVERAGE GOALS PER GAME - (league_name, country)
 SOCCER_LEAGUES = {

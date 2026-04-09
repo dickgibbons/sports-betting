@@ -46,7 +46,7 @@ class NHLMLTotalsPredictor:
 
         self.scaler = StandardScaler()
         self.team_stats = {}
-        self.model_dir = '/Users/dickgibbons/sports-betting/nhl/models'
+        self.model_dir = '/Users/dickgibbons/AI Projects/sports-betting/nhl/models'
         os.makedirs(self.model_dir, exist_ok=True)
 
         print("🏒 NHL ML Totals Predictor initialized")

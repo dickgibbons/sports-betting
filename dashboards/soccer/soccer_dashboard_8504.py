@@ -91,9 +91,9 @@ LEAGUE_COUNTRIES = {name: country for _, (name, country) in SOCCER_LEAGUES.items
 
 # Stat file paths for each period
 STATS_FILES = {
-    'season': "/Users/dickgibbons/Daily Reports/soccer_team_complete_stats.csv",
-    'L10': "/Users/dickgibbons/Daily Reports/soccer_team_stats_L10.csv",
-    'L5': "/Users/dickgibbons/Daily Reports/soccer_team_stats_L5.csv",
+    'season': "/Users/dickgibbons/AI Projects/sports-betting/Daily Reports/soccer_team_complete_stats.csv",
+    'L10': "/Users/dickgibbons/AI Projects/sports-betting/Daily Reports/soccer_team_stats_L10.csv",
+    'L5': "/Users/dickgibbons/AI Projects/sports-betting/Daily Reports/soccer_team_stats_L5.csv",
 }
 
 # Load team stats for all periods
@@ -149,7 +149,7 @@ TEAM_STATS = ALL_TEAM_STATS.get('season', {})
 LEAGUE_AVERAGES = ALL_LEAGUE_AVERAGES.get('season', {})
 
 # Daily games CSV directory
-GAMES_CSV_DIR = "/Users/dickgibbons/Daily Reports"
+GAMES_CSV_DIR = "/Users/dickgibbons/AI Projects/sports-betting/Daily Reports"
 
 
 def load_games_from_csv(date_str):

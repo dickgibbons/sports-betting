@@ -11,7 +11,7 @@ def analyze_betting_performance():
     """Analyze betting performance by sport, angle, and confidence level"""
 
     # Load betting history
-    with open('/Users/dickgibbons/sports-betting/data/bet_history.json', 'r') as f:
+    with open('/Users/dickgibbons/AI Projects/sports-betting/data/bet_history.json', 'r') as f:
         bets = json.load(f)
 
     # Filter completed bets only

@@ -8,7 +8,7 @@
 set -e  # Exit on error
 
 # Configuration
-PROJECT_DIR="/Users/dickgibbons/sports-betting"
+PROJECT_DIR="/Users/dickgibbons/AI Projects/sports-betting"
 REPORT_DIR="$PROJECT_DIR/reports"
 DATE=$(date +%Y-%m-%d)
 TIMESTAMP=$(date +%Y%m%d_%H%M%S)
@@ -67,7 +67,7 @@ cp reports/*/*.json "$REPORT_DIR/$DATE/" 2>/dev/null || true
 log "✓ Reports organized in $REPORT_DIR/$DATE/"
 
 # Copy to central Daily Reports folder
-DAILY_REPORTS="/Users/dickgibbons/Daily Reports/$DATE"
+DAILY_REPORTS="/Users/dickgibbons/AI Projects/sports-betting/Daily Reports/$DATE"
 mkdir -p "$DAILY_REPORTS"
 DATE_SHORT=$(date +%Y%m%d)
 cp "$PROJECT_DIR/soccer/strategies/reports"/*/soccer_* "$DAILY_REPORTS/" 2>/dev/null || true

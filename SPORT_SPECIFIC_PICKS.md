@@ -24,7 +24,7 @@ This allows you to:
 
 ## 📁 Generated Files
 
-### Daily Location: `/Users/dickgibbons/sports-betting/reports/YYYY-MM-DD/`
+### Daily Location: `/Users/dickgibbons/AI Projects/sports-betting/reports/YYYY-MM-DD/`
 
 Each day at 5:00 AM, the following files are automatically generated:
 
@@ -126,7 +126,7 @@ Total Picks: 2
 **Runs daily at 5:00 AM automatically via cron:**
 
 ```bash
-0 5 * * * cd /Users/dickgibbons/sports-betting && ./run_all_daily.sh
+0 5 * * * cd /Users/dickgibbons/AI Projects/sports-betting && ./run_all_daily.sh
 ```
 
 ### What Happens at 5:00 AM:
@@ -138,7 +138,7 @@ Total Picks: 2
 6. ✅ Generate unified cross-sport report
 7. ✅ Update cumulative performance trackers
 
-All files saved to: `/Users/dickgibbons/sports-betting/reports/YYYY-MM-DD/`
+All files saved to: `/Users/dickgibbons/AI Projects/sports-betting/reports/YYYY-MM-DD/`
 
 ---
 
@@ -146,7 +146,7 @@ All files saved to: `/Users/dickgibbons/sports-betting/reports/YYYY-MM-DD/`
 
 ### Generate All Sport Picks (Without Full Reports)
 ```bash
-cd /Users/dickgibbons/sports-betting/core
+cd /Users/dickgibbons/AI Projects/sports-betting/core
 python3 generate_sport_picks.py
 ```
 
@@ -172,7 +172,7 @@ python3 generate_sport_picks.py --date 2025-11-17
 
 ### Run Complete Daily System (All Reports + Trackers)
 ```bash
-cd /Users/dickgibbons/sports-betting
+cd /Users/dickgibbons/AI Projects/sports-betting
 ./run_all_daily.sh
 ```
 
@@ -183,8 +183,8 @@ cd /Users/dickgibbons/sports-betting
 ### Step 1: Review Daily Sport-Specific Picks
 ```bash
 # Morning - Check today's picks
-cat /Users/dickgibbons/sports-betting/reports/2025-11-18/nhl_picks_2025-11-18.txt
-cat /Users/dickgibbons/sports-betting/reports/2025-11-18/nba_picks_2025-11-18.txt
+cat /Users/dickgibbons/AI Projects/sports-betting/reports/2025-11-18/nhl_picks_2025-11-18.txt
+cat /Users/dickgibbons/AI Projects/sports-betting/reports/2025-11-18/nba_picks_2025-11-18.txt
 ```
 
 ### Step 2: Place Bets Based on Confidence
@@ -195,7 +195,7 @@ cat /Users/dickgibbons/sports-betting/reports/2025-11-18/nba_picks_2025-11-18.tx
 
 ### Step 3: Track Results
 Results are automatically tracked in:
-- `/Users/dickgibbons/sports-betting/data/bet_history.json`
+- `/Users/dickgibbons/AI Projects/sports-betting/data/bet_history.json`
 
 ### Step 4: Analyze Performance By Sport
 ```bash
@@ -295,7 +295,7 @@ crontab -l | grep -v 'sports-betting' | crontab -
 
 ### Reinstall 5:00 AM Automation
 ```bash
-cd /Users/dickgibbons/sports-betting
+cd /Users/dickgibbons/AI Projects/sports-betting
 ./setup_5am_cron.sh
 ```
 
@@ -330,7 +330,7 @@ cd /Users/dickgibbons/sports-betting
 
 ```bash
 # Morning - Check all picks
-cd /Users/dickgibbons/sports-betting/reports/2025-11-18
+cd /Users/dickgibbons/AI Projects/sports-betting/reports/2025-11-18
 
 # Read NHL picks
 cat nhl_picks_2025-11-18.txt
@@ -339,7 +339,7 @@ cat nhl_picks_2025-11-18.txt
 cat nba_picks_2025-11-18.txt
 
 # Check current performance
-cd /Users/dickgibbons/sports-betting
+cd /Users/dickgibbons/AI Projects/sports-betting
 python3 view_performance_by_sport.py
 
 # Decision: Based on NHL's 54.5% win rate, bet on ELITE NHL picks
@@ -381,7 +381,7 @@ Simple, automated system that delivers picks every morning
 ## 📁 File Locations Summary
 
 ```
-/Users/dickgibbons/sports-betting/
+/Users/dickgibbons/AI Projects/sports-betting/
 ├── reports/
 │   └── YYYY-MM-DD/
 │       ├── nhl_picks_YYYY-MM-DD.txt         ← Daily NHL picks

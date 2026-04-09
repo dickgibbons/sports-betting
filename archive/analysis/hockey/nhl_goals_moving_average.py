@@ -534,7 +534,7 @@ class NHLGoalsMovingAverage:
                           output_dir: str = None) -> Dict[str, pd.DataFrame]:
         """Analyze all NHL teams and generate reports/charts"""
 
-        output_dir = output_dir or f"/Users/dickgibbons/sports-betting/reports/{datetime.now().strftime('%Y-%m-%d')}/nhl_moving_averages"
+        output_dir = output_dir or f"/Users/dickgibbons/AI Projects/sports-betting/reports/{datetime.now().strftime('%Y-%m-%d')}/nhl_moving_averages"
         os.makedirs(output_dir, exist_ok=True)
 
         all_team_data = {}
@@ -611,7 +611,7 @@ def main():
 
             # Save chart
             date_str = datetime.now().strftime("%Y-%m-%d")
-            output_dir = f"/Users/dickgibbons/sports-betting/reports/{date_str}/nhl_moving_averages"
+            output_dir = f"/Users/dickgibbons/AI Projects/sports-betting/reports/{date_str}/nhl_moving_averages"
             os.makedirs(output_dir, exist_ok=True)
 
             chart_path = os.path.join(output_dir, f"{team}_{args.metric}_ma.png")
@@ -629,7 +629,7 @@ def main():
             print(report)
 
             date_str = datetime.now().strftime("%Y-%m-%d")
-            output_dir = f"/Users/dickgibbons/sports-betting/reports/{date_str}/nhl_moving_averages"
+            output_dir = f"/Users/dickgibbons/AI Projects/sports-betting/reports/{date_str}/nhl_moving_averages"
             os.makedirs(output_dir, exist_ok=True)
 
             dashboard_path = os.path.join(output_dir, "BOS_dashboard.png")

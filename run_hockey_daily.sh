@@ -8,7 +8,7 @@
 set -e  # Exit on error
 
 # Configuration
-PROJECT_DIR="/Users/dickgibbons/sports-betting"
+PROJECT_DIR="/Users/dickgibbons/AI Projects/sports-betting"
 REPORT_DIR="$PROJECT_DIR/reports"
 DATE=$(date +%Y-%m-%d)
 TIMESTAMP=$(date +%Y%m%d_%H%M%S)
@@ -113,17 +113,17 @@ cp nhl_goalie_saves_$DATE.txt "$REPORT_DIR/$DATE/" 2>/dev/null || true
 cp "$PROJECT_DIR/hockey/nhl_totals_picks_$DATE.json" "$REPORT_DIR/$DATE/" 2>/dev/null || true
 cp "$PROJECT_DIR/hockey/nhl_totals_picks_$DATE.txt" "$REPORT_DIR/$DATE/" 2>/dev/null || true
 # Copy from betting_data directory
-cp /Users/dickgibbons/betting_data/nhl_1p_daily_report.csv "$REPORT_DIR/$DATE/nhl_1p_analysis_$DATE.csv" 2>/dev/null || true
-cp /Users/dickgibbons/betting_data/nhl_1p_daily_report.json "$REPORT_DIR/$DATE/nhl_1p_analysis_$DATE.json" 2>/dev/null || true
+cp /Users/dickgibbons/AI Projects/sports-betting/hockey/betting_data/nhl_1p_daily_report.csv "$REPORT_DIR/$DATE/nhl_1p_analysis_$DATE.csv" 2>/dev/null || true
+cp /Users/dickgibbons/AI Projects/sports-betting/hockey/betting_data/nhl_1p_daily_report.json "$REPORT_DIR/$DATE/nhl_1p_analysis_$DATE.json" 2>/dev/null || true
 log "✓ Reports organized in $REPORT_DIR/$DATE/"
 
 # Copy to central Daily Reports folder
-DAILY_REPORTS="/Users/dickgibbons/Daily Reports/$DATE"
+DAILY_REPORTS="/Users/dickgibbons/AI Projects/sports-betting/Daily Reports/$DATE"
 mkdir -p "$DAILY_REPORTS"
 cp "$REPORT_DIR/$DATE"/nhl_* "$DAILY_REPORTS/" 2>/dev/null || true
 # Copy 1P trend reports from Daily Reports (where generate_1p_trend_reports.py saves them)
-cp "/Users/dickgibbons/Daily Reports/$DATE"/nhl_1p_*trend*.csv "$DAILY_REPORTS/" 2>/dev/null || true
-cp "/Users/dickgibbons/Daily Reports/$DATE"/nhl_1p_trends_complete.xlsx "$DAILY_REPORTS/" 2>/dev/null || true
+cp "/Users/dickgibbons/AI Projects/sports-betting/Daily Reports/$DATE"/nhl_1p_*trend*.csv "$DAILY_REPORTS/" 2>/dev/null || true
+cp "/Users/dickgibbons/AI Projects/sports-betting/Daily Reports/$DATE"/nhl_1p_trends_complete.xlsx "$DAILY_REPORTS/" 2>/dev/null || true
 log "✓ Reports copied to $DAILY_REPORTS/"
 
 log "========================================="

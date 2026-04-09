@@ -42,7 +42,7 @@ If you see "ERR_CONNECTION_REFUSED", try these steps:
 
 ### 4. **Restart a Specific Dashboard**
    ```bash
-   cd /Users/dickgibbons/sports-betting
+   cd /Users/dickgibbons/AI Projects/sports-betting
    
    # Restart Hockey
    pkill -f hockey_dashboard.py
@@ -74,7 +74,7 @@ If you see "ERR_CONNECTION_REFUSED", try these steps:
 Run this command to check all dashboards:
 
 ```bash
-cd /Users/dickgibbons/sports-betting
+cd /Users/dickgibbons/AI Projects/sports-betting
 echo "Checking dashboards..."
 lsof -i :8503 -i :8504 -i :8505 | grep LISTEN
 curl -s -o /dev/null -w "Hockey (8503): %{http_code}\n" http://127.0.0.1:8503
@@ -91,7 +91,7 @@ Expected output:
 If you need to restart everything:
 
 ```bash
-cd /Users/dickgibbons/sports-betting
+cd /Users/dickgibbons/AI Projects/sports-betting
 
 # Kill all dashboards
 pkill -f "hockey_dashboard|soccer_dashboard|streamlit.*nhl"

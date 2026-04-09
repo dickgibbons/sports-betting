@@ -176,14 +176,14 @@ def main():
         sys.exit(1)
 
     date = sys.argv[1]
-    reports_dir = f"/Users/dickgibbons/Daily Reports/{date}"
+    reports_dir = f"/Users/dickgibbons/AI Projects/sports-betting/Daily Reports/{date}"
 
     print(f"="*80)
     print(f"LOGGING PREDICTIONS FOR {date}")
     print(f"="*80)
 
     # Initialize database if needed
-    if not os.path.exists("/Users/dickgibbons/sports-betting/betting_tracker.db"):
+    if not os.path.exists("/Users/dickgibbons/AI Projects/sports-betting/betting_tracker.db"):
         print("\nInitializing tracking database...")
         init_database()
 

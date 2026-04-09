@@ -16,7 +16,7 @@ import sys
 from pathlib import Path
 
 # Add analysis and utils paths for imports
-PROJECT_DIR = "/Users/dickgibbons/sports-betting"
+PROJECT_DIR = "/Users/dickgibbons/AI Projects/sports-betting"
 ANALYZERS_PATH = os.path.join(PROJECT_DIR, "nhl", "analysis")
 UTILS_PATH = os.path.join(PROJECT_DIR, "nhl", "utils")
 sys.path.insert(0, ANALYZERS_PATH)

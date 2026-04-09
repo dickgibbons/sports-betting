@@ -16,8 +16,8 @@ from datetime import datetime
 from collections import defaultdict
 from pathlib import Path
 
-TRACKER_FILE = "/Users/dickgibbons/sports-betting/UNIFIED_BETTING_TRACKER.csv"
-ANALYSIS_OUTPUT = "/Users/dickgibbons/sports-betting/BETTING_ANALYSIS_REPORT.txt"
+TRACKER_FILE = "/Users/dickgibbons/AI Projects/sports-betting/UNIFIED_BETTING_TRACKER.csv"
+ANALYSIS_OUTPUT = "/Users/dickgibbons/AI Projects/sports-betting/BETTING_ANALYSIS_REPORT.txt"
 
 
 def load_results():

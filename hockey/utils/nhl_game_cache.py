@@ -17,7 +17,7 @@ from typing import Dict, List, Optional, Tuple
 import requests
 
 # Default database location
-DEFAULT_DB_PATH = "/Users/dickgibbons/sports-betting/data/nhl_game_cache.db"
+DEFAULT_DB_PATH = "/Users/dickgibbons/AI Projects/sports-betting/data/nhl_game_cache.db"
 
 
 class NHLGameCache:

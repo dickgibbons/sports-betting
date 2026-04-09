@@ -53,13 +53,13 @@ Each CSV tracks every bet made with the following columns:
 
 ### View Performance Dashboard
 ```bash
-cd /Users/dickgibbons/sports-betting
+cd /Users/dickgibbons/AI Projects/sports-betting
 python3 view_performance_by_sport.py
 ```
 
 ### Regenerate All Performance Reports
 ```bash
-cd /Users/dickgibbons/sports-betting
+cd /Users/dickgibbons/AI Projects/sports-betting
 python3 generate_performance_trackers.py
 ```
 

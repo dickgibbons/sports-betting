@@ -294,7 +294,7 @@ def main():
     parser.add_argument('--end-date', type=str, default=datetime.now().strftime('%Y-%m-%d'),
                        help='End date (YYYY-MM-DD)')
     parser.add_argument('--output', type=str,
-                       default='/Users/dickgibbons/betting_data/nhl_first_period_stats.json',
+                       default='/Users/dickgibbons/AI Projects/sports-betting/hockey/betting_data/nhl_first_period_stats.json',
                        help='Output file path')
 
     args = parser.parse_args()

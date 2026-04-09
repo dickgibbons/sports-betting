@@ -240,9 +240,9 @@ Kelly % = (0.90 × 0.611 - 0.389) / 0.90
 
 ## Files Created
 
-1. **Analysis Script:** `/Users/dickgibbons/sports-betting/soccer/analyzers/multi_season_totals_backtest.py`
-2. **Cached Data:** `/Users/dickgibbons/sports-betting/soccer/analyzers/cache/multi_season_data.json` (11,461 matches)
-3. **This Report:** `/Users/dickgibbons/sports-betting/reports/2025-11-30/SOCCER_TOTALS_STRATEGY_REPORT.md`
+1. **Analysis Script:** `/Users/dickgibbons/AI Projects/sports-betting/soccer/analyzers/multi_season_totals_backtest.py`
+2. **Cached Data:** `/Users/dickgibbons/AI Projects/sports-betting/soccer/analyzers/cache/multi_season_data.json` (11,461 matches)
+3. **This Report:** `/Users/dickgibbons/AI Projects/sports-betting/reports/2025-11-30/SOCCER_TOTALS_STRATEGY_REPORT.md`
 
 ---
 

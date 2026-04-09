@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hockey Schedule Dashboard</title>
+    <title>Hockey Intelligence Dashboard</title>
     <style>
         * {
             margin: 0;
@@ -266,11 +266,173 @@
             font-weight: bold;
             width: 30px;
         }
+        /* Professional dark theme overrides */
+        :root {
+            --bg: #08121e;
+            --panel: #0f1f32;
+            --line: #274a6d;
+            --text: #d8e7fb;
+            --muted: #93acc8;
+        }
+
+        body {
+            font-family: "Segoe UI", "SF Pro Text", Roboto, sans-serif;
+            background: radial-gradient(circle at 8% -12%, #1a3f6a 0%, var(--bg) 45%);
+            color: var(--text);
+        }
+
+        .header,
+        .filter-bar,
+        .container {
+            max-width: 1700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .header {
+            margin-top: 24px;
+            padding: 0 20px;
+            background: transparent;
+        }
+
+        .header h1 {
+            font-size: 1.9rem;
+            color: #f3f8ff;
+        }
+
+        .date-nav,
+        .filter-bar {
+            background: linear-gradient(180deg, rgba(18, 35, 54, 0.95), rgba(14, 27, 42, 0.95));
+            border: 1px solid var(--line);
+            border-radius: 12px;
+            box-shadow: 0 10px 28px rgba(0, 0, 0, 0.25);
+            padding: 12px;
+        }
+
+        .date-nav button,
+        .clear-filters-btn {
+            border: 1px solid transparent;
+            border-radius: 10px;
+            color: #fff;
+            font-size: 0.86rem;
+            font-weight: 700;
+            padding: 8px 12px;
+            transition: 0.15s ease;
+            background: linear-gradient(180deg, #2b70ad, #1f5685);
+        }
+
+        .date-nav button:hover,
+        .clear-filters-btn:hover {
+            transform: translateY(-1px);
+            filter: brightness(1.08);
+        }
+
+        #refresh-btn { background: linear-gradient(180deg, #2f8fef, #1d6ec1); }
+        .clear-filters-btn { background: linear-gradient(180deg, #cc5a67, #ab3f4b); }
+
+        .date-nav input[type="date"],
+        .date-nav select,
+        .filter-group select,
+        .filter-group input {
+            background: #0b1624;
+            color: var(--text);
+            border: 1px solid #2f4865;
+            border-radius: 9px;
+            padding: 8px 10px;
+            font-size: 0.84rem;
+            min-height: 36px;
+        }
+
+        .stats-summary,
+        .filter-group label,
+        #filter-count {
+            color: var(--muted) !important;
+            font-size: 0.8rem;
+            font-weight: 700;
+        }
+
+        .filter-bar {
+            margin-top: 12px;
+            padding: 12px 20px;
+            border-bottom: 1px solid var(--line);
+        }
+
+        .filter-bar.stat-bar {
+            border-color: #2c5f79;
+            background: linear-gradient(180deg, rgba(16, 40, 55, 0.95), rgba(13, 31, 43, 0.95));
+        }
+
+        .container {
+            margin-top: 12px;
+            margin-bottom: 28px;
+            padding: 0 20px;
+        }
+
+        table {
+            border-collapse: separate;
+            border-spacing: 0;
+            font-size: 0.79rem;
+            border: 1px solid var(--line);
+            border-radius: 12px;
+            overflow: hidden;
+            background: rgba(12, 23, 37, 0.92);
+            box-shadow: 0 14px 36px rgba(0, 0, 0, 0.28);
+        }
+
+        th {
+            position: sticky;
+            top: 0;
+            z-index: 3;
+            background: #11304e;
+            border: 1px solid #274969;
+            color: #eff6ff;
+            white-space: nowrap;
+        }
+
+        th.sortable:hover { background: #184369; }
+
+        td {
+            border-color: #1f3a55;
+            white-space: nowrap;
+        }
+
+        .team-col {
+            min-width: 170px;
+            color: #f4f8ff;
+            font-weight: 600;
+        }
+
+        .country-col,
+        .league-col { color: #d4e1f1; }
+
+        .away-row { background: rgba(14, 28, 45, 0.8); }
+        .home-row { background: rgba(9, 20, 33, 0.88); }
+        .home-row td { border-bottom: 2px solid #2c82cc; }
+        tr:hover { background: rgba(34, 68, 103, 0.58) !important; }
+
+        .loading, .no-games {
+            border-radius: 12px;
+            border: 1px solid var(--line);
+            background: rgba(14, 27, 42, 0.9);
+            color: var(--muted);
+        }
+
+        .status-live {
+            background: linear-gradient(180deg, #d95d6c, #bf4553);
+            color: #fff;
+            border-radius: 999px;
+            font-size: 0.7rem;
+            font-weight: 700;
+            padding: 3px 7px;
+        }
+
+        .status-final { color: #b8c9dc; }
+        .ha-col { color: #8fb0d2; }
     </style>
 </head>
 <body>
     <div class="header">
-        <h1>Hockey Schedule Dashboard</h1>
+        <h1>Hockey Intelligence Dashboard</h1>
         <div class="date-nav">
             <button onclick="changeDate(-1)">&larr; Prev</button>
             <input type="date" id="date-picker" onchange="loadGames()">
@@ -281,7 +443,7 @@
                 <option value="L10">Last 10 Games</option>
                 <option value="L5">Last 5 Games</option>
             </select>
-            <button onclick="loadGames()" style="background: #FF9800; color: white; margin-left: 10px;">Refresh</button>
+            <button id="refresh-btn" onclick="loadGames()">Refresh</button>
             <span class="stats-summary" id="stats-summary"></span>
         </div>
     </div>
@@ -309,8 +471,8 @@
     </div>
 
     <!-- Stat Filter Bar -->
-    <div class="filter-bar" style="background: #e8f5e9;">
-        <span style="font-weight: bold; margin-right: 10px;">Min %:</span>
+    <div class="filter-bar stat-bar">
+        <span style="font-weight: bold; margin-right: 10px; color: #9dd1ec;">Min %:</span>
         <div class="filter-group">
             <label>O1.5%:</label>
             <input type="number" id="filter-o15" placeholder="e.g. 70" min="0" max="100" oninput="applyFilters()">
@@ -596,7 +758,7 @@
             return [...games].sort((a, b) => {
                 let aVal, bVal;
 
-                // Get values based on column
+                // Get values based on column - use combined/avg of both teams for game-level sorting
                 switch(column) {
                     case 'country':
                         aVal = parseLeagueName(a.league).country;
@@ -610,25 +772,69 @@
                         aVal = a.time || '';
                         bVal = b.time || '';
                         break;
-                    case 'home_o15':
-                        aVal = a.home_stats?.pct_scored_over_1_5 || 0;
-                        bVal = b.home_stats?.pct_scored_over_1_5 || 0;
+                    case 'games':
+                        aVal = ((a.home_stats?.games || 0) + (a.away_stats?.games || 0)) / 2;
+                        bVal = ((b.home_stats?.games || 0) + (b.away_stats?.games || 0)) / 2;
                         break;
-                    case 'home_o25':
-                        aVal = a.home_stats?.pct_scored_over_2_5 || 0;
-                        bVal = b.home_stats?.pct_scored_over_2_5 || 0;
+                    case 'avg_total':
+                        aVal = a.combined_avg_total || 0;
+                        bVal = b.combined_avg_total || 0;
                         break;
-                    case 'home_1p_pct':
-                        aVal = a.home_stats?.pct_1p_over_1_5 || 0;
-                        bVal = b.home_stats?.pct_1p_over_1_5 || 0;
+                    case 'avg_scored':
+                        aVal = ((a.home_stats?.avg_scored || 0) + (a.away_stats?.avg_scored || 0)) / 2;
+                        bVal = ((b.home_stats?.avg_scored || 0) + (b.away_stats?.avg_scored || 0)) / 2;
                         break;
-                    case 'home_1p_scored_pct':
-                        aVal = a.home_stats?.pct_1p_scored || 0;
-                        bVal = b.home_stats?.pct_1p_scored || 0;
+                    case 'avg_conceded':
+                        aVal = ((a.home_stats?.avg_conceded || 0) + (a.away_stats?.avg_conceded || 0)) / 2;
+                        bVal = ((b.home_stats?.avg_conceded || 0) + (b.away_stats?.avg_conceded || 0)) / 2;
                         break;
-                    case 'home_1p_conceded_pct':
-                        aVal = a.home_stats?.pct_1p_conceded || 0;
-                        bVal = b.home_stats?.pct_1p_conceded || 0;
+                    case 'o15':
+                        aVal = ((a.home_stats?.pct_scored_over_1_5 || 0) + (a.away_stats?.pct_scored_over_1_5 || 0)) / 2;
+                        bVal = ((b.home_stats?.pct_scored_over_1_5 || 0) + (b.away_stats?.pct_scored_over_1_5 || 0)) / 2;
+                        break;
+                    case 'o25':
+                        aVal = ((a.home_stats?.pct_scored_over_2_5 || 0) + (a.away_stats?.pct_scored_over_2_5 || 0)) / 2;
+                        bVal = ((b.home_stats?.pct_scored_over_2_5 || 0) + (b.away_stats?.pct_scored_over_2_5 || 0)) / 2;
+                        break;
+                    case 'o35':
+                        aVal = ((a.home_stats?.pct_scored_over_3_5 || 0) + (a.away_stats?.pct_scored_over_3_5 || 0)) / 2;
+                        bVal = ((b.home_stats?.pct_scored_over_3_5 || 0) + (b.away_stats?.pct_scored_over_3_5 || 0)) / 2;
+                        break;
+                    case 'o55':
+                        aVal = ((a.home_stats?.pct_over_5_5 || 0) + (a.away_stats?.pct_over_5_5 || 0)) / 2;
+                        bVal = ((b.home_stats?.pct_over_5_5 || 0) + (b.away_stats?.pct_over_5_5 || 0)) / 2;
+                        break;
+                    case 'o65':
+                        aVal = ((a.home_stats?.pct_over_6_5 || 0) + (a.away_stats?.pct_over_6_5 || 0)) / 2;
+                        bVal = ((b.home_stats?.pct_over_6_5 || 0) + (b.away_stats?.pct_over_6_5 || 0)) / 2;
+                        break;
+                    case 'o75':
+                        aVal = ((a.home_stats?.pct_over_7_5 || 0) + (a.away_stats?.pct_over_7_5 || 0)) / 2;
+                        bVal = ((b.home_stats?.pct_over_7_5 || 0) + (b.away_stats?.pct_over_7_5 || 0)) / 2;
+                        break;
+                    case '1p_avg':
+                        aVal = a.combined_avg_1p || 0;
+                        bVal = b.combined_avg_1p || 0;
+                        break;
+                    case '1p_o15':
+                        aVal = a.combined_1p_over_pct || 0;
+                        bVal = b.combined_1p_over_pct || 0;
+                        break;
+                    case '1p_scored':
+                        aVal = ((a.home_stats?.avg_1p_scored || 0) + (a.away_stats?.avg_1p_scored || 0)) / 2;
+                        bVal = ((b.home_stats?.avg_1p_scored || 0) + (b.away_stats?.avg_1p_scored || 0)) / 2;
+                        break;
+                    case '1p_scored_pct':
+                        aVal = ((a.home_stats?.pct_1p_scored || 0) + (a.away_stats?.pct_1p_scored || 0)) / 2;
+                        bVal = ((b.home_stats?.pct_1p_scored || 0) + (b.away_stats?.pct_1p_scored || 0)) / 2;
+                        break;
+                    case '1p_allowed':
+                        aVal = ((a.home_stats?.avg_1p_conceded || 0) + (a.away_stats?.avg_1p_conceded || 0)) / 2;
+                        bVal = ((b.home_stats?.avg_1p_conceded || 0) + (b.away_stats?.avg_1p_conceded || 0)) / 2;
+                        break;
+                    case '1p_allowed_pct':
+                        aVal = ((a.home_stats?.pct_1p_conceded || 0) + (a.away_stats?.pct_1p_conceded || 0)) / 2;
+                        bVal = ((b.home_stats?.pct_1p_conceded || 0) + (b.away_stats?.pct_1p_conceded || 0)) / 2;
                         break;
                     default:
                         aVal = 0;
@@ -689,21 +895,24 @@
                             <th class="team-col">Team</th>
                             <th>Record</th>
                             <th>Standing</th>
-                            <th>Games</th>
-                            <th>Avg Total</th>
-                            <th>Avg Scored</th>
+                            <th class="sortable" data-sort="games" onclick="handleSort('games')">Games</th>
+                            <th class="sortable" data-sort="avg_total" onclick="handleSort('avg_total')">Avg Total</th>
+                            <th class="sortable" data-sort="avg_scored" onclick="handleSort('avg_scored')">Avg Scored</th>
                             <th style="background:#6a9ed4;font-size:0.75rem">Lg Avg</th>
-                            <th>Avg Conceded</th>
+                            <th class="sortable" data-sort="avg_conceded" onclick="handleSort('avg_conceded')">Avg Conceded</th>
                             <th style="background:#6a9ed4;font-size:0.75rem">Lg Avg</th>
-                            <th class="sortable" data-sort="home_o15" onclick="handleSort('home_o15')">O1.5%</th>
-                            <th class="sortable" data-sort="home_o25" onclick="handleSort('home_o25')">O2.5%</th>
-                            <th>O3.5%</th>
-                            <th>1P Avg</th>
-                            <th class="sortable" data-sort="home_1p_pct" onclick="handleSort('home_1p_pct')">1P O1.5%</th>
-                            <th>1P Scored</th>
-                            <th class="sortable" data-sort="home_1p_scored_pct" onclick="handleSort('home_1p_scored_pct')">1P Scored%</th>
-                            <th>1P Allowed</th>
-                            <th class="sortable" data-sort="home_1p_conceded_pct" onclick="handleSort('home_1p_conceded_pct')">1P Allowed%</th>
+                            <th class="sortable" data-sort="o15" onclick="handleSort('o15')">O1.5%</th>
+                            <th class="sortable" data-sort="o25" onclick="handleSort('o25')">O2.5%</th>
+                            <th class="sortable" data-sort="o35" onclick="handleSort('o35')">O3.5%</th>
+                            <th class="sortable" data-sort="o55" onclick="handleSort('o55')" style="background:#5a8ac4">O5.5%</th>
+                            <th class="sortable" data-sort="o65" onclick="handleSort('o65')" style="background:#5a8ac4">O6.5%</th>
+                            <th class="sortable" data-sort="o75" onclick="handleSort('o75')" style="background:#5a8ac4">O7.5%</th>
+                            <th class="sortable" data-sort="1p_avg" onclick="handleSort('1p_avg')">1P Avg</th>
+                            <th class="sortable" data-sort="1p_o15" onclick="handleSort('1p_o15')">1P O1.5%</th>
+                            <th class="sortable" data-sort="1p_scored" onclick="handleSort('1p_scored')">1P Scored</th>
+                            <th class="sortable" data-sort="1p_scored_pct" onclick="handleSort('1p_scored_pct')">1P Scored%</th>
+                            <th class="sortable" data-sort="1p_allowed" onclick="handleSort('1p_allowed')">1P Allowed</th>
+                            <th class="sortable" data-sort="1p_allowed_pct" onclick="handleSort('1p_allowed_pct')">1P Allowed%</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -756,6 +965,9 @@
                         <td ${awayStats.pct_scored_over_1_5 >= 75 ? 'class="stat-pct-green"' : ''}>${awayStats.pct_scored_over_1_5 ? awayStats.pct_scored_over_1_5.toFixed(1) : '-'}</td>
                         <td ${awayStats.pct_scored_over_2_5 >= 65 ? 'class="stat-pct-green"' : ''}>${awayStats.pct_scored_over_2_5 ? awayStats.pct_scored_over_2_5.toFixed(1) : '-'}</td>
                         <td ${awayStats.pct_scored_over_3_5 >= 45 ? 'class="stat-pct-green"' : ''}>${awayStats.pct_scored_over_3_5 ? awayStats.pct_scored_over_3_5.toFixed(1) : '-'}</td>
+                        <td ${awayStats.pct_over_5_5 >= 50 ? 'class="stat-pct-green"' : ''}>${awayStats.pct_over_5_5 ? awayStats.pct_over_5_5.toFixed(1) : '-'}</td>
+                        <td ${awayStats.pct_over_6_5 >= 40 ? 'class="stat-pct-green"' : ''}>${awayStats.pct_over_6_5 ? awayStats.pct_over_6_5.toFixed(1) : '-'}</td>
+                        <td ${awayStats.pct_over_7_5 >= 30 ? 'class="stat-pct-green"' : ''}>${awayStats.pct_over_7_5 ? awayStats.pct_over_7_5.toFixed(1) : '-'}</td>
                         <td ${awayStats.avg_1p_total >= 1.5 ? 'class="stat-pct-green"' : ''}>${awayStats.avg_1p_total || '-'}</td>
                         <td ${awayStats.pct_1p_over_1_5 >= 60 ? 'class="stat-pct-green"' : ''}>${awayStats.pct_1p_over_1_5 ? awayStats.pct_1p_over_1_5.toFixed(1) : '-'}</td>
                         <td>${awayStats.avg_1p_scored || '-'}</td>
@@ -781,6 +993,9 @@
                         <td ${homeStats.pct_scored_over_1_5 >= 75 ? 'class="stat-pct-green"' : ''}>${homeStats.pct_scored_over_1_5 ? homeStats.pct_scored_over_1_5.toFixed(1) : '-'}</td>
                         <td ${homeStats.pct_scored_over_2_5 >= 65 ? 'class="stat-pct-green"' : ''}>${homeStats.pct_scored_over_2_5 ? homeStats.pct_scored_over_2_5.toFixed(1) : '-'}</td>
                         <td ${homeStats.pct_scored_over_3_5 >= 45 ? 'class="stat-pct-green"' : ''}>${homeStats.pct_scored_over_3_5 ? homeStats.pct_scored_over_3_5.toFixed(1) : '-'}</td>
+                        <td ${homeStats.pct_over_5_5 >= 50 ? 'class="stat-pct-green"' : ''}>${homeStats.pct_over_5_5 ? homeStats.pct_over_5_5.toFixed(1) : '-'}</td>
+                        <td ${homeStats.pct_over_6_5 >= 40 ? 'class="stat-pct-green"' : ''}>${homeStats.pct_over_6_5 ? homeStats.pct_over_6_5.toFixed(1) : '-'}</td>
+                        <td ${homeStats.pct_over_7_5 >= 30 ? 'class="stat-pct-green"' : ''}>${homeStats.pct_over_7_5 ? homeStats.pct_over_7_5.toFixed(1) : '-'}</td>
                         <td ${homeStats.avg_1p_total >= 1.5 ? 'class="stat-pct-green"' : ''}>${homeStats.avg_1p_total || '-'}</td>
                         <td ${homeStats.pct_1p_over_1_5 >= 60 ? 'class="stat-pct-green"' : ''}>${homeStats.pct_1p_over_1_5 ? homeStats.pct_1p_over_1_5.toFixed(1) : '-'}</td>
                         <td>${homeStats.avg_1p_scored || '-'}</td>

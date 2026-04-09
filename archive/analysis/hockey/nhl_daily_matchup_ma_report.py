@@ -399,7 +399,7 @@ class NHLDailyMatchupMAReport:
         print(report)
 
         # Save report
-        report_dir = Path(f"/Users/dickgibbons/sports-betting/reports/{date}/nhl_moving_averages")
+        report_dir = Path(f"/Users/dickgibbons/AI Projects/sports-betting/reports/{date}/nhl_moving_averages")
         report_dir.mkdir(parents=True, exist_ok=True)
 
         report_path = report_dir / f"nhl_matchup_ma_report_{date}.txt"
@@ -407,7 +407,7 @@ class NHLDailyMatchupMAReport:
             f.write(report)
 
         # Also save to Daily Reports
-        daily_dir = Path(f"/Users/dickgibbons/Daily Reports/{date}")
+        daily_dir = Path(f"/Users/dickgibbons/AI Projects/sports-betting/Daily Reports/{date}")
         daily_dir.mkdir(parents=True, exist_ok=True)
         daily_path = daily_dir / f"nhl_matchup_ma_report_{date}.txt"
         with open(daily_path, "w") as f:

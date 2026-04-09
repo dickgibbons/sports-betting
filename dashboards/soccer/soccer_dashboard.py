@@ -8,8 +8,15 @@ import pandas as pd
 import os
 import io
 import csv
+from pathlib import Path
 
 app = Flask(__name__, template_folder='templates')
+
+# Repo root = sports-betting/ (parent of dashboards/)
+_SPORTS_BETTING_ROOT = Path(__file__).resolve().parents[2]
+_DAILY_REPORTS = Path(
+    os.environ.get("SPORTS_BETTING_DAILY_REPORTS", _SPORTS_BETTING_ROOT / "Daily Reports")
+)
 
 API_KEY = "960c628e1c91c4b1f125e1eec52ad862"
 BASE_URL = "https://v3.football.api-sports.io"
@@ -91,9 +98,9 @@ LEAGUE_COUNTRIES = {name: country for _, (name, country) in SOCCER_LEAGUES.items
 
 # Stat file paths for each period
 STATS_FILES = {
-    'season': "/Users/dickgibbons/Daily Reports/soccer_team_complete_stats.csv",
-    'L10': "/Users/dickgibbons/Daily Reports/soccer_team_stats_L10.csv",
-    'L5': "/Users/dickgibbons/Daily Reports/soccer_team_stats_L5.csv",
+    "season": str(_DAILY_REPORTS / "soccer_team_complete_stats.csv"),
+    "L10": str(_DAILY_REPORTS / "soccer_team_stats_L10.csv"),
+    "L5": str(_DAILY_REPORTS / "soccer_team_stats_L5.csv"),
 }
 
 # Load team stats for all periods
@@ -149,7 +156,7 @@ TEAM_STATS = ALL_TEAM_STATS.get('season', {})
 LEAGUE_AVERAGES = ALL_LEAGUE_AVERAGES.get('season', {})
 
 # Daily games CSV directory
-GAMES_CSV_DIR = "/Users/dickgibbons/Daily Reports"
+GAMES_CSV_DIR = str(_DAILY_REPORTS)
 
 
 def load_games_from_csv(date_str):
@@ -449,5 +456,8 @@ def download_csv():
         headers={'Content-Disposition': f'attachment; filename=soccer_dashboard_{date_str}_{period}.csv'}
     )
 
-if __name__ == '__main__':
-    app.run(debug=True, port=8502, host='0.0.0.0')
+if __name__ == "__main__":
+    port = int(os.environ.get("SOCCER_DASHBOARD_PORT", "8504"))
+    debug = os.environ.get("FLASK_DEBUG", "").lower() in ("1", "true", "yes")
+    host = os.environ.get("SOCCER_DASHBOARD_HOST", "0.0.0.0")
+    app.run(debug=debug, port=port, host=host)

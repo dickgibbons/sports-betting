@@ -380,7 +380,7 @@ def main():
 
     # Save predictions
     date_str = datetime.now().strftime("%Y-%m-%d")
-    report_dir = Path("/Users/dickgibbons/sports-betting/reports") / date_str
+    report_dir = Path("/Users/dickgibbons/AI Projects/sports-betting/reports") / date_str
     report_dir.mkdir(parents=True, exist_ok=True)
 
     if not predictions.empty:

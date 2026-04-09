@@ -45,8 +45,8 @@ except ImportError:
     import xgboost as xgb
 
 # Paths
-DB_PATH = "/Users/dickgibbons/sports-betting/data/nhl_game_cache.db"
-MODEL_DIR = "/Users/dickgibbons/sports-betting/nhl/models"
+DB_PATH = "/Users/dickgibbons/AI Projects/sports-betting/data/nhl_game_cache.db"
+MODEL_DIR = "/Users/dickgibbons/AI Projects/sports-betting/nhl/models"
 
 
 class NHL1PGoalsModel:

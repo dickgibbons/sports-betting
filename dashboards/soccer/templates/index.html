@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soccer Schedule Dashboard</title>
+    <title>Soccer Intelligence Dashboard</title>
     <style>
         * {
             margin: 0;
@@ -127,19 +127,20 @@
             background: #1B5E20;
         }
 
+        /* CSS uses \\NNNN hex escapes, not JS-style \\uXXXX */
         th.sortable::after {
-            content: ' \u2195';
+            content: ' \2195';
             font-size: 0.7rem;
             opacity: 0.5;
         }
 
         th.sortable.sort-asc::after {
-            content: ' \u25B2';
+            content: ' \25B2';
             opacity: 1;
         }
 
         th.sortable.sort-desc::after {
-            content: ' \u25BC';
+            content: ' \25BC';
             opacity: 1;
         }
 
@@ -359,11 +360,196 @@
             font-weight: bold;
             width: 25px;
         }
+        /* Professional dark theme overrides */
+        :root {
+            --bg: #09131f;
+            --panel: #0f1d2e;
+            --line: #25405e;
+            --text: #dce7f6;
+            --muted: #95a9c3;
+        }
+
+        body {
+            font-family: "Segoe UI", "SF Pro Text", Roboto, sans-serif;
+            background: radial-gradient(circle at 10% -10%, #153558 0%, var(--bg) 45%);
+            color: var(--text);
+            line-height: 1.35;
+        }
+
+        .header,
+        .filter-bar,
+        .container {
+            max-width: 1600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .header {
+            margin-top: 24px;
+            padding: 0 20px;
+            background: transparent;
+        }
+
+        .header h1 {
+            font-size: 1.9rem;
+            color: #f3f8ff;
+        }
+
+        .date-nav,
+        .filter-bar {
+            background: linear-gradient(180deg, rgba(18, 35, 54, 0.95), rgba(14, 27, 42, 0.95));
+            border: 1px solid var(--line);
+            border-radius: 12px;
+            box-shadow: 0 10px 28px rgba(0, 0, 0, 0.25);
+            padding: 12px;
+        }
+
+        .date-nav button,
+        .clear-filters {
+            border: 1px solid transparent;
+            border-radius: 10px;
+            color: #fff;
+            font-size: 0.86rem;
+            font-weight: 700;
+            padding: 8px 12px;
+            transition: 0.15s ease;
+            background: linear-gradient(180deg, #21567f, #1a4465);
+        }
+
+        .date-nav button:hover,
+        .clear-filters:hover {
+            transform: translateY(-1px);
+            filter: brightness(1.08);
+        }
+
+        #refresh-btn { background: linear-gradient(180deg, #2f8fef, #1d6ec1); }
+        #download-btn { background: linear-gradient(180deg, #28aa72, #1f8559); }
+        .clear-filters { background: linear-gradient(180deg, #cc5a67, #ab3f4b); }
+
+        .date-nav input[type="date"],
+        .date-nav select,
+        .filter-group select,
+        .filter-group input[type="text"],
+        .filter-group input[type="number"] {
+            background: #0b1624;
+            color: var(--text);
+            border: 1px solid #2f4865;
+            border-radius: 9px;
+            padding: 8px 10px;
+            font-size: 0.84rem;
+            min-height: 36px;
+        }
+
+        .stats-summary,
+        .filter-group label,
+        #filter-count {
+            color: var(--muted) !important;
+            font-size: 0.8rem;
+            font-weight: 700;
+        }
+
+        .filter-bar {
+            margin-top: 12px;
+            padding: 12px 20px;
+            border-bottom: 1px solid var(--line);
+        }
+
+        .filter-bar.stat-bar {
+            border-color: #29533f;
+            background: linear-gradient(180deg, rgba(16, 42, 34, 0.95), rgba(15, 33, 28, 0.95));
+        }
+
+        .container {
+            margin-top: 12px;
+            margin-bottom: 28px;
+            padding: 0 20px;
+        }
+
+        .league-section {
+            border: 1px solid var(--line);
+            border-radius: 12px;
+            overflow: auto;
+            background: rgba(12, 23, 37, 0.92);
+            box-shadow: 0 14px 36px rgba(0, 0, 0, 0.28);
+        }
+
+        table {
+            border-collapse: separate;
+            border-spacing: 0;
+            font-size: 0.78rem;
+        }
+
+        th {
+            position: sticky;
+            top: 0;
+            z-index: 3;
+            background: #112942;
+            border: 1px solid #223e5c;
+            border-bottom-color: #315377;
+            color: #eff6ff;
+            white-space: nowrap;
+        }
+
+        th.sortable:hover { background: #173655; }
+
+        td {
+            border-color: #1d3652;
+            white-space: nowrap;
+        }
+
+        .team-col {
+            min-width: 170px;
+            color: #f4f8ff;
+            font-weight: 600;
+        }
+
+        .away-row { background: rgba(14, 28, 45, 0.8); }
+        .home-row { background: rgba(9, 20, 33, 0.88); }
+        .home-row td { border-bottom: 2px solid #236a4a; }
+        tr:hover { background: rgba(33, 62, 92, 0.6) !important; }
+
+        .loading, .no-games {
+            border-radius: 12px;
+            border: 1px solid var(--line);
+            background: rgba(14, 27, 42, 0.9);
+            color: var(--muted);
+        }
+
+        .status-live {
+            background: linear-gradient(180deg, #d95d6c, #bf4553);
+            color: #fff;
+            border-radius: 999px;
+            font-size: 0.7rem;
+            font-weight: 700;
+            padding: 3px 7px;
+        }
+
+        .status-final { color: #b8c9dc; }
+        .ha-col { color: #8fb0d2; }
+
+        .stats-coverage-note {
+            max-width: 1600px;
+            margin: 12px auto 0;
+            padding: 10px 14px;
+            border-radius: 10px;
+            border: 1px solid #3d5c78;
+            background: rgba(16, 32, 50, 0.85);
+            color: #b9ccdf;
+            font-size: 0.82rem;
+            line-height: 1.45;
+        }
+        .stats-coverage-note code {
+            font-size: 0.78rem;
+            background: #0b1624;
+            padding: 1px 6px;
+            border-radius: 4px;
+            color: #e8f0fa;
+        }
     </style>
 </head>
 <body>
     <div class="header">
-        <h1>Soccer Schedule Dashboard</h1>
+        <h1>Soccer Intelligence Dashboard</h1>
         <div class="date-nav">
             <button onclick="changeDate(-1)">&larr; Prev</button>
             <input type="date" id="date-picker" onchange="loadGames()">
@@ -374,8 +560,8 @@
                 <option value="L10">Last 10</option>
                 <option value="L5">Last 5</option>
             </select>
-            <button onclick="downloadCSV()" style="background: #1976D2; margin-left: 10px;">Download CSV</button>
-            <button onclick="loadGames()" style="background: #FF9800; margin-left: 10px;">Refresh</button>
+            <button id="download-btn" onclick="downloadCSV()">Download CSV</button>
+            <button id="refresh-btn" onclick="loadGames()">Refresh</button>
             <span class="stats-summary" id="stats-summary"></span>
         </div>
     </div>
@@ -402,8 +588,8 @@
         <span id="filter-count" style="margin-left: 10px; font-size: 0.85rem; color: #666;"></span>
     </div>
     <!-- Stat Filter Bar -->
-    <div class="filter-bar" style="background: #e8f5e9;">
-        <span style="font-weight: bold; margin-right: 10px;">Min %:</span>
+    <div class="filter-bar stat-bar">
+        <span style="font-weight: bold; margin-right: 10px; color: #8bcba9;">Min %:</span>
         <div class="filter-group">
             <label>H1 O0.5%:</label>
             <input type="number" id="filter-h1o05" placeholder="e.g. 70" min="0" max="100" style="width: 70px;" oninput="applyFilters()">
@@ -428,6 +614,13 @@
             <label>Comb O2.5:</label>
             <input type="number" id="filter-comb-o25" placeholder="e.g. 50" min="0" max="100" style="width: 70px;" oninput="applyFilters()">
         </div>
+    </div>
+
+    <div class="stats-coverage-note">
+        <strong>About the stat columns:</strong> Numbers come from <code>Daily Reports/soccer_team_complete_stats.csv</code>
+        (and L10/L5 variants when you change the period). Only teams in that file, under the same league name as the dashboard, get stats.
+        Leagues missing from the CSV—or team names that do not match—show dashes. To backfill leagues, run
+        <code>python3 dashboards/soccer/collect_soccer_team_stats.py</code> (API calls; may take a while).
     </div>
 
     <div class="container" id="games-container">

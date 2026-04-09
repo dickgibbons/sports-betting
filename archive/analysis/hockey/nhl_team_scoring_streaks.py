@@ -166,7 +166,7 @@ def main():
     results.sort(key=lambda x: x["Pct_Over_1.5"], reverse=True)
 
     # Save to CSV
-    output_dir = "/Users/dickgibbons/Daily Reports"
+    output_dir = "/Users/dickgibbons/AI Projects/sports-betting/Daily Reports"
     output_file = os.path.join(output_dir, "NHL_TEAM_SCORING_STREAKS.csv")
 
     with open(output_file, 'w', newline='') as f:

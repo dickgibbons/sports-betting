@@ -17,7 +17,7 @@ Complete guide for running daily betting reports independently for each sport.
 
 ### 1. Install Dependencies
 ```bash
-cd /Users/dickgibbons/sports-betting
+cd /Users/dickgibbons/AI Projects/sports-betting
 pip3 install -r requirements.txt
 ```
 
@@ -86,7 +86,7 @@ python3 --version
 ### Step 2: Install Required Packages
 
 ```bash
-cd /Users/dickgibbons/sports-betting
+cd /Users/dickgibbons/AI Projects/sports-betting
 pip3 install -r requirements.txt
 ```
 
@@ -129,7 +129,7 @@ chmod +x run_*.sh setup_automation.sh
 - Back-to-back opportunities
 - Top 5 best bets
 
-**Output location:** `/Users/dickgibbons/sports-betting/reports/YYYY-MM-DD/`
+**Output location:** `/Users/dickgibbons/AI Projects/sports-betting/reports/YYYY-MM-DD/`
 
 ### NBA Reports
 ```bash
@@ -195,28 +195,28 @@ crontab -e
 
 **Example 1: All sports at 5:00 AM daily**
 ```cron
-0 5 * * * cd /Users/dickgibbons/sports-betting && ./run_all_daily.sh
+0 5 * * * cd /Users/dickgibbons/AI Projects/sports-betting && ./run_all_daily.sh
 ```
 
 **Example 2: Staggered schedule**
 ```cron
 # NHL at 5:00 AM
-0 5 * * * cd /Users/dickgibbons/sports-betting && ./run_nhl_daily.sh
+0 5 * * * cd /Users/dickgibbons/AI Projects/sports-betting && ./run_nhl_daily.sh
 
 # NBA at 6:00 AM
-0 6 * * * cd /Users/dickgibbons/sports-betting && ./run_nba_daily.sh
+0 6 * * * cd /Users/dickgibbons/AI Projects/sports-betting && ./run_nba_daily.sh
 
 # NCAA at 7:00 AM
-0 7 * * * cd /Users/dickgibbons/sports-betting && ./run_ncaa_daily.sh
+0 7 * * * cd /Users/dickgibbons/AI Projects/sports-betting && ./run_ncaa_daily.sh
 
 # Soccer at 8:00 AM
-0 8 * * * cd /Users/dickgibbons/sports-betting && ./run_soccer_daily.sh
+0 8 * * * cd /Users/dickgibbons/AI Projects/sports-betting && ./run_soccer_daily.sh
 ```
 
 **Example 3: NHL and NBA only, weekdays only**
 ```cron
-0 5 * * 1-5 cd /Users/dickgibbons/sports-betting && ./run_nhl_daily.sh
-0 6 * * 1-5 cd /Users/dickgibbons/sports-betting && ./run_nba_daily.sh
+0 5 * * 1-5 cd /Users/dickgibbons/AI Projects/sports-betting && ./run_nhl_daily.sh
+0 6 * * 1-5 cd /Users/dickgibbons/AI Projects/sports-betting && ./run_nba_daily.sh
 ```
 
 ### Verify Cron Jobs
@@ -230,7 +230,7 @@ crontab -l
 
 ### Directory Structure
 ```
-/Users/dickgibbons/sports-betting/
+/Users/dickgibbons/AI Projects/sports-betting/
 ├── reports/
 │   ├── 2025-11-16/                    # Date-organized reports
 │   │   ├── nhl_daily_report_2025-11-16.csv
@@ -314,7 +314,7 @@ crontab -l
 
 **Test script manually:**
 ```bash
-cd /Users/dickgibbons/sports-betting
+cd /Users/dickgibbons/AI Projects/sports-betting
 ./run_all_daily.sh
 ```
 
@@ -322,7 +322,7 @@ cd /Users/dickgibbons/sports-betting
 
 **Check log files:**
 ```bash
-tail -50 /Users/dickgibbons/sports-betting/logs/nhl_daily_*.log
+tail -50 /Users/dickgibbons/AI Projects/sports-betting/logs/nhl_daily_*.log
 ```
 
 **Common API issues:**
@@ -334,12 +334,12 @@ tail -50 /Users/dickgibbons/sports-betting/logs/nhl_daily_*.log
 
 **Verify output directory exists:**
 ```bash
-mkdir -p /Users/dickgibbons/sports-betting/reports/$(date +%Y-%m-%d)
+mkdir -p /Users/dickgibbons/AI Projects/sports-betting/reports/$(date +%Y-%m-%d)
 ```
 
 **Check for errors in logs:**
 ```bash
-grep -i error /Users/dickgibbons/sports-betting/logs/*.log
+grep -i error /Users/dickgibbons/AI Projects/sports-betting/logs/*.log
 ```
 
 ### Issue: Models not found (nhl_enhanced_models.pkl)
@@ -347,11 +347,11 @@ grep -i error /Users/dickgibbons/sports-betting/logs/*.log
 **Solution:** Run training scripts first:
 ```bash
 # NHL model training
-cd /Users/dickgibbons/sports-betting/nhl/analyzers
+cd /Users/dickgibbons/AI Projects/sports-betting/nhl/analyzers
 python3 nhl_enhanced_trainer.py
 
 # NBA model training
-cd /Users/dickgibbons/sports-betting/nba/analyzers
+cd /Users/dickgibbons/AI Projects/sports-betting/nba/analyzers
 python3 nba_enhanced_trainer.py
 ```
 
@@ -378,14 +378,14 @@ Examples:
 
 Add email notification to cron:
 ```cron
-0 5 * * * cd /Users/dickgibbons/sports-betting && ./run_all_daily.sh && mail -s "Daily Betting Report" your@email.com < reports/$(date +\%Y-\%m-\%d)/report*.txt
+0 5 * * * cd /Users/dickgibbons/AI Projects/sports-betting && ./run_all_daily.sh && mail -s "Daily Betting Report" your@email.com < reports/$(date +\%Y-\%m-\%d)/report*.txt
 ```
 
 ### AWS Integration (NHL Advanced)
 
 The NHL has optional AWS integration for model training:
 ```bash
-cd /Users/dickgibbons/sports-betting/nhl/analyzers
+cd /Users/dickgibbons/AI Projects/sports-betting/nhl/analyzers
 ./automated_daily_system.sh
 ```
 
@@ -400,10 +400,10 @@ This uses EC2 instance for heavy computation. Requires:
 View current performance:
 ```bash
 # Check bet history
-cat /Users/dickgibbons/sports-betting/data/bet_history.json | python3 -m json.tool
+cat /Users/dickgibbons/AI Projects/sports-betting/data/bet_history.json | python3 -m json.tool
 
 # View latest unified report
-cat /Users/dickgibbons/sports-betting/reports/$(date +%Y-%m-%d)/report_*.txt
+cat /Users/dickgibbons/AI Projects/sports-betting/reports/$(date +%Y-%m-%d)/report_*.txt
 ```
 
 **Current System Performance (as of Nov 15, 2025):**
@@ -415,9 +415,9 @@ cat /Users/dickgibbons/sports-betting/reports/$(date +%Y-%m-%d)/report_*.txt
 
 ## Support & Documentation
 
-- **Main README:** `/Users/dickgibbons/sports-betting/README.md`
-- **NHL Documentation:** `/Users/dickgibbons/sports-betting/nhl/analyzers/*.md`
-- **NBA Quick Start:** `/Users/dickgibbons/sports-betting/nba/analyzers/NBA_QUICK_START.md`
-- **Soccer Documentation:** `/Users/dickgibbons/sports-betting/soccer/analyzers/daily soccer/README.md`
+- **Main README:** `/Users/dickgibbons/AI Projects/sports-betting/README.md`
+- **NHL Documentation:** `/Users/dickgibbons/AI Projects/sports-betting/nhl/analyzers/*.md`
+- **NBA Quick Start:** `/Users/dickgibbons/AI Projects/sports-betting/nba/analyzers/NBA_QUICK_START.md`
+- **Soccer Documentation:** `/Users/dickgibbons/AI Projects/sports-betting/soccer/analyzers/daily soccer/README.md`
 
-For issues, check log files in `/Users/dickgibbons/sports-betting/logs/`
+For issues, check log files in `/Users/dickgibbons/AI Projects/sports-betting/logs/`

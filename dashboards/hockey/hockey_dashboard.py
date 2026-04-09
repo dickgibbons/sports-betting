@@ -7,8 +7,14 @@ from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 import pandas as pd
 import os
+from pathlib import Path
 
 app = Flask(__name__, template_folder='templates')
+
+_SPORTS_BETTING_ROOT = Path(__file__).resolve().parents[2]
+_DAILY_REPORTS = Path(
+    os.environ.get("SPORTS_BETTING_DAILY_REPORTS", _SPORTS_BETTING_ROOT / "Daily Reports")
+)
 
 API_KEY = "960c628e1c91c4b1f125e1eec52ad862"
 BASE_URL = "https://v1.hockey.api-sports.io"
@@ -40,9 +46,9 @@ DRAFTKINGS_LEAGUES = {
 
 # Stat file paths for each period
 STATS_FILES = {
-    'season': "/Users/dickgibbons/Daily Reports/draftkings_hockey_team_stats_with_1p.csv",
-    'L10': "/Users/dickgibbons/Daily Reports/draftkings_hockey_team_stats_L10.csv",
-    'L5': "/Users/dickgibbons/Daily Reports/draftkings_hockey_team_stats_L5.csv",
+    "season": str(_DAILY_REPORTS / "draftkings_hockey_team_stats_with_1p.csv"),
+    "L10": str(_DAILY_REPORTS / "draftkings_hockey_team_stats_L10.csv"),
+    "L5": str(_DAILY_REPORTS / "draftkings_hockey_team_stats_L5.csv"),
 }
 
 # Load team stats for all periods
@@ -205,6 +211,10 @@ def load_stats_for_period(period):
                 'pct_scored_over_1_5': row.get('pct_scored_over_1_5', 0),
                 'pct_scored_over_2_5': row.get('pct_scored_over_2_5', 0),
                 'pct_scored_over_3_5': row.get('pct_scored_over_3_5', 0),
+                # Game total over percentages
+                'pct_over_5_5': row.get('pct_over_5_5', 0),
+                'pct_over_6_5': row.get('pct_over_6_5', 0),
+                'pct_over_7_5': row.get('pct_over_7_5', 0),
             }
 
     return team_stats, league_averages
@@ -218,7 +228,7 @@ TEAM_STATS = ALL_TEAM_STATS.get('season', {})
 LEAGUE_AVERAGES = ALL_LEAGUE_AVERAGES.get('season', {})
 
 # Daily games CSV directory
-GAMES_CSV_DIR = "/Users/dickgibbons/Daily Reports"
+GAMES_CSV_DIR = str(_DAILY_REPORTS)
 
 
 def load_games_from_csv(date_str):
@@ -335,6 +345,19 @@ def get_games_for_date(date_str, period='season'):
             away_1p_pct = away_stats.get('pct_1p_over_1_5', 0)
             combined_1p_pct = (home_1p_pct + away_1p_pct) / 2 if home_1p_pct and away_1p_pct else 0
 
+            # Game total over percentages
+            home_o55 = home_stats.get('pct_over_5_5', 0)
+            away_o55 = away_stats.get('pct_over_5_5', 0)
+            combined_o55 = (home_o55 + away_o55) / 2 if home_o55 and away_o55 else 0
+
+            home_o65 = home_stats.get('pct_over_6_5', 0)
+            away_o65 = away_stats.get('pct_over_6_5', 0)
+            combined_o65 = (home_o65 + away_o65) / 2 if home_o65 and away_o65 else 0
+
+            home_o75 = home_stats.get('pct_over_7_5', 0)
+            away_o75 = away_stats.get('pct_over_7_5', 0)
+            combined_o75 = (home_o75 + away_o75) / 2 if home_o75 and away_o75 else 0
+
             league_avgs = league_averages.get(league_name, {})
 
             # Get standings info
@@ -361,6 +384,9 @@ def get_games_for_date(date_str, period='season'):
                 'combined_avg_total': round(combined_avg, 2),
                 'combined_avg_1p': round(combined_1p, 2),
                 'combined_1p_over_pct': round(combined_1p_pct, 1),
+                'combined_pct_over_5_5': round(combined_o55, 1),
+                'combined_pct_over_6_5': round(combined_o65, 1),
+                'combined_pct_over_7_5': round(combined_o75, 1),
                 'league_avg_scored': league_avgs.get('avg_scored', 0),
                 'league_avg_conceded': league_avgs.get('avg_conceded', 0),
             }
@@ -415,6 +441,19 @@ def get_games_for_date(date_str, period='season'):
                     away_1p_pct = away_stats.get('pct_1p_over_1_5', 0)
                     combined_1p_pct = (home_1p_pct + away_1p_pct) / 2 if home_1p_pct and away_1p_pct else 0
 
+                    # Game total over percentages
+                    home_o55 = home_stats.get('pct_over_5_5', 0)
+                    away_o55 = away_stats.get('pct_over_5_5', 0)
+                    combined_o55 = (home_o55 + away_o55) / 2 if home_o55 and away_o55 else 0
+
+                    home_o65 = home_stats.get('pct_over_6_5', 0)
+                    away_o65 = away_stats.get('pct_over_6_5', 0)
+                    combined_o65 = (home_o65 + away_o65) / 2 if home_o65 and away_o65 else 0
+
+                    home_o75 = home_stats.get('pct_over_7_5', 0)
+                    away_o75 = away_stats.get('pct_over_7_5', 0)
+                    combined_o75 = (home_o75 + away_o75) / 2 if home_o75 and away_o75 else 0
+
                     # Extract time from date field, converting to Eastern time
                     date_field = game.get('date', '')
                     _, time_str = convert_utc_to_eastern(date_field)
@@ -446,6 +485,9 @@ def get_games_for_date(date_str, period='season'):
                         'combined_avg_total': round(combined_avg, 2),
                         'combined_avg_1p': round(combined_1p, 2),
                         'combined_1p_over_pct': round(combined_1p_pct, 1),
+                        'combined_pct_over_5_5': round(combined_o55, 1),
+                        'combined_pct_over_6_5': round(combined_o65, 1),
+                        'combined_pct_over_7_5': round(combined_o75, 1),
                         'league_avg_scored': league_avgs.get('avg_scored', 0),
                         'league_avg_conceded': league_avgs.get('avg_conceded', 0),
                     }
@@ -485,5 +527,8 @@ def api_games():
         'games_by_league': games_by_league
     })
 
-if __name__ == '__main__':
-    app.run(debug=True, port=8501, host='0.0.0.0')
+if __name__ == "__main__":
+    port = int(os.environ.get("HOCKEY_DASHBOARD_PORT", "8503"))
+    debug = os.environ.get("FLASK_DEBUG", "").lower() in ("1", "true", "yes")
+    host = os.environ.get("HOCKEY_DASHBOARD_HOST", "0.0.0.0")
+    app.run(debug=debug, port=port, host=host)

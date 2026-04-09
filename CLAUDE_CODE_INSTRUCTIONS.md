@@ -11,7 +11,7 @@ When the user says **"run sports betting"**, do the following:
 ### Step 1: Launch All 5 Dashboards
 
 ```bash
-cd /Users/dickgibbons/sports-betting
+cd /Users/dickgibbons/AI Projects/sports-betting
 
 # Kill any existing dashboard processes
 pkill -f "hockey_dashboard|soccer_dashboard|streamlit.*850"
@@ -38,7 +38,7 @@ nohup streamlit run dashboards/soccer/global_schedule_dashboard.py --server.port
 ### Step 2: Run Daily Selections
 
 ```bash
-cd /Users/dickgibbons/sports-betting
+cd /Users/dickgibbons/AI Projects/sports-betting
 
 # Run Soccer Daily Selections
 ./run_soccer_daily.sh
@@ -71,7 +71,7 @@ After completing steps 1-3, tell the user:
 > - Global Soccer Schedule (Enhanced Odds): http://127.0.0.1:8506
 >
 > Daily selections have been generated for soccer and hockey.
-> Reports are in: `/Users/dickgibbons/sports-betting/reports/YYYY-MM-DD/`
+> Reports are in: `/Users/dickgibbons/AI Projects/sports-betting/reports/YYYY-MM-DD/`
 
 ---
 
@@ -119,7 +119,7 @@ The Global Soccer Schedule dashboard (port 8506) displays comprehensive team sta
 
 **To refresh team stats data:**
 ```bash
-cd /Users/dickgibbons/sports-betting/dashboards/soccer
+cd /Users/dickgibbons/AI Projects/sports-betting/dashboards/soccer
 python3 team_stats_collector.py
 ```
 
@@ -129,7 +129,7 @@ python3 team_stats_collector.py
 
 ### Soccer Daily Pipeline (`./run_soccer_daily.sh`)
 
-Runs 4 scripts in order from `/Users/dickgibbons/sports-betting/soccer/strategies/`:
+Runs 4 scripts in order from `/Users/dickgibbons/AI Projects/sports-betting/soccer/strategies/`:
 
 1. **soccer_daily_profitable_report.py** - Analyzes profitable leagues (Bundesliga, EPL, MLS, etc.)
 2. **soccer_best_bets_daily.py** - Main best bets (BTTS, Totals) using ML models
@@ -144,7 +144,7 @@ Runs 4 scripts in order from `/Users/dickgibbons/sports-betting/soccer/strategie
 
 ### NHL/Hockey Daily Pipeline (`./run_nhl_daily.sh`)
 
-Runs 9 scripts in order from `/Users/dickgibbons/sports-betting/nhl/strategies/`:
+Runs 9 scripts in order from `/Users/dickgibbons/AI Projects/sports-betting/nhl/strategies/`:
 
 1. **daily_nhl_report.py** - Main NHL predictions
 2. **nhl_first_period_daily_report.py** - 1P analysis
@@ -156,7 +156,7 @@ Runs 9 scripts in order from `/Users/dickgibbons/sports-betting/nhl/strategies/`
 8. **generate_1p_trend_reports.py** - 1P trend analysis
 9. **nhl_totals_strategy.py** - Over/Under strategy
 
-**Output**: `reports/YYYY-MM-DD/` and `/Users/dickgibbons/Daily Reports/YYYY-MM-DD/`
+**Output**: `reports/YYYY-MM-DD/` and `/Users/dickgibbons/AI Projects/sports-betting/Daily Reports/YYYY-MM-DD/`
 
 **Models Used** (in `nhl/strategies/`):
 - `nhl_enhanced_models.pkl`
@@ -168,7 +168,7 @@ Runs 9 scripts in order from `/Users/dickgibbons/sports-betting/nhl/strategies/`
 
 ## GOLF/PGA SYSTEM
 
-**Location**: `/Users/dickgibbons/sports-betting/PGA_Bets/`
+**Location**: `/Users/dickgibbons/AI Projects/sports-betting/PGA_Bets/`
 
 **Purpose**: PGA Tour tournament predictions using DataGolf API
 
@@ -184,7 +184,7 @@ Runs 9 scripts in order from `/Users/dickgibbons/sports-betting/nhl/strategies/`
 ### Quick Commands
 
 ```bash
-cd /Users/dickgibbons/sports-betting/PGA_Bets
+cd /Users/dickgibbons/AI Projects/sports-betting/PGA_Bets
 
 # Test API connection
 python run_collection.py test
@@ -263,7 +263,7 @@ pkill -f "streamlit.*8506"
 tail -100 logs/all_sports_daily_*.log
 
 # Run individual script manually
-cd /Users/dickgibbons/sports-betting
+cd /Users/dickgibbons/AI Projects/sports-betting
 python3 soccer/strategies/soccer_best_bets_daily.py
 ```
 
@@ -272,14 +272,14 @@ Key data locations:
 - NHL cache: `data/nhl_game_cache.db`
 - Soccer stats: `soccer/strategies/data/team_stats_cache.db`
 - Global Soccer dashboard stats: `dashboards/soccer/data/team_stats/team_stats_current.csv`
-- Team stats CSVs: `/Users/dickgibbons/Daily Reports/`
+- Team stats CSVs: `/Users/dickgibbons/AI Projects/sports-betting/Daily Reports/`
 
 ---
 
 ## DIRECTORY STRUCTURE
 
 ```
-/Users/dickgibbons/sports-betting/
+/Users/dickgibbons/AI Projects/sports-betting/
 ├── dashboards/
 │   ├── hockey/hockey_dashboard.py      # Port 8501
 │   ├── soccer/soccer_dashboard.py      # Port 8502
@@ -310,7 +310,7 @@ Current setup runs all daily scripts at 5:00 AM:
 crontab -l
 
 # Expected entry
-0 5 * * * cd /Users/dickgibbons/sports-betting && ./run_all_daily.sh
+0 5 * * * cd /Users/dickgibbons/AI Projects/sports-betting && ./run_all_daily.sh
 ```
 
 To modify:

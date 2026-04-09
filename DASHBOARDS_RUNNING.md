@@ -68,7 +68,7 @@ pkill -f streamlit.*nhl_1p_totals_ui.py
 
 ### Restart Dashboards:
 ```bash
-cd /Users/dickgibbons/sports-betting
+cd /Users/dickgibbons/AI Projects/sports-betting
 
 # Soccer Dashboard
 python3 dashboards/soccer/soccer_dashboard.py > logs/soccer_dashboard.log 2>&1 &

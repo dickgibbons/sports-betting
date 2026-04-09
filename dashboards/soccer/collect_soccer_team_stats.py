@@ -2,14 +2,22 @@
 """Collect team stats for all leagues in the soccer dashboard.
 Generates Season, L10, and L5 stats files."""
 
-import requests
-import pandas as pd
-from datetime import datetime
+import os
 import time
+from datetime import datetime
+from pathlib import Path
+
+import pandas as pd
+import requests
 
 API_KEY = "960c628e1c91c4b1f125e1eec52ad862"
 BASE_URL = "https://v3.football.api-sports.io"
-OUTPUT_DIR = "/Users/dickgibbons/Daily Reports"
+# Free tier is ~10 requests/minute; stay under to avoid empty responses
+REQUEST_DELAY_SEC = 7
+_ROOT = Path(__file__).resolve().parents[2]
+OUTPUT_DIR = str(
+    Path(os.environ.get("SPORTS_BETTING_DAILY_REPORTS", _ROOT / "Daily Reports"))
+)
 OUTPUT_FILES = {
     'season': f"{OUTPUT_DIR}/soccer_team_complete_stats.csv",
     'L10': f"{OUTPUT_DIR}/soccer_team_stats_L10.csv",
@@ -82,6 +90,74 @@ def get_season_for_date(date_str):
     if date.month < 8:
         return date.year - 1
     return date.year
+
+
+def fetch_fixtures_ft_paginated(headers, league_id, season):
+    """Fetch all finished fixtures for a league/season.
+
+    Uses the default request first (no ``page``), then follows ``paging`` for
+    extra pages. Retries on rate-limit errors. Returns [] on plan/season errors
+    so callers can try another season year.
+    """
+    url = f"{BASE_URL}/fixtures"
+    all_games = []
+
+    def fetch_page(page=None):
+        params = {"league": league_id, "season": season, "status": "FT"}
+        if page is not None:
+            params["page"] = page
+        for _ in range(3):
+            response = requests.get(url, headers=headers, params=params, timeout=90)
+            if response.status_code != 200:
+                time.sleep(REQUEST_DELAY_SEC)
+                continue
+            data = response.json()
+            err_raw = data.get("errors")
+            err = str(err_raw) if err_raw else ""
+            if "Too many requests" in err or "rateLimit" in err:
+                time.sleep(65)
+                continue
+            if err_raw and "plan" in err.lower():
+                return None
+            return data
+        return {}
+
+    data = fetch_page(None)
+    if data is None:
+        return []
+
+    batch = data.get("response", [])
+    all_games.extend(batch)
+
+    paging = data.get("paging") or {}
+    total_pages = int(paging.get("total", 1) or 1)
+    for page in range(2, total_pages + 1):
+        time.sleep(0.35)
+        data = fetch_page(page)
+        if not data:
+            break
+        batch = data.get("response", [])
+        if not batch:
+            break
+        all_games.extend(batch)
+
+    if len(all_games) == 100 and total_pages <= 1:
+        page = 2
+        max_extra = 40
+        while page <= max_extra:
+            time.sleep(0.35)
+            data = fetch_page(page)
+            if not data:
+                break
+            batch = data.get("response", [])
+            if not batch:
+                break
+            all_games.extend(batch)
+            if len(batch) < 100:
+                break
+            page += 1
+
+    return all_games
 
 
 def calculate_team_stats(games, league_name, country, game_limit=None):
@@ -241,26 +317,12 @@ def collect_team_stats():
     for league_id, (league_name, country) in SOCCER_LEAGUES.items():
         print(f"  {league_name} ({country})...", end=" ", flush=True)
 
-        url = f"{BASE_URL}/fixtures"
-        params = {"league": league_id, "season": season, "status": "FT"}
-
         try:
-            response = requests.get(url, headers=headers, params=params, timeout=60)
-            if response.status_code != 200:
-                print(f"API error {response.status_code}")
-                time.sleep(0.5)
-                continue
-
-            data = response.json()
-            games = data.get("response", [])
-
-            if not games:
-                # Try previous season
-                params["season"] = season - 1
-                response = requests.get(url, headers=headers, params=params, timeout=60)
-                if response.status_code == 200:
-                    data = response.json()
-                    games = data.get("response", [])
+            games = []
+            for try_season in (season, season - 1, season - 2, season - 3):
+                games = fetch_fixtures_ft_paginated(headers, league_id, try_season)
+                if games:
+                    break
 
             if games:
                 # Use (league_name, country) as key to handle duplicate league names
@@ -269,11 +331,11 @@ def collect_team_stats():
             else:
                 print("no games")
 
-            time.sleep(0.5)  # Rate limiting
+            time.sleep(REQUEST_DELAY_SEC)
 
         except Exception as e:
             print(f"Error: {e}")
-            time.sleep(0.5)
+            time.sleep(REQUEST_DELAY_SEC)
             continue
 
     # Generate stats for each period type: season, L10, L5

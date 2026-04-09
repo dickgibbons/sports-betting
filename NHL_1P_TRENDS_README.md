@@ -16,7 +16,7 @@ Visual trend analysis tool for NHL 1st period betting. Shows goals scored/allowe
 
 **Files Updated:**
 - `/Users/dickgibbons/NHL-Machine-Learning-Sports-Betting/nhl_ml_totals_predictor.py` (lines 110-143)
-- `/Users/dickgibbons/sports-betting/generate_1p_trend_reports.py` (date handling + API structure)
+- `/Users/dickgibbons/AI Projects/sports-betting/generate_1p_trend_reports.py` (date handling + API structure)
 
 **Verification:** Reports now show actual first period goals (e.g., CAR: 4 (H), CBJ: 3 (H), SEA: 4 (A))
 
@@ -24,7 +24,7 @@ Visual trend analysis tool for NHL 1st period betting. Shows goals scored/allowe
 
 ### Generated Files
 
-After running `/Users/dickgibbons/sports-betting/generate_1p_trend_reports.py`:
+After running `/Users/dickgibbons/AI Projects/sports-betting/generate_1p_trend_reports.py`:
 
 1. **nhl_1p_goals_scored_trend.csv** - Goals each team scored in 1P
 2. **nhl_1p_goals_allowed_trend.csv** - Goals each team allowed in 1P
@@ -109,7 +109,7 @@ After running `/Users/dickgibbons/sports-betting/generate_1p_trend_reports.py`:
 
 ### Integration with Daily Workflow
 
-Add to `/Users/dickgibbons/sports-betting/run_nhl_daily.sh`:
+Add to `/Users/dickgibbons/AI Projects/sports-betting/run_nhl_daily.sh`:
 
 ```bash
 # Generate 1P trend reports

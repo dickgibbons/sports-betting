@@ -15,7 +15,7 @@ class BetTracker:
     """Track betting performance and calculate statistics"""
 
     def __init__(self, starting_bankroll: float = 10000):
-        self.data_file = '/Users/dickgibbons/sports-betting/data/bet_history.json'
+        self.data_file = '/Users/dickgibbons/AI Projects/sports-betting/data/bet_history.json'
         self.starting_bankroll = starting_bankroll
         self.current_bankroll = starting_bankroll
 

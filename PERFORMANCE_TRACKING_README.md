@@ -14,7 +14,7 @@ When you run `./run_all_daily.sh`, the system automatically:
 4. **Shows performance summary** - Displays cumulative stats
 
 ### 2. Database
-All data is stored in: `/Users/dickgibbons/sports-betting/betting_tracker.db`
+All data is stored in: `/Users/dickgibbons/AI Projects/sports-betting/betting_tracker.db`
 
 Tracks:
 - Every prediction made (date, sport, bet type, selection, odds, confidence)

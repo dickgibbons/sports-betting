@@ -6,6 +6,7 @@ Displays game schedules for Top 50 leagues with detailed team stats
 import streamlit as st
 import pandas as pd
 from datetime import datetime, timedelta
+import math
 import sys
 import os
 
@@ -138,16 +139,24 @@ def format_time(timestamp: int) -> str:
 
 def decimal_to_american(decimal_odds: float) -> str:
     """Convert decimal odds to American odds format"""
-    if not decimal_odds or decimal_odds <= 1:
+    if decimal_odds is None:
+        return "-"
+    try:
+        d = float(decimal_odds)
+    except (TypeError, ValueError):
+        return "-"
+    if math.isnan(d) or d <= 1:
         return "-"
 
-    if decimal_odds >= 2.0:
+    if d >= 2.0:
         # Positive American odds (underdog)
-        american = (decimal_odds - 1) * 100
+        american = (d - 1) * 100
         return f"+{int(round(american))}"
     else:
         # Negative American odds (favorite)
-        american = -100 / (decimal_odds - 1)
+        american = -100 / (d - 1)
+        if math.isnan(american) or math.isinf(american):
+            return "-"
         return f"{int(round(american))}"
 
 

@@ -99,7 +99,7 @@ From 1,305 NBA games analyzed:
 ## New Strategy Files Created
 
 ### 1. NBA Improved Strategy v3
-**Location:** `/Users/dickgibbons/sports-betting/core/nba_improved_strategy_v3.py`
+**Location:** `/Users/dickgibbons/AI Projects/sports-betting/core/nba_improved_strategy_v3.py`
 
 **Key Changes:**
 - REMOVED `rest_advantage` angle (0% historical win rate)
@@ -110,11 +110,11 @@ From 1,305 NBA games analyzed:
 
 **Usage:**
 ```bash
-python3 /Users/dickgibbons/sports-betting/core/nba_improved_strategy_v3.py --date 2025-11-30
+python3 /Users/dickgibbons/AI Projects/sports-betting/core/nba_improved_strategy_v3.py --date 2025-11-30
 ```
 
 ### 2. NHL Improved Strategy v2
-**Location:** `/Users/dickgibbons/sports-betting/core/nhl_improved_strategy_v2.py`
+**Location:** `/Users/dickgibbons/AI Projects/sports-betting/core/nhl_improved_strategy_v2.py`
 
 **Key Changes:**
 - Goalie quality ratings (elite/weak tiers)
@@ -124,11 +124,11 @@ python3 /Users/dickgibbons/sports-betting/core/nba_improved_strategy_v3.py --dat
 
 **Usage:**
 ```bash
-python3 /Users/dickgibbons/sports-betting/core/nhl_improved_strategy_v2.py --date 2025-11-30
+python3 /Users/dickgibbons/AI Projects/sports-betting/core/nhl_improved_strategy_v2.py --date 2025-11-30
 ```
 
 ### 3. Backtest Script
-**Location:** `/Users/dickgibbons/sports-betting/core/backtest_new_strategies.py`
+**Location:** `/Users/dickgibbons/AI Projects/sports-betting/core/backtest_new_strategies.py`
 
 **Purpose:** Validates new strategies against historical bet_history.json
 
@@ -206,10 +206,10 @@ python3 /Users/dickgibbons/sports-betting/core/nhl_improved_strategy_v2.py --dat
 
 ## Files Modified/Created
 
-1. `/Users/dickgibbons/sports-betting/core/nba_improved_strategy_v3.py` - NEW
-2. `/Users/dickgibbons/sports-betting/core/nhl_improved_strategy_v2.py` - NEW
-3. `/Users/dickgibbons/sports-betting/core/backtest_new_strategies.py` - NEW
-4. `/Users/dickgibbons/sports-betting/reports/strategy_backtest_2025-11-30.json` - NEW
+1. `/Users/dickgibbons/AI Projects/sports-betting/core/nba_improved_strategy_v3.py` - NEW
+2. `/Users/dickgibbons/AI Projects/sports-betting/core/nhl_improved_strategy_v2.py` - NEW
+3. `/Users/dickgibbons/AI Projects/sports-betting/core/backtest_new_strategies.py` - NEW
+4. `/Users/dickgibbons/AI Projects/sports-betting/reports/strategy_backtest_2025-11-30.json` - NEW
 
 ---
 
