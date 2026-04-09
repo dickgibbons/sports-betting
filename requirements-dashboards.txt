@@ -1,0 +1,6 @@
+# Minimal deps for Flask hockey/soccer dashboards + Streamlit global schedule
+# Usage: pip install -r requirements-dashboards.txt
+flask>=3.0.0
+requests>=2.31.0
+pandas>=2.0.0
+streamlit>=1.30.0
