@@ -32,6 +32,7 @@ def home():
 @app.route("/hub")
 def hub():
     ports = {
+        "mlb": int(os.environ.get("PORT_MLB", "8501")),
         "soccer_flask": int(os.environ.get("PORT_SOCCER_FLASK", "8504")),
         "soccer_streamlit": int(os.environ.get("PORT_SOCCER_STREAMLIT", "8506")),
         "hockey_flask": int(os.environ.get("PORT_HOCKEY_FLASK", "8503")),
