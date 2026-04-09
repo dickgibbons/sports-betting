@@ -10,7 +10,12 @@ import os
 from pathlib import Path
 
 _FLASK_APP_DIR = Path(__file__).resolve().parent
-app = Flask(__name__, template_folder=str(_FLASK_APP_DIR / "templates"))
+app = Flask(
+    __name__,
+    root_path=str(_FLASK_APP_DIR),
+    template_folder="templates",
+)
+app.config["TEMPLATES_AUTO_RELOAD"] = True
 
 _SPORTS_BETTING_ROOT = Path(__file__).resolve().parents[2]
 _DAILY_REPORTS = Path(

@@ -10,9 +10,15 @@ import io
 import csv
 from pathlib import Path
 
-# Absolute template dir so the correct UI loads regardless of process cwd (e.g. nohup from repo root).
+# Flask joins root_path + template_folder for Jinja; use relative "templates" + explicit root_path
+# so the correct index.html is used on all Flask versions (absolute template_folder can mis-resolve).
 _FLASK_APP_DIR = Path(__file__).resolve().parent
-app = Flask(__name__, template_folder=str(_FLASK_APP_DIR / "templates"))
+app = Flask(
+    __name__,
+    root_path=str(_FLASK_APP_DIR),
+    template_folder="templates",
+)
+app.config["TEMPLATES_AUTO_RELOAD"] = True
 
 _SPORTS_BETTING_ROOT = Path(__file__).resolve().parents[2]
 _DAILY_REPORTS = Path(
