@@ -47,6 +47,8 @@ def hub():
 
 if __name__ == "__main__":
     port = int(os.environ.get("HUB_DASHBOARD_PORT", "8500"))
+    # Bind all interfaces so the VPS is reachable by public IP (not 127.0.0.1 only).
     host = os.environ.get("HUB_DASHBOARD_HOST", "0.0.0.0")
     debug = os.environ.get("FLASK_DEBUG", "").lower() in ("1", "true", "yes")
+    print(f"Hub dashboard: http://{host}:{port}/  (open http://<server-ip>:{port}/ from your browser)", flush=True)
     app.run(debug=debug, port=port, host=host, use_reloader=debug)
