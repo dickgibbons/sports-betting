@@ -462,4 +462,11 @@ if __name__ == "__main__":
     port = int(os.environ.get("SOCCER_DASHBOARD_PORT", "8504"))
     debug = os.environ.get("FLASK_DEBUG", "").lower() in ("1", "true", "yes")
     host = os.environ.get("SOCCER_DASHBOARD_HOST", "0.0.0.0")
+    _idx = _FLASK_APP_DIR / "templates" / "index.html"
+    print(f"[soccer 8504] serving templates from {_FLASK_APP_DIR / 'templates'}", flush=True)
+    if _idx.is_file():
+        for _line in _idx.open(encoding="utf-8"):
+            if "<title>" in _line:
+                print(f"[soccer 8504] on-disk {_line.strip()}", flush=True)
+                break
     app.run(debug=debug, port=port, host=host, use_reloader=debug)
